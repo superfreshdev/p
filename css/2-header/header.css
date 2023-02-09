@@ -57,7 +57,7 @@
 /* S - IMG ( show only in mobile Version )
 /* ----------------------------------------------------------------- */
 
-#img-s-icon-my-header-nav { width: 2.3em; }
+#img-s-icon-my-header-nav { width: 2.2em; }
 
 
 /* ---------------------------------------------------------------------------------- */
@@ -104,9 +104,11 @@
     justify-content: center;
 
     line-height: 1.3em;
+
+    width: 2.8em;
     
 
-    /* row-gap: .1em; */
+    row-gap: .1em;
 
     /* Deskop Version */
     /* display: flex;
