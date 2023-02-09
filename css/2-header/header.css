@@ -70,9 +70,14 @@
     /* width: 60em; */
 
     display: flex;
-
     align-items: center;
-    column-gap: .5em;
+   
+}
+
+.arrow-right-left-seperator {
+
+    font-weight: bold;
+    padding: 0em .2em;
 }
 
 /* ---------------------------------------------------------------------------------- */
