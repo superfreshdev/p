@@ -1,0 +1,45 @@
+/* ----------------------------------------------------------- 
+
+    >> main.css  
+    
+    | Our default main layout style which we used in our
+    | webpage 
+
+-------------------------------------------------------------- */
+
+#my-main-container {
+
+    /* because of fixed header */
+    margin-top: 4.5em;
+
+    /* is our parent position to anker backgrounds e.g imgs , videos , ... */
+    position: relative;
+    top:0;
+
+    background-color: yellow;
+
+  
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Card Container 
+/* ---------------------------------------------------------------------------------- */
+
+.main-card-container {
+
+    /* strech max height */
+    height: 100%;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* File Filter List Layout Page | Dokus , Projects
+/* ---------------------------------------------------------------------------------- */
+
+.file-filter-list-layout-page {
+
+    /* Desktop Version 1.3em .8em */
+    margin: 1.3em 0em;
+    background-color: red;
+
+}

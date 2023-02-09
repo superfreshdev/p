@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ---------------------------------------------------- -->
+    <!-- Favicon Binding                                      -->
+    <!-- ---------------------------------------------------- -->
+
+    <link rel="icon" type="image/x-icon" href="media/img/default/favicon/favicon.ico">
+    <!-- <link rel="icon" type="image/png" href="multimedia/img/portfolio/header/favicon/android-chrome-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="multimedia/img/portfolio/header/favicon/android-chrome-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="multimedia/img/portfolio/header/favicon/android-chrome-48x48.png" sizes="48x48">
+        
+    <link rel="icon" type="image/png" href="multimedia/img/portfolio/header/favicon/android-chrome-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="multimedia/img/portfolio/header/favicon/android-chrome-144x144.png" sizes="144x144">
+    <link rel="icon" type="image/png" href="multimedia/img/portfolio/header/favicon/android-chrome-192x192.png" sizes="192x192"> -->
+    
+    <link rel="icon" type="image/png" href="media/img/default/favicon/apple-touch-icon.png" sizes="256x256">
+    <link rel="icon" type="image/png" href="media/img/default/favicon/android-chrome-512x512.png" sizes="512x512">
+
+
+    <!-- ---------------------------------------------------- -->
+    <!-- CSS Bindings                                         -->
+    <!-- ---------------------------------------------------- -->
+    <!-- [Info] - Dont forget "Think Mobile
+         First in CSS Styling, use default smaller sizes" -->
+
+
+    <link rel="stylesheet" href="css/html-body.css">
+
+    <!-- Default Styles -->
+    <link rel="stylesheet" href="css/1-default-styles/colors.css">
+    <link rel="stylesheet" href="css/1-default-styles/text-styles.css">
+    <link rel="stylesheet" href="css/1-default-styles/pos-element-styles.css">
+    <link rel="stylesheet" href="css/1-default-styles/element-styles.css">
+
+    <link rel="stylesheet" href="css/1-default-styles/flex-grid.css">
+
+
+    <!-- Header , Main , Footer & Respsonsive -->
+    <link rel="stylesheet" href="css/2-header/header.css">
+
+    <link rel="stylesheet" href="css/3-main/main.css">
+
+    <link rel="stylesheet" href="css/4-footer/footer.css">
+
+
+
+    <!-- 👨‍💻👋 👁️ 🙏 🧔 👍 💪 ⚡ ❄️ 🌞 🌊 💼 🔒 📌 📚 🛠️ ⚜️  -->
+    <!-- 🏴‍☠️ 🔴 🟠 🟡 🟢 🔵 🟣 🟤 ⚫ ⚪ 🟥 🟧 🟨 🟩 🟦 🟪 🟫 ⬛ ⬜ 🔅 -->
+    <title>SuperfreshDEV 🌊</title>
+
+
+
+</head>
+
+
+<body id="my-body-container">
+
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- RADIO BINDINGS                                                                                 -->
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+
+        <!-- ------------------------------------------------------------- -->
+        <!-- HEADER NAV                                                    -->
+        <!-- ------------------------------------------------------------- -->
+        <input type="radio" id="radio-my-header-nav-docs" name="name-radio-my-header-nav">
+        <input type="radio" id="radio-my-header-nav-projects" name="name-radio-my-header-nav">
+        <input type="radio" id="radio-my-header-nav-about" name="name-radio-my-header-nav">
+
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- HEADER                                                                                         -->
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <header id="my-header-container">
+
+
+        <!-- ------------------------------------------------------------------------------- -->
+        <!-- [Postion] - Header Main Max Width Content Container      ai-c jc-sb                       -->
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="pos-header-main-max-width-content-container trigger-my-header-nav-layout">
+
+            <!-- IMG S - Icon , shows only in the mobile version -->
+            <img src="media/img/header/S-Icon-light-white-1.png" id="img-s-icon-my-header-nav" alt="img">
+
+            <!-- ----------------------------------------------------------------------------------- -->
+            <!-- NAV                                                                                 -->
+            <!-- ----------------------------------------------------------------------------------- -->
+            <nav class="header-main-max-content-width-container" id="my-header-nav-container">
+
+                <!-- ------------------------------------------------------------------- -->
+                <!-- NAV Label - Dokus                                                   -->
+                <!-- ------------------------------------------------------------------- -->
+                <label for="radio-my-header-nav-docs" class="lbl-my-header-nav" id="trigger-lbl-my-header-nav-docs">
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Icon Box - Nav Label -->
+                    <!-- ------------------------------------------------------ -->
+                    <div class="lbl-my-header-nav-icon-box">
+
+                        <!-- Topic Icon ( showing only by larger screens ) -->
+                        <!-- First White Icon , by hover show black        -->
+                        <img src="media/img/header/nav/books-white.svg" class="img-lbl-my-header-nav" alt="img">
+                        <img src="media/img/header/nav/books-black.svg" class="img-lbl-my-header-nav" alt="img">
+
+                        <!-- Flag Icon ( showing all the time ) -->
+                        <img src="media/img/default/flags/germany-flag.svg" class="img-lbl-my-header-nav img-flag-style" alt="img">
+
+                    </div>
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Text Box - Nav Label -->
+                    <!-- ------------------------------------------------------ -->
+                    <div class="lbl-txt-my-header-nav-icon-box">
+                        Doku's
+                    </div>
+
+
+                
+                </label>
+
+
+                <!-- ------------------------------------------------------------------- -->
+                <!-- NAV Link - Projects                                                 -->
+                <!-- ------------------------------------------------------------------- -->
+                <label for="radio-my-header-nav-projects" class="lbl-my-header-nav" id="trigger-lbl-my-header-nav-projects">
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Icon Box - Nav Label -->
+                    <!-- ------------------------------------------------------ -->
+                    <div class="lbl-my-header-nav-icon-box">
+
+                        <!-- Topic Icon ( showing only by larger screens ) -->
+                        <!-- First White Icon , by hover show black        -->
+                        <img src="media/img/header/nav/rocket-white-check.svg" class="img-lbl-my-header-nav" alt="img">
+                        <img src="media/img/header/nav/rocket-black-check.svg" class="img-lbl-my-header-nav" alt="img">
+
+                        <!-- Flag Icon ( showing all the time ) -->
+                        <img src="media/img/default/flags/uk-flag.png" class="img-lbl-my-header-nav img-flag-style" alt="img">
+
+                    </div>
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Text Box - Nav Label -->
+                    <!-- ------------------------------------------------------ -->
+                    <div class="lbl-txt-my-header-nav-icon-box">
+                        Project's
+                    </div>
+
+
+                
+                </label>
+
+
+                <!-- ------------------------------------------------------------------- -->
+                <!-- NAV Link - About                                                    -->
+                <!-- ------------------------------------------------------------------- -->
+                <label for="radio-my-header-nav-about" class="lbl-my-header-nav" id="trigger-lbl-my-header-nav-about">
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Icon Box - Nav Label -->
+                    <!-- ------------------------------------------------------ -->
+                    <div class="lbl-my-header-nav-icon-box">
+
+                        <!-- Topic Icon ( showing only by larger screens ) -->
+                        <!-- First White Icon , by hover show black        -->
+                        <img src="media/img/header/nav/neu-white.png" class="img-lbl-my-header-nav" alt="img">
+                        <img src="media/img/header/nav/neu-black.png" class="img-lbl-my-header-nav" alt="img">
+
+                        <!-- Flag Icon ( showing all the time ) -->
+                        <img src="media/img/default/flags/uk-flag.png" class="img-lbl-my-header-nav img-flag-style" alt="img">
+
+                    </div>
+
+                    <!-- ------------------------------------------------------ -->
+                    <!-- Text Box - Nav Label -->
+                    <!-- ------------------------------------------------------ -->
+                    <div class="lbl-txt-my-header-nav-icon-box">
+                        About
+                    </div>
+
+
+                
+                </label>
+
+                <!-- <label class="lbl-my-header-nav">
+                    <div>H</div>
+                    <div>0</div>
+                </label> -->
+
+            </nav>
+
+        </div>
+
+
+    </header>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- MAIN                                                                                           -->
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <main id="my-main-container">
+
+
+        <!-- ------------------------------------------------------------------------------- -->
+        <!-- [Card] Container | Dokus                                                        -->
+        <!-- ------------------------------------------------------------------------------- -->
+        <div class="main-card-container">
+
+            <!-- ------------------------------------------------------------------------------- -->
+            <!-- [Postion] - Flex Content Center                                                 -->
+            <!-- ------------------------------------------------------------------------------- -->
+            <div class="flex jc-c height-100p"> 
+
+                <!-- ------------------------------------------------------------------------------- -->
+                <!-- [Postion] - Header Main Max Width Content Container                             -->
+                <!-- ------------------------------------------------------------------------------- -->
+                <div class="pos-header-main-max-width-content-container box-shadow-max-main-width-content-container">
+                    
+
+
+                    <!-- ------------------------------------------------------- -->
+                    <!-- File Filter List Layout Page | Dokus , Projects         -->
+                    <!-- ------------------------------------------------------- -->
+                    <div class="file-filter-list-layout-page">
+
+                        <!-- ------------------------------------------------------------------------------- -->
+                        <!-- [Postion] - Flex Content Center                                                 -->
+                        <!-- ------------------------------------------------------------------------------- -->
+                        <div class="flex jc-c">
+
+                            <div class="pos-main-nav-width-content-container">
+
+                                Hallo Dirk
+
+                                <!-- -------------------------------------------------------------------- -->
+                                <!-- NAV Topics -->
+                                 <!-- -------------------------------------------------------------------- -->
+
+                            </div>
+                            
+                        </div>
+
+                        Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter
+                        Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter
+                        Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter
+                        Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter
+                        Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter
+                        Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter Hallo Peter
+
+                    </div>
+
+                    
+ 
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ------------------------------------------------------------------------------- -->
+        <!-- [Card] - Projects                                                               -->
+        <!-- ------------------------------------------------------------------------------- -->
+
+
+        <!-- ------------------------------------------------------------------------------- -->
+        <!-- [Card] - About                                                                  -->
+        <!-- ------------------------------------------------------------------------------- -->
+
+
+
+        <!-- [1]Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main
+        Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main -->
+        
+
+    </main>
+
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- FOOTER                                                                                         -->
+    <!-- ---------------------------------------------------------------------------------------------- -->
+    <footer id="my-footer-container">
+
+        
+        <div id="my-footer-content-layout">
+
+            [1]Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer
+            Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer
+            Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer
+            Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer
+            Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer
+            Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer
+
+        </div>
+
+    </footer>
+    
+</body>
+
+
+
+</html>
+

@@ -1,0 +1,33 @@
+/* ----------------------------------------------------------- 
+
+    >> html-body.css  
+    
+    | Our default Webpage CSS Styles e.g default font size , 
+    | font family , ....  
+
+-------------------------------------------------------------- */
+
+
+html , body { 
+
+    margin: 0em;
+
+    /* important to let strech our content for maximum height */
+    min-height: 100vh;
+
+    font-size: 1rem; 
+    line-height: 1.5em;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* color */
+
+}
+
+
+#my-body-container {
+
+    display: grid;
+    /* remember if using fixed header u only need 2 rows */
+    grid: auto 1fr;
+}

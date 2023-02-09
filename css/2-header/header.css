@@ -1,0 +1,209 @@
+/* ----------------------------------------------------------- 
+
+    >> header.css  
+    
+    | Our default header layout style which we used in our
+    | webpage  
+
+-------------------------------------------------------------- */
+
+
+#my-header-container {
+
+    z-index: 6;
+    background-color: var(--dark-black-1);
+    color: var(--white);
+
+    height: 4.5em;
+
+    position: fixed;
+    left:0;
+    right:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: .18em solid var(--light-brown-3);
+
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* Trigger Header Layout 
+/* ---------------------------------------------------------------------------------- */
+
+
+/* Trigger Dynamic Layout for Header Layout Positions */
+.trigger-my-header-nav-layout {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 1em;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* S - IMG ( show only in mobile Version )
+/* ----------------------------------------------------------------- */
+
+#img-s-icon-my-header-nav { width: 1em; }
+
+
+/* ---------------------------------------------------------------------------------- */
+/* Nav 
+/* ---------------------------------------------------------------------------------- */
+
+
+#my-header-nav-container {
+
+    /* width: 60em; */
+
+    display: flex;
+
+    align-items: center;
+    column-gap: .5em;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* Nav Label
+/* ---------------------------------------------------------------------------------- */
+
+.lbl-my-header-nav {
+
+    /* Desktop Version */
+    /* padding: .3em .6em; */
+
+    /* Mobile Version */
+    padding: .4em .4em .1em .4em;
+
+    font-weight: bold;
+    color: var(--light-white-1);
+    /* background-color: red; */
+
+    border: 1px solid var(--light-brown-3);
+    border-radius: .3em;
+
+    cursor: pointer;
+
+    /* Mobile Version */
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: center;
+
+    
+    
+
+    row-gap: .1em;
+
+    /* Deskop Version */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: .5em; */
+}
+
+/* -------------------------------------------------------------------------------- */
+/* Label - Hover & Checked - Handling 
+/* -------------------------------------------------------------------------------- */
+
+/* Default unshown topic icon ( black & white ) , by bigger screens handling of white or black */
+.lbl-my-header-nav-icon-box > img:nth-of-type(2) { display: none; }
+
+
+.lbl-my-header-nav:hover { 
+    
+    transition: .3s;
+    background-color: var(--light-brown-3);
+    color:var(--dark-black-1)
+}
+
+/* unshown by hover white img and show black img */
+.lbl-my-header-nav:hover > .lbl-my-header-nav-icon-box > img:nth-of-type(1) { display: none; }
+.lbl-my-header-nav:hover > .lbl-my-header-nav-icon-box > img:nth-of-type(2) { display: block; }
+
+
+
+
+/* Default unshown radio boxes */
+#radio-my-header-nav-docs , 
+#radio-my-header-nav-projects , 
+#radio-my-header-nav-about { display: none; }
+
+
+/* checked handling for background */
+#radio-my-header-nav-docs:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs ,
+#radio-my-header-nav-projects:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects ,
+#radio-my-header-nav-about:checked ~ #my-header-container #trigger-lbl-my-header-nav-about {
+
+    background-color: var(--light-brown-3);
+    color:var(--dark-black-1)
+
+} 
+
+/* checked handling for white / black img handling */
+#radio-my-header-nav-docs:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs > .lbl-my-header-nav-icon-box > img:nth-of-type(1) ,
+#radio-my-header-nav-projects:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects > .lbl-my-header-nav-icon-box > img:nth-of-type(1)  ,
+#radio-my-header-nav-about:checked ~ #my-header-container #trigger-lbl-my-header-nav-about > .lbl-my-header-nav-icon-box > img:nth-of-type(1)  {
+
+    display: none;
+}
+#radio-my-header-nav-docs:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs > .lbl-my-header-nav-icon-box > img:nth-of-type(2) ,
+#radio-my-header-nav-projects:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects > .lbl-my-header-nav-icon-box > img:nth-of-type(2)  ,
+#radio-my-header-nav-about:checked ~ #my-header-container #trigger-lbl-my-header-nav-about > .lbl-my-header-nav-icon-box > img:nth-of-type(2)  {
+
+    display: block;
+}
+
+
+
+/* ------------------------------------------ */
+/* Label - Icon Box & IMG & Text
+/* ------------------------------------------ */
+
+.lbl-my-header-nav-icon-box {
+
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+}
+
+
+.img-lbl-my-header-nav {
+
+    /* Mobile Version */
+    width: 1em;
+
+    /* Desktop Verison */
+    /* width: 1.2em; */
+}
+
+.img-flag-style {
+
+    border-radius: .11em;
+
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+                rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+                rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+}
+
+
+
+.lbl-txt-my-header-nav-icon-box {
+
+    /* In mobile Version from 1rem , .85em smaller */
+    font-size: .85em;
+}

@@ -1,0 +1,58 @@
+/* --------------------------------------------
+
+    >> text-styles.css 
+
+    | Default CSS Style for all text styles 
+    | which u will be often use
+
+---------------------------------------------- */
+
+/* ---------------------------------------------------- */
+/* Text Color Marker 
+/* ---------------------------------------------------- */
+
+
+.txt-marker-light-brown { color: var(--light-brown-3); }
+.txt-bold-marker-light-brown { font-weight:bold; color: var(--light-brown-3); }
+
+/* ---------------------------------------------------- */
+/* Text Orientation ( left side , bock quote , ... )
+/* ---------------------------------------------------- */
+
+.txt-a-c { text-align: center; }
+
+
+
+/* ---------------------------------------------------- */
+/* Quotes 
+/* ---------------------------------------------------- */
+
+.txt-qoute { font-style: italic; }
+
+.txt-quote-light-brown-3 { 
+    font-style: italic;
+    color: var(--light-brown-3); 
+}
+
+
+/* ---------------------------------------------------- */
+/* Text Layout in progress , in planning , thin about 
+/* ---------------------------------------------------- */
+
+.txt-status-in-progress-layout,
+.txt-status-in-planning-layout,
+.txt-status-in-think-about-layout {
+
+    border-radius: .2em;
+    padding: 0em .5em;
+
+    font-weight: bold;
+    color: var(--dark-black-1);
+
+    display: inline-block;
+}
+
+
+.txt-status-in-progress-layout { background-color: var(--medium-red-3); }
+.txt-status-in-planning-layout { background-color: rgb(218, 218, 31); }
+.txt-status-in-think-about-layout { background-color: rgb(179, 179, 179); }

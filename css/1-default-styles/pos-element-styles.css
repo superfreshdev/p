@@ -1,0 +1,47 @@
+/* --------------------------------------------
+
+    >> pos-element-styles.css 
+
+    | Default CSS Position Elements to fit
+    | our content boxes 
+
+---------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/* [1/?] - Position - "Header Main Max Width" Content Container 
+/* -------------------------------------------------------------------------------- */
+
+
+.pos-header-main-max-width-content-container {
+
+    /* background-color: gray; */
+   
+    width: 100%;
+    /* width: 65em; */
+    margin: 0 .8em;
+
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* [2/?] - Position - "Main Nav Width" Content Container 
+/* -------------------------------------------------------------------------------- */
+
+.pos-main-nav-width-content-container {
+
+    background-color: green;
+    width: 100%;
+    /* margin: 0 1.6em; */
+    /* width: 35em; */
+}
+
+
+
+
+
+
+
+
+

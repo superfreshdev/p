@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------- 
+
+    >> flex-grid.css  
+    
+    | Our default flex & grid css setts to 
+    | use no dynamic layout positions
+
+-------------------------------------------------------------- */
+
+
+.flex { display: flex; }
+.iflex { display: inline-flex; }
+.grid { display: grid; }
+
+
+/* ------------------------------- */
+/* Align Items                     */
+/* ------------------------------- */
+
+.ai-c { align-items: center; }
+.ai-fs { align-items: flex-start; }
+.ai-fe { align-items: flex-end; }
+
+/* ------------------------------- */
+/* Align Content                   */
+/* ------------------------------- */
+
+.ac-c { align-content: center; }
+.ac-fs { align-content: flex-start; }
+.ac-fe { align-content: flex-end; }
+
+/* ------------------------------- */
+/* Justify Content                 */
+/* ------------------------------- */
+
+.jc-c { justify-content: center; }
+.jc-fs { justify-content: flex-start; }
+.jc-fe { justify-content: flex-end; }
+
+.jc-sb { justify-content: space-between; }
+.jc-sa { justify-content: space-around; }
+.jc-se { justify-content: space-evenly; }
+
+
+/* ------------------------------- */
+/* Justify Items                   */
+/* ------------------------------- */
+
+.ji-c { justify-items: center; }
+.ji-fs { justify-items: flex-start; }
+.ji-fe { justify-items: flex-end; }
+
+
+
+/* ------------------------------------------------ */ 
+/* Column Gap 
+/* ------------------------------------------------ */ 
+
+.cg-0-3em { column-gap: .3em; }
+.cg-0-5em { column-gap: .5em; }
+.cg-0-8em { column-gap: .8em; }
+.cg-1em { column-gap: 1em; }
+
+
+
+/* ------------------------------------------------ */ 
+/* Row Gap 
+/* ------------------------------------------------ */ 
+
+.rg-0-3em { row-gap: .3em; }
+.rg-0-5em { row-gap: .5em; }
+.rg-0-8em { row-gap: .8em; }
+.rg-1em { row-gap: 1em; }
+
+
+
