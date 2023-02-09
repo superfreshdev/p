@@ -48,7 +48,6 @@
     align-items: center;
     justify-content: space-between;
 
-    padding-left: .8em;
 }
 
 
@@ -57,7 +56,7 @@
 /* S - IMG ( show only in mobile Version )
 /* ----------------------------------------------------------------- */
 
-#img-s-icon-my-header-nav { width: 2.25em; }
+#img-s-icon-my-header-nav { width: 2.25em;  padding-left: .8em; }
 
 
 /* ---------------------------------------------------------------------------------- */
