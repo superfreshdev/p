@@ -103,10 +103,10 @@
     align-items: center;
     justify-content: center;
 
-    
+    line-height: 1.3em;
     
 
-    row-gap: .1em;
+    /* row-gap: .1em; */
 
     /* Deskop Version */
     /* display: flex;
