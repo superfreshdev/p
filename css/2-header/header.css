@@ -57,7 +57,7 @@
 /* S - IMG ( show only in mobile Version )
 /* ----------------------------------------------------------------- */
 
-#img-s-icon-my-header-nav { width: 2.2em; }
+#img-s-icon-my-header-nav { width: 2.25em; }
 
 
 /* ---------------------------------------------------------------------------------- */
@@ -105,7 +105,7 @@
 
     line-height: 1.3em;
 
-    width: 2.8em;
+    width: 3em;
     
 
     row-gap: .1em;
