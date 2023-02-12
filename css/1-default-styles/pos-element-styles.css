@@ -31,10 +31,16 @@
 
 .pos-main-nav-width-content-container {
 
-    background-color: green;
+    /* background-color: green; */
+    background-color: var(--dark-black-1);
     width: 100%;
     /* margin: 0 1.6em; */
     /* width: 35em; */
+
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+   
 }
 
 

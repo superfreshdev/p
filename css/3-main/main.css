@@ -49,14 +49,14 @@
 
 
 /* ---------------------------------------------------------------------------------- */
-/* File Filter List Layout Page / Containerr | Dokus , Projects
+/* File Filter List Layout Page / Container | Dokus , Projects
 /* ---------------------------------------------------------------------------------- */
 
 .file-filter-list-layout-page {
 
     /* Desktop Version 1.3em .8em */
     margin: 1.3em 0em;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -70,9 +70,131 @@
 
 
 
-.img-me {
+
+/* ---------------------------------------------------------------------------------- */
+/* Main Nav & Main Nav Label | Dokus , Projects
+/* ---------------------------------------------------------------------------------- */
+
+.main-nav-topic-filter {
+
+    display: grid;
+    grid: auto / 1fr 1fr 1fr 1fr auto;
+
+    border-bottom: .25em solid var(--light-brown-3);
+
+
+}
+
+.main-nav-topic-filter > label:nth-of-type(1) ,
+.main-nav-topic-filter > label:nth-of-type(2) ,
+.main-nav-topic-filter > label:nth-of-type(3) ,
+.main-nav-topic-filter > label:nth-of-type(4) {
+
+    border-right: .1em solid var(--medium-grey-3); 
+}
+
+.main-nav-topic-filter > label:nth-of-type(1) { border-top-left-radius: 1em; } 
+.main-nav-topic-filter > label:nth-of-type(5) { border-top-right-radius: 1em; }
+
+
+/* ------------------------------------ */
+/* Label Item & Label Audio Item 
+/* ------------------------------------ */
+    
+.lbl-main-nav-topic-filter, 
+.lbl-main-nav-topic-filter-audio {
+
+    padding: .8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: .3em;
+
+    cursor: pointer;
+}
+
+.lbl-main-nav-topic-filter-audio { 
+
+    background-color: var(--medium-grey-2);
+}
+
+.lbl-main-nav-topic-filter:hover,
+.lbl-main-nav-topic-filter-audio:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+}
+
+.img-lbl-main-nav-topic-filter,
+.img-lbl-main-nav-topic-filter-audio { width: 1.6em; }
+
+
+.txt-box-main-nav-topic-filter {
+
+    /* default in mobile version unshown */
+    display: none;
+
+    line-height: 1.2em;
+    font-weight: bold;
+
+}
+
+
+/* --------------------------------------------------------- */
+/* Default unshown for Mobile Version 
+/* --------------------------------------------------------- */
+
+.lbl-main-nav-topic-filter > img:nth-of-type(2) { display: none;}
+
+
+/* ---------------------------------------------------------- */
+/* Hover - Main Nav Label 
+/* ---------------------------------------------------------- */
+
+/* Show Black Img By Hover */
+.lbl-main-nav-topic-filter:hover > img:nth-of-type(1) { display: none; } 
+.lbl-main-nav-topic-filter:hover > img:nth-of-type(2) { display: block } 
+
+
+
+/* --------------------------------------------------------- */
+/* Default unshown audio pause img 
+/* --------------------------------------------------------- */
+
+/* .lbl-main-nav-topic-filter-audio > img:nth-of-type(1) { display: none;} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------ */
+/* Content > Card About 
+/* ------------------------------------------------ */
+
+/* .img-me {
 
     min-width: 12em;
     max-width: 36em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */

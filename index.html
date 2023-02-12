@@ -47,6 +47,9 @@
     <link rel="stylesheet" href="css/2-header/header.css">
 
     <link rel="stylesheet" href="css/3-main/main.css">
+    <link rel="stylesheet" href="css/3-main/main-docs-handlings.css">
+    <!-- <link rel="stylesheet" href="css/3-main/main-projects-handlings.css"> -->
+    <!-- <link rel="stylesheet" href="css/3-main/main-about-handlings.css"> -->
 
     <link rel="stylesheet" href="css/4-footer/footer.css">
 
@@ -67,7 +70,7 @@
 
 
     <!-- ---------------------------------------------------------------------------------------------- -->
-    <!-- RADIO BINDINGS                                                                                 -->
+    <!-- RADIO / CHECKBOX BINDINGS                                                                        -->
     <!-- ---------------------------------------------------------------------------------------------- -->
 
 
@@ -78,6 +81,19 @@
         <input type="radio" id="radio-my-header-nav-projects" name="name-radio-my-header-nav">
         <input type="radio" id="radio-my-header-nav-about" name="name-radio-my-header-nav" checked>
 
+
+        <!-- ------------------------------------------------------------- -->
+        <!-- MAIN NAV Docs & Audio ( Checkbox )                            -->
+        <!-- ------------------------------------------------------------- -->
+        <input type="radio" id="radio-main-nav-topic-filter-docs-web-app-dev" name="name-radio-main-nav-topic-filter-docs" checked>
+        <input type="radio" id="radio-main-nav-topic-filter-docs-data-science" name="name-radio-main-nav-topic-filter-docs">
+        <input type="radio" id="radio-main-nav-topic-filter-docs-backend-co" name="name-radio-main-nav-topic-filter-docs">
+        <input type="radio" id="radio-main-nav-topic-filter-docs-tech-tools" name="name-radio-main-nav-topic-filter-docs">
+
+        <!-- MP3 Docs Audio -->
+        <input type="checkbox" id="checkbox-main-nav-topic-filter-docs-audio" name="name-checkbox-main-nav-topic-filter-docs-audio">
+
+        
 
     <!-- ---------------------------------------------------------------------------------------------- -->
     <!-- HEADER                                                                                         -->
@@ -243,6 +259,7 @@
                     <!-- ------------------------------------------------------- -->
                     <div class="file-filter-list-layout-page">
 
+
                         <!-- ------------------------------------------------------------------------------- -->
                         <!-- [Postion] - Flex Content Center                                                 -->
                         <!-- ------------------------------------------------------------------------------- -->
@@ -256,19 +273,115 @@
                                 <!-- -------------------------------------------------------------------- -->
                                 <!-- Main Nav - Container                                                 -->
                                 <!-- -------------------------------------------------------------------- -->
-                                <div>
-                                    Web & App Entwicklung | Data Science | Backend & Co | Tech Tools 
-
+                                <nav class="main-nav-topic-filter">
+                                  
                                     <!-- -------------------------------------------------------------------- -->
                                     <!-- Label - Web & App Entwicklung ( Main Nav )                           -->
                                     <!-- -------------------------------------------------------------------- -->
+                                    <label for="radio-main-nav-topic-filter-docs-web-app-dev"
+                                           id="trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev"
+                                           class="lbl-main-nav-topic-filter"
+                                           name="name-radio-main-nav-topic-filter-docs"
+                                           title="Dokus zu Web & App Entwicklung">
 
-                                </div>
+                                        <img src="media/img/main/docs/docs-nav/doc-web-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                        <img src="media/img/main/docs/docs-nav/doc-web-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+
+                                        <div class="txt-box-main-nav-topic-filter">
+
+                                            <div>Web & App</div>
+                                            <div>Entwicklung</div>
+
+                                        </div>
+
+                                    </label>
+
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <!-- Label - Data Science ( Main Nav )                                    -->
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <label for="radio-main-nav-topic-filter-docs-data-science"
+                                           id="trigger-lbl-radio-main-nav-topic-filter-docs-data-science"
+                                           class="lbl-main-nav-topic-filter"
+                                           name="name-radio-main-nav-topic-filter-docs"
+                                           title="Dokus zu Data Science ">
+
+                                        <img src="media/img/main/docs/docs-nav/doc-ds-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                        <img src="media/img/main/docs/docs-nav/doc-ds-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+                                        <div class="txt-box-main-nav-topic-filter">
+
+                                            <div>Data</div>
+                                            <div>Science</div>
+
+                                        </div>
+
+                                    </label>
+
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <!-- Label - Backend & Co ( Main Nav )                                    -->
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <label for="radio-main-nav-topic-filter-docs-backend-co"
+                                           id="trigger-lbl-radio-main-nav-topic-filter-docs-backend-co"
+                                           class="lbl-main-nav-topic-filter"
+                                           name="name-radio-main-nav-topic-filter-docs"
+                                           title="Dokus zu Backend & Co ">
+
+                                        <img src="media/img/main/docs/docs-nav/doc-dbs-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                        <img src="media/img/main/docs/docs-nav/doc-dbs-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+                                        <div class="txt-box-main-nav-topic-filter">
+
+                                            <div>Backend</div>
+                                            <div>& Co</div>
+
+                                        </div>
+
+                                    </label>
+
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <!-- Label - Tech Tools ( Main Nav )                                      -->
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <label for="radio-main-nav-topic-filter-docs-tech-tools"
+                                           id="trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools"
+                                           class="lbl-main-nav-topic-filter"
+                                           name="name-radio-main-nav-topic-filter-docs"
+                                           title="Dokus zu Techo Tools">
+
+                                        <img src="media/img/main/docs/docs-nav/doc-tt-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                        <img src="media/img/main/docs/docs-nav/doc-tt-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+                                        <div class="txt-box-main-nav-topic-filter">
+
+                                            <div>Tech</div>
+                                            <div>Tool's</div>
+
+                                        </div>
+
+                                    </label>
+
+
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <!-- Label - Docs Audio ( Main Nav )                                      -->
+                                    <!-- -------------------------------------------------------------------- -->
+                                    <label for="checkbox-main-nav-topic-filter-docs-audio" 
+                                           id="trigger-lbl-radio-main-nav-topic-filter-docs-audio"
+                                           class="lbl-main-nav-topic-filter-audio"
+                                           name="name-checkbox-main-nav-topic-filter-docs-audio"
+                                           title="Musik abspielen für entspanntes durchstöbern">
+
+                                        <img src="media/img/default/mp3-play.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
+                                        <img src="media/img/default/mp3-pause.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
+                                        
+
+                                    </label>
+
+
+
+                                </nav>
 
                             </div>
-
-
-                            
+ 
                         </div>
 
 

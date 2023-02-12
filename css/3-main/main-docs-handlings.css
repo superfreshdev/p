@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------- 
+
+    >> main-docs-handlings.css  
+    
+    | Define all css radio / checkbox / hover / unshown / show
+    | handlings which we only need in our main docs card
+
+-------------------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------------------------- */
+/* Default unshown Radio Boxes for 
+/* Docs Main Nav Label & all sub filters & docs audio checkbox
+/* ------------------------------------------------------------------- */
+
+/* unshown radio main nav docs & unshown checkbox nav docs audio */
+input#radio-main-nav-topic-filter-docs-web-app-dev , 
+input#radio-main-nav-topic-filter-docs-data-science ,
+input#radio-main-nav-topic-filter-docs-backend-co ,
+input#radio-main-nav-topic-filter-docs-tech-tools ,
+input#checkbox-main-nav-topic-filter-docs-audio { 
+    
+    display: none;
+
+}
+
+/* unshown default 1 img of man nav docs audio ( pause img ) */
+#trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(2) { display: none; }
+
+
+/* ---------------------------------------------------------- */
+/* Checked / Unchecked - Hanlding | Main Nav Docs & Audio
+/* ---------------------------------------------------------- */
+
+/* if checked unshown white img / unshown play audio img */
+input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev > img:nth-of-type(1), 
+input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science > img:nth-of-type(1),
+input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-backend-co > img:nth-of-type(1),
+input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools > img:nth-of-type(1),
+input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(1) {
+
+    display: none;
+}
+
+/* if checked show black img / show pause audio img */
+input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev > img:nth-of-type(2), 
+input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science > img:nth-of-type(2),
+input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-backend-co > img:nth-of-type(2),
+input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools > img:nth-of-type(2),
+input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(2) {
+
+    display: block;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Checked / Unchecked - Styling | Main Nav Docs & Audio
+/* ---------------------------------------------------------- */
+
+/* if checked one of 4 main nav radio docs */
+input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev, 
+input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science ,
+input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-backend-co ,
+input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools {
+
+    background-color: var(--light-brown-3);
+}
+
+
+/* if checked audio of docs then be red for is playing */
+input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-audio {
+
+    background-color: var(--medium-red-3);
+}
