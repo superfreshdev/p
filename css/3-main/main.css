@@ -16,24 +16,40 @@
     position: relative;
     top:0;
 
-    background-color: yellow;
+    /* background-color: yellow; */
 
   
 }
 
 /* ---------------------------------------------------------------------------------- */
-/* Card Container 
+/* Card Container & Background color , img , video 
 /* ---------------------------------------------------------------------------------- */
 
 .main-card-container {
 
+    /* important to anker absolute layout in #main-mmain-container*/
+    position: relative;
+    top:0;
+
     /* strech max height */
-    height: 100%;
+    /* height: 100%; */
+}
+
+.pos-bg-main-card {
+
+    z-index: -1;
+    
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;   
+
 }
 
 
 /* ---------------------------------------------------------------------------------- */
-/* File Filter List Layout Page | Dokus , Projects
+/* File Filter List Layout Page / Containerr | Dokus , Projects
 /* ---------------------------------------------------------------------------------- */
 
 .file-filter-list-layout-page {
@@ -42,4 +58,21 @@
     margin: 1.3em 0em;
     background-color: red;
 
+}
+
+.file-filter-list-layout-container {
+
+    background-color: greenyellow;
+    padding: 1.3em 0em;
+    
+}
+
+
+
+
+.img-me {
+
+    min-width: 12em;
+    max-width: 36em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

@@ -1,0 +1,16 @@
+/* ----------------------------------------------------------- 
+
+    >> bg-colors.css  
+    
+    | Our list of all bg color mixes
+
+-------------------------------------------------------------- */
+
+
+.bg-color-mix-about {
+
+    background-color: #4158D0;
+    background-image: 
+    linear-gradient(304deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}

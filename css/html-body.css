@@ -29,5 +29,5 @@ html , body {
 
     display: grid;
     /* remember if using fixed header u only need 2 rows */
-    grid: auto 1fr;
+    grid: auto 1fr / 1fr ;
 }
