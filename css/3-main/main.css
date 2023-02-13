@@ -72,34 +72,34 @@
 
 
 /* ---------------------------------------------------------------------------------- */
-/* Main Nav & Main Nav Label | Dokus , Projects
+/* [1/2] - Main Nav Topic Filter Container 
 /* ---------------------------------------------------------------------------------- */
 
-.main-nav-topic-filter {
+.main-nav-topic-filter-container {
 
     display: grid;
     grid: auto / 1fr 1fr 1fr 1fr auto;
 
     border-bottom: .25em solid var(--light-brown-3);
 
-
 }
 
-.main-nav-topic-filter > label:nth-of-type(1) ,
-.main-nav-topic-filter > label:nth-of-type(2) ,
-.main-nav-topic-filter > label:nth-of-type(3) ,
-.main-nav-topic-filter > label:nth-of-type(4) {
+.main-nav-topic-filter-container > label:nth-of-type(1) ,
+.main-nav-topic-filter-container > label:nth-of-type(2) ,
+.main-nav-topic-filter-container > label:nth-of-type(3) ,
+.main-nav-topic-filter-container > label:nth-of-type(4) {
 
     border-right: .1em solid var(--medium-grey-3); 
 }
 
-.main-nav-topic-filter > label:nth-of-type(1) { border-top-left-radius: 1em; } 
-.main-nav-topic-filter > label:nth-of-type(5) { border-top-right-radius: 1em; }
+.main-nav-topic-filter-container > label:nth-of-type(1) { border-top-left-radius: 1em; } 
+.main-nav-topic-filter-container > label:nth-of-type(5) { border-top-right-radius: 1em; }
 
 
-/* ------------------------------------ */
-/* Label Item & Label Audio Item 
-/* ------------------------------------ */
+
+/* ----------------------------------------------- */
+/* Label & Audio - Main Nav Topic Filter 
+/* ----------------------------------------------- */
     
 .lbl-main-nav-topic-filter, 
 .lbl-main-nav-topic-filter-audio {
@@ -142,29 +142,133 @@
 }
 
 
-/* --------------------------------------------------------- */
-/* Default unshown for Mobile Version 
-/* --------------------------------------------------------- */
-
+/* default unshown 2nd img of main nav topic filter | docs , projects */
 .lbl-main-nav-topic-filter > img:nth-of-type(2) { display: none;}
 
 
-/* ---------------------------------------------------------- */
-/* Hover - Main Nav Label 
-/* ---------------------------------------------------------- */
-
-/* Show Black Img By Hover */
+/* default hover style by hover unshown first img show second img ( white - black solution ) */
 .lbl-main-nav-topic-filter:hover > img:nth-of-type(1) { display: none; } 
 .lbl-main-nav-topic-filter:hover > img:nth-of-type(2) { display: block } 
 
 
 
-/* --------------------------------------------------------- */
-/* Default unshown audio pause img 
-/* --------------------------------------------------------- */
 
-/* .lbl-main-nav-topic-filter-audio > img:nth-of-type(1) { display: none;} */
 
+
+/* ---------------------------------------------------------------------------------- */
+/* [2/2] - Main Nav Sub Topic Filter Container 
+/* ---------------------------------------------------------------------------------- */
+
+.main-nav-sub-topic-filter-container {
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+/* just filter items box */
+.main-nav-sub-topic-filter-items-box {
+
+    padding: 1em .6em;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    column-gap: .5em;
+    row-gap: .5em;
+
+}
+
+
+/* ---------------------------------------------------- */
+/* Label Items  
+/* ---------------------------------------------------- */
+
+.lbl-main-nav-sub-topic-filter {
+
+    color: var(--medium-grey-1);
+    font-weight: bold;
+
+    /* Same Mobile Size like header nav */
+    font-size: .85em;
+
+    padding: .3em .6em;
+
+    border-radius: .3em;
+    border: 1px solid var(--medium-grey-1);
+
+    display: flex;
+    align-items: center;
+    column-gap: .5em;
+
+    cursor: pointer;
+}
+
+.lbl-main-nav-sub-topic-filter:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+    color:var(--dark-black-1);
+    border: 1px solid var(--light-brown-3);
+}
+
+.lbl-main-nav-sub-topic-filter:hover > .my-own-circle-outside {
+
+    border: .13em solid var(--dark-black-1);
+
+}
+
+
+/* ---------------------------------------------------- */
+/* Label Drop Down Item 
+/* ---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- */
+/* My Own Radio Box Style 
+/* ---------------------------------------------------- */
+
+.my-own-circle-outside {
+
+    position: relative;
+    top:0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    /* important because if sometimes screen get smaller 
+    /* some elment get smaller */
+    min-width: .8em;
+    min-height: .8em;
+
+    max-width: .8em;
+    max-height: .8em;
+
+    border: .13em solid var(--medium-grey-1);
+
+}
+
+.my-own-set-point {
+
+    /* default unshown for unset */
+    display: none;
+
+    border-radius: 50%;
+
+    min-width: .4em;
+    min-height: .4em;
+
+    max-width: .4em;
+    max-height: .4em;
+
+    background-color: var(--medium-grey-1);
+
+}
 
 
 
