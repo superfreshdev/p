@@ -322,6 +322,8 @@
 
 .file-filter-list-container {
 
+    font-size: .85em;
+
     color: var(--medium-grey-3);
     background-color: var(--dark-black-1);
 
@@ -332,11 +334,16 @@
     
 }
 
+
+
 .file-filter-list-layout {
 
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
     column-gap: .8em;
     row-gap: .8em;
 
@@ -363,6 +370,8 @@
 /* ---------------------------------------------------- */
 
 .footer-content {
+
+    font-size: 1rem;
 
     border-top: .15em solid var(--light-brown-3);
     padding: 2em .8em;
