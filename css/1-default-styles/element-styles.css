@@ -43,3 +43,12 @@
     background-color: var(--light-brown-3);
 
 }
+
+/* ---------------------------------------------------------- */
+/* Border Line Colors 
+/* ---------------------------------------------------------- */
+
+.border-b-0-25em-light-brown-3 { 
+
+    border-bottom: .25em solid var(--light-brown-3);
+}
