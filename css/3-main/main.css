@@ -49,7 +49,7 @@
 
 
 /* ---------------------------------------------------------------------------------- */
-/* Main Max Width Content Container / Container | Dokus , Projects , About
+/* Main Max Width Content Container | Dokus , Projects , About
 /* ---------------------------------------------------------------------------------- */
 
 
@@ -60,14 +60,6 @@
     /* background-color: red; */
 
 }
-
-.file-filter-list-layout-container {
-
-    background-color: greenyellow;
-    padding: 1.3em 0em;
-    
-}
-
 
 
 
@@ -323,14 +315,67 @@
 
 
 
+/* ---------------------------------------------------- */
+/* File Filter List Layout Container 
+/* ---------------------------------------------------- */
+
+
+.file-filter-list-container {
+
+    color: var(--medium-grey-3);
+    background-color: var(--dark-black-1);
+
+    /* Default Mobile Version */
+    padding: 1.3em .6em 0em .6em;
+
+    border-radius: 0em 0em 1em 1em;
+    
+}
+
+.file-filter-list-layout {
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: .8em;
+    row-gap: .8em;
+
+}
 
 
 
+/* ---------------------------------------------------- */
+/* Card Content  
+/* ---------------------------------------------------- */
+
+.card-content {
+
+    border-radius: .3em;
+    border: 1px solid var(--medium-grey-3);
+    padding: .6em;
+ 
+}
 
 
 
+/* ---------------------------------------------------- */
+/* Footer Content  
+/* ---------------------------------------------------- */
+
+.footer-content {
+
+    border-top: .15em solid var(--light-brown-3);
+    padding: 2em .8em;
+
+    margin-top: 1.6em;
+
+    display: flex;
+    align-items: center;
 
 
+}
+
+.img-footer-content { height: 6.8em; }
 
 
 
