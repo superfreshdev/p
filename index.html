@@ -90,8 +90,35 @@
         <input type="radio" id="radio-my-main-nav-topic-docs-backend-co" name="name-radio-my-main-nav-topic-docs">
         <input type="radio" id="radio-my-main-nav-topic-docs-tech-tools" name="name-radio-my-main-nav-topic-docs">
 
-        <!-- MP3 Docs Audio -->
-        <input type="checkbox" id="checkbox-my-main-nav-topic-docs-audio" name="name-checkbox-my-main-nav-topic-docs-audio">
+       
+        <!-- --------------------------------------------------------------------------------- -->
+        <!-- Checkbox - MP3 Audio Card ( play / stop )                                         -->
+        <!-- --------------------------------------------------------------------------------- -->
+        <input type="checkbox" id="chk-mp3-docs" >
+        <!-- <input type="checkbox" id="chk-mp3-projects">
+        <input type="checkbox" id="chk-mp3-about"> -->
+
+        <!-- -------------------------------------------------------------- -->
+        <!-- Audio Files for MP3 Audio                                     -->
+        <!-- -------------------------------------------------------------- -->
+        <audio id="audioMp3Docs" loop>
+            <!--<source src="horse.ogg" type="audio/ogg">-->
+            <source src="media/audio/main/default/hp-docs.mp3" type="audio/mpeg">
+            <!--Your browser does not support the audio element.-->
+        </audio>
+
+        <audio id="audioMp3Projects" loop>
+            <!--<source src="horse.ogg" type="audio/ogg">-->
+            <source src="media/audio/main/default/ob-projects.mp3" type="audio/mpeg">
+            <!--Your browser does not support the audio element.-->
+        </audio>
+
+        <audio id="audioMp3About" loop>
+            <!--<source src="horse.ogg" type="audio/ogg">-->
+            <source src="media/audio/main/default/st-about.mp3" type="audio/mpeg">
+            <!--Your browser does not support the audio element.-->
+        </audio>
+
 
 
         <!-- ------------------------------------------------------------- -->
@@ -105,20 +132,30 @@
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-programming" name="name-my-main-nav-topic-filter-docs-web-app-dev">
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-html-css" name="name-my-main-nav-topic-filter-docs-web-app-dev">
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-cms" name="name-my-main-nav-topic-filter-docs-web-app-dev">
-           
+    
             <!-- --------------------------------------------------- -->
             <!-- Filters - Data Science                              -->
             <!-- --------------------------------------------------- -->
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-data-science-tools" name="name-radio-main-nav-topic-filter-docs-data-science" checked>
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-math" name="name-radio-main-nav-topic-filter-docs-data-science">
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-programming" name="name-radio-main-nav-topic-filter-docs-data-science">
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-ml-ki" name="name-radio-main-nav-topic-filter-docs-data-science">
 
             <!-- --------------------------------------------------- -->
             <!-- Filters - Backend & Co                              -->
             <!-- --------------------------------------------------- -->
 
+            <!-- Dont need , no filter exist -->
+
             <!-- --------------------------------------------------- -->
             <!-- Filters - Tech Tools                                -->
             <!-- --------------------------------------------------- -->
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-dev" name="name-radio-my-main-nav-topic-filter-docs-tech-tools" checked>
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-office" name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-multimedia" name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
+        
 
-
+            
         <!-- ------------------------------------------------------------- -->
         <!-- MAIN NAV Topic Filter Projects                                -->
         <!-- ------------------------------------------------------------- -->
@@ -411,10 +448,9 @@
                                     <!-- -------------------------------------------------------------------- -->
                                     <!-- Label - Docs Audio                                                   -->
                                     <!-- -------------------------------------------------------------------- -->
-                                    <label for="checkbox-my-main-nav-topic-docs-audio" 
-                                           id="trigger-lbl-checkbox-my-main-nav-topic-docs-audio"
+                                    <label for="chk-mp3-docs" 
+                                           id="js-lbl-mp3-docs"
                                            class="lbl-main-nav-topic-filter-audio"
-                                           name="name-checkbox-my-main-nav-topic-docs-audio"
                                            title="Musik abspielen für entspanntes durchstöbern">
 
                                         <img src="media/img/default/mp3-play.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
@@ -423,7 +459,7 @@
 
                                     </label>
 
-
+                             
 
                                 </nav>
 
@@ -588,17 +624,20 @@
                                 <nav class="main-nav-topic-filter-container"
                                      id="trigger-nav-topic-filter-docs-data-science">
                                 
+                                    <!-- --------------------------------------------------------------- -->
+                                    <!-- Filter Items Container                                          -->
+                                    <!-- --------------------------------------------------------------- -->
                                     <div class="main-nav-topic-filter-radio-item-container">
 
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 01 - Label Item - Data Science & Tools                      -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-ds-data-science-tools"
                                             class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                            name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
+                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-data-science-tools"
+                                            name="name-radio-main-nav-topic-filter-docs-data-science">
 
-
+                                            
                                                 <!-- ---------------------------------------------- -->
                                                 <!-- Radio Box ( My Own Radio Box Style )           -->
                                                 <!-- ---------------------------------------------- -->
@@ -622,12 +661,12 @@
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 02 - Label Item - Mathe                                     -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-ds-math"
                                             class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                            name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
+                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-math"
+                                            name="name-radio-main-nav-topic-filter-docs-data-science">
 
-
+                                           
                                                 <!-- ---------------------------------------------- -->
                                                 <!-- Radio Box ( My Own Radio Box Style )           -->
                                                 <!-- ---------------------------------------------- -->
@@ -652,12 +691,12 @@
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 03 - Label Item - Programmierung                            -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-ds-programming"
                                         class="lbl-main-nav-topic-filter-item"
-                                        id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                        name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
+                                        id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-programming"
+                                        name="name-radio-main-nav-topic-filter-docs-data-science">
 
-
+                                      
                                             <!-- ---------------------------------------------- -->
                                             <!-- Radio Box ( My Own Radio Box Style )           -->
                                             <!-- ---------------------------------------------- -->
@@ -681,12 +720,12 @@
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 04 - Label Item - Machine Learning & KI                     -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-ds-ml-ki"
                                         class="lbl-main-nav-topic-filter-item"
-                                        id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                        name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
+                                        id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-ml-ki"
+                                        name="name-radio-main-nav-topic-filter-docs-data-science">
 
-
+                                    
                                             <!-- ---------------------------------------------- -->
                                             <!-- Radio Box ( My Own Radio Box Style )           -->
                                             <!-- ---------------------------------------------- -->
@@ -700,7 +739,7 @@
                                             <!-- ---------------------------------------------- -->
                                             <!-- Label Text Box                                 -->
                                             <!-- ---------------------------------------------- -->
-                                            <div> Machine Learning & Künstliche Intelligenz </div>
+                                            <div> ML & KI </div>
                                         
 
                                         
@@ -753,12 +792,12 @@
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 01 - Label Item - Development                               -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-tt-dev"
                                             class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                            name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
+                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-tt-dev"
+                                            name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
 
-
+                                            
                                                 <!-- ---------------------------------------------- -->
                                                 <!-- Radio Box ( My Own Radio Box Style )           -->
                                                 <!-- ---------------------------------------------- -->
@@ -778,15 +817,16 @@
                                             
                                         </label>
 
+                                        
 
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 02 - Label Item - Office                                    -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-tt-office"
                                             class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                            name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
-
+                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-tt-office"
+                                            name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
+                                            
 
                                                 <!-- ---------------------------------------------- -->
                                                 <!-- Radio Box ( My Own Radio Box Style )           -->
@@ -807,17 +847,15 @@
                                             
                                         </label>
 
-
-
                                         <!-- ----------------------------------------------------------- -->
                                         <!-- 03 - Label Item - Multimedia                               -->
                                         <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-main-nav-sub-topic-filter-docs-web-app-dev-web-frameworks"
+                                        <label for="radio-my-main-nav-topic-filter-docs-tt-multimedia"
                                         class="lbl-main-nav-topic-filter-item"
-                                        id="trigger-lbl-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                        name="name-radio-main-nav-sub-topic-filter-docs-web-app-dev-web">
+                                        id="trigger-lbl-my-main-nav-topic-filter-item-docs-tt-multimedia"
+                                        name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
 
-
+                                        
                                             <!-- ---------------------------------------------- -->
                                             <!-- Radio Box ( My Own Radio Box Style )           -->
                                             <!-- ---------------------------------------------- -->
@@ -836,8 +874,6 @@
 
                                         
                                         </label>
-
-
 
                                         <!-- ------------------------------------------------------------ -->
                                         <!-- Info Filter Items Count [ only exist by js ]                 -->
@@ -969,6 +1005,14 @@
         </div>
 
     </footer>
+
+
+
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <!-- JS Binding                                                                                      -->
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <script src="js/js-keyboard-left-right-nav.js"></script>
+    <script src="js/js-play-pause-audio.js"></script>
     
 </body>
 
