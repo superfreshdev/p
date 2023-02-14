@@ -309,6 +309,10 @@
 
 .main-nav-topic-filter-item-count-box {
 
+    /* Same Mobile Size like header nav */
+    font-size: .85em;
+    font-weight: bold;
+
     padding: .3em .6em;
     border-radius: .3em;
     background-color: var(--medium-grey-3);
