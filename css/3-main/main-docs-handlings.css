@@ -15,18 +15,18 @@
 /* ------------------------------------------------------------------- */
 
 /* unshown radio main nav docs & unshown checkbox nav docs audio */
-input#radio-main-nav-topic-filter-docs-web-app-dev , 
-input#radio-main-nav-topic-filter-docs-data-science ,
-input#radio-main-nav-topic-filter-docs-backend-co ,
-input#radio-main-nav-topic-filter-docs-tech-tools ,
-input#checkbox-main-nav-topic-filter-docs-audio { 
+input#radio-my-main-nav-topic-docs-web-app-dev , 
+input#radio-my-main-nav-topic-docs-data-science ,
+input#radio-my-main-nav-topic-docs-backend-co ,
+input#radio-my-main-nav-topic-docs-tech-tools ,
+input#checkbox-my-main-nav-topic-docs-audio { 
     
     display: none;
 
 }
 
 /* unshown default 1 img of man nav docs audio ( pause img ) */
-#trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(2) { display: none; }
+#trigger-lbl-checkbox-my-main-nav-topic-docs-audio > img:nth-of-type(2) { display: none; }
 
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -34,38 +34,38 @@ input#checkbox-main-nav-topic-filter-docs-audio {
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* if checked unshown white img / unshown play audio img */
-input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev > img:nth-of-type(1), 
-input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science > img:nth-of-type(1),
-input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-backend-co > img:nth-of-type(1),
-input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools > img:nth-of-type(1),
-input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(1) {
+input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev > img:nth-of-type(1), 
+input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-data-science > img:nth-of-type(1),
+input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-backend-co > img:nth-of-type(1),
+input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-tech-tools > img:nth-of-type(1),
+input#checkbox-my-main-nav-topic-docs-audio:checked ~ #my-main-container #trigger-lbl-checkbox-my-main-nav-topic-docs-audio > img:nth-of-type(1) {
 
     display: none;
 }
 
 /* if checked show black img / show pause audio img */
-input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev > img:nth-of-type(2), 
-input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science > img:nth-of-type(2),
-input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-backend-co > img:nth-of-type(2),
-input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools > img:nth-of-type(2),
-input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(2) {
+input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev > img:nth-of-type(2), 
+input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-data-science > img:nth-of-type(2),
+input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-backend-co > img:nth-of-type(2),
+input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-tech-tools > img:nth-of-type(2),
+input#checkbox-my-main-nav-topic-docs-audio:checked ~ #my-main-container #trigger-lbl-checkbox-my-main-nav-topic-docs-audio > img:nth-of-type(2) {
 
     display: block;
 }
 
 
 /* if checked one of 4 main nav radio docs */
-input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev, 
-input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science ,
-input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-backend-co ,
-input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-tech-tools {
+input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev, 
+input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-data-science ,
+input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-backend-co ,
+input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-tech-tools {
 
     background-color: var(--light-brown-3);
 }
 
 
 /* if checked audio of docs then be red for is playing */
-input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-audio {
+input#checkbox-my-main-nav-topic-docs-audio:checked ~ #my-main-container #trigger-lbl-checkbox-my-main-nav-topic-docs-audio {
 
     background-color: var(--medium-red-3);
 }
@@ -75,7 +75,7 @@ input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #tr
 
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */
-/* [Checked/Unchecked] - Main Nav Docs & Audio - Handling ( web app dev , data sciecne , backend co , tech tools )
+/* [Checked/Unchecked] - Main Nav Topics Docs  - Handling ( web app dev , data sciecne , backend co , tech tools )
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Default all filter container unshown */
@@ -89,11 +89,50 @@ input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #tr
 
 
 /* if checked than show the right filter container */
-input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-nav-topic-filter-docs-web-app-dev ,
-input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-nav-topic-filter-docs-data-science,
-input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-nav-topic-filter-docs-backend-co ,
-input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-nav-topic-filter-docs-tech-tools {
+input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-nav-topic-filter-docs-web-app-dev ,
+input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-nav-topic-filter-docs-data-science,
+input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container #trigger-nav-topic-filter-docs-backend-co ,
+input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-nav-topic-filter-docs-tech-tools {
 
     display: grid;
 }
 
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* [Checked/Unchecked] - Main Nav Topics Filter - Styling ( many filter items  )
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* default unshown all docs radio topic filters */
+input[id^="radio-my-main-nav-topic-filter-docs"] {
+
+    display: none;
+}
+
+
+/* change background & color & border */
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-programming:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-programming ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-html-css:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-html-css ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-cms:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-cms {
+
+    background-color: var(--light-brown-3);
+    border: 1px solid var(--light-brown-3);
+    color: var(--dark-black-1);
+}
+
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks > .my-own-circle-outside ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-programming:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-programming > .my-own-circle-outside,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-html-css:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-html-css > .my-own-circle-outside,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-cms:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-cms > .my-own-circle-outside {
+
+    border: .13em solid var(--dark-black-1);
+}
+
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks > .my-own-circle-outside > .my-own-set-point ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-programming:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-programming > .my-own-circle-outside > .my-own-set-point ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-html-css:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-html-css > .my-own-circle-outside > .my-own-set-point ,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-cms:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-cms > .my-own-circle-outside > .my-own-set-point {
+
+    display: block;
+}
