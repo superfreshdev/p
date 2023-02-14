@@ -11,8 +11,7 @@
 
 
 /* ------------------------------------------------------------------- */
-/* Default unshown Radio Boxes for 
-/* Docs Main Nav Label & all sub filters & docs audio checkbox
+/* Unshown Radio & Checkboxes 
 /* ------------------------------------------------------------------- */
 
 /* unshown radio main nav docs & unshown checkbox nav docs audio */
@@ -30,9 +29,9 @@ input#checkbox-main-nav-topic-filter-docs-audio {
 #trigger-lbl-radio-main-nav-topic-filter-docs-audio > img:nth-of-type(2) { display: none; }
 
 
-/* ---------------------------------------------------------- */
-/* Checked / Unchecked - Hanlding | Main Nav Docs & Audio
-/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* [Checked/Unchecked] - Main Nav Docs & Audio - Styling 
+/* ---------------------------------------------------------------------------------------------------- */
 
 /* if checked unshown white img / unshown play audio img */
 input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev > img:nth-of-type(1), 
@@ -55,10 +54,6 @@ input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #tr
 }
 
 
-/* ---------------------------------------------------------- */
-/* Checked / Unchecked - Styling | Main Nav Docs & Audio
-/* ---------------------------------------------------------- */
-
 /* if checked one of 4 main nav radio docs */
 input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-web-app-dev, 
 input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-main-nav-topic-filter-docs-data-science ,
@@ -74,3 +69,31 @@ input#checkbox-main-nav-topic-filter-docs-audio:checked ~ #my-main-container #tr
 
     background-color: var(--medium-red-3);
 }
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* [Checked/Unchecked] - Main Nav Docs & Audio - Handling ( web app dev , data sciecne , backend co , tech tools )
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Default all filter container unshown */
+#trigger-nav-topic-filter-docs-web-app-dev ,
+#trigger-nav-topic-filter-docs-data-science ,
+#trigger-nav-topic-filter-docs-backend-co , 
+#trigger-nav-topic-filter-docs-tech-tools {
+
+    display: none;
+}
+
+
+/* if checked than show the right filter container */
+input#radio-main-nav-topic-filter-docs-web-app-dev:checked ~ #my-main-container #trigger-nav-topic-filter-docs-web-app-dev ,
+input#radio-main-nav-topic-filter-docs-data-science:checked ~ #my-main-container #trigger-nav-topic-filter-docs-data-science,
+input#radio-main-nav-topic-filter-docs-backend-co:checked ~ #my-main-container #trigger-nav-topic-filter-docs-backend-co ,
+input#radio-main-nav-topic-filter-docs-tech-tools:checked ~ #my-main-container #trigger-nav-topic-filter-docs-tech-tools {
+
+    display: grid;
+}
+
