@@ -168,7 +168,7 @@ input#radio-my-main-nav-topic-filter-docs-web-app-dev-programming:checked ~ #my-
 input#radio-my-main-nav-topic-filter-docs-web-app-dev-html-css:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-web-app-dev-html-css,
 input#radio-my-main-nav-topic-filter-docs-web-app-dev-cms:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-web-app-dev-cms {
 
-    display: block;
+    display: flex;
 }
 
 
@@ -215,7 +215,7 @@ input#radio-my-main-nav-topic-filter-docs-ds-math:checked ~ #my-main-container #
 input#radio-my-main-nav-topic-filter-docs-ds-programming:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-ds-programming,
 input#radio-my-main-nav-topic-filter-docs-ds-ml-ki:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-ds-ml-ki {
 
-    display: block;
+    display: flex;
 }
 
 
@@ -260,5 +260,5 @@ input#radio-my-main-nav-topic-filter-docs-tt-dev:checked ~ #my-main-container #t
 input#radio-my-main-nav-topic-filter-docs-tt-office:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-tt-office ,
 input#radio-my-main-nav-topic-filter-docs-tt-multimedia:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-tt-multimedia {
 
-    display: block;
+    display: flex;
 }

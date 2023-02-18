@@ -316,7 +316,7 @@
 
 
 /* ---------------------------------------------------- */
-/* File Filter List Layout Container 
+/* File Filter List Container 
 /* ---------------------------------------------------- */
 
 
@@ -327,8 +327,10 @@
     color: var(--medium-grey-3);
     background-color: var(--dark-black-1);
 
+    /* background-color: red; */
+
     /* Default Mobile Version */
-    padding: 2em .6em;
+    padding: 2em .6em 0em .6em;
     
 }
 
@@ -341,26 +343,200 @@
 
     justify-content: space-evenly;
 
-    column-gap: .8em;
-    row-gap: .8em;
+    column-gap: 1.3em;
+    row-gap: 3.8em;
 
-    background-color: green;
+
+    padding-bottom: 2em;
+
+    /* background-color: green; */
 
 }
 
 
 
-/* ---------------------------------------------------- */
-/* Card Content  
-/* ---------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+/* Card Layout  
+/* ---------------------------------------------------------------------------------------- */
 
-.card-content {
+.card-layout {
 
     border-radius: .3em;
-    border: 1px solid var(--medium-grey-3);
-    padding: .6em;
- 
+    border: 1px solid var(--dark-grey-1);
+    /* padding: .6em; */
 }
+
+/* ----------------------------------------- */
+/* Card Header 
+/* ----------------------------------------- */
+.card-layout-header {
+
+    border-radius: .3em .3em 0em 0em;
+
+    height: 2.3em;
+
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-layout-header-number-layout {
+
+    background-color: var(--light-brown-3);
+    font-weight: bold;
+    color: var(--dark-black-1);
+
+    border-radius: .3em 0em .3em 0em;
+
+    padding: 0em .8em;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-layout-header-storage-layout {
+
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+
+    padding: 0em .6em;
+
+    font-weight: bold;
+
+}
+
+.img-card-layout-header { width: 1em; }
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* Card Main 
+/* ----------------------------------------------------------------------------- */
+
+/* title */
+.card-layout-main-title-container {
+
+    padding: .8em .8em 0em .8em;
+
+    font-size: 1.1em;
+
+    font-weight: bold;
+    color:var(--light-white-1);
+
+}
+
+/* main content */
+.card-layout-main-content-container {
+
+    padding: .8em .8em 0em .8em;
+
+}
+
+
+
+.img-docs-card-layout-main-content-container { 
+    
+    /* orientation of font-size 1.1em */
+    height: 9.3em;
+
+    float: left;
+    margin-right: .8em;
+    margin-bottom: .5em;
+    border-radius: .3em;
+    box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px;
+
+}
+
+
+.docs-hash-tags {
+
+    display: inline-block;
+
+    padding: 0em .6em;
+    font-style: italic;
+    border-radius: .3em;
+    border: 1px solid var(--dark-grey-1);
+    margin-bottom: .6em;
+    margin-right: .1em;
+}
+
+.card-layout-main-content-button-panel {
+
+    /* clear float: left of img to have correct position handling */
+    clear: both;
+
+    padding: 1em 0em 1.3em 0em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    column-gap: .6em;
+}
+
+
+/* ----------------------------------------- */
+/* Button Styling 
+/* ----------------------------------------- */
+
+.btn-file-link {
+
+    text-decoration: none;
+
+    color: var(--dark-black-1);
+    background-color: var(--dark-grey-1);
+
+    border-radius: .3em;
+    font-weight: bold;
+
+    padding: .2em .6em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .4em;
+
+}
+
+.btn-file-link:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+}
+
+.btn-file-link:visited { color: var(--dark-black-1);}
+
+
+.img-btn-file-link { width: 1em; }
+
+
+
+/* main footer */
+.card-layout-main-footer-container {
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
