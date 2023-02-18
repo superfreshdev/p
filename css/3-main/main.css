@@ -328,15 +328,12 @@
     background-color: var(--dark-black-1);
 
     /* Default Mobile Version */
-    padding: 1.3em .6em 0em .6em;
-
-    border-radius: 0em 0em 1em 1em;
+    padding: 2em .6em;
     
 }
 
 
-
-.file-filter-list-layout {
+.file-filter-list-item-container {
 
     display: flex;
     align-items: flex-start;
@@ -346,6 +343,8 @@
 
     column-gap: .8em;
     row-gap: .8em;
+
+    background-color: green;
 
 }
 
@@ -373,18 +372,24 @@
 
     font-size: 1rem;
 
-    border-top: .15em solid var(--light-brown-3);
+    background-color: var(--dark-black-1);
+
+    border-top: .25em solid var(--light-brown-3);
     padding: 2em .8em;
 
-    margin-top: 1.6em;
+    /* margin-top: 1.6em; */
+
+    border-radius: 0em 0em 1em 1em;
 
     display: flex;
     align-items: center;
 
+    column-gap: .6em;
+
 
 }
 
-.img-footer-content { height: 6.8em; }
+.img-footer-content { height: 6.4em; }
 
 
 

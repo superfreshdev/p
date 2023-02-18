@@ -80,9 +80,14 @@ input#chk-mp3-docs:checked ~ #my-main-container #js-lbl-mp3-docs {
 
 /* Default all filter container unshown */
 #trigger-nav-topic-filter-docs-web-app-dev ,
-#trigger-nav-topic-filter-docs-data-science ,
-#trigger-nav-topic-filter-docs-backend-co , 
+#trigger-nav-topic-filter-docs-data-science , 
 #trigger-nav-topic-filter-docs-tech-tools {
+
+    display: none;
+}
+
+/* Default unshow all filter content container  */
+[id^="trigger-file-filter-list-container"] {
 
     display: none;
 }
@@ -91,7 +96,6 @@ input#chk-mp3-docs:checked ~ #my-main-container #js-lbl-mp3-docs {
 /* if checked than show the right filter container */
 input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-nav-topic-filter-docs-web-app-dev ,
 input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-nav-topic-filter-docs-data-science,
-input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container #trigger-nav-topic-filter-docs-backend-co ,
 input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-nav-topic-filter-docs-tech-tools {
 
     display: grid;
@@ -109,8 +113,25 @@ input[id^="radio-my-main-nav-topic-filter-docs"] {
     display: none;
 }
 
+/* default unshown file filter item container only by checked radio filter */
+[id^="trigger-file-filter-list-item-container-docs"] {
+
+    display: none;
+}
+
+/* if checked than showthe right filter content container */
+input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-file-filter-list-container-web-app-dev ,
+input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-file-filter-list-container-data-science ,
+input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container #trigger-file-filter-list-container-backend-co ,
+input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-file-filter-list-container-tech-tools {
+
+    display: block;
+}
+
+
+
 /* --------------------------------------------------------------------------------------------------------------- */
-/* Topic - Web App Entwicklung                                                                                     */
+/* [Styling] - Topic Filter - Web App Entwicklung                                                                              */
 /* --------------------------------------------------------------------------------------------------------------- */
 input#radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks ,
 input#radio-my-main-nav-topic-filter-docs-web-app-dev-programming:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-programming ,
@@ -138,8 +159,25 @@ input#radio-my-main-nav-topic-filter-docs-web-app-dev-cms:checked ~ #my-main-con
     display: block;
 }
 
+/*-------------------------------------------------------------------------------------------------------- */
+/* [Handling] - Topic Filter ( web-framework,s , programmierung , html-css , cms )
+/*-------------------------------------------------------------------------------------------------------- */
+
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-web-app-dev-web-frameworks,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-programming:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-web-app-dev-programming,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-html-css:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-web-app-dev-html-css,
+input#radio-my-main-nav-topic-filter-docs-web-app-dev-cms:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-web-app-dev-cms {
+
+    display: block;
+}
+
+
+
+
+
+
 /* --------------------------------------------------------------------------------------------------------------- */
-/* Topic - Data Science                                                                                            */
+/* [Styling] - Topic Filter - Data Science                                                                                            */
 /* --------------------------------------------------------------------------------------------------------------- */
 input#radio-my-main-nav-topic-filter-docs-ds-data-science-tools:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-ds-data-science-tools ,
 input#radio-my-main-nav-topic-filter-docs-ds-math:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-ds-math ,
@@ -167,14 +205,28 @@ input#radio-my-main-nav-topic-filter-docs-ds-ml-ki:checked ~ #my-main-container 
     display: block;
 }
 
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* [Handling] - Topic Filter ( ds-tools, math , ...  )
+/*-------------------------------------------------------------------------------------------------------- */
+
+input#radio-my-main-nav-topic-filter-docs-ds-data-science-tools:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-ds-data-science-tools,
+input#radio-my-main-nav-topic-filter-docs-ds-math:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-ds-math,
+input#radio-my-main-nav-topic-filter-docs-ds-programming:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-ds-programming,
+input#radio-my-main-nav-topic-filter-docs-ds-ml-ki:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-ds-ml-ki {
+
+    display: block;
+}
+
+
 /* -------------------------------------------------------- */
-/* Topic - Backend & Co                                     */
+/* [Styling] - Topic - Backend & Co                                     */
 /* -------------------------------------------------------- */
 
 /* dont need */
 
 /* -------------------------------------------------------- */
-/* Topic - Tech Tools                                       */
+/* [Styling] - Topic Filter - Tech Tools                                       */
 /* -------------------------------------------------------- */
 input#radio-my-main-nav-topic-filter-docs-tt-dev:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-tt-dev ,
 input#radio-my-main-nav-topic-filter-docs-tt-office:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-tt-office ,
@@ -195,6 +247,18 @@ input#radio-my-main-nav-topic-filter-docs-tt-multimedia:checked ~ #my-main-conta
 input#radio-my-main-nav-topic-filter-docs-tt-dev:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-tt-dev > .my-own-circle-outside > .my-own-set-point ,
 input#radio-my-main-nav-topic-filter-docs-tt-office:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-tt-office > .my-own-circle-outside > .my-own-set-point ,
 input#radio-my-main-nav-topic-filter-docs-tt-multimedia:checked ~ #my-main-container #trigger-lbl-my-main-nav-topic-filter-item-docs-tt-multimedia > .my-own-circle-outside > .my-own-set-point {
+
+    display: block;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* [Handling] - Topic Filter ( development , office , multimedia )
+/*-------------------------------------------------------------------------------------------------------- */
+
+input#radio-my-main-nav-topic-filter-docs-tt-dev:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-tt-dev ,
+input#radio-my-main-nav-topic-filter-docs-tt-office:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-tt-office ,
+input#radio-my-main-nav-topic-filter-docs-tt-multimedia:checked ~ #my-main-container #trigger-file-filter-list-item-container-docs-tt-multimedia {
 
     display: block;
 }
