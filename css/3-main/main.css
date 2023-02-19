@@ -344,7 +344,8 @@
     justify-content: space-evenly;
 
     column-gap: 1.3em;
-    row-gap: 3.8em;
+    /* Only for Desktop View */
+    /* row-gap: 3.8em; */
 
 
     padding-bottom: 2em;
@@ -355,9 +356,25 @@
 
 
 
+
 /* ---------------------------------------------------------------------------------------- */
 /* Card Layout  
 /* ---------------------------------------------------------------------------------------- */
+
+.arrow-trim-card-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .8em 0em;
+
+    /* background-color: red; */
+
+}
+
+.img-arrow-trim-card { width: 1em; }
+
 
 .card-layout {
 
