@@ -13,6 +13,7 @@
 
 .txt-i { font-style: italic; }
 .txt-b { font-weight: bold; }
+.txt-u { text-decoration: underline; }
 
 
 /* ---------------------------------------------------- */
@@ -50,16 +51,53 @@
 .txt-status-in-planning-layout,
 .txt-status-in-think-about-layout {
 
-    border-radius: .2em;
-    padding: 0em .5em;
+   border-radius: .2em;
+   
+   padding: 0em .5em;
 
     font-weight: bold;
     color: var(--dark-black-1);
 
     display: inline-block;
+
+    font-size: .85em;
+
+    margin-bottom: .2em;
+}
+
+.txt-status-in-layout { 
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between; 
+
+    column-gap: .6em;
+
+}
+
+/* .txt-status-in-img-box {
+
+    padding: 0em 0em;
+} */
+
+.img-txt-status-in { width: 1em; }
+
+.keyframe-anim-rotate {
+
+    animation: anim-circle-img-txt-status-in 4s linear infinite;
+}
+
+/* Keyframe to circle icon */
+@keyframes anim-circle-img-txt-status-in {
+    
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+
 }
 
 
 .txt-status-in-progress-layout { background-color: var(--medium-red-3); }
+
 .txt-status-in-planning-layout { background-color: rgb(218, 218, 31); }
-.txt-status-in-think-about-layout { background-color: rgb(179, 179, 179); }
+
+.txt-status-in-think-about-layout { background-color: #424949; color: var(--medium-grey-3); }
