@@ -466,8 +466,7 @@
 
 }
 
-.card-layout-main-info-develop-title, 
-.txt-test { 
+.card-layout-main-info-develop-title { 
 
     font-size: .85em;
 }
@@ -591,6 +590,8 @@
 
 .docs-hash-tags ,
 .docs-hash-tags-float {
+
+    font-size: .85em;
 
     display: inline-block;
 
