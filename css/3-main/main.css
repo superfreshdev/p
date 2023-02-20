@@ -363,19 +363,12 @@
 
 
 .card-layout {
+ 
+    margin: .8em;
 
     border-radius: .3em;
-    /* border: 1px solid var(--dark-grey-1); */
-    /* padding: .6em; */
-
-    /* background-color: red; */
-
-    margin: .8em;
     box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
 
-    padding-bottom: .8em;
-
-        
 }
 
 .card-layout:hover {
@@ -392,14 +385,13 @@
 
 .card-layout-header {
 
-    border-radius: .3em .3em 0em 0em;
-
     height: 2.8em;
+    padding: 0em .8em;
 
     background-color: var(--dark-grey-3);
 
-    padding: 0em .8em 0em .8em;
-
+    border-radius: .3em .3em 0em 0em;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -407,15 +399,15 @@
 
 .card-layout-header-number-layout {
 
-    background-color: var(--light-brown-3);
-    font-weight: bold;
-    color: var(--dark-black-1);
-
-    border-radius: .3em;
-
+    height: 1.3em;
     padding: 0em .3em;
 
-    height: 1.3em;
+    background-color: var(--light-brown-3);
+    color: var(--dark-black-1);
+
+    font-weight: bold;
+
+    border-radius: .3em;
 
     display: flex;
     align-items: center;
@@ -423,17 +415,6 @@
 
 }
 
-.card-layout-header-storage-layout {
-
-    display: flex;
-    align-items: center;
-    column-gap: .3em;
-
-    font-weight: bold;
-
-}
-
-.img-card-layout-header { width: 1em; }
 
 
 
@@ -441,12 +422,19 @@
 /* [2/2] - Card Main 
 /* ----------------------------------------------------------------------------- */
 
+.card-layout-main {
+
+    padding: 1.6em 1.3em;
+
+
+}
+
 
 /* ------------------------------------------------------- */
-/* Not Finished Status Container 
+/* [Main Part] - Not Finished Status Container 
 /* ------------------------------------------------------- */
 
-.not-finished-status-container { padding: .8em 0em; }
+/* .not-finished-status-container { padding: .8em 0em; } */
 
 .not-finished-status-img-container {
 
@@ -487,33 +475,18 @@
 
 
 
-/* ---------------------------------------------------------------- */
-/* Trim Arrow Down - Container 
-/* ---------------------------------------------------------------- */
-.arrow-trim-card-container {
-
-    padding: .8em 0em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
 
 
 
 /* --------------------------------------------------------------------------- */
-/* Card Title Container 
+/* [Main Part] - Card Title Container 
 /* --------------------------------------------------------------------------- */
-
-.card-layout-main-title-container {  padding: .3em .8em .2em .8em; }
    
 /* title category */
 .card-layout-main-info-develop-title-category { 
 
-    font-size: .95em;
-    /* font-weight: bold; */
+    font-weight: bold;
+    padding-bottom: .1em;
    
 }
 
@@ -522,211 +495,100 @@
 
     font-size: 1.1em;
     line-height: 1.4em; 
+
     color: var(--light-white-2);
+
     font-weight: bold;
 
 }
 
 
 
-/* --------------------------------------------------------------------------- */
-/* Card Content Container 
-/* --------------------------------------------------------------------------- */
-
-.card-layout-main-content-container {  padding: .3em 1.3em .3em 1.3em; }
-
-
-/* ---------------------------------------- */
-/* Big Img Pos Layout 
-/* ---------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* [ Main Part] - IMG & Hash Styles 
+/* --------------------------------------------------------------------- */
 
 
 /* img float left */  
-.img-float-card-layout-main-content-container { 
-    
-    /* orientation of font-size 1.1em */
-    height: 9.3em;
+.img-float-card-layout {
 
+    height: 9.3em;
     float: left;
+
     margin-right: .8em;
     margin-bottom: .5em;
+
     border-radius: .3em;
+    
+    box-shadow: 0 0 .4em #424949;
     /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
 
-    box-shadow: 0 0 .4em #424949;
 }
 
-/* img max width in card */
-.img-max-width-card-layout-main-content-container {
+
+/* img max width */
+.img-max-width-card-layout {
 
     height: 7.5em;
     width: 100%;
+
     border-radius: .3em;
-    /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
+    
     box-shadow: 0 0 .4em #424949;
-}
-
-
-/* ----------------------------------------------------------- */
-/* Hashtag / Radio - Container & Hash Styles 
-/* ----------------------------------------------------------- */
-
-
-/* Hashtags under Picture */
-.card-layout-main-content-max-width-hash-tag-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    gap: .4em;
-
-    padding: .5em 0em;
+    /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
 
 }
 
-/* Radio under Picture  */
-.card-layout-main-content-radio-boxes {
-
-    padding-bottom: 1em;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    gap: .4em;
-
-}
-
-
-
-
-/* ----------------------------------------------------------- */
-/* Button Panel Container  
-/* ----------------------------------------------------------- */
-
-
-
-
-/* ----------------------------------------------------------- */
-/* Repo Container  
-/* ----------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* file list layout */
-
-.card-layout-main-file-list-layout {
-
-    padding: 1.3em 0em;
-
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.3em;
-
-
-}
-
-
-.file-entry { 
-
-    text-decoration: none;
-    color: var(--light-white-1);
-}
-
-.file-entry:hover > div:last-child { 
-
-    transition: .3s;
-    color: var(--light-brown-3);
-}
-
-.img-download-file-entry { width: 1em; }
-
-
-.file-entry-text-layout {
-
-    border-radius: .3em;
-
-    display: inline-flex;
-    align-items: center;
-    column-gap: .4em;
-
-    padding: 0em .4em;
-
-    height: 1.5em;
-
-    background-color: grey;
-    color:var(--dark-black-1);
-    font-weight: bold;
-
-    margin-right: .3em;
-    /* margin-bottom: .3em; */
-
-    float:left;
-}
-
+/* hashtags style */
 .docs-hash-tags ,
-.docs-hash-tags-float {
+.docs-float-hash-tags {
 
     font-size: .95em;
 
-    display: inline-block;
-
     padding: 0em .6em;
-    font-style: italic;
+    display: inline-block;
+   
     border-radius: .3em;
+
+    font-style: italic;
+   
     border: 1px solid var(--dark-grey-3);
     color: var(--dark-grey-2);
    
 }
 
-.docs-hash-tags-float {
+.docs-float-hash-tags {
 
     margin-bottom: .6em;
     margin-right: .1em;
 
 }
 
-.card-layout-main-content-button-panel {
+
+/* ----------------------------------------------------------- */
+/* [ Main Part] - Button Container  
+/* ----------------------------------------------------------- */
+
+
+.card-layout-button-container {
 
     /* clear float: left of img to have correct position handling */
     clear: both;
-
-    padding: .8em 0em .8em 0em;
 
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
     column-gap: .6em;
+
 }
-
-
 /* ----------------------------------------- */
 /* Button Styling 
 /* ----------------------------------------- */
 
 .btn-file-link {
+
+    padding: .2em .6em;
 
     text-decoration: none;
 
@@ -735,8 +597,6 @@
 
     border-radius: .3em;
     font-weight: bold;
-
-    padding: .2em .6em;
 
     display: flex;
     align-items: center;
@@ -753,60 +613,60 @@
 
 .btn-file-link:visited { color: var(--dark-black-1);}
 
-
+/* ersetzen mit default */
 .img-btn-file-link { width: 1em; }
 
 
 
-/* ------------------------------------------------------- */
-/* Main Card Layout - Reposiory Layout Container 
-/* ------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* [ Main Part] - Repo Container  
+/* ----------------------------------------------------------- */
+
 .file-card-repo-layout-container {
 
-   padding: .8em .8em 1.3em .8em;
-
-}
-
-.file-card-repo-clone-txt-layout { 
-
-    color: var(--light-white-1);
-    font-weight: bold;
-
-    text-decoration: underline;
-
-   
-}
-
-.file-card-ssh-link-layout {
-
-    padding-top: .8em;
-
-    display: flex;
-    align-items: center;
-    column-gap: .8em;
-}
-
-.file-card-ssh-box-layout { 
+    padding: .8em .8em 1.3em .8em;
+ 
+ }
+ 
+ .file-card-repo-clone-txt-layout { 
+ 
+     color: var(--light-white-1);
+     font-weight: bold;
+ 
+     text-decoration: underline;
+ 
     
-    font-weight: bold;
-
-    padding: 0em .3em;
-    border-radius: .3em;
-
-    color: var(--dark-black-1);
-    background-color: var(--dark-grey-1);
-
-}
-
-.file-card-ssh-link {
-
-    /* background-color: red; */
-
-    word-break: break-all;
-}
-
-
-
+ }
+ 
+ .file-card-ssh-link-layout {
+ 
+     padding-top: .8em;
+ 
+     display: flex;
+     align-items: center;
+     column-gap: .8em;
+ }
+ 
+ .file-card-ssh-box-layout { 
+     
+     font-weight: bold;
+ 
+     padding: 0em .3em;
+     border-radius: .3em;
+ 
+     color: var(--dark-black-1);
+     background-color: var(--dark-grey-1);
+ 
+ }
+ 
+ .file-card-ssh-link {
+ 
+     /* background-color: red; */
+ 
+     word-break: break-all;
+ }
 
 
 
@@ -825,13 +685,12 @@
 
     font-size: 1rem;
 
+    padding: 2em .8em;
+
     background-color: var(--dark-black-1);
 
     border-top: .25em solid var(--light-brown-3);
-    padding: 2em .8em;
-
-    /* margin-top: 1.6em; */
-
+    
     border-radius: 0em 0em 1em 1em;
 
     display: flex;
@@ -846,13 +705,6 @@
 
 
 
-/* ------------------------------------------------ */
-/* Content > Card About 
-/* ------------------------------------------------ */
 
-/* .img-me {
 
-    min-width: 12em;
-    max-width: 36em;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-} */
+

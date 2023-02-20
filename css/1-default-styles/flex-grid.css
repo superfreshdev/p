@@ -84,3 +84,13 @@
 
 
 
+/* ------------------------------------------------ */ 
+/* Gaps
+/* ------------------------------------------------ */ 
+
+.gaps-0-3em { column-gap: .3em; row-gap: .3em; }
+.gaps-0-4em { column-gap: .4em; row-gap: .4em; }
+.gaps-0-6em { column-gap: .6em; row-gap: .6em; }
+
+.gaps-0-8em { column-gap: .8em; row-gap: .8em; }
+.gaps-1em { column-gap: 1em; row-gap: 1em; }
