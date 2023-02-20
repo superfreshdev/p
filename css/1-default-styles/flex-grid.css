@@ -14,6 +14,16 @@
 
 
 /* ------------------------------- */
+/* Flex Sets                       */
+/* ------------------------------- */
+
+.fw-w { flex-wrap: wrap; }
+.fw-wr { flex-wrap: wrap-reverse; }
+
+.fd-c { flex-direction: column; }
+.fd-cr { flex-direction: column-reverse; }
+
+/* ------------------------------- */
 /* Align Items                     */
 /* ------------------------------- */
 

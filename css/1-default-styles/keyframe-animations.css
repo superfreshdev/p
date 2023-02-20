@@ -1,0 +1,25 @@
+/* ----------------------------------------------------------- 
+
+    >> keyframe-animations.css  
+    
+    | Defines all often used animation on this webpage 
+    | e.g rotation etc.
+
+-------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------- */
+/* Keyframe - Rotation
+/* ---------------------------------------------------------------- */
+
+@keyframes anim-360-rotation {
+
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }    
+}
+
+.keyframe-anim-360-rotation-4s-linear-infinity { 
+    animation: anim-circle-img-txt-status-in 4s linear infinite;
+}

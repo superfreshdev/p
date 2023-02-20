@@ -38,6 +38,10 @@
 
     <link rel="stylesheet" href="css/1-default-styles/text-styles.css">
     <link rel="stylesheet" href="css/1-default-styles/img-sizes.css">
+    <link rel="stylesheet" href="css/1-default-styles/font-sizes.css">
+
+    <link rel="stylesheet" href="css/1-default-styles/keyframe-animations.css">
+
     <link rel="stylesheet" href="css/1-default-styles/pos-element-styles.css">
     <link rel="stylesheet" href="css/1-default-styles/element-styles.css">
 
@@ -921,14 +925,14 @@
 
 
 
-                                        <!-- ------------------------------------------------------------ -->
+                                    <!-- ------------------------------------------------------------ -->
                                     <!-- [10/?] Card Item - Angular Projekt - #3                         -->
                                     <!-- ------------------------------------------------------------ -->
                                     <div class="card-layout">
 
-                                        <!-- -------------------------------- -->
-                                        <!-- Card Header                      -->
-                                        <!-- -------------------------------- -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- Card Header                                                                                  -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
                                         <div class="card-layout-header">
 
                                             <div class="card-layout-header-number-layout">03/04</div>
@@ -944,35 +948,58 @@
                                         </div>
                                         
 
-                                        <!-- -------------------------------- -->
-                                        <!-- Card Main                        -->
-                                        <!-- -------------------------------- -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- Card Main                                                                                      -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
                                         <div>
 
-                                            <!-- ----------------------------------------- -->
-                                            <!-- Main Header Title Container               -->
-                                            <!-- ----------------------------------------- -->
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <!-- Main Header - Container               -->
+                                            <!-- --------------------------------------------------------------------------- -->
                                             <div class="card-layout-main-title-container">
 
                                                 <!-- ------------------------------------------------------------------- -->
                                                 <!-- Not Finish Status Container                                         -->
                                                 <!-- ------------------------------------------------------------------- -->
-                                                <!-- <div class="txt-status-in-planning-layout txt-status-in-layout">
+                                                <div class="not-finished-status-container">
 
-                                                    <div class="txt-status-in-txt-layout">In Planung zu tun 2023</div>
+                                                    <!-- Animated Img - Container -->
+                                                    <div class="flex jc-c">
+                                                        <div class="not-finished-status-img-container">
+                                                            <img src="media/img/default/icons/gear.png" class="img-w-1-5em keyframe-anim-360-rotation-4s-linear-infinity" alt="img">
+                                                        </div>                                                       
+                                                    </div>
 
-                                                    <div class="flex ai-c jc-c">
+                                                    <!-- Text - Container -->
+                                                    <div class="flex jc-c">
 
-                                                        <img src="media/img/default/icons/plan.png"
-                                                         class="img-txt-status-in" alt="img">
+                                                        <div class="not-finished-status-txt-container">
+
+                                                            <div>Aktuell in Bearbeitung</div>
+                                                            <div>bis <span class="txt-u">03/2023</span></div>
+
+                                                        </div>
 
                                                     </div>
-                                                     
-                                                
-                                                </div> -->
 
+                                                </div>
+
+                                                <!-- ------------------------------ -->
+                                                <!-- Trim - Arrow Down - Container  -->
+                                                <!-- ------------------------------ -->
+                                                <div class="arrow-trim-card-container">
+                                                    <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                                </div>
+                                               
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- Card Title Container                                                -->
+                                                <!-- ------------------------------------------------------------------- -->
                                                 <div>
-                                                    <!-- Info Develop Title -->
+
+
+                                                    <!-- --------------------------------------------- -->
+                                                    <!-- Info Develop Title Category                   -->
+                                                    <!-- --------------------------------------------- -->
                                                     <div class="flex aic-c cg-0-5em card-layout-main-info-develop-title">
                                                             
                                                         <div class="flex ai-c cg-0-3em txt-color-medium-red-3">
@@ -985,31 +1012,34 @@
 
                                                         <div class="flex ai-c cg-0-3em txt-color-medium-grey-3">
                                                             <img src="media/img/default/icons/info-icons/web-plattforms-2-medium-grey-3.png" class="img-w-1em" img="alt">
-                                                            <div>Web-Plattform</div>
+                                                            <div>Community</div>
                                                         </div>
 
-                                                    </div>  
-                                                    <!-- Text Develop Description -->
+                                                    </div> 
+                                                    
+                                                    <!-- --------------------------------------------- -->
+                                                    <!-- Info Develop Title                            -->
+                                                    <!-- --------------------------------------------- -->
                                                     <div class="txt-test">
                                                         » Prototyp Fusion of Whats App Web & Instagram & Tinder 
                                                     </div>
 
                                                 </div>
 
-    
-                                               
 
                                             </div>
 
-                                            <!-- ----------------------------------------- -->
-                                            <!-- Main Content Container                    -->
-                                            <!-- ----------------------------------------- -->
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <!-- Main Content - Container                    -->
+                                            <!-- --------------------------------------------------------------------------- -->
                                             <div class="card-layout-main-content-container">
 
                                                 <img src="media/img/main/docs/topics/web-app-development/web-frameworks/project-cover-dark-grey-3.png"
                                                  class="img-max-width-card-layout-main-content-container" alt="img">
 
-                                                <!-- Hash Tags -->
+                                                <!-- --------------------------- -->
+                                                <!-- Hash Tags                   -->
+                                                <!-- --------------------------- -->
                                                 <div class="card-layout-main-content-max-width-hash-tag-container">
                                                     
                                                     <div class="docs-hash-tags">#angular</div>
@@ -1019,64 +1049,339 @@
                                                     <div class="docs-hash-tags">#graphQL</div>
                                                     <div class="docs-hash-tags">#auto. Tests</div>                                           
                                                     <div class="docs-hash-tags">#postgreSQL</div>
-                                                    
-                                                    
 
                                                 </div>
 
-                                                <!-- Button Panel -->
-                                                <div class="card-layout-main-content-button-panel">
-
-                                                    <!-- ODT -->
-                                                    <a href="#" class="btn-file-link" target="_blank" title="» show PDF in TAB">
-                                  
-                                                        <img src="media/img/default/icons/download-black.png" class="img-btn-file-link" alt="img">
-                                                        <div>.Zip</div>
-
-                                                    </a>
-
-                                                    <!-- PDF -->
-                                                    <a href="#" class="btn-file-link" target="_blank" title="» show PDF in TAB">
-                                  
-                                                        <img src="media/img/default/icons/github-black.png" class="img-btn-file-link" alt="img">
-                                                        <div>GitHub</div>
-
-                                                    </a>
-
-                                                </div>
-
+                                               
                                             </div>
 
 
-                                            <!-- ------------------------------------------ -->
-                                            <!-- Repo Layout Container                     -->
-                                            <!-- ----------------------------------------- -->
-                                           <div class="file-card-repo-layout-container">
+                                            <!-- ------------------------------ -->
+                                            <!-- Trim - Arrow Down - Container  -->
+                                            <!-- ------------------------------ -->
+                                            <div class="arrow-trim-card-container">
+                                                <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card rotate-180" alt="img">
+                                            </div>
 
-                                                <div class="file-card-repo-clone-txt-layout">Clone Repository:</div>
 
-                                                <div class="file-card-ssh-link-layout">
+                                          
 
-                                                    <div class="file-card-ssh-box-layout">SSH:</div>
+                                        </div>
 
-                                                    <div class="file-card-ssh-link">
-                                                        git@github.com:superfreshdev/portfolio2.git
+                                    </div>
+
+                                     <!-- ------------------------------ -->
+                                    <!-- Trim - Arrow Down - Container  -->
+                                    <!-- ------------------------------ -->
+                                    <div class="arrow-trim-card-container">
+                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                    </div>
+
+                                     <!-- ------------------------------------------------------------ -->
+                                    <!-- [10/?] Card Item - Angular Projekt - #3                         -->
+                                    <!-- ------------------------------------------------------------ -->
+                                    <div class="card-layout">
+
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- Card Header                                                                                  -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div class="card-layout-header">
+
+                                            <div class="card-layout-header-number-layout">03/04</div>
+
+                                            <div class="card-layout-header-storage-layout">
+
+                                                <img src="media/img/default/icons/download-grey.png" class="img-card-layout-header" alt="img">
+                                                
+                                                <div>1.23 MB</div>
+
+                                            </div>
+
+                                        </div>
+                                        
+
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- Card Main                                                                                      -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div>
+
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <!-- Main Header - Container               -->
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <div class="card-layout-main-title-container">
+
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- Not Finish Status Container                                         -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="not-finished-status-container">
+
+                                                    <!-- Animated Img - Container -->
+                                                    <div class="flex jc-c">
+                                                        <div class="not-finished-status-img-container">
+                                                            <img src="media/img/default/icons/plan.png" class="img-w-1-5em" alt="img">
+                                                        </div>                                                       
+                                                    </div>
+
+                                                    <!-- Text - Container -->
+                                                    <div class="flex jc-c">
+
+                                                        <div class="not-finished-status-txt-container">
+
+                                                            <div>Aktuell in Planung</div>
+                                                            <div>irgw. <span class="txt-u">2023</span></div>
+
+                                                        </div>
+
                                                     </div>
 
                                                 </div>
 
-                                           </div>
+                                                <!-- ------------------------------ -->
+                                                <!-- Trim - Arrow Down - Container  -->
+                                                <!-- ------------------------------ -->
+                                                <div class="arrow-trim-card-container">
+                                                    <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                                </div>
+                                               
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- Card Title Container                                                -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div>
+
+
+                                                    <!-- --------------------------------------------- -->
+                                                    <!-- Info Develop Title Category                   -->
+                                                    <!-- --------------------------------------------- -->
+                                                    <div class="flex aic-c cg-0-5em card-layout-main-info-develop-title">
+                                                            
+                                                        <div class="flex ai-c cg-0-3em txt-color-medium-red-3">
+                                                            
+                                                            <img src="media/img/default/icons/tech-icons/angular.png" class="img-w-1em" img="alt">
+                                                            <div>Angular</div>
+                                                        </div>
+
+                                                        <div> ⋅ </div>
+
+                                                        <div class="flex ai-c cg-0-3em txt-color-medium-grey-3">
+                                                            <img src="media/img/default/icons/info-icons/web-plattforms-2-medium-grey-3.png" class="img-w-1em" img="alt">
+                                                            <div>Community</div>
+                                                        </div>
+
+                                                    </div> 
+                                                    
+                                                    <!-- --------------------------------------------- -->
+                                                    <!-- Info Develop Title                            -->
+                                                    <!-- --------------------------------------------- -->
+                                                    <div class="txt-test">
+                                                        » Prototyp Fusion of Whats App Web & Instagram & Tinder 
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <!-- Main Content - Container                    -->
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <div class="card-layout-main-content-container">
+
+                                                <img src="media/img/main/docs/topics/web-app-development/web-frameworks/project-cover-dark-grey-3.png"
+                                                 class="img-max-width-card-layout-main-content-container" alt="img">
+
+                                                <!-- --------------------------- -->
+                                                <!-- Hash Tags                   -->
+                                                <!-- --------------------------- -->
+                                                <div class="card-layout-main-content-max-width-hash-tag-container">
+                                                    
+                                                    <div class="docs-hash-tags">#angular</div>
+                                                    <div class="docs-hash-tags">#typescript</div>
+                                                    <div class="docs-hash-tags">#angularCSS</div>
+                                                    <div class="docs-hash-tags">#chartJS</div>
+                                                    <div class="docs-hash-tags">#graphQL</div>
+                                                    <div class="docs-hash-tags">#auto. Tests</div>                                           
+                                                    <div class="docs-hash-tags">#postgreSQL</div>
+
+                                                </div>
+
+                                               
+                                            </div>
+
+
+                                            <!-- ------------------------------ -->
+                                            <!-- Trim - Arrow Down - Container  -->
+                                            <!-- ------------------------------ -->
+                                            <div class="arrow-trim-card-container">
+                                                <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card rotate-180" alt="img">
+                                            </div>
+
+
+                                          
 
                                         </div>
 
                                     </div>
 
 
+                                     <!-- ------------------------------ -->
+                                    <!-- Trim - Arrow Down - Container  -->
+                                    <!-- ------------------------------ -->
+                                    <div class="arrow-trim-card-container">
+                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                    </div>
 
 
+                                     <!-- ------------------------------------------------------------ -->
+                                    <!-- [10/?] Card Item - Angular Projekt - #3                         -->
+                                    <!-- ------------------------------------------------------------ -->
+                                    <div class="card-layout">
+
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- Card Header                                                                                  -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div class="card-layout-header">
+
+                                            <div class="card-layout-header-number-layout">03/04</div>
+
+                                            <div class="card-layout-header-storage-layout">
+
+                                                <img src="media/img/default/icons/download-grey.png" class="img-card-layout-header" alt="img">
+                                                
+                                                <div>1.23 MB</div>
+
+                                            </div>
+
+                                        </div>
+                                        
+
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- Card Main                                                                                      -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div>
+
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <!-- Main Header - Container               -->
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <div class="card-layout-main-title-container">
+
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- Not Finish Status Container                                         -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="not-finished-status-container">
+
+                                                    <!-- Animated Img - Container -->
+                                                    <div class="flex jc-c">
+                                                        <div class="not-finished-status-img-container">
+                                                            <img src="media/img/default/icons/think.png" class="img-w-1-5em" alt="img">
+                                                        </div>                                                       
+                                                    </div>
+
+                                                    <!-- Text - Container -->
+                                                    <div class="flex jc-c">
+
+                                                        <div class="not-finished-status-txt-container">
+
+                                                            <div>Noch in Überlegung</div>
+                                                            <div>ob zu tun</div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <!-- ------------------------------ -->
+                                                <!-- Trim - Arrow Down - Container  -->
+                                                <!-- ------------------------------ -->
+                                                <div class="arrow-trim-card-container">
+                                                    <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                                </div>
+                                               
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- Card Title Container                                                -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div>
 
 
+                                                    <!-- --------------------------------------------- -->
+                                                    <!-- Info Develop Title Category                   -->
+                                                    <!-- --------------------------------------------- -->
+                                                    <div class="flex aic-c cg-0-5em card-layout-main-info-develop-title">
+                                                            
+                                                        <div class="flex ai-c cg-0-3em txt-color-medium-red-3">
+                                                            
+                                                            <img src="media/img/default/icons/tech-icons/angular.png" class="img-w-1em" img="alt">
+                                                            <div>Angular</div>
+                                                        </div>
 
+                                                        <div> ⋅ </div>
+
+                                                        <div class="flex ai-c cg-0-3em txt-color-medium-grey-3">
+                                                            <img src="media/img/default/icons/info-icons/web-plattforms-2-medium-grey-3.png" class="img-w-1em" img="alt">
+                                                            <div>Community</div>
+                                                        </div>
+
+                                                    </div> 
+                                                    
+                                                    <!-- --------------------------------------------- -->
+                                                    <!-- Info Develop Title                            -->
+                                                    <!-- --------------------------------------------- -->
+                                                    <div class="txt-test">
+                                                        » Prototyp Fusion of Whats App Web & Instagram & Tinder 
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <!-- Main Content - Container                    -->
+                                            <!-- --------------------------------------------------------------------------- -->
+                                            <div class="card-layout-main-content-container">
+
+                                                <img src="media/img/main/docs/topics/web-app-development/web-frameworks/project-cover-dark-grey-3.png"
+                                                 class="img-max-width-card-layout-main-content-container" alt="img">
+
+                                                <!-- --------------------------- -->
+                                                <!-- Hash Tags                   -->
+                                                <!-- --------------------------- -->
+                                                <div class="card-layout-main-content-max-width-hash-tag-container">
+                                                    
+                                                    <div class="docs-hash-tags">#angular</div>
+                                                    <div class="docs-hash-tags">#typescript</div>
+                                                    <div class="docs-hash-tags">#angularCSS</div>
+                                                    <div class="docs-hash-tags">#chartJS</div>
+                                                    <div class="docs-hash-tags">#graphQL</div>
+                                                    <div class="docs-hash-tags">#auto. Tests</div>                                           
+                                                    <div class="docs-hash-tags">#postgreSQL</div>
+
+                                                </div>
+
+                                               
+                                            </div>
+
+
+                                            <!-- ------------------------------ -->
+                                            <!-- Trim - Arrow Down - Container  -->
+                                            <!-- ------------------------------ -->
+                                            <div class="arrow-trim-card-container">
+                                                <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card rotate-180" alt="img">
+                                            </div>
+
+
+                                          
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- ------------------------------ -->
+                                    <!-- Trim - Arrow Down - Container  -->
+                                    <!-- ------------------------------ -->
+                                    <div class="arrow-trim-card-container">
+                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                    </div>
 
 
 
@@ -1368,6 +1673,13 @@
                                     </div>
 
 
+                                    <!-- ------------------------------ -->
+                                    <!-- Trim - Arrow Down - Container  -->
+                                    <!-- ------------------------------ -->
+                                    <div class="arrow-trim-card-container">
+                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
+                                    </div>
+
 
                                     <!-- ------------------------------------------------------------ -->
                                     <!-- [1/?] Card Item - EmberJS Grundlagen                         -->
@@ -1471,126 +1783,15 @@
                                     </div>
 
 
-                                    <!-- Arrow Down -->
+                                    <!-- ------------------------------ -->
+                                    <!-- Trim - Arrow Down - Container  -->
+                                    <!-- ------------------------------ -->
                                     <div class="arrow-trim-card-container">
                                         <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
                                     </div>
 
                                     
-                                    <!-- ------------------------------------------------------------ -->
-                                    <!-- [2/?] Card Item - EmberJS Grundlagen                         -->
-                                    <!-- ------------------------------------------------------------ -->
-                                    <div class="card-layout">
-
-                                        <!-- -------------------------------- -->
-                                        <!-- Card Header                      -->
-                                        <!-- -------------------------------- -->
-                                        <div class="card-layout-header">
-
-                                            <div class="card-layout-header-number-layout">02/04</div>
-
-                                            <div class="card-layout-header-storage-layout">
-
-                                                <img src="media/img/default/icons/download-grey.png" class="img-card-layout-header" alt="img">
-                                                
-                                                <div>1.23 MB</div>
-
-                                            </div>
-
-                                        </div>
-                                        
-
-                                        <!-- -------------------------------- -->
-                                        <!-- Card Main                        -->
-                                        <!-- -------------------------------- -->
-                                        <div>
-
-                                            <!-- ----------------------------------------- -->
-                                            <!-- Main Header Title Container               -->
-                                            <!-- ----------------------------------------- -->
-                                            <div class="card-layout-main-title-container">
-
-
-                                                <div class="txt-status-in-progress-layout txt-status-in-layout">
-
-                                                    <div class="txt-status-in-txt-layout">Aktuell in Bearbeitung bis <span class="txt-u"> 05/2023 </span></div>
-
-                                                    <div class="flex ai-c jc-c">
-
-                                                        <img src="media/img/default/icons/gear.png"
-                                                         class="img-txt-status-in keyframe-anim-rotate" alt="img">
-
-                                                    </div>
-                                                     
-                                                
-                                                </div>
-
-                                                <div> EmberJS Erweitert </div>
-
-                                                
-                                            </div>
-
-                                            <!-- ----------------------------------------- -->
-                                            <!-- Main Content Container                    -->
-                                            <!-- ----------------------------------------- -->
-                                            <div class="card-layout-main-content-container">
-
-                                                <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
-                                                 class="img-float-card-layout-main-content-container" alt="img">
-
-                                                <!-- Hash Tags -->
-                                                <div>
-                                                    
-                                                    <div class="docs-hash-tags-float">#Einführung</div>
-                                                    <div class="docs-hash-tags-float">#Router</div>
-                                                    <div class="docs-hash-tags-float">#Komponenten</div>
-                                                    <div class="docs-hash-tags-float">#auto. Tests</div>
-                                                    <div class="docs-hash-tags-float">#css&#bootstrap</div>
-                                                    <div class="docs-hash-tags-float">#Java Script</div>
-                                                    <div class="docs-hash-tags-float">#Map Api</div>
-                                                    <div class="docs-hash-tags-float">#2-Projekte</div>
-
-                                                </div>
-
-                                                <!-- Button Panel -->
-                                                <div class="card-layout-main-content-button-panel">
-
-                                                    <!-- ODT -->
-                                                    <a href="#" class="btn-file-link" target="_blank" title="» show PDF in TAB">
-                                  
-                                                        <img src="media/img/default/icons/download-black.png" class="img-btn-file-link" alt="img">
-                                                        <div>.ODT</div>
-
-                                                    </a>
-
-                                                    <!-- PDF -->
-                                                    <a href="#" class="btn-file-link" target="_blank" title="» show PDF in TAB">
-                                  
-                                                        <img src="media/img/default/icons/share.png" class="img-btn-file-link" alt="img">
-                                                        <div>.PDF</div>
-
-                                                    </a>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <!-- ----------------------------------------- -->
-                                            <!-- Main Footer Container                    -->
-                                            <!-- ----------------------------------------- -->
-                                            <!-- <div class="card-layout-main-footer-container">
-                                                Footer
-                                            </div> -->
-
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Arrow Down -->
-                                    <div class="arrow-trim-card-container">
-                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-arrow-trim-card" alt="img">
-                                    </div>
+                     
 
                                     <!-- ------------------------------------------------------------ -->
                                     <!-- [3/?] Card Item - EmberJS Grundlagen                         -->
