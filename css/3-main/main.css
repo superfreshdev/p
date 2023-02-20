@@ -565,23 +565,7 @@
 }
 
 
-/* ----------------------------------------------------------- */
-/* [ Main Part] - Button Container  
-/* ----------------------------------------------------------- */
 
-
-.card-layout-button-container {
-
-    /* clear float: left of img to have correct position handling */
-    clear: both;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    column-gap: .6em;
-
-}
 /* ----------------------------------------- */
 /* Button Styling 
 /* ----------------------------------------- */
