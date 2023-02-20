@@ -505,7 +505,7 @@
 
 
 /* --------------------------------------------------------------------- */
-/* [ Main Part] - IMG & Hash Styles 
+/* [ Main Part] - IMG & Hash Styles & Mobile Radio Labels 
 /* --------------------------------------------------------------------- */
 
 
@@ -563,6 +563,8 @@
     margin-right: .1em;
 
 }
+
+
 
 
 
@@ -651,6 +653,41 @@
  
      word-break: break-all;
  }
+
+
+
+
+/* ----------------------------------------------------------- */
+/* [ Main Part] - Link List Container  
+/* ----------------------------------------------------------- */
+
+.link-list-container-card-layout {
+
+    margin: 1.8em 0em;
+    padding: 1.3em 0em;
+
+    border-top: 1px dashed var(--dark-grey-1);
+    border-bottom: 1px dashed var(--dark-grey-1);
+
+    display: grid;
+    row-gap: .3em;
+}
+
+.link-list-card-layout {
+
+    text-decoration: none;
+
+    color: var(--dark-grey-1);
+}
+
+.link-list-card-layout:visited { color: var(--dark-grey-1); }
+
+
+.link-list-card-layout:hover {
+
+    transition: .3s;
+    text-decoration: underline;
+}
 
 
 
