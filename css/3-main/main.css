@@ -498,7 +498,7 @@
     border-radius: .3em;
     /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
 
-    box-shadow: 0 0 .8em #424949;
+    box-shadow: 0 0 .4em #424949;
 }
 
 .img-max-width-card-layout-main-content-container {
@@ -507,7 +507,7 @@
     width: 100%;
     border-radius: .3em;
     /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
-    box-shadow: 0 0 .8em #424949;
+    box-shadow: 0 0 .4em #424949;
 }
 
 /* only by e.g projects */
