@@ -361,20 +361,6 @@
 /* Card Layout  
 /* ---------------------------------------------------------------------------------------- */
 
-.arrow-trim-card-container {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: .8em 0em;
-
-    /* background-color: red; */
-
-}
-
-.img-arrow-trim-card { width: 1em; }
-
 
 .card-layout {
 
@@ -400,9 +386,10 @@
     
 }
 
-/* ----------------------------------------- */
-/* Card Header 
-/* ----------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+/* [1/2] - Card Header 
+/* ----------------------------------------------------------------------------------------- */
+
 .card-layout-header {
 
     border-radius: .3em .3em 0em 0em;
@@ -451,9 +438,8 @@
 
 
 /* ----------------------------------------------------------------------------- */
-/* Card Main 
+/* [2/2] - Card Main 
 /* ----------------------------------------------------------------------------- */
-
 
 
 /* ------------------------------------------------------- */
@@ -479,6 +465,8 @@
 
 .not-finished-status-txt-container {
 
+    font-weight: bold;
+
     background-color: var(--dark-grey-3);
     height: 4em;
     border-radius: .3em;
@@ -499,42 +487,61 @@
 
 
 
+/* ---------------------------------------------------------------- */
+/* Trim Arrow Down - Container 
+/* ---------------------------------------------------------------- */
+.arrow-trim-card-container {
 
+    padding: .8em 0em;
 
-
-/* title */
-.card-layout-main-title-container {
-
-    padding: .8em .8em 0em .8em;
-
-    /* font-size: 1.1em; */
-
-    font-weight: bold;
-    color:var(--light-white-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.card-layout-main-info-develop-title { 
+
+
+
+/* --------------------------------------------------------------------------- */
+/* Card Title Container 
+/* --------------------------------------------------------------------------- */
+
+.card-layout-main-title-container {  padding: .3em .6em .2em .6em; }
+   
+/* title category */
+.card-layout-main-info-develop-title-category { 
 
     font-size: .95em;
-    padding-top: .3em;
+    /* font-weight: bold; */
+   
 }
 
-.txt-test { line-height: 1.4em; color: var(--light-white-2); }
+/* title  */
+.card-layout-main-info-develop-title {
 
-
-
-
-
-/* main content */
-.card-layout-main-content-container {
-
-    padding: .8em .8em 0em .8em;
+    font-size: 1.1em;
+    line-height: 1.4em; 
+    color: var(--light-white-2);
+    font-weight: bold;
 
 }
 
 
 
+/* --------------------------------------------------------------------------- */
+/* Card Content Container 
+/* --------------------------------------------------------------------------- */
+
+.card-layout-main-content-container {  padding: .3em .8em .3em .8em; }
+
+
+/* ---------------------------------------- */
+/* Big Img Pos Layout 
+/* ---------------------------------------- */
+
+
+/* img float left */  
 .img-float-card-layout-main-content-container { 
     
     /* orientation of font-size 1.1em */
@@ -549,6 +556,7 @@
     box-shadow: 0 0 .4em #424949;
 }
 
+/* img max width in card */
 .img-max-width-card-layout-main-content-container {
 
     height: 7.5em;
@@ -558,7 +566,13 @@
     box-shadow: 0 0 .4em #424949;
 }
 
-/* only by e.g projects */
+
+/* ----------------------------------------------------------- */
+/* Hashtag / Radio - Container & Hash Styles 
+/* ----------------------------------------------------------- */
+
+
+/* Hashtags under Picture */
 .card-layout-main-content-max-width-hash-tag-container {
 
     display: flex;
@@ -571,7 +585,7 @@
 
 }
 
-/* only files / layout */
+/* Radio under Picture  */
 .card-layout-main-content-radio-boxes {
 
     padding-bottom: 1em;
@@ -584,6 +598,41 @@
 
 }
 
+
+
+
+/* ----------------------------------------------------------- */
+/* Button Panel Container  
+/* ----------------------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------------------- */
+/* Repo Container  
+/* ----------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* file list layout */
 
 .card-layout-main-file-list-layout {
@@ -591,14 +640,11 @@
     padding: 1.3em 0em;
 
     margin-bottom: 1em;
-
-
     display: flex;
     flex-direction: column;
     row-gap: 1.3em;
-/* 
-    border-top: 1px solid var(--dark-grey-2);
-    border-bottom: 1px solid var(--dark-grey-2); */
+
+
 }
 
 
