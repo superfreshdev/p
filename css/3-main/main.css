@@ -507,7 +507,7 @@
 /* Card Title Container 
 /* --------------------------------------------------------------------------- */
 
-.card-layout-main-title-container {  padding: .3em .6em .2em .6em; }
+.card-layout-main-title-container {  padding: .3em .8em .2em .8em; }
    
 /* title category */
 .card-layout-main-info-develop-title-category { 
@@ -533,7 +533,7 @@
 /* Card Content Container 
 /* --------------------------------------------------------------------------- */
 
-.card-layout-main-content-container {  padding: .3em .8em .3em .8em; }
+.card-layout-main-content-container {  padding: .3em 1.3em .3em 1.3em; }
 
 
 /* ---------------------------------------- */
