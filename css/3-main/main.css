@@ -466,6 +466,18 @@
 
 }
 
+.card-layout-main-info-develop-title, 
+.txt-test { 
+
+    font-size: .85em;
+}
+
+.txt-test { line-height: 1.4em; }
+
+
+
+
+
 /* main content */
 .card-layout-main-content-container {
 
@@ -484,7 +496,7 @@
     margin-right: .8em;
     margin-bottom: .5em;
     border-radius: .3em;
-    box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px;
+    /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
 
 }
 
@@ -493,7 +505,7 @@
     height: 7.5em;
     width: 100%;
     border-radius: .3em;
-    box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px;
+    /* box-shadow: rgb(255 0 0) 0px 0.7px 1px 0px, rgb(0 118 235) 0px 0px 0px 1px; */
 }
 
 /* only by e.g projects */
