@@ -670,12 +670,14 @@
     border-bottom: 1px dashed var(--dark-grey-1);
 
     display: grid;
-    row-gap: .3em;
+    row-gap: 1.5em;
 }
 
 .link-list-card-layout {
 
     text-decoration: none;
+
+    line-height: 1.4em;
 
     color: var(--dark-grey-1);
 }
