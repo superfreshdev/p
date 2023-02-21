@@ -71,6 +71,29 @@
     /* --------------------------------------------------------------------- */
 
 
+        /* --------------------------------------------- */
+        /* Card Items Layout Container 
+        /* --------------------------------------------- */
+        .file-filter-list-item-container {
+
+            flex-direction: row;
+
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+            column-gap: 0em;
+            row-gap: 0em;
+        }
+
+        /* Arrow Down Mobile Version Unshown */
+        .trigger-only-mobile-arrow-down-card-layout { display: none; }
+
+        /* Card Layout get max-width */
+        .card-layout { max-width: 23em;}
+
+
+
 }
 
 
