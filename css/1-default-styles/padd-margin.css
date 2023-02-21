@@ -40,10 +40,24 @@
 .padd-t-0-6em { padding-top: .6em; }
 .padd-t-0-8em { padding-top: .8em; }
 
+.padd-t-1em { padding-top: 1em; }
+.padd-t-1-2em { padding-top: 1.2em; }
+.padd-t-1-5em { padding-top: 1.5em; }
+
 /* bottom */
+.padd-b-0-3em { padding-bottom: .3em; }
+.padd-b-0-6em { padding-bottom: .6em; }
+.padd-b-0-8em { padding-bottom: .8em; }
 
 
+/* ------------------------------------------ */
+/* Different Size 
+/* ------------------------------------------ */
 
+/* top & bottom */
+.padd-t-1m-b-0-3em { padding-top: 1em; padding-bottom: .3em;}
+.padd-t-1-2em-b-0-3em { padding-top: 1.2em; padding-bottom: .3em;}
+.padd-t-1-8em-b-1-2em { padding-top: 1.8em; padding-bottom: 1.2em;}
 
 
 /* ------------------------------------------------------------------- */

@@ -262,3 +262,66 @@ input#radio-my-main-nav-topic-filter-docs-tt-multimedia:checked ~ #my-main-conta
 
     display: flex;
 }
+
+
+
+/* ------------------------------------------------------- */
+/* [Styling] - Gimp Radio - Tech Tools 
+/* ------------------------------------------------------- */
+
+/* default unshown radio */
+input#radio-my-main-container-docs-gimp-yt-gui ,
+input#radio-my-main-container-docs-gimp-yt-practice {
+
+    display: none;
+
+}
+
+
+/* if checked -> set checked styling */
+input#radio-my-main-container-docs-gimp-yt-gui:checked ~ #my-main-container #trigger-lbl-radio-my-main-container-docs-gimp-yt-gui ,
+input#radio-my-main-container-docs-gimp-yt-practice:checked ~ #my-main-container #trigger-lbl-radio-my-main-container-docs-gimp-yt-practice {
+
+    background-color: var(--light-brown-3);
+    color:var(--dark-black-1);
+    border: 1px solid var(--light-brown-3);
+
+}
+
+/* if checked -> change circle border color */
+input#radio-my-main-container-docs-gimp-yt-gui:checked ~ #my-main-container #trigger-lbl-radio-my-main-container-docs-gimp-yt-gui > .my-own-circle-outside ,
+input#radio-my-main-container-docs-gimp-yt-practice:checked ~ #my-main-container #trigger-lbl-radio-my-main-container-docs-gimp-yt-practice > .my-own-circle-outside {
+
+    border: .13em solid var(--dark-black-1);
+
+}
+
+/* if checked -> set point in circle radio */
+input#radio-my-main-container-docs-gimp-yt-gui:checked ~ #my-main-container #trigger-lbl-radio-my-main-container-docs-gimp-yt-gui > .my-own-circle-outside > .my-own-set-point ,
+input#radio-my-main-container-docs-gimp-yt-practice:checked ~ #my-main-container #trigger-lbl-radio-my-main-container-docs-gimp-yt-practice > .my-own-circle-outside > .my-own-set-point {
+
+    display: block;
+
+}
+
+
+/* ------------------------------------------------------- */
+/* [Handling] - Gimp Radio - Tech Tools 
+/* ------------------------------------------------------- */
+
+/* default unshown */
+#trigger-my-main-container-docs-gimp-yt-gui-links-container ,
+#trigger-my-main-container-docs-gimp-yt-practice-links-container { 
+
+    display: none;
+}
+
+
+/* if radio checked show correct list container */
+input#radio-my-main-container-docs-gimp-yt-gui:checked ~ #my-main-container #trigger-my-main-container-docs-gimp-yt-gui-links-container ,
+input#radio-my-main-container-docs-gimp-yt-practice:checked ~ #my-main-container #trigger-my-main-container-docs-gimp-yt-practice-links-container {
+
+    display: grid;
+
+}
+
