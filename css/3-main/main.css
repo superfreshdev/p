@@ -316,21 +316,26 @@
 
 
 /* ---------------------------------------------------- */
-/* File Filter List Container 
+/* Card Items - Layout Container 
 /* ---------------------------------------------------- */
 
 
-.file-filter-list-container {
+.card-items-layout-container {
 
     font-size: .85em;
 
-    color: var(--medium-grey-3);
-    background-color: var(--dark-black-1);
-
-    /* background-color: red; */
-
     /* Default Mobile Version */
     padding: 2em .6em 0em .6em;
+
+    color: var(--medium-grey-3);
+    background-color: var(--dark-black-1);
+    /* background-color: red; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    row-gap: 1.5em;
     
 }
 
@@ -388,7 +393,7 @@
 
 
 /* ---------------------------------------------------------------------------------------- */
-/* Card Layout  
+/* [Template] - Card Layout  
 /* ---------------------------------------------------------------------------------------- */
 
 
