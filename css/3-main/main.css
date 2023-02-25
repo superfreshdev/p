@@ -361,19 +361,21 @@
     min-width: 10em;
     max-width: 22em;
 
+    margin: .6em;
+
     border-radius: .3em;
 
     background-color: var(--dark-grey-1);
     color:var(--dark-black-1);
     /* font-weight: bold; */
 
-    /* line-height: 1.5em; */
+    line-height: 1.4em;
 
     padding: .8em;
 
 }
 
-.img-no-js { width: 3em; }
+.img-no-js { width: 2.3em; }
 
 .img-me-no-js { height: 8em; }
 
