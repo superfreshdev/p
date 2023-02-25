@@ -71,7 +71,14 @@
 .cg-0-8em { column-gap: .8em; }
 .cg-1em { column-gap: 1em; }
 
+.cg-1-2em { column-gap: 1.2em; }
+.cg-1-5em { column-gap: 1.5em; }
+.cg-1-8em { column-gap: 1.8em; }
+.cg-2em { column-gap: 2em; }
 
+.cg-2-2em { column-gap: 2.2em; }
+.cg-2-5em { column-gap: 2.5em; }
+.cg-2-8em { column-gap: 2.8em; }
 
 /* ------------------------------------------------ */ 
 /* Row Gap 
@@ -82,15 +89,36 @@
 .rg-0-8em { row-gap: .8em; }
 .rg-1em { row-gap: 1em; }
 
+.rg-1-2em { row-gap: 1.2em; }
+.rg-1-5em { row-gap: 1.5em; }
+.rg-1-8em { row-gap: 1.8em; }
+.rg-2em { row-gap: 2em; }
+
+.rg-2-2em { row-gap: 2.2em; }
+.rg-2-5em { row-gap: 2.5em; }
+.rg-2-8em { row-gap: 2.8em; }
 
 
-/* ------------------------------------------------ */ 
+/* ---------------------------------------------------------------------- */ 
 /* Gaps
-/* ------------------------------------------------ */ 
+/* ---------------------------------------------------------------------- */ 
+
+/* --------------------------------- */
+/* Same - Columg & Row 
+/* --------------------------------- */
 
 .gaps-0-3em { column-gap: .3em; row-gap: .3em; }
 .gaps-0-4em { column-gap: .4em; row-gap: .4em; }
 .gaps-0-6em { column-gap: .6em; row-gap: .6em; }
-
 .gaps-0-8em { column-gap: .8em; row-gap: .8em; }
 .gaps-1em { column-gap: 1em; row-gap: 1em; }
+
+.gaps-1-2em { column-gap: 1.2em; row-gap: 1.2em; }
+.gaps-1-5em { column-gap: 1.5em; row-gap: 1.5em; }
+.gaps-1-8em { column-gap: 1.8em; row-gap: 1.8em; }
+
+/* --------------------------------- */
+/* Different - Columg & Row 
+/* --------------------------------- */
+
+.cg-0-3em-rg-0-5em { column-gap: .3em; row-gap: .5em; }
