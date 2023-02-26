@@ -926,7 +926,7 @@
                         <!-- ------------------------------------------------------------------------------- -->
                         <!-- Card Items Layout Container                                                     -->
                         <!-- ------------------------------------------------------------------------------- -->
-                        <div class="card-items-layout-container">
+                        <div id="docs-card-items-layout-container">
 
 
                             <!-- ----------------------------------------------------------- -->
@@ -947,7 +947,7 @@
                                     <div class="padd-t-0-6em">
                                         
                                         » Aktivieren Sie Java Script damit 
-                                        wieder der Inhalt geladen werden kann.
+                                        der Seiteninhalt wieder geladen werden kann.
                                     </div>
 
                                 </div>
@@ -987,7 +987,6 @@
 
                                 </div>
                                 
-
                                 <!-- -------------------------------------------------------------------------------------------- -->
                                 <!-- [2/2] - Main Card                                                                                      -->
                                 <!-- -------------------------------------------------------------------------------------------- -->
@@ -995,504 +994,548 @@
 
 
                                     <!-- ------------------------------------------------------------------- -->
-                                    <!-- Not Finish Status Container                                   -->
+                                    <!-- [Not Finish Status] - Container                                     -->
                                     <!-- ------------------------------------------------------------------- -->
-                                    <div name="json-card-not-finish-parts">
+                                    <div name="json-card-item-not-finish-container">
 
-                                        <!-- Animated Img - Container -->
-                                        <div class="flex jc-c">
-                                            <div class="flex ai-c jc-c not-finished-status-img-container">
-                                                <img src="media/img/default/icons/gear.png"
-                                                    class="img-w-1-5em keyframe-anim-360-rotation-4s-linear-infinity"
-                                                    name="json-card-not-finish-info-icon"
-                                                    alt="img">
-                                            </div>                                                       
-                                        </div>
+                                       
+                                        <div class="flex ai-c jc-c cg-0-8em txt-b"
+                                             name="json-card-item-not-finish-container-in-progress">
 
-                                        <!-- Text - Container -->
-                                        <div class="flex jc-c">
 
-                                            <div class="iflex jc-c fd-c not-finished-status-txt-container">
-
-                                                <div name="json-card-not-finish-info-text">
-                                                    Aktuell in Bearbeitung <br>
-                                                    bis <span class="txt-u" name="json-card-not-finish-date-text">03/2023</span>
-                                                </div>
-                                                
-
+                                            <img src="media/img/default/icons/gear.png"
+                                            class="img-w-1-5em keyframe-anim-360-rotation-4s-linear-infinity"                                           
+                                            alt="img">
+                                                                                                                                    
+                                            <div class="txt-a-c">
+                                                Aktuell in Bearbeitung 
+                                                bis <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
                                             </div>
 
+                                            <img src="media/img/default/icons/gear.png"
+                                            class="img-w-1-5em keyframe-anim-360-rotation-4s-linear-infinity"                                          
+                                            alt="img">
+                                            
                                         </div>
 
-                                    </div>
-
-                                    <!-- ------------------------------------------------------------------- -->
-                                    <!-- [Not Finish] - Trim Arrow "Down" - Container                         -->
-                                    <!-- ------------------------------------------------------------------- -->
-                                    <div class="flex ai-c jc-c padd-t-1-8em-b-1-2em" name="json-card-not-finish-parts">
-                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-w-1em opacity-0-2" alt="img">
-                                    </div>
-
-                                    <!-- ------------------------------------------------------------------- -->
-                                    <!-- Card Title - Container                                                -->
-                                    <!-- ------------------------------------------------------------------- -->
-                                    <div class="padd-lr-0-3em">
-
-                                        <!-- --------------------------------------------- -->
-                                        <!-- Info Develop Title Category                   -->
-                                        <!-- --------------------------------------------- -->
-                                        <div class="flex aic-c cg-0-5em txt-b">
-                                                
-                                            <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
-                                                
-                                                <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                <div name="json-card-category-tech-text">Type Script</div>
-                                            </div>
-
-                                            <div> ⋅ </div>
-
-                                            <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
-                                                <img src="media/img/default/icons/info-icons/pdf.png" 
-                                                name="json-card-category-tech-area-img-src" 
-                                                class="img-w-0-8em" img="alt">
-                                                <div name="json-card-category-tech-area-text">Tutorial</div>
-                                            </div>
-
-                                        </div> 
-                                        
-                                        <!-- --------------------------------------------- -->
-                                        <!-- Info Develop Title                            -->
-                                        <!-- --------------------------------------------- -->
-                                        <div class="card-layout-main-info-develop-title"
-                                            name="json-card-title">
-                                            20 Coding Katas 
+                                     
+                                        <div name="json-card-item-not-finish-container-in-planning">
+                                            
                                         </div>
 
-                                    </div>
-
-            
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!-- [Float-Version for Docs] - Card IMG & Hashtag - Container                  -->
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!-- <div class="marg-t-0-8em-b-0-4em" name="json-trigger-container-card-img-float-hashtags">
-
-                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
-                                            class="img-float-card-layout" alt="img">
-
-                                
-                                        <div class="float-hashtag">#angular</div>
-                                        <div class="float-hashtag">#typescript</div>
-                                        <div class="float-hashtag">#angularCSS</div>
-                                        <div class="float-hashtag">#chartJS</div>
-                                        <div class="float-hashtag">#graphQL</div>
-                                        <div class="float-hashtag">#auto. Tests</div>                                           
-                                        <div class="float-hashtag">#postgreSQL</div>
-
-                                        
-                                    </div> -->
-
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!-- [Project-Version] - Card IMG & Hashtag - Container                  -->
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <div name="json-trigger-container-card-img-hashtags">
-
-                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/github-project-cover.png"
-                                            class="img-max-width-card-layout marg-t-0-8em-b-0-4em" alt="img">
-
-                                        <!-- --------------------------- -->
-                                        <!-- Hash Tags                   -->
-                                        <!-- --------------------------- -->
-                                        <div class="flex ai-c fw-w gaps-0-4em">
+                                     
+                                        <div name="json-card-item-not-finish-container-thinking">
                                             
-                                            <div class="hashtag">#angular</div>
-                                            <div class="hashtag">#typescript</div>
-                                            <div class="hashtag">#angularCSS</div>
-                                            <div class="hashtag">#chartJS</div>
-                                            <div class="hashtag">#graphQL</div>
-                                            <div class="hashtag">#auto. Tests</div>                                           
-                                            <div class="hashtag">#postgreSQL</div>
-
                                         </div>
 
-                                        <!-- --------------------------------------------------------------------------- -->
-                                        <!-- Radio YouTube Files - Container                                              -->
-                                        <!-- --------------------------------------------------------------------------- -->
-                                        <!-- <div class="flex ai-c fw-w gaps-0-4em padd-b-1em"> 
-                                                                                
-                                            <label for="radio-my-main-container-docs-gimp-yt-gui"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-radio-my-main-container-docs-gimp-yt-gui"
-                                            name="name-radio-my-main-container-docs-gimp-yt">
-
-                                                <div class="my-own-circle-outside">
-                                                    <div class="my-own-set-point"></div>                           
-                                                </div>
-                                                <div> Gimp Oberfläche </div>
-                                            
-                                            </label>
-                                            
-                                            <label for="radio-my-main-container-docs-gimp-yt-practice"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
-                                            name="name-radio-my-main-container-docs-gimp-yt">
-
-                                                <div class="my-own-circle-outside">
-                                                    <div class="my-own-set-point"></div>
-                                                </div>
-                                                <div> Übungsbeispiele </div>
-                                            
-                                            </label>
-                                            
-                                        </div>   -->
+   
+                                        <div class="flex ai-c jc-c padd-tb-1em" name="json-card-not-finish-parts">
+                                            <img src="media/img/default/icons/scroll-light-brown.png" class="img-w-1em opacity-0-2" alt="img">
+                                        </div>
+    
 
 
+                                    </div> 
+                               
 
-                                        <!-- --------------------------------------------------- -->
-                                        <!-- Link List Container - Gimp Oberfläche k.            -->
-                                        <!-- --------------------------------------------------- -->
-                                        <!-- <div id="trigger-my-main-container-docs-gimp-yt-gui-links-container"
-                                            class="link-list-container-card-layout">
-
-
-                                            <a href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                                
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v1.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">07:23</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em">
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                </div>
-
-                                            </a> 
-
-                                            <a href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                            
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v2.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">07:23</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em">
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                </div>
-
-                                            </a> 
-                                        
-                                            <a href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                        
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v3.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">07:23</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em">
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                </div>
-
-                                            </a> 
-                                            
-                                            <div href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                                
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v3.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">12 MB</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em sub-github-box">
-
-                                                    <div>Portfolio Template for Creatives</div>
+                                    <!-- ------------------------------------------------------------------------------ -->
+                                    <!-- Dynamically Card Item Content                                                  -->
+                                    <!-- ------------------------------------------------------------------------------ -->
+                                    <div class="grid rg-0-6em">
+                                   
+                                        <!-- ------------------------------------------------------------------- -->
+                                        <!-- [Card Category Title & Card Title] - Container                      -->
+                                        <!-- ------------------------------------------------------------------- -->
+                                        <div class="padd-lr-0-3em">
+                                          
+                                            <div class="flex aic-c cg-0-5em txt-b">
                                                     
-                                                    <div class="flex ai-c jc-fe cg-0-5em">
-
-                                                        <a href="" target="_blank" class="sub-github-box-link">SSH Clone</a>
-                                                        <a href="" target="_blank" class="sub-github-box-link">.zip</a>
-                                                        <a href="" target="_blank" class="sub-github-box-link">
-                                                            <img src="media/img/default/icons/github-black.png" class="img-w-1em" alt="img">
-                                                        </a>
-
-                                                    </div>
+                                                <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
                                                     
+                                                    <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                    <div name="json-card-category-tech-text">Type Script</div>
+                                                </div>
+
+                                                <div> ⋅ </div>
+
+                                                <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
+                                                    <img src="media/img/default/icons/info-icons/pdf.png" 
+                                                    name="json-card-category-tech-area-img-src" 
+                                                    class="img-w-0-8em" img="alt">
+                                                    <div name="json-card-category-tech-area-text">Tutorial</div>
                                                 </div>
 
                                             </div> 
-                                            
-                                            <div href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                                
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v3.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">12 MB</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em sub-github-box">
-
-                                                    <div>Portfolio Template for Creatives</div>
-                                                    
-                                                    <div class="flex ai-c jc-fe cg-0-5em">
-
-                                                    
-                                                        <a href="" target="_blank" class="sub-github-box-link">
-                                                            <img src="media/img/default/icons/download-black.png" class="img-w-1em" alt="img">
-                                                            <div>.apkg</div>
-                                                        </a>
-
-                                                    </div>
-                                                    
-                                                </div>
-
-                                            </div> 
-
-
-                                            <a href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                                
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v4.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">07:23 Min.</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em">
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                </div>
-
-                                            </a> 
-
-
-                                            <a href="" target="_blank" class="flex cg-0-8em file-card-link">
-
-                                                
-                                                <div class="flex fd-c ai-c">
-
-                                                    <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v5.png" class="img-video-card-link" alt="img">
-                                                    <div class="txt-b">12:23</div>
-
-                                                </div>
-                                                
-
-                                                <div class="padd-t-0-3em">
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                    Ein Video über das lernen von etwas und so weiter
-                                                </div>
-
-                                            </a> 
-
-                                        
-                                            
-                                        </div>  -->
-
                                                                                     
-                                    </div>
-
-
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!--  Card Button - Container                                                    -->
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!-- <div class="flex aic-c jc-fe cg-0-5em padd-t-1-5em clear-both"
-                                        name="json-card-button-container">
-
-
-                                        <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
-                            
-                                            <img src="media/img/default/icons/download-black.png"
-                                            name="json-card-btn-1st-link-img-src"
-                                            class="img-btn-file-link" alt="img">
-                                            <div name="json-card-btn-1st-link-img-text">.odt</div>
-
-                                        </a>
-
-
-                                        <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
-                            
-                                            <img src="media/img/default/icons/share.png"
-                                                name="json-card-btn-2st-link-img-src"
-                                                class="img-btn-file-link"
-                                                alt="img">
-                                            <div name="json-card-btn-2st-link-img-text">.pdf</div>
-
-                                        </a>
-
-
-                                    </div>   -->
-
-
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!-- Repo - Container                                                            -->
-                                    <!-- --------------------------------------------------------------------------- -->
-                                    <!-- <div>
-
-                                        <div class="file-card-repo-clone-txt-layout">Clone Repository:</div>
-
-                                        <div class="file-card-ssh-link-layout">
-
-                                            <div class="file-card-ssh-box-layout">SSH:</div>
-
-                                            <div class="file-card-ssh-link">
-                                                git@github.com:superfreshdev/portfolio2.git
+                                            <div class="card-layout-main-info-develop-title"
+                                                name="json-card-title">
+                                                20 Coding Katas und viele weitere
+                                                Projekte nur so als Test um dies zu verstehen
+                                                nur so als Test um dies zu verstehen 
                                             </div>
 
                                         </div>
 
-                                    </div> -->
-                                    
-                                    
-                                    <!-- ------------------------------------------------------------------- -->
-                                    <!-- [Not Finish] - Trim Arrow "Up" - Container                          -->
-                                    <!-- ------------------------------------------------------------------- -->
-                                    <div class="flex ai-c jc-c padd-t-1-2em clear-both" name="json-card-not-finish-parts">
-                                        <img src="media/img/default/icons/scroll-light-brown.png" class="img-w-1em opacity-0-2 rotate-180" alt="img">
+                                        <!-- ------------------------------------------------------------------- -->
+                                        <!-- [Card Main Content] - Container                                     -->
+                                        <!-- ------------------------------------------------------------------- -->
+                                        <div class="grid rg-0-6em">
+
+
+                                            <!-- -------------------------------------------------------------- -->
+                                            <!-- [Float] - Container                                             -->
+                                            <!-- -------------------------------------------------------------- -->
+                                            <div name="json-trigger-container-card-img-float-hashtags">
+
+                                                <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
+                                                    class="img-float-card-layout"
+                                                    name="json-card-pdf-img" alt="img">
+
+                                        
+                                                <div class="float-hashtag">#angular</div>
+                                                <div class="float-hashtag">#typescript</div>
+                                                <div class="float-hashtag">#angularCSS</div>
+                                                <div class="float-hashtag">#chartJS</div>
+                                                <div class="float-hashtag">#graphQL</div>
+                                                <div class="float-hashtag">#auto. Tests</div>                                           
+                                                <div class="float-hashtag">#postgreSQL</div>
+
+                                                
+                                            </div>
+
+
+                                            <!-- -------------------------------------------------------------- -->
+                                            <!-- [Column] - Container                                           -->
+                                            <!-- -------------------------------------------------------------- -->
+                                            <div name="json-trigger-container-card-img-hashtags">
+
+                                                <img src="media/img/main/docs/topics/web-app-development/web-frameworks/github-project-cover.png"
+                                                    class="img-max-width-card-layout"
+                                                    name="json-card-item-img-hashtag"
+                                                    alt="img">
+
+                                              
+                                                <div class="flex ai-c fw-w gaps-0-4em"
+                                                     name="json-card-item-hashtag-container">
+                                                    
+                                                    <div class="hashtag">#angular</div>
+                                                    <div class="hashtag">#typescript</div>
+                                                    <div class="hashtag">#angularCSS</div>
+                                                    <div class="hashtag">#chartJS</div>
+                                                    <div class="hashtag">#graphQL</div>
+                                                    <div class="hashtag">#auto. Tests</div>                                           
+                                                    <div class="hashtag">#postgreSQL</div>
+
+                                                </div>
+
+                                            </div>
+
+
+
+                                            <!-- -------------------------------------------------------------- -->
+                                            <!-- [List] - Container                                             -->
+                                            <!-- -------------------------------------------------------------- -->
+                                            <div class="grid rg-1em">
+
+                                                <!-- -------------------------------------------------------------- -->
+                                                <!-- [Radio|Optional] - Container                                   -->
+                                                <!-- -------------------------------------------------------------- -->
+                                                <div class="flex ai-c fw-w gaps-0-4em"> 
+                                                                                        
+                                                    <label for="radio-my-main-container-docs-gimp-yt-gui"
+                                                    class="lbl-main-nav-topic-filter-item"
+                                                    id="trigger-lbl-radio-my-main-container-docs-gimp-yt-gui"
+                                                    name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                        <div class="my-own-circle-outside">
+                                                            <div class="my-own-set-point"></div>                           
+                                                        </div>
+                                                        <div> Gimp Oberfläche </div>
+                                                    
+                                                    </label>
+                                                    
+                                                    <label for="radio-my-main-container-docs-gimp-yt-practice"
+                                                    class="lbl-main-nav-topic-filter-item"
+                                                    id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
+                                                    name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                        <div class="my-own-circle-outside">
+                                                            <div class="my-own-set-point"></div>
+                                                        </div>
+                                                        <div> Übungsbeispiele </div>
+                                                    
+                                                    </label>
+
+                                                    <label for="radio-my-main-container-docs-gimp-yt-practice"
+                                                    class="lbl-main-nav-topic-filter-item"
+                                                    id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
+                                                    name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                        <div class="my-own-circle-outside">
+                                                            <div class="my-own-set-point"></div>
+                                                        </div>
+                                                        <div> Übungsbeispiele </div>
+                                                    
+                                                    </label>
+
+                                                    <label for="radio-my-main-container-docs-gimp-yt-practice"
+                                                    class="lbl-main-nav-topic-filter-item"
+                                                    id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
+                                                    name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                        <div class="my-own-circle-outside">
+                                                            <div class="my-own-set-point"></div>
+                                                        </div>
+                                                        <div> Übungsbeispiele </div>
+                                                    
+                                                    </label>
+                                                    
+                                                </div>  
+
+
+                                                <!-- -------------------------------------------------------------- -->
+                                                <!-- [List Content] - Container                                     -->
+                                                <!-- -------------------------------------------------------------- -->
+                                                <div class="card-item-list-content-container">
+                                                   
+                                                    <a href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                        <div class="grid ji-c rg-0-3em">
+                                                            <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v1.png" class="img-file-card-link" alt="img">
+                                                            <div class="txt-color-dark-grey-2">07:23 Min.</div>
+                                                        </div>
+
+                                                        <div>
+                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                            und wie es weiter geht und somit etwas meht Text.
+                                                        </div>
+
+                                                        
+                                                    </a>
+
+                                                    <a href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                        <div class="grid ji-c rg-0-3em">
+                                                            <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v2.png" class="img-file-card-link" alt="img">
+                                                            <div class="txt-color-dark-grey-2">07:23 Min.</div>
+                                                        </div>
+
+                                                        <div>
+                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                            
+                                                        </div>
+
+                                                        
+                                                    </a>
+
+                                                    <a href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                        <div class="grid ji-c rg-0-3em">
+                                                            <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v3.png" class="img-file-card-link" alt="img">
+                                                            <div class="txt-color-dark-grey-2">07:23 Min.</div>
+                                                        </div>
+
+                                                        <div>
+                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                            und wieder nocht mehr
+                                                            
+                                                        </div>
+
+                                                        
+                                                    </a>
+
+                                                    <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                        <div class="grid ji-c ac-fs rg-0-3em">
+                                                            <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v4.png" class="img-file-card-link" alt="img">
+                                                            <div class="txt-color-dark-grey-2">22 MB</div>
+                                                        </div>
+
+                                                        <div class="file-card-link-github-box">
+                                                        
+                                                            <div>
+                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                und wieder nocht mehr
+                                                            </div>
+
+                                                            <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+                                                     
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">SSH</a>
+
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                    <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                    <div>.Zip</div>
+                                                                    
+                                                                </a>                                                               
+                                                                
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                    <img src="media/img/default/icons/github-black.png" class="img-w-0-8em" alt="img">
+                                                                </a> 
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </d>
+
+                                                        <!-- <div class="file-card-link-github-box">
+
+                                                            <div>
+                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                und wieder nocht mehr
+                                                            </div>
+
+                                                            <div class="flex ai-c jc-fe cg-0-5em">
+
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">SSH Clone</a>
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                    <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                    <div>.Zip</div>
+                                                                    
+                                                                </a>
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                    <img src="media/img/default/icons/github-black.png" class="img-w-0-8em" alt="img">
+                                                                </a>
+
+                                                            </div>
+                                                            
+                                                        </div> -->
+
+                                                        
+                                                   
+
+                                                    </div>
+
+                                                    <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                        <div class="grid ji-c ac-fs rg-0-3em">
+                                                            <img src="media/img/main/docs/topics/tech-tools/multimedia/anki/anki-thumb.png" class="img-file-card-link" alt="img">
+                                                            <div class="txt-color-dark-grey-2">22 MB</div>
+                                                        </div>
+
+                                                        <div class="file-card-link-github-box">
+                                                        
+                                                            <div>
+                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                und wieder nocht mehr
+                                                            </div>
+
+                                                            <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+                                                     
+                                                                
+
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                    <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                    <div>.apkg</div>
+                                                                    
+                                                                </a>                                                               
+                                                                
+                                                                
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </d>
+
+                                                        <!-- <div class="file-card-link-github-box">
+
+                                                            <div>
+                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                und wieder nocht mehr
+                                                            </div>
+
+                                                            <div class="flex ai-c jc-fe cg-0-5em">
+
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">SSH Clone</a>
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                    <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                    <div>.Zip</div>
+                                                                    
+                                                                </a>
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                    <img src="media/img/default/icons/github-black.png" class="img-w-0-8em" alt="img">
+                                                                </a>
+
+                                                            </div>
+                                                            
+                                                        </div> -->
+
+                                                        
+                                                   
+
+                                                    </div>
+
+                                                    <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                        <div class="grid ji-c ac-fs rg-0-3em">
+                                                            <img src="media/img/main/docs/topics/tech-tools/multimedia/figma/figma-thunbmail.png" class="img-file-card-link" alt="img">
+                                                            <div class="txt-color-dark-grey-2">22 MB</div>
+                                                        </div>
+
+                                                        <div class="file-card-link-github-box">
+                                                        
+                                                            <div>
+                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                und wieder nocht mehr
+                                                            </div>
+
+                                                            <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+
+                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                    <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                    <div>.fig</div>
+                                                                    
+                                                                </a>                                                               
+
+
+                                                            </div>
+                                                           
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                            <div class="grid ji-c ac-fs rg-0-3em">
+                                                                <img src="media/img/main/docs/topics/tech-tools/office/writer-thunbmail.png" class="img-file-card-link" alt="img">
+                                                                <div class="txt-color-dark-grey-2">22 MB</div>
+                                                            </div>
+    
+                                                            <div class="file-card-link-github-box">
+                                                            
+                                                                <div>
+                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                    und wieder nocht mehr
+                                                                </div>
+    
+                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+    
+                                                         
+                                                                    
+    
+                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
+    
+                                                                        <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                        <div>.odt</div>
+                                                                        
+                                                                    </a>                                                               
+                                                                    
+                                                                    
+    
+                                                                </div>
+    
+                                                            </div>
+
+                                                    </div>
+
+                                                    <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                        
+                                                            <div class="grid ji-c ac-fs rg-0-3em">
+                                                                <img src="media/img/main/docs/topics/tech-tools/office/impress-thunbmail.png" class="img-file-card-link" alt="img">
+                                                                <div class="txt-color-dark-grey-2">22 MB</div>
+                                                            </div>
+    
+                                                            <div class="file-card-link-github-box">
+                                                            
+                                                                <div>
+                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                    und wieder nocht mehr
+                                                                </div>
+    
+                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+    
+                                                         
+                                                                    
+    
+                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
+    
+                                                                        <img src="media/img/default/icons/download-black.png" class="img-w-0-8em" alt="img">
+                                                                        <div>.odp</div>
+                                                                        
+                                                                    </a>                                                               
+                                                                    
+                                                                    
+    
+                                                                </div>
+    
+                                                            </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+
+
+                                                <!-- -------------------------------------------------------------- -->
+                                                <!-- [Button] - Container                                           -->
+                                                <!-- -------------------------------------------------------------- -->
+                                                <div class="flex aic-c jc-fe cg-0-5em clear-both"
+                                                    name="json-card-button-container">
+
+
+                                                    <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
+                                        
+                                                        <img src="media/img/default/icons/download-black.png"
+                                                        name="json-card-btn-1st-link-img-src"
+                                                        class="img-btn-file-link" alt="img">
+                                                        <div name="json-card-btn-1st-link-img-text">.odt</div>
+
+                                                    </a>
+
+
+                                                    <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
+                                        
+                                                        <img src="media/img/default/icons/share.png"
+                                                            name="json-card-btn-2st-link-img-src"
+                                                            class="img-btn-file-link"
+                                                            alt="img">
+                                                        <div name="json-card-btn-2st-link-img-text">.pdf</div>
+
+                                                    </a>
+
+
+                                                </div>  
+
+
+                                                <!-- -------------------------------------------------------------- -->
+                                                <!-- [Repo] - Container                                             -->
+                                                <!-- -------------------------------------------------------------- -->
+                                                <div>
+
+                                                    <div class="file-card-repo-clone-txt-layout">Clone Repository:</div>
+
+                                                    <div class="file-card-ssh-link-layout">
+
+                                                        <div class="file-card-ssh-box-layout">SSH:</div>
+
+                                                        <div class="file-card-ssh-link">
+                                                            git@github.com:superfreshdev/portfolio2.git
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
                                     </div>
 
-                                    
-                                    
-                
                                 </div>
-
-                            </div>
-
-
-                            <!-- ------------------------------ -->
-                            <!-- Trim - Arrow Down - Container  -->
-                            <!-- ------------------------------ -->
-                            <div class="trigger-only-mobile-arrow-down-card-layout flex ai-c jc-c padd-t-1-8em-b-1-2em">
-                                <img src="media/img/default/icons/scroll-light-brown.png" class="img-w-1em" alt="img">
-                            </div>
-
- 
-
-                        </div>
-
-
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- [2/4] - Data Science ( File Filter Block Container )           -->
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div id="trigger-file-filter-list-container-data-science">
                                 
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [1/4] - Data Science - DS-Tools - Container                   -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-ds-data-science-tools">
-
-                                    DS-Tools
-    
-                                </div>
-
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [2/4] - Data Science - Math - Container              -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-ds-math">
-
-                                    Math
-    
-                                </div>
-
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [3/4] - Data Science - Programming - Container    -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-ds-programming">
-
-                                    DS-Programmierung
-    
-                                </div>
-
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [4/4] - Data Science - ML KI - Container                        -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-ds-ml-ki">
-
-                                    ML & KI
-    
-                                </div>
-
                             </div>
 
-                            
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- [3/4] - Backend & Co ( File Filter Block Container )           -->
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div id="trigger-file-filter-list-container-backend-co">
-
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- All Files -Backend & Co                   -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container">
-
-                                    <div class="card-content">Card 1 </div>
-                                    <div class="card-content">Card 1 </div>
-                                    <div class="card-content">Card 1 </div>
-  
-    
-                                </div>
-
-                            </div>
-
-
-                            <!-- ---------------------------------------------------------------------- -->
-                            <!-- [4/4] - Tech Tools ( File Filter Block Container )           -->
-                            <!-- ---------------------------------------------------------------------- -->
-                            <div id="trigger-file-filter-list-container-tech-tools">
-                                
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [1/3] - Tech Tools - Entwicklung - Container                   -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-tt-dev">
-
-                                    Entwicklung
-    
-                                </div>
-
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [2/3] - Tech Tools - Office - Container              -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-tt-office">
-
-                                    Office
-    
-                                </div>
-
-                                <!-- ------------------------------------------------------------ -->
-                                <!-- [3/3] - Tech Tools - Multimedia - Container    -->
-                                <!-- ------------------------------------------------------------ -->
-                                <div class="file-filter-list-item-container" id="trigger-file-filter-list-item-container-docs-tt-multimedia">
-
-                                    Multimedia
-    
-                                </div>
-
-                                
-
-                            </div>
-                         
-
-                           
-                           
                         </div>
 
 

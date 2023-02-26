@@ -23,6 +23,7 @@
 .padd-lr-0-8em { padding: 0em .8em } 
 
 /* top & bottom */
+.padd-tb-0-1em { padding: .1em 0em }
 .padd-tb-0-3em { padding: .3em 0em }
 .padd-tb-0-5em { padding: .5em 0em } 
 .padd-tb-0-8em { padding: .8em 0em } 
@@ -31,9 +32,10 @@
 .padd-tb-1-2em { padding: 1.2em 0em } 
 .padd-tb-1-5em { padding: 1.5em 0em } 
 
-
-
-
+/* ( left & right ) & ( top & bottom ) */
+.padd-tb-1em-lr-0-3em { padding: 1em .3em; }
+.padd-tb-0-8em-lr-0-3em { padding: .8em .3em; }
+.padd-tb-0-6em-lr-0-3em { padding: .6em .3em; }
 
 /* ------------------------------------------ */
 /* [2/?] - One Size
@@ -57,6 +59,8 @@
 .padd-b-1-2em { padding-bottom: 1.2em; }
 .padd-b-1-5em { padding-bottom: 1.5em; }
 
+
+
 /* ------------------------------------------ */
 /* [3/?] - Different Size 
 /* ------------------------------------------ */
@@ -68,6 +72,26 @@
 
 /* left & right -> Different Size */
 .padd-tb-1-6em-lr-0-8em {  padding: 1.6em .8em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------------------------------------------- */
 /* Margin
@@ -86,6 +110,18 @@
 .marg-tb-0-8em { margin: .8em 0em } 
 
 
+/* ------------------------------------------ */
+/* [2/?] - One Size
+/* ------------------------------------------ */
+
+
+/* bottom */
+
+.marg-b-0-2em { margin-bottom: .2em; }
+.marg-b-0-3em { margin-bottom: .3em; }
+.marg-b-0-6em { margin-bottom: .6em; }
+.marg-b-0-8em { margin-bottom: .8em; }
+.marg-b-1em { margin-bottom: 1em; }
 
 /* ------------------------------------------ */
 /* Different Size 

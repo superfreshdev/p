@@ -320,18 +320,19 @@
 /* ---------------------------------------------------- */
 
 
-.card-items-layout-container {
+#docs-card-items-layout-container {
 
     font-size: .85em;
 
     /* Default Mobile Version */
-    padding: 2em .6em 0em .6em;
+    padding: 2em .6em 2em .6em;
 
     color: var(--medium-grey-3);
     background-color: var(--dark-black-1);
     /* background-color: red; */
 
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
@@ -339,28 +340,6 @@
     
 }
 
-
-
-
-.file-filter-list-item-container {
-
-    display: flex;
-    flex-direction: column;
-    /* align-items: flex-start; */
-    /* flex-wrap: wrap; */
-
-    /* justify-content: space-evenly; */
-
-    column-gap: 1.3em;
-    /* Only for Desktop View */
-    /* row-gap: 3.8em; */
-
-
-    padding-bottom: 2em;
-
-    /* background-color: green; */
-
-}
 
 
 /* ----------------------------------------------------------- */
@@ -445,27 +424,28 @@
 
 
 
-/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
 /* [2/2] - Card Main 
-/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
 
+/* [Optional] - in progress , in planning , thinking  
+/* [Optional] - arrow up & arrow down for ( in progress , in planning , thinking  )
+
+/* [Card - Title Container] - Categroy Header & Title Header 
+
+/* [Card - Document Container ] - float Content
+/* [Card - Project Container / Files Container ] - column container / column list container 
+
+/* [Card - Button Panel Container ] - 1 or 2 Buttons 
+
+/* [ Card - Repo Container ] - Link to Clone 
 
 
 /* ------------------------------------------------------- */
 /* [Main Part] - Not Finished Status Container 
 /* ------------------------------------------------------- */
 
-.not-finished-status-img-container {
 
-    width: 3em;
-    height: 3em;
-
-    border-top-left-radius: .3em;
-    border-top-right-radius: .3em;
-    
-    background-color: var(--dark-grey-3);
-
-}
 
 .not-finished-status-txt-container {
 
@@ -506,6 +486,8 @@
     font-weight: bold;
 
 }
+
+
 
 
 
@@ -567,6 +549,122 @@
     margin-bottom: .6em;
     margin-right: .1em;
 
+}
+
+
+/* ----------------------------------------- */
+/* Card Item - List Content Container
+/* ----------------------------------------- */
+
+.card-item-list-content-container {
+
+    padding: 1.3em 0em;
+
+    border-top: 1px solid var(--dark-grey-3);
+    border-bottom: 1px solid var(--dark-grey-3);
+
+    display: grid;
+    row-gap: .8em;
+}
+
+
+.file-card-link {
+
+    /* font-weight: bold; */
+    /* padding: .6em; */
+    padding: .6em;
+    border-radius: .3em;
+
+    text-decoration: none;
+    line-height: 1.4em;
+    color: var(--light-grey-3);
+}
+
+.file-card-link:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+    color:var(--dark-black-1);
+    /* font-weight: bold; */
+}
+
+.img-file-card-link { 
+
+    width: 5.5em;
+    height: 4em;
+
+    border-radius: .2em;
+}
+
+/* ------------------------------------------------- */
+/* File Card Link - GitHub Project
+/* ------------------------------------------------- */
+
+.file-card-link-github-box {
+
+
+    width: 100%;
+
+    display: grid;
+    grid: 1fr auto / 1fr;
+    
+}
+
+.file-card-link-github-link {
+
+    height: 2em;
+    padding: 0em .6em;
+
+    text-decoration: none;
+
+    font-weight: bold;
+    color: var(--dark-black-1);
+    background-color: var(--dark-grey-1);
+
+    border-radius: .3em;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: .3em;
+
+}
+
+
+.file-card-link-github-link:hover {
+
+    transition: .3s;
+    background-color: var(--medium-grey-2);
+}
+
+.img-video-card-link { 
+
+    width: 5.3em;
+    height: 4em;
+
+    border-radius: .3em;
+    box-shadow: rgba(80, 80, 80, 0.8) 0px 4px 12px;
+}
+
+
+.link-list-card-layout {
+
+    text-decoration: none;
+
+    line-height: 1.4em;
+
+    color: var(--dark-grey-1);
+}
+
+.link-list-card-layout:visited { color: var(--dark-grey-1); }
+
+
+.link-list-card-layout:hover {
+
+    transition: .3s;
+    text-decoration: underline;
 }
 
 
@@ -677,90 +775,6 @@
     display: grid;
     row-gap: 1em;
 }
-
-.file-card-link {
-
-    /* font-weight: bold; */
-    /* padding: .6em; */
-    padding: 0em .6em .6em 0em;
-    border-radius: .3em;
-
-    text-decoration: none;
-    line-height: 1.4em;
-    color: var(--light-grey-3);
-}
-
-.file-card-link:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-    color:var(--dark-black-1);
-    font-weight: bold;
-}
-
-.sub-github-box {
-
-    width: 100%;
-
-    display: grid;
-    grid: 1fr auto / 1fr;
-   
-}
-
-.sub-github-box-link {
-
-    text-decoration: none;
-    color: var(--dark-black-1);
-
-    
-
-    border-radius: .3em;
-    background-color: var(--dark-grey-1);
-
-    height: 2em;
-    padding: 0em .6em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    column-gap: .3em;
-}
-
-.sub-github-box-link:hover {
-
-    transition: .3s;
-    text-decoration: underline;
-}
-
-.img-video-card-link { 
-
-    width: 5.3em;
-    height: 4em;
-
-    border-radius: .3em;
-    box-shadow: rgba(80, 80, 80, 0.8) 0px 4px 12px;
-}
-
-
-.link-list-card-layout {
-
-    text-decoration: none;
-
-    line-height: 1.4em;
-
-    color: var(--dark-grey-1);
-}
-
-.link-list-card-layout:visited { color: var(--dark-grey-1); }
-
-
-.link-list-card-layout:hover {
-
-    transition: .3s;
-    text-decoration: underline;
-}
-
 
 
 /* --------------------------------------------------------- */
