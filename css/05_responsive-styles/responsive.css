@@ -18,8 +18,8 @@
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
-    /* Position Elements */
-    .pos-header-main-max-width-content-container {
+    /* Header & Main Width Content Container */
+    .max-width-header-and-main-content-container {
     
         width: 90vw;
         margin: 0em;
@@ -31,7 +31,7 @@
     /* --------------------------------------------------------------------- */
 
     /* Position Elements */
-    .pos-main-nav-width-content-container {
+    .max-width-main-nav-content-container {
     
         width: 80vw;
        
@@ -41,6 +41,13 @@
     .file-filter-list-layout-page {
 
         margin: 1.3em .8em
+    }
+
+    /* card items list layout */
+    #docs-card-items-layout-container {
+
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
     }
 
 }
@@ -56,8 +63,8 @@
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
-    /* Position Elements */
-    .pos-header-main-max-width-content-container {
+    /* Header & Main Width Content Container */
+    .max-width-header-and-main-content-container {
     
         width: 85vw;
         /* width: 28em; */
@@ -106,8 +113,8 @@
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
-    /* Position Elements */
-    .pos-header-main-max-width-content-container {
+    /* Header & Main Width Content Container */
+    .max-width-header-and-main-content-container {
     
         width: 80vw;
         /* width: 28em; */
@@ -135,8 +142,8 @@
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
-    /* Position Elements */
-    .pos-header-main-max-width-content-container {
+    /* Header & Main Width Content Container */
+    .max-width-header-and-main-content-container {
     
         width: 70vw;
         /* margin: 0em 3.2em; */
@@ -188,8 +195,8 @@
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
-    /* Position Elements */
-    .pos-header-main-max-width-content-container {
+    /* Header & Main Width Content Container */
+    .max-width-header-and-main-content-container {
     
         width: 75em;
         /* margin: 0em 3.2em; */

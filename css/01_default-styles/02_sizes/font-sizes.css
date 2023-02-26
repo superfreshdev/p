@@ -17,7 +17,7 @@
 .font-size-0-85em { font-size: .85em; }
 .font-size-0-88em { font-size: .88em; }
 .font-size-0-90em { font-size: .90em; }
-
+.font-size-0-95em { font-size: .95em; }
 
 /* ------------------------------------------------------------------------ */
 /* [2/3] - Medium Font Sizes 
@@ -32,6 +32,7 @@
 .font-size-1-3em { font-size: 1.3em; }
 .font-size-1-4em { font-size: 1.4em; }
 .font-size-1-5em { font-size: 1.5em; }
+.font-size-1-8em { font-size: 1.8em; }
 
 /* ------------------------------------------------------------------------ */
 /* [3/3] - Large Font Sizes 
@@ -43,3 +44,6 @@
 .font-size-2-3em { font-size: 2.3em; }
 .font-size-2-4em { font-size: 2.4em; }
 .font-size-2-5em { font-size: 2.5em; }
+
+.font-size-2-8em { font-size: 2.8em; }
+.font-size-3em { font-size: 3em; }

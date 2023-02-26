@@ -21,10 +21,6 @@
   
 }
 
-/* ---------------------------------------------------------------------------------- */
-/* Card Container & Background color , img , video 
-/* ---------------------------------------------------------------------------------- */
-
 .main-card-container {
 
     /* important to anker absolute layout in #main-mmain-container*/
@@ -35,37 +31,42 @@
     /* height: 100%; */
 }
 
-.pos-bg-main-card {
+
+/* ---------------------------------------------------------------------------------- */
+/* Behind Background Page Container ( bg-color , img , video )
+/* ---------------------------------------------------------------------------------- */
+
+.behind-background-page-container {
 
     z-index: -1;
     
     position: absolute;
     top:0;
     left:0;
+
     width: 100%;
     height: 100%;   
 
 }
 
 
+
 /* ---------------------------------------------------------------------------------- */
-/* Main Max Width Content Container | Dokus , Projects , About
+/* [Margin] - Main Content Page ( docs , projects , about )
 /* ---------------------------------------------------------------------------------- */
 
-
-.main-max-width-content-container {
+.main-content-page { 
 
     /* Desktop Version 1.3em .8em */
     margin: 1.3em 0em;
     /* background-color: red; */
-
 }
 
 
 
 
 /* ---------------------------------------------------------------------------------- */
-/* [1/2] - Main Nav Topic Filter Container 
+/* [1/2 | Nav Topic Filter ] - Container 
 /* ---------------------------------------------------------------------------------- */
 
 .main-nav-topic-container {
@@ -324,6 +325,8 @@
 
     font-size: .85em;
 
+   
+
     /* Default Mobile Version */
     padding: 2em .6em 2em .6em;
 
@@ -478,8 +481,9 @@
 /* title  */
 .card-layout-main-info-develop-title {
 
+    padding-top: .3em;
+
     font-size: 1.1em;
-    line-height: 1.4em; 
 
     color: var(--light-white-2);
 

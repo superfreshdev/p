@@ -11,6 +11,7 @@
 #my-header-container {
 
     z-index: 6;
+    
     background-color: var(--dark-black-1);
     color: var(--white);
 
