@@ -31,12 +31,6 @@
 
 
 
-
-
-
-
-
-
 /* ---------------------------------------------------------------------------------- */
 /* Trigger Header Layout 
 /* ---------------------------------------------------------------------------------- */
@@ -54,23 +48,29 @@
 
 
 /* ----------------------------------------------------------------- */
-/* Header Title Box
+/* [Header Title] - Container 
 /* ----------------------------------------------------------------- */
 
-.header-title-box {
+#header-title-container {
+
+    padding-left: .6em;
+    line-height: 1.3em;
 
     display: flex;
     align-items: center;
     column-gap: 1.3em;
-    line-height: 1.3em;
 
-    padding-left: .6em;
 }
 
-#img-me-cartoon-header { width: 2.05em; }
+#img-header-cartoon-me { width: 2.05em; }
 
-#header-title { font-size: 1.3em; font-weight: bold; padding-top: .2em; }
-#sub-header-title { font-size: .93em; font-style: italic; color:var(--light-brown-3); }
+
+/* default unshown if not docs/projects checked */
+/* #trigger-header-title-box { display: none; } */
+
+
+#header-title { font-size: 1.1em; font-weight: bold; padding-top: .2em; }
+#sub-header-title { font-size: .83em; font-style: italic; color:var(--light-brown-3); }
 
 
 /* ---------------------------------------------------------------------------------- */

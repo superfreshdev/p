@@ -190,6 +190,8 @@
 
 .lbl-main-nav-topic-filter-item  {
 
+    /* Only 320px - 480px | very small mobile version */
+    max-width: 9.5em;
 
     color: var(--dark-grey-1);
     font-weight: bold;
@@ -391,6 +393,7 @@
     width: 100%;
    
     /* margin: .8em; */
+    margin: 0em .8em;
    
     border-radius: 1em;
 
@@ -496,6 +499,8 @@
     padding-top: .3em;
     line-height: 1.3em;
 
+    
+
     font-size: 1.1em;
     font-weight: bold;
 
@@ -515,7 +520,7 @@
 /* img float left */  
 .img-float-card-layout {
 
-    height: 9.3em;
+    height: 7.3em;
     float: left;
 
     margin-right: .8em;
@@ -818,7 +823,7 @@
 
     border-top: .25em solid var(--light-brown-3);
     
-    border-radius: 0em 0em 1em 1em;
+    border-radius: 1em;
 
     display: flex;
     align-items: center;
