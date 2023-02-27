@@ -50,6 +50,9 @@
         border-top-right-radius: 1em;
     }
 
+    /* Card Layout get max-width */
+    .card-layout { max-width: 23em;}
+
 }
 
 
@@ -96,10 +99,25 @@
         /* Arrow Down Mobile Version Unshown */
         .trigger-only-mobile-arrow-down-card-layout { display: none; }
 
-        /* Card Layout get max-width */
-        .card-layout { max-width: 23em;}
+       
 
 
+
+}
+
+/* --------------------------------------------------------------------- */
+/* >= 860px 
+/* --------------------------------------------------------------------- */
+@media (min-width: 860px ) {
+
+    /* --------------------------------------------------------------------- */
+    /* MAIN 
+    /* --------------------------------------------------------------------- */
+
+    .max-width-main-nav-content-container {
+
+        width: 33em;
+    }
 
 }
 

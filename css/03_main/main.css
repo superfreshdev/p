@@ -380,11 +380,15 @@
 
 
 .card-layout {
+
+    width: 100%;
  
     margin: .8em;
 
     border-radius: .3em;
     box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
+
+    background-color: var(--dark-black-1);
 
 }
 
@@ -482,12 +486,12 @@
 .card-layout-main-info-develop-title {
 
     padding-top: .3em;
+    line-height: 1.3em;
 
     font-size: 1.1em;
+    font-weight: bold;
 
     color: var(--light-white-2);
-
-    font-weight: bold;
 
 }
 
