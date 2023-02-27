@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="css/01_default-styles/05_layout-sets/flex-grid.css">
  
     <link rel="stylesheet" href="css/01_default-styles/06_positions/paddings-margings.css">
+    <link rel="stylesheet" href="css/01_default-styles/06_positions/positions.css">
 
     <link rel="stylesheet" href="css/01_default-styles/07_element-stylings/element-styles.css">
 
@@ -365,7 +366,7 @@
         <!-- ------------------------------------------------------------------------------- -->
         <!-- Docs Page - Container                                                           -->
         <!-- ------------------------------------------------------------------------------- -->
-        <div class="main-card-container" id="trigger-main-card-docs">
+        <div class="pos-rel-t-0em" id="trigger-main-docs-page">
 
             <!-- ----------------------------------------------------------------------- -->
             <!-- Background - color , img , video                                        -->
@@ -381,8 +382,8 @@
                 <!-- ------------------------------------------------------------------------------- -->
                 <!-- [Width] - ( Main Width like Header Width )                                      -->
                 <!-- ------------------------------------------------------------------------------- -->
-                <div class="max-width-header-and-main-content-container 
-                            box-shadow-max-main-width-content-container">
+                <div class="max-width-header-and-main-content-container
+                            box-shadow-main-content-page">
                     
 
 
@@ -393,7 +394,7 @@
 
 
                         <!-- ------------------------------------------------------------------------------- -->
-                        <!-- [Postion] - Flex Content Center                                                 -->
+                        <!-- [Postion] - Flex Content Center | Nav ( Topic & Filter )                        -->
                         <!-- ------------------------------------------------------------------------------- -->
                         <div class="flex jc-c">
 
@@ -403,7 +404,7 @@
                             <div class="max-width-main-nav-content-container">
 
                                 <!-- -------------------------------------------------------------------- -->
-                                <!-- [Nav Topic] - Container                                             -->
+                                <!-- [ Nav Topic ] - Container                                             -->
                                 <!-- -------------------------------------------------------------------- -->
                                 <nav class="main-nav-topic-container">
                                     
@@ -512,7 +513,7 @@
                                 </nav>
 
                                 <!-- ---------------------------------------------------------------------------- -->
-                                <!-- [1/4 | Nav Filter ] - Container - Web & App Entwicklung                        -->
+                                <!-- [ Template | Nav Filter ] - Container                                        -->
                                 <!-- ---------------------------------------------------------------------------- -->
                                 <nav class="main-nav-topic-filter-container border-b-0-25em-light-brown-3"
                                      id="trigger-nav-topic-filter-docs-web-app-dev">
@@ -603,7 +604,7 @@
                                             <!-- ---------------------------------------------- -->
                                             <!-- Label Text Box                                 -->
                                             <!-- ---------------------------------------------- -->
-                                            <div> HTML-CSS-CSS-Frameworks-JS </div>
+                                            <div> CSS / CSS-Frameworks & JS </div>
                                         
 
                                         
@@ -666,297 +667,21 @@
                                 </nav>
 
 
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <!-- [2/4 | Nav Filter ] - Container - Data Science                                 -->
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <nav class="main-nav-topic-filter-container border-b-0-25em-light-brown-3"
-                                     id="trigger-nav-topic-filter-docs-data-science">
-                                
-                                    <!-- --------------------------------------------------------------- -->
-                                    <!-- Filter Items Container                                          -->
-                                    <!-- --------------------------------------------------------------- -->
-                                    <div class="main-nav-topic-filter-radio-item-container">
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 01 - Label Item - Data Science & Tools                      -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-ds-data-science-tools"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-data-science-tools"
-                                            name="name-radio-main-nav-topic-filter-docs-data-science">
-
-                                            
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Radio Box ( My Own Radio Box Style )           -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div class="my-own-circle-outside">
-                
-                                                    <!-- Setted Point inside circle if setted -->
-                                                    <div class="my-own-set-point"></div>
-                    
-                                                </div>
-
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Label Text Box                                 -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div> Data Science & Tools </div>
-                                            
-
-                                            
-                                        </label>
-
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 02 - Label Item - Mathe                                     -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-ds-math"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-math"
-                                            name="name-radio-main-nav-topic-filter-docs-data-science">
-
-                                           
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Radio Box ( My Own Radio Box Style )           -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div class="my-own-circle-outside">
-                
-                                                    <!-- Setted Point inside circle if setted -->
-                                                    <div class="my-own-set-point"></div>
-                    
-                                                </div>
-
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Label Text Box                                 -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div> Mathe </div>
-                                            
-
-                                            
-                                        </label>
-
-
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 03 - Label Item - Programmierung                            -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-ds-programming"
-                                        class="lbl-main-nav-topic-filter-item"
-                                        id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-programming"
-                                        name="name-radio-main-nav-topic-filter-docs-data-science">
-
-                                      
-                                            <!-- ---------------------------------------------- -->
-                                            <!-- Radio Box ( My Own Radio Box Style )           -->
-                                            <!-- ---------------------------------------------- -->
-                                            <div class="my-own-circle-outside">
-            
-                                                <!-- Setted Point inside circle if setted -->
-                                                <div class="my-own-set-point"></div>
-                
-                                            </div>
-
-                                            <!-- ---------------------------------------------- -->
-                                            <!-- Label Text Box                                 -->
-                                            <!-- ---------------------------------------------- -->
-                                            <div> Programmierung </div>
-                                        
-
-                                        
-                                        </label>
-
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 04 - Label Item - Machine Learning & KI                     -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-ds-ml-ki"
-                                        class="lbl-main-nav-topic-filter-item"
-                                        id="trigger-lbl-my-main-nav-topic-filter-item-docs-ds-ml-ki"
-                                        name="name-radio-main-nav-topic-filter-docs-data-science">
-
-                                    
-                                            <!-- ---------------------------------------------- -->
-                                            <!-- Radio Box ( My Own Radio Box Style )           -->
-                                            <!-- ---------------------------------------------- -->
-                                            <div class="my-own-circle-outside">
-            
-                                                <!-- Setted Point inside circle if setted -->
-                                                <div class="my-own-set-point"></div>
-                
-                                            </div>
-
-                                            <!-- ---------------------------------------------- -->
-                                            <!-- Label Text Box                                 -->
-                                            <!-- ---------------------------------------------- -->
-                                            <div> ML & KI </div>
-                                        
-
-                                        
-                                        </label>
-
-
-                                        <!-- ------------------------------------------------------------ -->
-                                        <!-- Info Filter Items Count [ only exist by js ]                 -->
-                                        <!-- ------------------------------------------------------------ -->
-                                        <div class="main-nav-topic-filter-item-count-box">
-                                            [ +3 ]
-                                        </div>
-
-                                    </div>
-
-                                    <!-- [JS] - Create Drop Down Label | if more than 2 rows container -->
-                                    <label for="checkbox-drop-down-main-nav-topic-filter-docs-web-app-dev"
-                                           id="trigger-Fragezeichen-weil-JavaScript-nicht-notwendig"
-                                           class="lbl-drop-down-main-nav-topic-filter">
-
-                                           <!-- Default Down ( to open | status is closed  ) -->
-                                           <img src="media/img/default/icons/arrow-down-black.png" class="img-drop-down-main-nav-topic-filter" alt="img">
-
-                                           <!-- Up ( to close | status is open ) -->
-                                           <!-- <img src="media/img/default/icons/arrow-up-black.png" class="img-drop-down-main-nav-topic-filter" alt="img"> -->
-
-                                    </label>
-
-                                </nav>
-
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <!-- [3/4 | Nav Filter ] - Container - Backend & Co                                 -->
-                                <!-- ---------------------------------------------------------------------------- -->
-                                
-                                <!-- Dont have Filter Container - show direct all files -->
-
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <!-- [4/4 | Nav Filter ] - Container - Tech Tools                                   -->
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <nav class="main-nav-topic-filter-container border-b-0-25em-light-brown-3"
-                                     id="trigger-nav-topic-filter-docs-tech-tools">
-
-
-                                     <div class="main-nav-topic-filter-radio-item-container">
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 01 - Label Item - Development                               -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-tt-dev"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-tt-dev"
-                                            name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
-
-                                            
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Radio Box ( My Own Radio Box Style )           -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div class="my-own-circle-outside">
-                
-                                                    <!-- Setted Point inside circle if setted -->
-                                                    <div class="my-own-set-point"></div>
-                    
-                                                </div>
-
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Label Text Box                                 -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div> Entwicklung</div>
-                                            
-
-                                            
-                                        </label>
-
-                                        
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 02 - Label Item - Office                                    -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-tt-office"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-tt-office"
-                                            name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
-                                            
-
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Radio Box ( My Own Radio Box Style )           -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div class="my-own-circle-outside">
-                
-                                                    <!-- Setted Point inside circle if setted -->
-                                                    <div class="my-own-set-point"></div>
-                    
-                                                </div>
-
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Label Text Box                                 -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div> Office </div>
-                                            
-
-                                            
-                                        </label>
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 03 - Label Item - Multimedia                               -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-tt-multimedia"
-                                        class="lbl-main-nav-topic-filter-item"
-                                        id="trigger-lbl-my-main-nav-topic-filter-item-docs-tt-multimedia"
-                                        name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
-
-                                        
-                                            <!-- ---------------------------------------------- -->
-                                            <!-- Radio Box ( My Own Radio Box Style )           -->
-                                            <!-- ---------------------------------------------- -->
-                                            <div class="my-own-circle-outside">
-            
-                                                <!-- Setted Point inside circle if setted -->
-                                                <div class="my-own-set-point"></div>
-                
-                                            </div>
-
-                                            <!-- ---------------------------------------------- -->
-                                            <!-- Label Text Box                                 -->
-                                            <!-- ---------------------------------------------- -->
-                                            <div> Multimedia </div>
-                                        
-
-                                        
-                                        </label>
-
-                                        <!-- ------------------------------------------------------------ -->
-                                        <!-- Info Filter Items Count [ only exist by js ]                 -->
-                                        <!-- ------------------------------------------------------------ -->
-                                        <div class="main-nav-topic-filter-item-count-box">
-                                            [ +3 ]
-                                        </div>
-
-                                    </div>
-
-                                    <!-- [JS] - Create Drop Down Label | if more than 2 rows container -->
-                                    <label for="checkbox-drop-down-main-nav-topic-filter-docs-web-app-dev"
-                                           id="trigger-Fragezeichen-weil-JavaScript-nicht-notwendig"
-                                           class="lbl-drop-down-main-nav-topic-filter">
-
-                                           <!-- Default Down ( to open | status is closed  ) -->
-                                           <img src="media/img/default/icons/arrow-down-black.png" class="img-drop-down-main-nav-topic-filter" alt="img">
-
-                                           <!-- Up ( to close | status is open ) -->
-                                           <!-- <img src="media/img/default/icons/arrow-up-black.png" class="img-drop-down-main-nav-topic-filter" alt="img"> -->
-
-                                    </label>
-                                
-                                </nav>
-
 
                             </div>
  
                         </div>
 
+
                         <!-- ------------------------------------------------------------------------------- -->
-                        <!-- [Main] - Card Items List Layout Container                                       -->                                                 
+                        <!-- [Main] - Content - List of Cards                                                -->                                                 
                         <!-- ------------------------------------------------------------------------------- -->
                         <!-- json-append-docs-card-items-layout-container -->
                         <div id="docs-card-items-layout-container">
 
 
                             <!-- ----------------------------------------------------------- -->
-                            <!-- No-JS Container will be replace for Tempalte card items     -->
+                            <!-- [ No JS - Info ] - Container                                -->
                             <!-- ----------------------------------------------------------- -->
                             <div class="flex cg-0-5em no-js-info-container"
                                  id="json-no-js-create-card-items-info-container">
@@ -987,7 +712,7 @@
                             </div>
 
                             <!-- ------------------------------------------------------------ -->
-                            <!-- Template - Card Item                                         -->
+                            <!-- [ Template | Link-Download Card ]                            -->
                             <!-- ------------------------------------------------------------ -->
                             <!-- <template id="template-card-item"> -->
 
@@ -1547,7 +1272,7 @@
 
 
                         <!-- ------------------------------------------------------------- -->
-                        <!-- [Footer] - Card Items List Layout Container                   -->
+                        <!-- [Footer] - of Content List of Cards                           -->
                         <!-- ------------------------------------------------------------- -->
                         <div class="footer-content">
 

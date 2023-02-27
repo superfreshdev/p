@@ -25,7 +25,9 @@
 /* [2/?] - Box Shadows 
 /* ------------------------------------------------------ */
 
-.box-shadow-max-main-width-content-container { 
+
+.box-shadow-main-content-page { 
+    
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     /* box-shadow: 0px 1px 12px 5px #000000; */
     

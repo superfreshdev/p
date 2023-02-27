@@ -1,0 +1,19 @@
+/* ----------------------------------------------------------- 
+
+    >> positions.css  
+    
+    | Our default positions which we will use 
+    | to bring container orientation positions
+    | use cases for realtive & absolute handlings
+
+-------------------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------- */
+/* Relative
+/* ------------------------------------------------- */
+
+/* To Set Parent Container Orientation Point */
+.pos-rel-t-0em { position: relative; top:0em; }
