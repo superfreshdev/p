@@ -373,7 +373,7 @@
 
     margin: .8em;
 
-    border-radius: .3em;
+    border-radius: 1em;
 
     background-color: var(--dark-grey-1);
     color:var(--dark-black-1);
