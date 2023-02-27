@@ -400,8 +400,9 @@
     width: 100%;
  
     margin: .8em;
+   
+    border-radius: 1em;
 
-    border-radius: .3em;
     box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
 
     background-color: var(--dark-black-1);
@@ -427,7 +428,7 @@
 
     background-color: var(--dark-grey-3);
 
-    border-radius: .3em .3em 0em 0em;
+    border-radius: 1em 1em 0em 0em;
     
 }
 
