@@ -99,7 +99,7 @@
     align-items: center;
     justify-content: center;
 
-    column-gap: .3em;
+    column-gap: .8em;
 
     cursor: pointer;
 }
@@ -129,7 +129,9 @@
     /* default in mobile version unshown */
     display: none;
 
-    line-height: 1.2em;
+    /* font-size: .8em; */
+
+    line-height: 1em;
     font-weight: bold;
 
 }

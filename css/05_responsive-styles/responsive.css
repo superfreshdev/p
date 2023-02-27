@@ -54,6 +54,30 @@
     /* Card Layout get max-width */
     .card-layout { max-width: 23em;}
 
+
+    /* Card Footer */
+    .footer-content {
+
+        padding: 2em .8em;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    
+        column-gap: .6em;
+    
+    
+    }
+
+    .trigger-resp-max-width-card-footer-quote {
+
+        max-width: 18em;
+    }
+    
+    .img-footer-content { height: 8.4em; }
+    
+    
+
 }
 
 
@@ -158,9 +182,16 @@
     /* MAIN 
     /* --------------------------------------------------------------------- */
 
+    /* width main nav content */
     .max-width-main-nav-content-container {
 
         width: 33em;
+    }
+
+    /* main nav label */
+    .txt-box-main-nav-topic-filter {
+
+        display: block;
     }
 
 }
