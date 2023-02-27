@@ -17,6 +17,11 @@
 /* [1/?] - Same Size 
 /* ------------------------------------------ */
 
+/* all */
+.padd-1em { padding: 1em;}
+.padd-1-3em { padding: 1.3em;}
+.padd-1-6em { padding: 1.6em;}
+
 /* left & right */
 .padd-lr-0-3em { padding: 0em .3em }
 .padd-lr-0-5em { padding: 0em .5em } 
@@ -72,15 +77,17 @@
 .padd-t-1-8em-b-1-2em { padding-top: 1.8em; padding-bottom: 1.2em;}
 
 /* left & right -> Different Size */
+
+
+
 .padd-tb-1-6em-lr-0-8em {  padding: 1.6em .8em; }
+.padd-tb-1-6em-lr-1em {  padding: 1.6em 1em; }
+.padd-tb-1-6em-lr-1-2em {  padding: 1.6em 1.2em; }
+.padd-tb-1-6em-lr-1-3em {  padding: 1.6em 1.3em; }
 
 
 
-
-
-
-
-
+.padd-tb-2em-lr-1-6em {  padding: 2em 1.6em; }
 
 
 

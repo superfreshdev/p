@@ -395,7 +395,8 @@
     width: 100%;
    
     /* margin: .8em; */
-    margin: 0em 1.6em;
+    margin: 0em .8em;
+   
    
     border-radius: 1em;
 
@@ -725,8 +726,7 @@
 
 .btn-file-link:visited { color: var(--dark-black-1);}
 
-/* ersetzen mit default */
-.img-btn-file-link { width: 1em; }
+
 
 
 
