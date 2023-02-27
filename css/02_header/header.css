@@ -11,7 +11,7 @@
 #my-header-container {
 
     z-index: 6;
-    
+
     background-color: var(--dark-black-1);
     color: var(--white);
 
@@ -54,10 +54,23 @@
 
 
 /* ----------------------------------------------------------------- */
-/* S - IMG ( show only in mobile Version )
+/* Header Title Box
 /* ----------------------------------------------------------------- */
 
-#img-s-icon-my-header-nav { width: 2.05em;  padding-left: .6em; }
+.header-title-box {
+
+    display: flex;
+    align-items: center;
+    column-gap: 1.3em;
+    line-height: 1.3em;
+
+    padding-left: .6em;
+}
+
+#img-me-cartoon-header { width: 2.05em; }
+
+#header-title { font-size: 1.3em; font-weight: bold; padding-top: .2em; }
+#sub-header-title { font-size: .93em; font-style: italic; color:var(--light-brown-3); }
 
 
 /* ---------------------------------------------------------------------------------- */
