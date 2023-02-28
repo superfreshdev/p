@@ -75,6 +75,19 @@
     }
     
     .img-footer-content { height: 8.4em; }
+
+
+
+    /* --------------------------------------------------------------------- */
+    /* FOOTER
+    /* --------------------------------------------------------------------- */
+    
+    .my-footer-content-cards-layout {
+
+        /* Desktop Version */
+       justify-content: center;
+
+    }
     
     
 

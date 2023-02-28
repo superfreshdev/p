@@ -56,3 +56,11 @@
     /* ----------------------------------------------------------- */
 
     .bg-dark-red-4 { background-color: var(--dark-red-4); }
+
+    /* ----------------------------------------------------------- */
+    /* Dark | Grey 
+    /* ----------------------------------------------------------- */
+
+    .bg-dark-grey-1 { background-color: var(--dark-grey-1); }
+    .bg-dark-grey-2 { background-color: var(--dark-grey-2); }
+    .bg-dark-grey-3 { background-color: var(--dark-grey-3); }
