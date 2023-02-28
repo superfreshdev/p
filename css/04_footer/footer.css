@@ -174,15 +174,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* --------------------------------------------------------------------- */
 /* [Footer Main] - Container 
 /* --------------------------------------------------------------------- */
@@ -198,4 +189,25 @@
     color:var(--dark-black-1);
 
     font-size: 1.1em;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* [Footer Foot] - Container 
+/* --------------------------------------------------------------------- */
+
+#footer-foot-container {
+
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 1.6em 0em 0em;
+
+    border-top: .15em solid var(--light-brown-3);
+
+    font-weight: bold;
+    color: var(--light-brown-3);
+
+    font-style: italic;
+
+    /* background-color: red; */
 }
