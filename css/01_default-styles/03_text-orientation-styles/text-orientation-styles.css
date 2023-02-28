@@ -148,3 +148,10 @@
         .txt-color-dark-grey-1 { color: var(--dark-grey-1); }
         .txt-color-dark-grey-2 { color: var(--dark-grey-2); }
         .txt-color-dark-grey-3 { color: var(--dark-grey-3); }
+
+
+        /* ---------------------------------------------------*/
+        /* Dark | Black 
+        /* ---------------------------------------------------*/
+
+        .txt-color-dark-black-1 { color: var(--dark-black-1);}

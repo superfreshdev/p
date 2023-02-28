@@ -21,11 +21,13 @@
 .padd-1em { padding: 1em;}
 .padd-1-3em { padding: 1.3em;}
 .padd-1-6em { padding: 1.6em;}
+.padd-1-8em { padding: 1.8em;}
 
 /* left & right */
 .padd-lr-0-3em { padding: 0em .3em }
 .padd-lr-0-5em { padding: 0em .5em } 
 .padd-lr-0-8em { padding: 0em .8em } 
+.padd-lr-1em { padding: 0em 1em } 
 
 /* top & bottom */
 .padd-tb-0-1em { padding: .1em 0em }

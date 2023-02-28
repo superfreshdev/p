@@ -442,6 +442,15 @@
     border-radius: .3em;
 }
 
+.card-layout-not-finish-header {
+
+    padding: 0em 1em;
+    height: 2.8em;
+
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
 
 
 
