@@ -69,7 +69,7 @@
 
 .my-footer-link-card {
 
-    /* min-width: 22em; */
+    min-width: 11em;
     max-width: 22em;
     /* width: 6em; */
     /* font-size: .6em; */
@@ -81,6 +81,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: .8em;
+
+   
 
     /* Desktop Version registered in responsive */
 
@@ -98,17 +100,18 @@
    
 
     text-decoration: none;
-    color: var(--light-grey-3);
+    color: var(--medium-grey-3);
+   
 }
 
 .my-footer-web-link {  column-gap: .3em; }
 
 /* mozilla firefox extra wurst :D */
 .my-footer-web-link:link ,
-.my-footer-youtuber-link:link { color: var(--light-grey-3); }
+.my-footer-youtuber-link:link { color: var(--medium-grey-3); }
 
 .my-footer-web-link:visited,
-.my-footer-youtuber-link:visited { color: var(--light-grey-3); }
+.my-footer-youtuber-link:visited { color: var(--medium-grey-3); }
 
 .my-footer-web-link:hover {
 
@@ -124,12 +127,13 @@
 .my-footer-youtuber-link { 
     
     height: 3em;
-    column-gap: .8em;
+    column-gap: .3em;
     font-weight: bold; 
 
     border-radius: .3em;
 
-    background-color: var( --dark-grey-2);
+    background-color: var(--dark-grey-3);
+   
 
 }
 
@@ -145,7 +149,7 @@
 
     width: 3em;
     height: 3em;
-    border-radius: .3em;
+    border-radius: .3em 0em 0em .3em;
 
 }
 
@@ -158,7 +162,7 @@
 
 .my-footer-youtuber-share-box {
 
-    background-color: var(--dark-grey-2);
+    background-color: var(--dark-grey-3);
     height: 3em;
 
     display: flex;
@@ -192,6 +196,11 @@
     color:var(--dark-black-1);
 
     font-size: 1.1em;
+}
+
+.txt-youtuber-name { 
+
+    font-size: .95em;
 }
 
 
