@@ -22,10 +22,31 @@
 
 }
 
-
 #my-footer-content-layout { 
 
-    margin: 1.5em .8em;
+    margin: 1.5em;
 
-    background-color: rebeccapurple;
+    display: grid;
+    row-gap: 1.3em;
+
+    /* background-color: rebeccapurple; */
 }
+
+
+/* --------------------------------------------------------------------- */
+/* [Footer Header] - Container 
+/* --------------------------------------------------------------------- */
+
+#footer-header-container {
+
+    height: 4em;
+    /* background-color: red; */
+}
+
+#footer-header-title {
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#img-footer-header-title { height: 4em;}
