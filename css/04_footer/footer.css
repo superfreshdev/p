@@ -67,8 +67,10 @@
 
 .my-footer-link-card {
 
-    min-width: 22em;
+    /* min-width: 22em; */
     max-width: 22em;
+    /* width: 6em; */
+    /* font-size: .6em; */
 }
 
 .my-footer-content-cards-layout {
@@ -119,7 +121,6 @@
 
 .my-footer-youtuber-link { 
     
-     
     height: 3em;
     column-gap: .8em;
     font-weight: bold; 
