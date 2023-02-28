@@ -37,16 +37,36 @@
 /* [Footer Header] - Container 
 /* --------------------------------------------------------------------- */
 
-#footer-header-container {
+#my-footer-header-container {
 
     height: 4em;
     /* background-color: red; */
 }
 
-#footer-header-title {
+#my-footer-header-title {
 
     font-size: 1.5em;
     font-weight: bold;
 }
 
-#img-footer-header-title { height: 4em;}
+#img-my-footer-header-title { height: 4em;}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* [Footer Main] - Container 
+/* --------------------------------------------------------------------- */
+
+
+.my-footer-main-title-container {
+
+    padding: .3em .6em;
+
+    background-color: var(--light-brown-3);
+    border-radius: .1em;
+    font-weight: bold;
+    color:var(--dark-black-1);
+
+    font-size: 1.1em;
+}
