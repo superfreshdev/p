@@ -48,7 +48,7 @@
 .main-content-page { 
 
     /* Desktop Version 1.3em .8em */
-    margin: 1.3em 0em;
+    margin: 1.3em .8em;
     /* padding: 0em .8em; */
     /* background-color: red; */
 }
@@ -61,6 +61,7 @@
 /* ---------------------------------------------------------------------------------- */
 
 .main-nav-topic-container {
+
 
     display: grid;
     grid: auto / 1fr 1fr 1fr 1fr 2.8em;
@@ -392,7 +393,7 @@
 
 .card-layout {
 
-    width: 100%;
+    /* width: 95%; */
    
     /* margin: .8em; */
     /* margin: 0em .8em; */
@@ -468,12 +469,20 @@
 
 /* [Card - Button Panel Container ] - 1 or 2 Buttons 
 
-/* [ Card - Repo Container ] - Link to Clone 
+/* [ Card - Repo Container ] - Link to Clone  */
+
+.card-layout-main-content-container {
+
+    padding: 1.3em .8em;
+}
+
+
 
 
 /* ------------------------------------------------------- */
 /* [Main Part] - Not Finished Status Container 
 /* ------------------------------------------------------- */
+
 
 
 
@@ -826,9 +835,12 @@
 
 .footer-content {
 
+    /* width: 85%; */
+
     font-size: 1rem;
 
     padding: 2em .8em;
+    /* margin: 0 .8em; */
 
     background-color: var(--dark-black-1);
 
