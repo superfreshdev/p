@@ -89,7 +89,6 @@
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-
     #trigger-header-title-box { display: none; }
 
 }
@@ -99,8 +98,7 @@
     /* --------------------------------------------------------------------- */
     /* HEADER ( Handling )
     /* --------------------------------------------------------------------- */
-
-    input#radio-my-header-nav-about:checked ~ #my-header-container #trigger-header-title-box {
+    input#radio-about-my-header-nav:checked ~ #my-header-container #trigger-header-title-box {
         display: none;
     }
 }
@@ -164,7 +162,7 @@
     /* --------------------------------------------------------------------- */
     
     /* Header Label */
-    .lbl-my-header-nav {
+    .lbl-nav-my-header-container {
 
         width: auto;
         padding: .3em .6em; 
@@ -238,7 +236,7 @@
     /* Header & Main Width Content Container */
     .max-width-header-and-main-content-container {
     
-        width: 70vw;
+        width: 75vw;
         /* margin: 0em 3.2em; */
     }
 
@@ -260,7 +258,7 @@
     /* HTML , BODY 
     /* --------------------------------------------------------------------- */
 
-    html , body { font-size: 1.08rem; }
+    html , body { font-size: 1.1rem; }
 
     /* --------------------------------------------------------------------- */
     /* HEADER 
