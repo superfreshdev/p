@@ -20,7 +20,7 @@
     /* --------------------------------------------------------------------- */
 
     /* Header & Main Width Content Container */
-    .max-width-header-and-main-content-container {
+    .max-width-content-container{
     
         width: 90vw;
         margin: 0em;
@@ -127,7 +127,7 @@
     /* --------------------------------------------------------------------- */
 
     /* Header & Main Width Content Container */
-    .max-width-header-and-main-content-container {
+    .max-width-content-container{
     
         width: 85vw;
         /* width: 28em; */
@@ -218,7 +218,7 @@
     /* --------------------------------------------------------------------- */
 
     /* Header & Main Width Content Container */
-    .max-width-header-and-main-content-container {
+    .max-width-content-container{
     
         width: 80vw;
         /* width: 28em; */
@@ -247,7 +247,7 @@
     /* --------------------------------------------------------------------- */
 
     /* Header & Main Width Content Container */
-    .max-width-header-and-main-content-container {
+    .max-width-content-container{
     
         width: 75vw;
         /* margin: 0em 3.2em; */
@@ -300,7 +300,7 @@
     /* --------------------------------------------------------------------- */
 
     /* Header & Main Width Content Container */
-    .max-width-header-and-main-content-container {
+    .max-width-content-container{
     
         width: 75em;
         /* margin: 0em 3.2em; */

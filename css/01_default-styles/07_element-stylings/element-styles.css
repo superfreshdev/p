@@ -82,3 +82,19 @@
 .clear-both { clear: both; }
 
 
+
+/* ------------------------------------------------------ */
+/* [8/?] - Box Shadows 
+/* ------------------------------------------------------ */
+
+/* all same size */
+
+.border-r-0-2em { border-radius: .2em; }
+.border-r-0-3em { border-radius: .3em; }
+.border-r-0-5em { border-radius: .5em; }
+.border-r-0-8em { border-radius: .8em; }
+.border-r-1em { border-radius: 1em; }
+
+/* two same size - top-left , top-right */
+
+

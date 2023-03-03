@@ -83,6 +83,10 @@
 .cg-2-5em { column-gap: 2.5em; }
 .cg-2-8em { column-gap: 2.8em; }
 
+.cg-3em { column-gap: 3em; }
+.cg-3-2em { column-gap: 3.2em; }
+.cg-3-5em { column-gap: 3.5em; }
+
 /* ------------------------------------------------ */ 
 /* Row Gap 
 /* ------------------------------------------------ */ 

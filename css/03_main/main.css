@@ -48,7 +48,7 @@
 .main-content-page { 
 
     /* Desktop Version 1.3em .8em */
-    margin: 1.3em .8em;
+    margin: 1.3em 0em;
     /* padding: 0em .8em; */
     /* background-color: red; */
 }
@@ -393,7 +393,7 @@
 
 .card-layout {
 
-    /* width: 95%; */
+    width: 90%;
    
     /* margin: .8em; */
     /* margin: 0em .8em; */
@@ -834,11 +834,11 @@
 /* Footer Content  
 /* ---------------------------------------------------- */
 
-.footer-content {
+.footer-card-layout {
 
-    /* width: 85%; */
+    width: 80%;
 
-    font-size: 1rem;
+    /* font-size: 1rem; */
 
     padding: 2em .8em;
     /* margin: 0 .8em; */

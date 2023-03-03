@@ -9,217 +9,215 @@
 
 #my-footer-container {
 
+    font-size: .85em;
+
     /* because of main max width content shadow effect makes 
     /* border-top line darker , so we need go over that */
     z-index: 1;
 
     background-color: var(--dark-black-1);
-    color: var(--light-white-1);
-
     border-top: .18em solid var(--light-brown-3);
 
-
-
-    
-
-}
-
-#my-footer-content-layout { 
-
-    margin: 1.5em;
-
-    display: grid;
-    row-gap: 1.3em;
-
-    /* background-color: rebeccapurple; */
 }
 
 
 /* --------------------------------------------------------------------- */
-/* [Footer Header] - Container 
+/* [My-Footer-Layout] 
 /* --------------------------------------------------------------------- */
 
-#my-footer-header-container {
+#my-footer-layout {
 
-    height: 4em;
-    /* background-color: red; */
+    padding: 0em .8em;
+
+    display:grid;
+    row-gap: 1.5em;
 }
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* [My-Footer-Header] 
+/* --------------------------------------------------------------------- */
+
 
 #my-footer-header-title {
 
     font-size: 1.5em;
+
+    font-weight: bold;
+    color: var(--light-white-1);
+}
+
+#img-my-footer-header { height: 5em; }
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* [My-Footer-Main] 
+/* --------------------------------------------------------------------- */
+
+
+/* ----------------------------------------- */
+/* My Footer Main Topic Container            */
+/* ----------------------------------------- */
+
+.my-footer-main-topic-container  {
+
+    height: 2.6em;
+    padding: 0em .6em;
+    margin: 1.3em 0em;
+
+    border-radius: .3em;
+    background-color: var(--light-brown-3);
     font-weight: bold;
 }
 
-#img-my-footer-header-title { height: 4em;}
+/* ---------------------------------------------- */
+/* My Footer Main Topic Card                      */
+/* ---------------------------------------------- */
 
+.my-footer-main-topic-card  {
 
+    max-width: 22em;
 
+    display: grid;
+    row-gap: .6em;
+  
+}
 
-
-/* --------------------------------------------------------------------- */
-/* [Footer Main] - Container 
-/* --------------------------------------------------------------------- */
-
-.my-footer-sub-header-title { 
+.my-footer-main-topic-card-title {
 
     font-weight: bold;
     color: var(--light-brown-3);
 }
 
-.my-footer-link-card {
 
-    min-width: 11em;
-    max-width: 22em;
-    /* width: 6em; */
-    /* font-size: .6em; */
-}
 
-.my-footer-content-cards-layout {
+/* -------------------------------------------------- */
+/* [www-links] - layout 
+/* -------------------------------------------------- */
 
-    /* Mobile Version */
-    display: flex;
-    flex-wrap: wrap;
-    gap: .8em;
-
-   
-
-    /* Desktop Version registered in responsive */
-
-}
-
-/* ------------------------------------------ */
-/* Links Cards 
-/* ------------------------------------------ */
-
-.my-footer-web-link ,
-.my-footer-youtuber-link {
-
-    display: inline-flex;
-    align-items: center;
-   
+.www-link-my-footer {
 
     text-decoration: none;
-    color: var(--medium-grey-3);
-   
+
+    color: var(--dark-grey-1);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    column-gap: .6em;
+
+    
 }
 
-.my-footer-web-link {  column-gap: .3em; }
 
-/* mozilla firefox extra wurst :D */
-.my-footer-web-link:link ,
-.my-footer-youtuber-link:link { color: var(--medium-grey-3); }
-
-.my-footer-web-link:visited,
-.my-footer-youtuber-link:visited { color: var(--medium-grey-3); }
-
-.my-footer-web-link:hover {
+.www-link-my-footer:hover {
 
     transition: .3s;
     color:var(--light-brown-3);
 }
 
 
-/* ------------------------------------------ */
-/* YouTuber Cards 
-/* ------------------------------------------ */
+/* -------------------------------------------------- */
+/* [youtuber-links] - layout
+/* -------------------------------------------------- */
 
-.my-footer-youtuber-link { 
-    
-    height: 3em;
-    column-gap: .3em;
-    font-weight: bold; 
+.youtuber-link-my-footer {
 
-    border-radius: .3em;
+    height: 2.5em;
 
-    background-color: var(--dark-grey-3);
-   
+    text-decoration: none;
+
+    color: var(--medium-grey-1);
+    font-weight: bold;
 
 }
 
-.my-footer-youtuber-link:hover { 
+.img-youtuber-link-my-footer {
+
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: .3em 0em 0em .3em;
+}
+
+.content-youtuber-link {
+
+    height: 100%;
+    padding-left: .3em;
+    background-color: var(--dark-grey-2);
+    border-radius: 0em .3em .3em 0em;
+
+}
+
+.content-youtuber-link:hover {
 
     transition: .3s;
-    color:var(--dark-black-1);
     background-color: var(--light-brown-3);
-}
-    
-
-.img-my-footer-youtuber {
-
-    width: 3em;
-    height: 3em;
-    border-radius: .3em 0em 0em .3em;
-
+    color: var(--dark-black-1);
 }
 
-.img-my-footer-youtuber-flag {
+.share-box-youtuber-link {
 
-    height: 1.2em;
-    border-radius: .2em;
-
-}
-
-.my-footer-youtuber-share-box {
-
-    background-color: var(--dark-grey-3);
-    height: 3em;
-
+    height: 100%;
+    width: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 2em;
-
     border-radius: 0em .3em .3em 0em;
+}
 
-    
+/* default unshown black share */
+.share-box-youtuber-link > img:nth-of-type(2) { display: none; }
 
+/* if hover -> show black share */
+.content-youtuber-link:hover > .share-box-youtuber-link > img:nth-of-type(2) {
+
+    display: block;
+}
+/* if hover -> unshown white share */
+.content-youtuber-link:hover > .share-box-youtuber-link > img:nth-of-type(1) {
+
+    display: none;
 }
 
 
 
 
 
-/* --------------------------------------------------------------------- */
-/* [Footer Main] - Container 
-/* --------------------------------------------------------------------- */
 
-
-.my-footer-main-title-container {
-
-    padding: .3em .6em;
-
-    background-color: var(--light-brown-3);
-    border-radius: .1em;
-    font-weight: bold;
-    color:var(--dark-black-1);
-
-    font-size: 1.1em;
-}
-
-.txt-youtuber-name { 
-
-    font-size: .95em;
-}
 
 
 /* --------------------------------------------------------------------- */
-/* [Footer Foot] - Container 
+/* [My-Footer-Foot] 
 /* --------------------------------------------------------------------- */
+#my-footer-foot {
 
-#footer-foot-container {
-
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0em 0em 0em;
-
+    margin-top: .5em;
+    padding: 1em 0em;
     border-top: .15em solid var(--light-brown-3);
+}
+
+
+#my-footer-foot-copyright {
 
     font-weight: bold;
-    color: var(--light-brown-3);
-
     font-style: italic;
 
-    /* background-color: red; */
+    color:var(--light-brown-3);
 }
+
+
+
+
+
+
