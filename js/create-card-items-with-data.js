@@ -13,10 +13,10 @@
 
 console.log("### Create Card Items With Data  ###");
 
-const noJsInfoContainer = document.getElementById("json-no-js-create-card-items-info-container");
-console.log(noJsInfoContainer);
+// const noJsInfoContainer = document.getElementById("json-no-js-create-card-items-info-container");
+// console.log(noJsInfoContainer);
 // if js is activated in the web-browser unshown no js info box 
-noJsInfoContainer.style.display = "none";
+// noJsInfoContainer.style.display = "none";
 
 
 
