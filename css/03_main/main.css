@@ -51,6 +51,13 @@
     margin: 1.3em 0em;
     /* padding: 0em .8em; */
     /* background-color: red; */
+
+    display: grid;
+    row-gap: 2em;
+    /* justify-items: center; */
+
+    width: 95%;
+    /* background-color: red; */
 }
 
 
@@ -96,6 +103,8 @@
 
     padding: .8em;
 
+    color:var(--light-white-2);
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,6 +128,7 @@
 
     transition: .3s;
     background-color: var(--light-brown-3);
+    color:var(--dark-black-1);
 }
 
 .img-lbl-main-nav-topic-filter,
@@ -130,12 +140,15 @@
     /* default in mobile version unshown */
     display: none;
 
-    /* font-size: .8em; */
+    font-size: .85em;
+    
 
     line-height: 1em;
     font-weight: bold;
 
 }
+
+
 
 
 /* default unshown 2nd img of main nav topic filter | docs , projects */
@@ -145,7 +158,6 @@
 /* default hover style by hover unshown first img show second img ( white - black solution ) */
 .lbl-main-nav-topic-filter:hover > img:nth-of-type(1) { display: none; } 
 .lbl-main-nav-topic-filter:hover > img:nth-of-type(2) { display: block } 
-
 
 
 
@@ -329,22 +341,21 @@
 
 
 /* ---------------------------------------------------- */
-/* Card Items - Layout Container 
+/* Main Card Layout
 /* ---------------------------------------------------- */
 
+#main-card-layout {
 
-#docs-card-items-layout-container {
+    /* margin: 0em 1em; */
+
+    width: 90%;
 
     font-size: .85em;
-
-   
-
-    /* Default Mobile Version */
-    padding: 2em 0em;
 
     color: var(--medium-grey-3);
     /* background-color: var(--dark-black-1); */
     /* background-color: red; */
+    /* background-color: blue; */
 
     display: flex;
     align-items: flex-start;
@@ -352,8 +363,9 @@
     justify-content: space-evenly;
 
     row-gap: 1.5em;
-    
+
 }
+
 
 
 
@@ -393,7 +405,7 @@
 
 .card-layout {
 
-    width: 90%;
+    /* width: 90%; */
    
     /* margin: .8em; */
     /* margin: 0em .8em; */
@@ -836,7 +848,7 @@
 
 .footer-card-layout {
 
-    width: 80%;
+    width: 100%;
 
     /* font-size: 1rem; */
 

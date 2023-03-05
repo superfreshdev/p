@@ -39,6 +39,7 @@
     <!-- Default Styles -->
     <link rel="stylesheet" href="css/01_default-styles/01_colors/colors.css">
     <link rel="stylesheet" href="css/01_default-styles/01_colors/bg-colors.css">
+    <link rel="stylesheet" href="css/01_default-styles/01_colors/txt-colors.css">
 
     <link rel="stylesheet" href="css/01_default-styles/02_sizes/font-sizes.css">
     <link rel="stylesheet" href="css/01_default-styles/02_sizes/img-sizes.css">
@@ -229,7 +230,7 @@
             <div id="my-header-img-title-container">
 
                 <!-- IMG S - Icon , shows only in the mobile version -->
-                <img src="media/img/header/show-right.png" id="img-header-cartoon-me" alt="img">
+                <img src="media/img/header/me-show-right.png" id="img-header-cartoon-me" alt="img">
 
                 <div id="trigger-header-title-box" class="line-h-1-2em">
 
@@ -356,828 +357,838 @@
 
 
         <!-- ------------------------------------------------------------------------------- -->
-        <!-- Docs Page - Container                                                           -->
+        <!-- Docs & Projects - Container                                                     -->
         <!-- ------------------------------------------------------------------------------- -->
-        <div class="pos-rel-t-0em" id="trigger-main-docs-page">
+        <div class="pos-rel-t-0em" id="trigger-show-docs-projects-container">
 
             <!-- ----------------------------------------------------------------------- -->
-            <!-- Background - color , img , video                                        -->
+            <!-- Background (color , img , video )                                       -->
             <!-- ----------------------------------------------------------------------- -->
             <div class="behind-background-page-container bg-color-mix-about"></div>
             <!-- <img src="media/pexels-laura-link-4052711.jpg" class="pos-bg-main-card " alt="img"> -->
             
+
             <!-- ------------------------------------------------------------------------------- -->
-            <!-- [Postion] - Flex Content Center                                                 -->
+            <!-- [Postion Content] - Center                                                      -->
             <!-- ------------------------------------------------------------------------------- -->
             <div class="flex jc-c"> 
 
                 <!-- ------------------------------------------------------------------------------- -->
-                <!-- [Width] - ( Main Width like Header Width )                                      -->
+                <!-- [Max Width Content] - Header , Main , Footer                                    -->
                 <!-- ------------------------------------------------------------------------------- -->
                 <div class="max-width-content-container
                             box-shadow-main-content-page">
                     
+                    <!-- --------------------------------------------------------------------------- -->
+                    <!-- [Postion Content] - Center                                                  -->
+                    <!-- --------------------------------------------------------------------------- -->
+                    <div class="flex jc-c">
 
+                        <!-- ------------------------------------------------------------------- -->
+                        <!-- [Main Content] - Dokus , Projekcts                                  -->                                        
+                        <!-- ------------------------------------------------------------------- -->
+                        <div class="main-content-page">
 
-                    <!-- ------------------------------------------------------------------- -->
-                    <!-- [Margin] - Main Content Page ( docs , projects , about )            -->                                        
-                    <!-- ------------------------------------------------------------------- -->
-                    <div class="main-content-page">
+                            <!-- --------------------------------------------------------------------------- -->
+                            <!-- [Postion Content] - Center                                                  -->
+                            <!-- --------------------------------------------------------------------------- -->
+                            <div class="flex jc-c">
 
-
-                        <!-- ------------------------------------------------------------------------------- -->
-                        <!-- [Postion] - Flex Content Center | Nav ( Topic & Filter )                        -->
-                        <!-- ------------------------------------------------------------------------------- -->
-                        <div class="flex jc-c">
-
-                            <!-- ---------------------------------------------------------------- -->
-                            <!-- [Width] - ( Main Nav had own width size  )                       -->
-                            <!-- ---------------------------------------------------------------- -->
-                            <div class="max-width-main-nav-content-container">
-
-                                <!-- -------------------------------------------------------------------- -->
-                                <!-- [ Nav Topic ] - Container                                             -->
-                                <!-- -------------------------------------------------------------------- -->
-                                <nav class="main-nav-topic-container">
-                                    
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <!-- Label - Web & App Entwicklung                                        -->
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <label for="radio-my-main-nav-topic-docs-web-app-dev"
-                                           id="trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev"
-                                           class="lbl-main-nav-topic-filter"
-                                           name="name-radio-my-main-nav-topic-docs-web-app-dev"
-                                           title="Dokus zu Web & App Entwicklung">
-
-                                        <img src="media/img/main/docs/docs-nav/doc-web-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                        <img src="media/img/main/docs/docs-nav/doc-web-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
-
-
-                                        <div class="txt-box-main-nav-topic-filter">
-
-                                            <div>Web & App</div>
-                                            <div>Entwicklung</div>
-
-                                        </div>
-
-                                    </label>
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <!-- [Container] - Main Nav & Main Nav Filter                                        -->
+                                <!-- ------------------------------------------------------------------------------- -->  
+                                <div class="max-width-main-nav-content-container">
 
                                     <!-- -------------------------------------------------------------------- -->
-                                    <!-- Label - Data Science                                                 -->
+                                    <!-- [ Nav Topic ] - Container                                             -->
                                     <!-- -------------------------------------------------------------------- -->
-                                    <label for="radio-my-main-nav-topic-docs-data-science"
-                                           id="trigger-lbl-radio-my-main-nav-topic-docs-data-science"
-                                           class="lbl-main-nav-topic-filter"
-                                           name="name-radio-my-main-nav-topic-docs-data-science"
-                                           title="Dokus zu Data Science ">
-
-                                        <img src="media/img/main/docs/docs-nav/doc-ds-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                        <img src="media/img/main/docs/docs-nav/doc-ds-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
-
-                                        <div class="txt-box-main-nav-topic-filter">
-
-                                            <div>Data</div>
-                                            <div>Science</div>
-
-                                        </div>
-
-                                    </label>
-
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <!-- Label - Backend & Co                                                 -->
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <label for="radio-my-main-nav-topic-docs-backend-co"
-                                           id="trigger-lbl-radio-my-main-nav-topic-docs-backend-co"
-                                           class="lbl-main-nav-topic-filter"
-                                           name="name-radio-my-main-nav-topic-docs-backend-co"
-                                           title="Dokus zu Backend & Co ">
-
-                                        <img src="media/img/main/docs/docs-nav/doc-dbs-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                        <img src="media/img/main/docs/docs-nav/doc-dbs-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
-
-                                        <div class="txt-box-main-nav-topic-filter">
-
-                                            <div>Backend</div>
-                                            <div>& Co</div>
-
-                                        </div>
-
-                                    </label>
-
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <!-- Label - Tech Tools                                                   -->
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <label for="radio-my-main-nav-topic-docs-tech-tools"
-                                           id="trigger-lbl-radio-my-main-nav-topic-docs-tech-tools"
-                                           class="lbl-main-nav-topic-filter"
-                                           name="name-radio-my-main-nav-topic-docs-tech-tools"
-                                           title="Dokus zu Techo Tools">
-
-                                        <img src="media/img/main/docs/docs-nav/doc-tt-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                        <img src="media/img/main/docs/docs-nav/doc-tt-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
-
-                                        <div class="txt-box-main-nav-topic-filter">
-
-                                            <div>Tech</div>
-                                            <div>Tool's</div>
-
-                                        </div>
-
-                                    </label>
-
-
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <!-- Label - Docs Audio                                                   -->
-                                    <!-- -------------------------------------------------------------------- -->
-                                    <label for="chk-mp3-docs" 
-                                           id="js-lbl-mp3-docs"
-                                           class="lbl-main-nav-topic-filter-audio"
-                                           title="Musik abspielen für entspanntes durchstöbern">
-
-                                        <img src="media/img/default/mp3-play.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
-                                        <img src="media/img/default/mp3-pause.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
+                                    <nav class="main-nav-topic-container">
                                         
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <!-- Label - Web & App Entwicklung                                        -->
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <label for="radio-my-main-nav-topic-docs-web-app-dev"
+                                                id="trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev"
+                                                class="lbl-main-nav-topic-filter"
+                                                name="name-radio-my-main-nav-topic-docs-web-app-dev"
+                                                title="Dokus zu Web & App Entwicklung">
 
-                                    </label>
-
-                             
-
-                                </nav>
-
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <!-- [ Template | Nav Filter ] - Container                                        -->
-                                <!-- ---------------------------------------------------------------------------- -->
-                                <nav class="main-nav-topic-filter-container border-b-0-25em-light-brown-3"
-                                     id="trigger-nav-topic-filter-docs-web-app-dev">
-                                    
-
-                                    <!-- --------------------------------------------------------------- -->
-                                    <!-- Filter Items Container                                          -->
-                                    <!-- --------------------------------------------------------------- -->
-                                    <div class="main-nav-topic-filter-radio-item-container">
-
-                                        <!-- ----------------------------------------------------------- -->
-                                        <!-- 01 - Label Item - Web-Frameworks                            -->
-                                        <!-- ----------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks"
-                                            class="lbl-main-nav-topic-filter-item"
-                                            id="trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                            name="name-my-main-nav-topic-filter-docs-web-app-dev">
+                                            <img src="media/img/main/docs/docs-nav/doc-web-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-web-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
 
 
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Radio Box ( My Own Radio Box Style )           -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div class="my-own-circle-outside">
-                
-                                                    <!-- Setted Point inside circle if setted -->
-                                                    <div class="my-own-set-point"></div>
-                    
-                                                </div>
+                                            <div class="txt-box-main-nav-topic-filter">
 
-                                                <!-- ---------------------------------------------- -->
-                                                <!-- Label Text Box                                 -->
-                                                <!-- ---------------------------------------------- -->
-                                                <div> Web-Frameworks </div>
-                                            
+                                                <div>Web & App</div>
+                                                <div>Entwicklung</div>
 
-                                            
+                                            </div>
+
                                         </label>
-                                  
-                                        <!-- ------------------------------------------------------------ -->
-                                        <!-- Info Filter Items Count [ only exist by js ]                 -->
-                                        <!-- ------------------------------------------------------------ -->
-                                        <div class="main-nav-topic-filter-item-count-box">
-                                            [ +3 ]
+
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <!-- Label - Data Science                                                 -->
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <label for="radio-my-main-nav-topic-docs-data-science"
+                                                id="trigger-lbl-radio-my-main-nav-topic-docs-data-science"
+                                                class="lbl-main-nav-topic-filter"
+                                                name="name-radio-my-main-nav-topic-docs-data-science"
+                                                title="Dokus zu Data Science ">
+
+                                            <img src="media/img/main/docs/docs-nav/doc-ds-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-ds-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+                                            <div class="txt-box-main-nav-topic-filter">
+
+                                                <div>Data</div>
+                                                <div>Science</div>
+
+                                            </div>
+
+                                        </label>
+
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <!-- Label - Backend & Co                                                 -->
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <label for="radio-my-main-nav-topic-docs-backend-co"
+                                                id="trigger-lbl-radio-my-main-nav-topic-docs-backend-co"
+                                                class="lbl-main-nav-topic-filter"
+                                                name="name-radio-my-main-nav-topic-docs-backend-co"
+                                                title="Dokus zu Backend & Co ">
+
+                                            <img src="media/img/main/docs/docs-nav/doc-dbs-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-dbs-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+                                            <div class="txt-box-main-nav-topic-filter">
+
+                                                <div>Backend</div>
+                                                <div>& Co</div>
+
+                                            </div>
+
+                                        </label>
+
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <!-- Label - Tech Tools                                                   -->
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <label for="radio-my-main-nav-topic-docs-tech-tools"
+                                                id="trigger-lbl-radio-my-main-nav-topic-docs-tech-tools"
+                                                class="lbl-main-nav-topic-filter"
+                                                name="name-radio-my-main-nav-topic-docs-tech-tools"
+                                                title="Dokus zu Techo Tools">
+
+                                            <img src="media/img/main/docs/docs-nav/doc-tt-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-tt-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+
+                                            <div class="txt-box-main-nav-topic-filter">
+
+                                                <div>Tech</div>
+                                                <div>Tool's</div>
+
+                                            </div>
+
+                                        </label>
+
+
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <!-- Label - Docs Audio                                                   -->
+                                        <!-- -------------------------------------------------------------------- -->
+                                        <label for="chk-mp3-docs" 
+                                                id="js-lbl-mp3-docs"
+                                                class="lbl-main-nav-topic-filter-audio"
+                                                title="Musik abspielen für entspanntes durchstöbern">
+
+                                            <img src="media/img/default/mp3-play.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
+                                            <img src="media/img/default/mp3-pause.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
+                                            
+
+                                        </label>
+
+                                    
+
+                                    </nav>
+
+                                    <!-- ---------------------------------------------------------------------------- -->
+                                    <!-- [ Template | Nav Filter ] - Container                                        -->
+                                    <!-- ---------------------------------------------------------------------------- -->
+                                    <nav class="main-nav-topic-filter-container border-b-0-25em-light-brown-3"
+                                            id="trigger-nav-topic-filter-docs-web-app-dev">
+                                        
+
+                                        <!-- --------------------------------------------------------------- -->
+                                        <!-- Filter Items Container                                          -->
+                                        <!-- --------------------------------------------------------------- -->
+                                        <div class="main-nav-topic-filter-radio-item-container">
+
+                                            <!-- ----------------------------------------------------------- -->
+                                            <!-- 01 - Label Item - Web-Frameworks                            -->
+                                            <!-- ----------------------------------------------------------- -->
+                                            <label for="radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks"
+                                                class="lbl-main-nav-topic-filter-item"
+                                                id="trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
+                                                name="name-my-main-nav-topic-filter-docs-web-app-dev">
+
+
+                                                    <!-- ---------------------------------------------- -->
+                                                    <!-- Radio Box ( My Own Radio Box Style )           -->
+                                                    <!-- ---------------------------------------------- -->
+                                                    <div class="my-own-circle-outside">
+                    
+                                                        <!-- Setted Point inside circle if setted -->
+                                                        <div class="my-own-set-point"></div>
+                        
+                                                    </div>
+
+                                                    <!-- ---------------------------------------------- -->
+                                                    <!-- Label Text Box                                 -->
+                                                    <!-- ---------------------------------------------- -->
+                                                    <div> Web-Frameworks </div>
+                                                
+
+                                                
+                                            </label>
+                                        
+                                            <!-- ------------------------------------------------------------ -->
+                                            <!-- Info Filter Items Count [ only exist by js ]                 -->
+                                            <!-- ------------------------------------------------------------ -->
+                                            <div class="main-nav-topic-filter-item-count-box">
+                                                [ +3 ]
+                                            </div>
+
                                         </div>
 
-                                    </div>
 
+                                        <!-- [JS] - Create Drop Down Label | if more than 2 rows container -->
+                                        <label for="checkbox-drop-down-main-nav-topic-filter-docs-web-app-dev"
+                                                id="trigger-Fragezeichen-weil-JavaScript-nicht-notwendig"
+                                                class="lbl-drop-down-main-nav-topic-filter">
 
-                                    <!-- [JS] - Create Drop Down Label | if more than 2 rows container -->
-                                    <label for="checkbox-drop-down-main-nav-topic-filter-docs-web-app-dev"
-                                           id="trigger-Fragezeichen-weil-JavaScript-nicht-notwendig"
-                                           class="lbl-drop-down-main-nav-topic-filter">
+                                                <!-- Default Down ( to open | status is closed  ) -->
+                                                <img src="media/img/default/icons/info-icons/arrow-down-black.png" class="img-drop-down-main-nav-topic-filter" alt="img">
 
-                                           <!-- Default Down ( to open | status is closed  ) -->
-                                           <img src="media/img/default/icons/info-icons/arrow-down-black.png" class="img-drop-down-main-nav-topic-filter" alt="img">
+                                                <!-- Up ( to close | status is open ) -->
+                                                <!-- <img src="media/img/default/icons/arrow-up-black.png" class="img-drop-down-main-nav-topic-filter" alt="img"> -->
 
-                                           <!-- Up ( to close | status is open ) -->
-                                           <!-- <img src="media/img/default/icons/arrow-up-black.png" class="img-drop-down-main-nav-topic-filter" alt="img"> -->
+                                        </label>
 
-                                    </label>
-
-                                    
-                                </nav>
-
-
-
-                            </div>
- 
-                        </div>
-
-
-                        <!-- ------------------------------------------------------------------------------- -->
-                        <!-- [Main] - Card Layout                                                            -->                                                 
-                        <!-- ------------------------------------------------------------------------------- -->
-                        <!-- json-append-docs-card-items-layout-container -->
-                        <div id="docs-card-items-layout-container">
-
-
-                            <!-- ----------------------------------------------------------- -->
-                            <!-- [ No JS - Info ] - Container                                -->
-                            <!-- ----------------------------------------------------------- -->
-                            <div class="flex cg-0-5em no-js-info-container"
-                                 id="json-no-js-create-card-items-info-container">
-
-                                
-                                <div>
-
-                                    <div class="flex ai-c cg-0-8em font-size-1-1em">
-
-                                        <img src="media/img/default/icons/tech-icons/no-js.png" class="img-no-js" alt="img">
-                                        <div class="txt-b padd-t-0-3em">Kein Java Script aktiviert.</div>
-
-                                    </div>
-                                    
-                                    <div class="padd-t-0-6em">
                                         
-                                        » Aktivieren Sie Java Script damit 
-                                        der Seiteninhalt wieder geladen werden kann.
-                                    </div>
+                                    </nav>
 
                                 </div>
 
-                                
-                                <img src="media/img/default/img/no-js.png" class="img-me-no-js" alt="img">
-
-                                
-
                             </div>
+                        
 
-                            <!-- ------------------------------------------------------------ -->
-                            <!-- [ Template | Link-Download Card ]                            -->
-                            <!-- ------------------------------------------------------------ -->
-                            <!-- <template id="template-card-item"> -->
+                            <!-- --------------------------------------------------------------------------- -->
+                            <!-- [Postion Content] - Center                                                  -->
+                            <!-- --------------------------------------------------------------------------- -->
+                            <div class="flex jc-c">
 
-                                <div class="card-layout">
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <!-- [Container] - Main Card Layout & Card Items                                     -->                                                 
+                                <!-- ------------------------------------------------------------------------------- -->
+                                <!-- json-append-docs-card-items-layout-container -->
+                                <div id="main-card-layout">
 
-                                    <!-- -------------------------------------------------------------------------------------------- -->
-                                    <!-- [1/2] - Header Card                                                                                  -->
-                                    <!-- -------------------------------------------------------------------------------------------- -->
-                                    <div>
 
-                                        <!-- --------------------------------------------------------- -->
-                                        <!-- Header Card Container                                     -->
-                                        <!-- --------------------------------------------------------- -->
-                                        <div class="flex ai-c jc-sb card-layout-header">
+                                    <!-- ----------------------------------------------------------- -->
+                                    <!-- [ No JS - Info ] - Container                                -->
+                                    <!-- ----------------------------------------------------------- -->
+                                    <div class="flex cg-0-5em no-js-info-container"
+                                        id="json-no-js-create-card-items-info-container">
 
                                         
-                                            <div class="flex ai-c jc-c card-layout-number-box">
-                                                
-                                                <div name="json-card-index">01</div>
-                                                <div>/</div>
-                                                <div name="json-card-max-index">04</div>
-                                                
-                                            </div>
+                                        <div>
 
-                                            <div class="flex ai-c cg-0-3em txt-b">
+                                            <div class="flex ai-c cg-0-8em font-size-1-1em">
 
-                                                <img src="media/img/default/icons/info-icons/download-grey.png" class="img-w-1em" alt="img">
-                                                
-                                                <div name="json-card-file-storage">1.23 MB</div>
+                                                <img src="media/img/default/icons/tech-icons/no-js.png" class="img-no-js" alt="img">
+                                                <div class="txt-b padd-t-0-3em">Kein Java Script aktiviert.</div>
 
                                             </div>
-
-                                        </div>
-
-                                        <!-- --------------------------------------------------------- -->
-                                        <!-- [Optional] Card Info not finished Container               -->
-                                        <!-- --------------------------------------------------------- -->
-                                        <div name="json-card-item-not-finish-container">
-
-                                    
-                                            <!-- ----------------------------------------------------- -->
-                                            <!-- >> in Progress                                        -->
-                                            <!-- ----------------------------------------------------- -->
-                                            <div class="flex ai-c cg-0-5em card-layout-not-finish-header bg-dark-red-4"
-                                                name="json-card-item-not-finish-container-in-progress">
-    
-    
-                                                <img src="media/img/default/icons/info-icons/gear.png"
-                                                class="img-w-1-3em keyframe-anim-360-rotation-4s-linear-infinity"                                           
-                                                alt="img">
-                                                                                                                                        
-                                                <div class="txt-a-c">
-                                                    Aktuell in Bearbeitung bis 
-                                                    <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
-                                                </div>
-    
-                                                
-                                            </div>
-
-                                            <!-- ----------------------------------------------------- -->
-                                            <!-- >> in Planning                                        -->
-                                            <!-- ----------------------------------------------------- -->
-                                            <!-- <div class="flex ai-c cg-0-6em card-layout-not-finish-header bg-dark-yellow-1 txt-color-dark-black-1"
-                                                    name="json-card-item-not-finish-container-in-progress">
-
-
-                                                <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
-                                                class="img-w-1-2em"                                           
-                                                alt="img">
-                                                                                                                                        
-                                                <div class="txt-a-c">
-                                                    Aktuell in Planung bis 
-                                                    <span class="txt-u" name="json-card-not-finish-date-text">05 / 2023</span>
-                                                </div>
-
-                                            </div> -->
- 
                                             
+                                            <div class="padd-t-0-6em">
+                                                
+                                                » Aktivieren Sie Java Script damit 
+                                                der Seiteninhalt wieder geladen werden kann.
+                                            </div>
+
                                         </div>
 
+                                        
+                                        <img src="media/img/default/img/no-js.png" class="img-me-no-js" alt="img">
+
+                                        
 
                                     </div>
-                                
-                                    
-                                    <!-- -------------------------------------------------------------------------------------------- -->
-                                    <!-- [2/2] - Main Card                                                                                      -->
-                                    <!-- -------------------------------------------------------------------------------------------- -->
-                                    <div class="card-layout-main-content-container">
 
+                                    <!-- ------------------------------------------------------------ -->
+                                    <!-- [ Template | Link-Download Card ]                            -->
+                                    <!-- ------------------------------------------------------------ -->
+                                    <!-- <template id="template-card-item"> -->
 
-                                      
-                                        <!-- ------------------------------------------------------------------------------ -->
-                                        <!-- Dynamically Card Item Content                                                  -->
-                                        <!-- ------------------------------------------------------------------------------ -->
-                                        <div class="grid rg-0-8em">
-                                    
-                                            <!-- ------------------------------------------------------------------- -->
-                                            <!-- [Card Category Title & Card Title] - Container                      -->
-                                            <!-- ------------------------------------------------------------------- -->
-                                            <div class="padd-lr-0-3em">
-                                            
-                                                <div class="flex aic-c cg-0-5em txt-b">
+                                        <div class="card-layout">
+
+                                            <!-- -------------------------------------------------------------------------------------------- -->
+                                            <!-- [1/2] - Header Card                                                                                  -->
+                                            <!-- -------------------------------------------------------------------------------------------- -->
+                                            <div>
+
+                                                <!-- --------------------------------------------------------- -->
+                                                <!-- Header Card Container                                     -->
+                                                <!-- --------------------------------------------------------- -->
+                                                <div class="flex ai-c jc-sb card-layout-header">
+
+                                                
+                                                    <div class="flex ai-c jc-c card-layout-number-box">
                                                         
-                                                    <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
+                                                        <div name="json-card-index">01</div>
+                                                        <div>/</div>
+                                                        <div name="json-card-max-index">04</div>
                                                         
-                                                        <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                        <div class="txt-color-medium-blue-3" name="json-card-category-tech-text">Type Script</div>
+                                                    </div>
+
+                                                    <div class="flex ai-c cg-0-3em txt-b">
+
+                                                        <img src="media/img/default/icons/info-icons/download-grey.png" class="img-w-1em" alt="img">
+                                                        
+                                                        <div name="json-card-file-storage">1.23 MB</div>
 
                                                     </div>
 
-                                                    <div> ⋅ </div>
-
-                                                    <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
-                                                        <img src="media/img/default/icons/info-icons/pdf.png" 
-                                                        name="json-card-category-tech-area-img-src" 
-                                                        class="img-w-0-8em" img="alt">
-                                                        <div name="json-card-category-tech-area-text">Tutorial</div>
-                                                    </div>
-
-                                                </div> 
-                                                                                        
-                                                <div class="card-layout-main-info-develop-title"
-                                                    name="json-card-title">
-                                                    20 Coding Katas und viele weitere
-                                                    Projekte nur so als Test um dies zu verstehen
-                                                    nur so als Test um dies zu verstehen 
                                                 </div>
 
-                                            </div>
-
-                                            <!-- ------------------------------------------------------------------- -->
-                                            <!-- [Card Main Content] - Container                                     -->
-                                            <!-- ------------------------------------------------------------------- -->
-                                            <div class="grid rg-0-6em">
-
-
-                                                <!-- -------------------------------------------------------------- -->
-                                                <!-- [Float] - Container                                             -->
-                                                <!-- -------------------------------------------------------------- -->
-                                                <div name="json-trigger-container-card-img-float-hashtags">
-
-                                                    <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
-                                                        class="img-float-card-layout"
-                                                        name="json-card-pdf-img" alt="img">
+                                                <!-- --------------------------------------------------------- -->
+                                                <!-- [Optional] Card Info not finished Container               -->
+                                                <!-- --------------------------------------------------------- -->
+                                                <div name="json-card-item-not-finish-container">
 
                                             
-                                                    <div class="float-hashtag">#angular</div>
-                                                    <div class="float-hashtag">#typescript</div>
-                                                    <div class="float-hashtag">#angularCSS</div>
-                                                    <div class="float-hashtag">#chartJS</div>
-                                                    <div class="float-hashtag">#graphQL</div>
-                                                    <div class="float-hashtag">#auto. Tests</div>                                           
-                                                    <div class="float-hashtag">#postgreSQL</div>
-                                                    <div class="float-hashtag">-learn-build-run success - repeat</div>
-                                                    <div class="float-hashtag">- Web - App - Data Science Developer</div>
-
-                                                    
-                                                </div>
-
-
-                                                <!-- -------------------------------------------------------------- -->
-                                                <!-- [Column] - Container                                           -->
-                                                <!-- -------------------------------------------------------------- -->
-                                                <div name="json-trigger-container-card-img-hashtags">
-
-                                                    <img src="media/img/main/docs/topics/web-app-development/web-frameworks/github-project-cover.png"
-                                                        class="img-max-width-card-layout"
-                                                        name="json-card-item-img-hashtag"
+                                                    <!-- ----------------------------------------------------- -->
+                                                    <!-- >> in Progress                                        -->
+                                                    <!-- ----------------------------------------------------- -->
+                                                    <div class="flex ai-c cg-0-5em card-layout-not-finish-header bg-dark-red-4"
+                                                        name="json-card-item-not-finish-container-in-progress">
+            
+            
+                                                        <img src="media/img/default/icons/info-icons/gear.png"
+                                                        class="img-w-1-3em keyframe-anim-360-rotation-4s-linear-infinity"                                           
                                                         alt="img">
-
-                                                
-                                                    <div class="flex ai-c fw-w gaps-0-4em"
-                                                        name="json-card-item-hashtag-container">
+                                                                                                                                                
+                                                        <div class="txt-a-c">
+                                                            Aktuell in Bearbeitung bis 
+                                                            <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
+                                                        </div>
+            
                                                         
-                                                        <div class="hashtag">#angular</div>
-                                                        <div class="hashtag">#typescript</div>
-                                                        <div class="hashtag">#angularCSS</div>
-                                                        <div class="hashtag">#chartJS</div>
-                                                        <div class="hashtag">#graphQL</div>
-                                                        <div class="hashtag">#auto. Tests</div>                                           
-                                                        <div class="hashtag">#postgreSQL</div>
-
                                                     </div>
 
+                                                    <!-- ----------------------------------------------------- -->
+                                                    <!-- >> in Planning                                        -->
+                                                    <!-- ----------------------------------------------------- -->
+                                                    <!-- <div class="flex ai-c cg-0-6em card-layout-not-finish-header bg-dark-yellow-1 txt-color-dark-black-1"
+                                                            name="json-card-item-not-finish-container-in-progress">
+
+
+                                                        <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
+                                                        class="img-w-1-2em"                                           
+                                                        alt="img">
+                                                                                                                                                
+                                                        <div class="txt-a-c">
+                                                            Aktuell in Planung bis 
+                                                            <span class="txt-u" name="json-card-not-finish-date-text">05 / 2023</span>
+                                                        </div>
+
+                                                    </div> -->
+
+                                                    
                                                 </div>
 
 
-
-                                                <!-- -------------------------------------------------------------- -->
-                                                <!-- [List] - Container                                             -->
-                                                <!-- -------------------------------------------------------------- -->
-                                                <div class="grid rg-1em">
-
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <!-- [Radio|Optional] - Container                                   -->
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <div class="flex ai-c fw-w gaps-0-4em"> 
-                                                                                            
-                                                        <label for="radio-my-main-container-docs-gimp-yt-gui"
-                                                        class="lbl-main-nav-topic-filter-item"
-                                                        id="trigger-lbl-radio-my-main-container-docs-gimp-yt-gui"
-                                                        name="name-radio-my-main-container-docs-gimp-yt">
-
-                                                            <div class="my-own-circle-outside">
-                                                                <div class="my-own-set-point"></div>                           
-                                                            </div>
-                                                            <div> Gimp Oberfläche </div>
-                                                        
-                                                        </label>
-                                                        
-                                                        <label for="radio-my-main-container-docs-gimp-yt-practice"
-                                                        class="lbl-main-nav-topic-filter-item"
-                                                        id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
-                                                        name="name-radio-my-main-container-docs-gimp-yt">
-
-                                                            <div class="my-own-circle-outside">
-                                                                <div class="my-own-set-point"></div>
-                                                            </div>
-                                                            <div> Übungsbeispiele </div>
-                                                        
-                                                        </label>
-
-                                                        <label for="radio-my-main-container-docs-gimp-yt-practice"
-                                                        class="lbl-main-nav-topic-filter-item"
-                                                        id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
-                                                        name="name-radio-my-main-container-docs-gimp-yt">
-
-                                                            <div class="my-own-circle-outside">
-                                                                <div class="my-own-set-point"></div>
-                                                            </div>
-                                                            <div> Übungsbeispiele </div>
-                                                        
-                                                        </label>
-
-                                                        <label for="radio-my-main-container-docs-gimp-yt-practice"
-                                                        class="lbl-main-nav-topic-filter-item"
-                                                        id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
-                                                        name="name-radio-my-main-container-docs-gimp-yt">
-
-                                                            <div class="my-own-circle-outside">
-                                                                <div class="my-own-set-point"></div>
-                                                            </div>
-                                                            <div> Übungsbeispiele </div>
-                                                        
-                                                        </label>
-                                                        
-                                                    </div>  
+                                            </div>
+                                        
+                                            
+                                            <!-- -------------------------------------------------------------------------------------------- -->
+                                            <!-- [2/2] - Main Card                                                                                      -->
+                                            <!-- -------------------------------------------------------------------------------------------- -->
+                                            <div class="card-layout-main-content-container">
 
 
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <!-- [List Content] - Container                                     -->
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <div class="card-item-list-content-container">
+                                            
+                                                <!-- ------------------------------------------------------------------------------ -->
+                                                <!-- Dynamically Card Item Content                                                  -->
+                                                <!-- ------------------------------------------------------------------------------ -->
+                                                <div class="grid rg-0-8em">
+                                            
+                                                    <!-- ------------------------------------------------------------------- -->
+                                                    <!-- [Card Category Title & Card Title] - Container                      -->
+                                                    <!-- ------------------------------------------------------------------- -->
+                                                    <div class="padd-lr-0-3em">
                                                     
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                            <div class="grid ji-c ac-fs rg-0-3em">
-                                                                <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v1.png" class="img-file-card-link" alt="img">
-                                                                <div class="txt-color-dark-grey-2">07:23 Min.</div>
-                                                            </div>
-
-                                                            <div class="file-card-link-github-box">
-                                                            
-                                                                <div>
-                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                    und wieder nocht mehr
-                                                                </div>
-
-                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-
-                                                        
- 
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-                                                                        <img src="media/img/default/icons/info-icons/share.png" class="img-w-1em" alt="img">
-                                                                        <img src="media/img/default/icons/info-icons/videoplayer.png" class="img-w-1em" alt="img">
-                                                                    </a> 
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                            <div class="grid ji-c ac-fs rg-0-3em">
-                                                                <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v2.png" class="img-file-card-link" alt="img">
-                                                                <div class="txt-color-dark-grey-2">07:23 Min.</div>
-                                                            </div>
-
-                                                            <div class="file-card-link-github-box">
-                                                            
-                                                                <div>
-                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                    und wieder nocht mehr
-                                                                </div>
-
-                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-
-                                                        
- 
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-                                                                        <img src="media/img/default/icons/info-icons/share.png" class="img-w-1em" alt="img">
-                                                                        <img src="media/img/default/icons/info-icons/videoplayer.png" class="img-w-1em" alt="img">
-                                                                    </a> 
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                            <div class="grid ji-c ac-fs rg-0-3em">
-                                                                <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v3.png" class="img-file-card-link" alt="img">
-                                                                <div class="txt-color-dark-grey-2">07:23 Min.</div>
-                                                            </div>
-
-                                                            <div class="file-card-link-github-box">
-                                                            
-                                                                <div>
-                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                    und wieder nocht mehr
-                                                                </div>
-
-                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-
-                                                        
- 
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-                                                                        <img src="media/img/default/icons/info-icons/share.png" class="img-w-1em" alt="img">
-                                                                        <img src="media/img/default/icons/info-icons/videoplayer.png" class="img-w-1em" alt="img">
-                                                                    </a> 
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                            <div class="grid ji-c ac-fs rg-0-3em">
-                                                                <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v4.png" class="img-file-card-link" alt="img">
-                                                                <div class="txt-color-dark-grey-2">22 MB</div>
-                                                            </div>
-
-                                                            <div class="file-card-link-github-box">
-                                                            
-                                                                <div>
-                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                    und wieder nocht mehr
-                                                                </div>
-
-                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-
-                                                        
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">SSH</a>
-
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-
-                                                                        <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
-                                                                        <div>.Zip</div>
-                                                                        
-                                                                    </a>                                                               
-                                                                    
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-                                                                        <img src="media/img/default/icons/info-icons/github-black.png" class="img-w-1em" alt="img">
-                                                                    </a> 
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                  
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                            <div class="grid ji-c ac-fs rg-0-3em">
-                                                                <img src="media/img/main/docs/topics/tech-tools/multimedia/anki/anki-thumb.png" class="img-file-card-link" alt="img">
-                                                                <div class="txt-color-dark-grey-2">22 MB</div>
-                                                            </div>
-
-                                                            <div class="file-card-link-github-box">
-                                                            
-                                                                <div>
-                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                    und wieder nocht mehr
-                                                                </div>
-
-                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-
-                                                        
-                                                                    
-
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-
-                                                                        <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
-                                                                        <div>.apkg</div>
-                                                                        
-                                                                    </a>                                                               
-                                                                    
-                                                                    
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                            <div class="grid ji-c ac-fs rg-0-3em">
-                                                                <img src="media/img/main/docs/topics/tech-tools/multimedia/figma/figma-thunbmail.png" class="img-file-card-link" alt="img">
-                                                                <div class="txt-color-dark-grey-2">22 MB</div>
-                                                            </div>
-
-                                                            <div class="file-card-link-github-box">
-                                                            
-                                                                <div>
-                                                                    [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                    und wieder nocht mehr
-                                                                </div>
-
-                                                                <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-
-
-                                                                    <a href="#" class="file-card-link-github-link" target="_blank">
-
-                                                                        <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
-                                                                        <div>.fig</div>
-                                                                        
-                                                                    </a>                                                               
-
-
-                                                                </div>
-                                                            
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                                <div class="grid ji-c ac-fs rg-0-3em">
-                                                                    <img src="media/img/main/docs/topics/tech-tools/office/writer-thunbmail.png" class="img-file-card-link" alt="img">
-                                                                    <div class="txt-color-dark-grey-2">22 MB</div>
-                                                                </div>
-        
-                                                                <div class="file-card-link-github-box">
+                                                        <div class="flex aic-c cg-0-5em txt-b">
                                                                 
-                                                                    <div>
-                                                                        [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                        und wieder nocht mehr
-                                                                    </div>
-        
-                                                                    <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-        
-                                                            
-                                                                        
-        
-                                                                        <a href="#" class="file-card-link-github-link" target="_blank">
-        
-                                                                            <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
-                                                                            <div>.odt</div>
-                                                                            
-                                                                        </a>                                                               
-                                                                        
-                                                                        
-        
-                                                                    </div>
-        
-                                                                </div>
-
-                                                        </div>
-
-                                                        <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
-                                                            
-                                                                <div class="grid ji-c ac-fs rg-0-3em">
-                                                                    <img src="media/img/main/docs/topics/tech-tools/office/impress-thunbmail.png" class="img-file-card-link" alt="img">
-                                                                    <div class="txt-color-dark-grey-2">22 MB</div>
-                                                                </div>
-        
-                                                                <div class="file-card-link-github-box">
+                                                            <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
                                                                 
-                                                                    <div>
-                                                                        [Oberfläche] - Lerne wie etwas zu machen ist 
-                                                                        und wieder nocht mehr
-                                                                    </div>
-        
-                                                                    <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
-        
-                                                            
-                                                                        
-        
-                                                                        <a href="#" class="file-card-link-github-link" target="_blank">
-        
-                                                                            <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
-                                                                            <div>.odp</div>
-                                                                            
-                                                                        </a>                                                               
-                                                                        
-                                                                        
-        
-                                                                    </div>
-        
-                                                                </div>
+                                                                <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                                <div class="txt-color-medium-blue-3" name="json-card-category-tech-text">Type Script</div>
 
+                                                            </div>
+
+                                                            <div> ⋅ </div>
+
+                                                            <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
+                                                                <img src="media/img/default/icons/info-icons/pdf.png" 
+                                                                name="json-card-category-tech-area-img-src" 
+                                                                class="img-w-0-8em" img="alt">
+                                                                <div name="json-card-category-tech-area-text">Tutorial</div>
+                                                            </div>
+
+                                                        </div> 
+                                                                                                
+                                                        <div class="card-layout-main-info-develop-title"
+                                                            name="json-card-title">
+                                                            20 Coding Katas und viele weitere
+                                                            Projekte nur so als Test um dies zu verstehen
+                                                            nur so als Test um dies zu verstehen 
                                                         </div>
-
 
                                                     </div>
 
+                                                    <!-- ------------------------------------------------------------------- -->
+                                                    <!-- [Card Main Content] - Container                                     -->
+                                                    <!-- ------------------------------------------------------------------- -->
+                                                    <div class="grid rg-0-6em">
 
 
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <!-- [Button] - Container                                           -->
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <div class="flex aic-c jc-fe cg-0-5em clear-both"
-                                                        name="json-card-button-container">
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <!-- [Float] - Container                                             -->
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <div name="json-trigger-container-card-img-float-hashtags">
+
+                                                            <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
+                                                                class="img-float-card-layout"
+                                                                name="json-card-pdf-img" alt="img">
+
+                                                    
+                                                            <div class="float-hashtag">#angular</div>
+                                                            <div class="float-hashtag">#typescript</div>
+                                                            <div class="float-hashtag">#angularCSS</div>
+                                                            <div class="float-hashtag">#chartJS</div>
+                                                            <div class="float-hashtag">#graphQL</div>
+                                                            <div class="float-hashtag">#auto. Tests</div>                                           
+                                                            <div class="float-hashtag">#postgreSQL</div>
+                                                            <div class="float-hashtag">-learn-build-run success - repeat</div>
+                                                            <div class="float-hashtag">- Web - App - Data Science Developer</div>
+
+                                                            
+                                                        </div>
 
 
-                                                        <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
-                                            
-                                                            <img src="media/img/default/icons/info-icons/download-black.png"
-                                                            name="json-card-btn-1st-link-img-src"
-                                                            class="img-w-1em" alt="img">
-                                                            <div name="json-card-btn-1st-link-img-text">.odt</div>
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <!-- [Column] - Container                                           -->
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <div name="json-trigger-container-card-img-hashtags">
 
-                                                        </a>
-
-
-                                                        <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
-                                            
-                                                            <img src="media/img/default/icons/info-icons/share.png"
-                                                                name="json-card-btn-2st-link-img-src"
-                                                                class="img-w-1em"
+                                                            <img src="media/img/main/docs/topics/web-app-development/web-frameworks/github-project-cover.png"
+                                                                class="img-max-width-card-layout"
+                                                                name="json-card-item-img-hashtag"
                                                                 alt="img">
-                                                            <div name="json-card-btn-2st-link-img-text">.pdf</div>
 
-                                                        </a>
+                                                        
+                                                            <div class="flex ai-c fw-w gaps-0-4em"
+                                                                name="json-card-item-hashtag-container">
+                                                                
+                                                                <div class="hashtag">#angular</div>
+                                                                <div class="hashtag">#typescript</div>
+                                                                <div class="hashtag">#angularCSS</div>
+                                                                <div class="hashtag">#chartJS</div>
+                                                                <div class="hashtag">#graphQL</div>
+                                                                <div class="hashtag">#auto. Tests</div>                                           
+                                                                <div class="hashtag">#postgreSQL</div>
+
+                                                            </div>
+
+                                                        </div>
 
 
-                                                    </div>  
+
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <!-- [List] - Container                                             -->
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <div class="grid rg-1em">
+
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <!-- [Radio|Optional] - Container                                   -->
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <div class="flex ai-c fw-w gaps-0-4em"> 
+                                                                                                    
+                                                                <label for="radio-my-main-container-docs-gimp-yt-gui"
+                                                                class="lbl-main-nav-topic-filter-item"
+                                                                id="trigger-lbl-radio-my-main-container-docs-gimp-yt-gui"
+                                                                name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                                    <div class="my-own-circle-outside">
+                                                                        <div class="my-own-set-point"></div>                           
+                                                                    </div>
+                                                                    <div> Gimp Oberfläche </div>
+                                                                
+                                                                </label>
+                                                                
+                                                                <label for="radio-my-main-container-docs-gimp-yt-practice"
+                                                                class="lbl-main-nav-topic-filter-item"
+                                                                id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
+                                                                name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                                    <div class="my-own-circle-outside">
+                                                                        <div class="my-own-set-point"></div>
+                                                                    </div>
+                                                                    <div> Übungsbeispiele </div>
+                                                                
+                                                                </label>
+
+                                                                <label for="radio-my-main-container-docs-gimp-yt-practice"
+                                                                class="lbl-main-nav-topic-filter-item"
+                                                                id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
+                                                                name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                                    <div class="my-own-circle-outside">
+                                                                        <div class="my-own-set-point"></div>
+                                                                    </div>
+                                                                    <div> Übungsbeispiele </div>
+                                                                
+                                                                </label>
+
+                                                                <label for="radio-my-main-container-docs-gimp-yt-practice"
+                                                                class="lbl-main-nav-topic-filter-item"
+                                                                id="trigger-lbl-radio-my-main-container-docs-gimp-yt-practice"
+                                                                name="name-radio-my-main-container-docs-gimp-yt">
+
+                                                                    <div class="my-own-circle-outside">
+                                                                        <div class="my-own-set-point"></div>
+                                                                    </div>
+                                                                    <div> Übungsbeispiele </div>
+                                                                
+                                                                </label>
+                                                                
+                                                            </div>  
 
 
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <!-- [Repo] - Container                                             -->
-                                                    <!-- -------------------------------------------------------------- -->
-                                                    <div>
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <!-- [List Content] - Container                                     -->
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <div class="card-item-list-content-container">
+                                                            
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                    <div class="grid ji-c ac-fs rg-0-3em">
+                                                                        <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v1.png" class="img-file-card-link" alt="img">
+                                                                        <div class="txt-color-dark-grey-2">07:23 Min.</div>
+                                                                    </div>
 
-                                                        <div class="file-card-repo-clone-txt-layout">Clone Repository:</div>
+                                                                    <div class="file-card-link-github-box">
+                                                                    
+                                                                        <div>
+                                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                            und wieder nocht mehr
+                                                                        </div>
 
-                                                        <div class="file-card-ssh-link-layout">
+                                                                        <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
 
-                                                            <div class="file-card-ssh-box-layout">SSH:</div>
+                                                                
 
-                                                            <div class="file-card-ssh-link">
-                                                                git@github.com:superfreshdev/portfolio2.git
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                                <img src="media/img/default/icons/info-icons/share.png" class="img-w-1em" alt="img">
+                                                                                <img src="media/img/default/icons/info-icons/videoplayer.png" class="img-w-1em" alt="img">
+                                                                            </a> 
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                    <div class="grid ji-c ac-fs rg-0-3em">
+                                                                        <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v2.png" class="img-file-card-link" alt="img">
+                                                                        <div class="txt-color-dark-grey-2">07:23 Min.</div>
+                                                                    </div>
+
+                                                                    <div class="file-card-link-github-box">
+                                                                    
+                                                                        <div>
+                                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                            und wieder nocht mehr
+                                                                        </div>
+
+                                                                        <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+                                                                
+
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                                <img src="media/img/default/icons/info-icons/share.png" class="img-w-1em" alt="img">
+                                                                                <img src="media/img/default/icons/info-icons/videoplayer.png" class="img-w-1em" alt="img">
+                                                                            </a> 
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                    <div class="grid ji-c ac-fs rg-0-3em">
+                                                                        <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v3.png" class="img-file-card-link" alt="img">
+                                                                        <div class="txt-color-dark-grey-2">07:23 Min.</div>
+                                                                    </div>
+
+                                                                    <div class="file-card-link-github-box">
+                                                                    
+                                                                        <div>
+                                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                            und wieder nocht mehr
+                                                                        </div>
+
+                                                                        <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+                                                                
+
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                                <img src="media/img/default/icons/info-icons/share.png" class="img-w-1em" alt="img">
+                                                                                <img src="media/img/default/icons/info-icons/videoplayer.png" class="img-w-1em" alt="img">
+                                                                            </a> 
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                    <div class="grid ji-c ac-fs rg-0-3em">
+                                                                        <img src="media/img/main/docs/topics/tech-tools/multimedia/gimp/gimp-v4.png" class="img-file-card-link" alt="img">
+                                                                        <div class="txt-color-dark-grey-2">22 MB</div>
+                                                                    </div>
+
+                                                                    <div class="file-card-link-github-box">
+                                                                    
+                                                                        <div>
+                                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                            und wieder nocht mehr
+                                                                        </div>
+
+                                                                        <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+                                                                
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">SSH</a>
+
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                                <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
+                                                                                <div>.Zip</div>
+                                                                                
+                                                                            </a>                                                               
+                                                                            
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+                                                                                <img src="media/img/default/icons/info-icons/github-black.png" class="img-w-1em" alt="img">
+                                                                            </a> 
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+                                                        
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                    <div class="grid ji-c ac-fs rg-0-3em">
+                                                                        <img src="media/img/main/docs/topics/tech-tools/multimedia/anki/anki-thumb.png" class="img-file-card-link" alt="img">
+                                                                        <div class="txt-color-dark-grey-2">22 MB</div>
+                                                                    </div>
+
+                                                                    <div class="file-card-link-github-box">
+                                                                    
+                                                                        <div>
+                                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                            und wieder nocht mehr
+                                                                        </div>
+
+                                                                        <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+                                                                
+                                                                            
+
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                                <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
+                                                                                <div>.apkg</div>
+                                                                                
+                                                                            </a>                                                               
+                                                                            
+                                                                            
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+
+
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                    <div class="grid ji-c ac-fs rg-0-3em">
+                                                                        <img src="media/img/main/docs/topics/tech-tools/multimedia/figma/figma-thunbmail.png" class="img-file-card-link" alt="img">
+                                                                        <div class="txt-color-dark-grey-2">22 MB</div>
+                                                                    </div>
+
+                                                                    <div class="file-card-link-github-box">
+                                                                    
+                                                                        <div>
+                                                                            [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                            und wieder nocht mehr
+                                                                        </div>
+
+                                                                        <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+
+
+                                                                            <a href="#" class="file-card-link-github-link" target="_blank">
+
+                                                                                <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
+                                                                                <div>.fig</div>
+                                                                                
+                                                                            </a>                                                               
+
+
+                                                                        </div>
+                                                                    
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                        <div class="grid ji-c ac-fs rg-0-3em">
+                                                                            <img src="media/img/main/docs/topics/tech-tools/office/writer-thunbmail.png" class="img-file-card-link" alt="img">
+                                                                            <div class="txt-color-dark-grey-2">22 MB</div>
+                                                                        </div>
+                
+                                                                        <div class="file-card-link-github-box">
+                                                                        
+                                                                            <div>
+                                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                                und wieder nocht mehr
+                                                                            </div>
+                
+                                                                            <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+                
+                                                                    
+                                                                                
+                
+                                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+                
+                                                                                    <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
+                                                                                    <div>.odt</div>
+                                                                                    
+                                                                                </a>                                                               
+                                                                                
+                                                                                
+                
+                                                                            </div>
+                
+                                                                        </div>
+
+                                                                </div>
+
+                                                                <div href="#" class="flex cg-0-8em file-card-link" target="_blank">
+                                                                    
+                                                                        <div class="grid ji-c ac-fs rg-0-3em">
+                                                                            <img src="media/img/main/docs/topics/tech-tools/office/impress-thunbmail.png" class="img-file-card-link" alt="img">
+                                                                            <div class="txt-color-dark-grey-2">22 MB</div>
+                                                                        </div>
+                
+                                                                        <div class="file-card-link-github-box">
+                                                                        
+                                                                            <div>
+                                                                                [Oberfläche] - Lerne wie etwas zu machen ist 
+                                                                                und wieder nocht mehr
+                                                                            </div>
+                
+                                                                            <div class="flex ai-c jc-fe cg-0-5em padd-t-0-8em">
+                
+                                                                    
+                                                                                
+                
+                                                                                <a href="#" class="file-card-link-github-link" target="_blank">
+                
+                                                                                    <img src="media/img/default/icons/info-icons/download-black.png" class="img-w-1em" alt="img">
+                                                                                    <div>.odp</div>
+                                                                                    
+                                                                                </a>                                                               
+                                                                                
+                                                                                
+                
+                                                                            </div>
+                
+                                                                        </div>
+
+                                                                </div>
+
+
+                                                            </div>
+
+
+
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <!-- [Button] - Container                                           -->
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <div class="flex aic-c jc-fe cg-0-5em clear-both"
+                                                                name="json-card-button-container">
+
+
+                                                                <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
+                                                    
+                                                                    <img src="media/img/default/icons/info-icons/download-black.png"
+                                                                    name="json-card-btn-1st-link-img-src"
+                                                                    class="img-w-1em" alt="img">
+                                                                    <div name="json-card-btn-1st-link-img-text">.odt</div>
+
+                                                                </a>
+
+
+                                                                <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
+                                                    
+                                                                    <img src="media/img/default/icons/info-icons/share.png"
+                                                                        name="json-card-btn-2st-link-img-src"
+                                                                        class="img-w-1em"
+                                                                        alt="img">
+                                                                    <div name="json-card-btn-2st-link-img-text">.pdf</div>
+
+                                                                </a>
+
+
+                                                            </div>  
+
+
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <!-- [Repo] - Container                                             -->
+                                                            <!-- -------------------------------------------------------------- -->
+                                                            <div>
+
+                                                                <div class="file-card-repo-clone-txt-layout">Clone Repository:</div>
+
+                                                                <div class="file-card-ssh-link-layout">
+
+                                                                    <div class="file-card-ssh-box-layout">SSH:</div>
+
+                                                                    <div class="file-card-ssh-link">
+                                                                        git@github.com:superfreshdev/portfolio2.git
+                                                                    </div>
+
+                                                                </div>
+
                                                             </div>
 
                                                         </div>
@@ -1190,36 +1201,41 @@
 
                                         </div>
 
-                                    </div>
+                                    <!-- </template>     -->
+                                
+                                    
 
                                 </div>
 
-                            <!-- </template>     -->
+                            </div>
+
+
+                            <!-- ------------------------------------------------------------- -->
+                            <!-- [Container] - Footer Main Card Layout                         -->
+                            <!-- ------------------------------------------------------------- -->
+                            <div class="flex jc-c">
+
+                                
+
+                                    <div class="footer-card-layout">
+
+                                        <img src="media/img/main/docs/dokus-me-hedwig.png" class="img-footer-content" alt="img">
+    
+                                        <!-- Quote Text -->
+                                        <div class="txt-b txt-a-c txt-quote-light-brown-3 trigger-resp-max-width-card-footer-quote">
+                                            » "Die Lebenszeit für etwas erabeitetes sollte niemals verloren gehen".
+                                        </div>
+    
+                                    </div>
+
                          
                                
-
-                        </div>
-
-
-                        <!-- ------------------------------------------------------------- -->
-                        <!-- [Footer] - Card Layout                                        -->
-                        <!-- ------------------------------------------------------------- -->
-                        <div class="flex jc-c">
-
-                            <div class="footer-card-layout">
-
-                                <img src="media/img/main/docs/dokus-me-hedwig.png" class="img-footer-content" alt="img">
-
-                                <!-- Quote Text -->
-                                <div class="txt-b txt-a-c txt-quote-light-brown-3 trigger-resp-max-width-card-footer-quote">
-                                    » "Die Lebenszeit für etwas erabeitetes sollte niemals verloren gehen".
-                                </div>
-
                             </div>
 
+
+
                         </div>
-
-
+                    
                     </div>
 
                 </div>
@@ -1230,13 +1246,9 @@
 
 
         <!-- ------------------------------------------------------------------------------- -->
-        <!-- Projects Page - Container                                                       -->
+        <!-- About - Container                                                               -->
         <!-- ------------------------------------------------------------------------------- -->
 
-
-        <!-- ------------------------------------------------------------------------------- -->
-        <!-- About Page - Container                                                          -->
-        <!-- ------------------------------------------------------------------------------- -->
 
     </main>
 
@@ -1259,7 +1271,7 @@
                 <!-- ------------------------------------------------------------------------ -->
                 <!-- [My-Footer-Layout]                                                       -->
                 <!-- ------------------------------------------------------------------------ -->
-                <div id="my-footer-layout">
+                <div class="grid rg-1-5em padd-lr-0-8em">
 
                     <!-- --------------------------------------------------------------------- -->
                     <!-- [My-Footer-Header]                                                    -->
@@ -1278,9 +1290,9 @@
 
 
                         <!-- ------------------------------------------------------------------- -->
-                        <!-- [Title] - Useful Links                                              -->
+                        <!-- [Title-Header] - Useful Links                                       -->
                         <!-- ------------------------------------------------------------------- -->
-                        <div class="flex ai-c cg-0-6em my-footer-main-topic-container">
+                        <div class="flex ai-c cg-0-6em my-footer-main-title-link-header">
                             
                             <img src="media/img/default/icons/info-icons/www.png" class="img-w-1-8em" alt="img">
                             <div>Useful Link's</div>
@@ -1290,14 +1302,14 @@
                         <!-- ------------------------------------------------------------------- -->
                         <!-- [WWWW-LINKS] - Main Content Layout Container                        -->
                         <!-- ------------------------------------------------------------------- -->
-                        <div class="flex fw-w jc-c cg-3-5em rg-1-5em">
-                            
+                        <div class="my-footer-main-card-layout-container">
+                        
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #Web Development               -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-www-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#Web Development </div>
+                                <div class="txt-b txt-c-light-brown-3">#Web Development </div>
 
                                 <div class="flex fw-w cg-1em rg-0-3em">
 
@@ -1375,9 +1387,9 @@
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #Tutorials                     -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-www-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#Tutorials </div>
+                                <div class="txt-b txt-c-light-brown-3">#Tutorials </div>
 
                                 <div class="flex fw-w cg-1em rg-0-3em">
 
@@ -1385,7 +1397,7 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/default/icons/tech-icons/react.png" class="img-w-1em" alt="img">
                                         </div>
                                         
                                         <div>ReactJS - Tutorial</div>
@@ -1397,7 +1409,7 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/default/icons/tech-icons/angular.png" class="img-w-1em" alt="img">
                                         </div>
                                         
                                         <div>Angular - Tutorial</div>
@@ -1408,7 +1420,7 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/footer/www/rheinwerk.PNG" class="img-w-1em" alt="img">
                                         </div>
                                         
                                         <div>Openbook Rheinwerk - Tutorials</div>
@@ -1419,7 +1431,7 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/footer/www/codewars.PNG" class="img-w-1em" alt="img">
                                         </div>
                                         
                                         <div>Codewars - Programming Challanges</div>
@@ -1430,26 +1442,14 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/footer/www/linkedinlearning.png" class="img-w-1em" alt="img">
                                         </div>
                                         
                                         <div>Linkedin Learning - Tutorials</div>
 
                                     </a>
 
-                                    <a href="" target="_blank" class="www-link-my-footer">
                                     
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>FreeCodeCamp - Tutorials</div>                                        
-                                            
-
-                                    </a>
-
-
                                 </div>
 
                             </div>
@@ -1457,9 +1457,9 @@
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #Cool Links                    -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-www-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#Cool Link's </div>
+                                <div class="txt-b txt-c-light-brown-3">#Cool Link's </div>
 
                                 <div class="flex fw-w cg-1em rg-0-3em">
 
@@ -1467,70 +1467,15 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/default/icons/info-icons/think.png" class="img-w-1em" alt="img">
                                         </div>
                                         
-                                        <div>ReactJS - Tutorial</div>
+                                        <div>Coming Soon</div>
                                         
 
                                     </a>
 
-                                    <a href="" target="_blank" class="www-link-my-footer">
-                                    
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>Angular - Tutorial</div>
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="www-link-my-footer">
-                                    
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>Openbook Rheinwerk - Tutorials</div>
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="www-link-my-footer">
-                                    
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>Codewars - Programming Challanges</div>
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="www-link-my-footer">
-                                    
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>Linkedin Learning - Tutorials</div>
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="www-link-my-footer">
-                                    
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>FreeCodeCamp - Tutorials</div>                                        
-                                            
-
-                                    </a>
-
+                                
 
                                 </div>
 
@@ -1539,9 +1484,9 @@
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #News                          -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-www-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#New's </div>
+                                <div class="txt-b txt-c-light-brown-3">#New's </div>
 
                                 <div class="flex fw-w cg-1em rg-0-3em">
 
@@ -1549,10 +1494,10 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/footer/www/zeit.de.PNG" class="img-w-0-6em" alt="img">
                                         </div>
                                         
-                                        <div>ReactJS - Tutorial</div>
+                                        <div>Zeit</div>
                                         
 
                                     </a>
@@ -1561,10 +1506,10 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/footer/www/heise.de.PNG" class="img-w-1em" alt="img">
                                         </div>
                                         
-                                        <div>Angular - Tutorial</div>
+                                        <div>heise</div>
 
                                     </a>
 
@@ -1572,47 +1517,15 @@
                                     
                                         <div class="flex ai-c cg-0-3em">
                                             <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                            <img src="media/img/footer/www/nytimes.PNG" class="img-w-0-8em" alt="img">
                                         </div>
                                         
-                                        <div>Openbook Rheinwerk - Tutorials</div>
+                                        <div>NY-Times</div>
 
                                     </a>
 
-                                    <a href="" target="_blank" class="www-link-my-footer">
                                     
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>Codewars - Programming Challanges</div>
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="www-link-my-footer">
                                     
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>Linkedin Learning - Tutorials</div>
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="www-link-my-footer">
-                                    
-                                        <div class="flex ai-c cg-0-3em">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                            <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                        </div>
-                                        
-                                        <div>FreeCodeCamp - Tutorials</div>                                        
-                                            
-
-                                    </a>
-
 
                                 </div>
 
@@ -1620,11 +1533,13 @@
 
 
                         </div>
+                       
 
+                    
                         <!-- ------------------------------------------------------------------- -->
-                        <!-- [Title] - Inspired YouTuber                                         -->
+                        <!-- [Title-Header] - Inspired YouTuber                                  -->
                         <!-- ------------------------------------------------------------------- -->
-                        <div class="flex ai-c cg-0-6em my-footer-main-topic-container">
+                        <div class="flex ai-c cg-0-6em my-footer-main-title-link-header">
                             
                             <img src="media/img/default/icons/info-icons/youtube-dark-black-1.png" class="img-w-1-8em" alt="img">
                             <div>Inspired YouTuber's</div>
@@ -1634,15 +1549,15 @@
                         <!-- ------------------------------------------------------------------- -->
                         <!-- [Youtuber-LINKS] - Main Content Layout Container                    -->
                         <!-- ------------------------------------------------------------------- -->
-                        <div class="flex ai-fs fw-w jc-c cg-3-5em rg-1-5em">
+                        <div class="my-footer-main-card-layout-container">
 
 
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #Web Development               -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-youtuber-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#Web Development </div>
+                                <div class="txt-b txt-c-light-brown-3">#Web Development </div>
 
                                 <div class="flex fw-w cg-1em rg-1em">
 
@@ -1822,82 +1737,124 @@
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #Programming & Algo            -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-youtuber-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#Programming & Algorithmn </div>
+                                <!-- Programming & Algo -->
+                                <div class="grid rg-0-6em">
 
-                                <div class="flex fw-w cg-1em rg-0-3em">
+                                    <div class="txt-b txt-c-light-brown-3">#Programming & Algorithmn </div>
 
-                                    <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
-                                    
-                                        <img src="media/img/footer/youtuber/clement.png" class="img-youtuber-link-my-footer" alt="img">
-
-                                        <div class="flex ai-c cg-0-3em content-youtuber-link">
-                                            
-                                            <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
-
-                                            <div class="txt-youtuber-link-my-footer-main-card">Clément Mihailescu</div>
-
-                                            <div class="share-box-youtuber-link">
-                                                <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
+                                    <div class="flex fw-w cg-1em rg-1em">
+    
+                                        <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
+                                        
+                                            <img src="media/img/footer/youtuber/clement.png" class="img-youtuber-link-my-footer" alt="img">
+    
+                                            <div class="flex ai-c cg-0-3em content-youtuber-link">
+                                                
+                                                <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
+    
+                                                <div class="txt-youtuber-link-my-footer-main-card">Clément Mihailescu</div>
+    
+                                                <div class="share-box-youtuber-link">
+                                                    <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                                    <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
+                                                </div>
+    
                                             </div>
-
-                                        </div>
-                                        
-                                        
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
-                                    
-                                        <img src="media/img/footer/youtuber/amigocode.png" class="img-youtuber-link-my-footer" alt="img">
-
-                                        <div class="flex ai-c cg-0-3em content-youtuber-link">
                                             
-                                            <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
-
-                                            <div class="txt-youtuber-link-my-footer-main-card">Amigocode</div>
-
-                                            <div class="share-box-youtuber-link">
-                                                <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
-                                            </div>
-
-                                        </div>
-                                        
-                                        
-
-                                    </a>
-
-                                    <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
-                                    
-                                        <img src="media/img/footer/youtuber/webs.png" class="img-youtuber-link-my-footer" alt="img">
-
-                                        <div class="flex ai-c cg-0-3em content-youtuber-link">
                                             
-                                            <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
-
-                                            <div class="txt-youtuber-link-my-footer-main-card">Ben Awad</div>
-
-                                            <div class="share-box-youtuber-link">
-                                                <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
+    
+                                        </a>
+    
+                                        <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
+                                        
+                                            <img src="media/img/footer/youtuber/amigocode.png" class="img-youtuber-link-my-footer" alt="img">
+    
+                                            <div class="flex ai-c cg-0-3em content-youtuber-link">
+                                                
+                                                <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
+    
+                                                <div class="txt-youtuber-link-my-footer-main-card">Amigocode</div>
+    
+                                                <div class="share-box-youtuber-link">
+                                                    <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                                    <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
+                                                </div>
+    
                                             </div>
-
-                                        </div>
+                                            
+                                            
+    
+                                        </a>
+    
+                                        <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
                                         
+                                            <img src="media/img/footer/youtuber/beawad.png" class="img-youtuber-link-my-footer" alt="img">
+    
+                                            <div class="flex ai-c cg-0-3em content-youtuber-link">
+                                                
+                                                <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
+    
+                                                <div class="txt-youtuber-link-my-footer-main-card">Ben Awad</div>
+    
+                                                <div class="share-box-youtuber-link">
+                                                    <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                                    <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
+                                                </div>
+    
+                                            </div>
+                                            
+                                            
+    
+                                        </a>
+    
                                         
-
-                                    </a>
-
                                     
-                                   
-                                  
                                     
-
+                                        
+    
+    
+                                    </div>
 
                                 </div>
+                            
+                                <!-- Data Science -->
+                                <div class="grid rg-0-6em">
+
+                                    <div class="txt-b txt-c-light-brown-3">#Data Science & Cloud </div>
+
+                                    <div class="flex fw-w cg-1em rg-1em">
+    
+                                        <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
+                                        
+                                            <img src="media/img/footer/youtuber/codebasis.png" class="img-youtuber-link-my-footer" alt="img">
+    
+                                            <div class="flex ai-c cg-0-3em content-youtuber-link">
+                                                
+                                                <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
+    
+                                                <div class="txt-youtuber-link-my-footer-main-card">codebasics</div>
+    
+                                                <div class="share-box-youtuber-link">
+                                                    <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
+                                                    <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
+                                                </div>
+    
+                                            </div>
+                                            
+                                            
+    
+                                        </a>
+    
+            
+    
+                                    </div>
+        
+
+                                </div>
+                            
+                            
 
                             </div>
 
@@ -1905,11 +1862,11 @@
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #IT-Gurus                      -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-youtuber-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#IT-Gurus </div>
+                                <div class="txt-b txt-c-light-brown-3">#IT-Gurus </div>
 
-                                <div class="flex fw-w cg-1em rg-0-3em">
+                                <div class="flex fw-w cg-1em rg-1em">
 
                                     <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
                                     
@@ -1996,59 +1953,24 @@
                                     </a>
 
                                     
-                                   
-                                  
+                                
+                                
                                     
 
 
                                 </div>
 
                             </div>
-
-                            <!-- --------------------------------------------- -->
-                            <!-- [Card Topic] - #Data Science                  -->
-                            <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
-
-                                <div class="my-footer-main-topic-card-title">#Data Science </div>
-
-                                <div class="flex fw-w cg-1em rg-0-3em">
-
-                                    <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
-                                    
-                                        <img src="media/img/footer/youtuber/codebasis.png" class="img-youtuber-link-my-footer" alt="img">
-
-                                        <div class="flex ai-c cg-0-3em content-youtuber-link">
-                                            
-                                            <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
-
-                                            <div class="txt-youtuber-link-my-footer-main-card">codebasics</div>
-
-                                            <div class="share-box-youtuber-link">
-                                                <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
-                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png" class="img-w-1em" alt="img">
-                                            </div>
-
-                                        </div>
-                                        
-                                        
-
-                                    </a>
-
-     
-
-                                </div>
-
-                            </div>
+                            
 
                             <!-- --------------------------------------------- -->
                             <!-- [Card Topic] - #Inspired                      -->
                             <!-- --------------------------------------------- -->
-                            <div class="my-footer-main-topic-card">
+                            <div class="my-footer-youtuber-card-layout">
 
-                                <div class="my-footer-main-topic-card-title">#Inspired </div>
+                                <div class="txt-b txt-c-light-brown-3">#Inspired </div>
 
-                                <div class="flex fw-w cg-1em rg-0-3em">
+                                <div class="flex fw-w cg-1em rg-1em">
 
                                     <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
                                     
@@ -2073,13 +1995,13 @@
 
                                     <a href="" target="_blank" class="flex ai-c youtuber-link-my-footer">
                                     
-                                        <img src="media/img/footer/youtuber/jimkwik.png" class="img-youtuber-link-my-footer" alt="img">
+                                        <img src="media/img/footer/youtuber/aliabdaal.png" class="img-youtuber-link-my-footer" alt="img">
 
                                         <div class="flex ai-c cg-0-3em content-youtuber-link">
                                             
                                             <img src="media/img/default/flags/uk-flag.png" class="img-w-1-3em border-r-0-2em" alt="img">
 
-                                            <div class="txt-youtuber-link-my-footer-main-card">Abdaal</div>
+                                            <div class="txt-youtuber-link-my-footer-main-card">Ali Abdaal</div>
 
                                             <div class="share-box-youtuber-link">
                                                 <img src="media/img/default/icons/info-icons/share-light-grey-3.png" class="img-w-1em" alt="img">
@@ -2113,7 +2035,7 @@
 
                                     </a>
 
-     
+    
 
                                 </div>
 
@@ -2121,6 +2043,8 @@
 
 
                         </div>
+
+
 
 
                       

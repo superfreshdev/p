@@ -44,11 +44,11 @@
 
     display: flex;
     align-items: center;
-    column-gap: 1.3em;
+    column-gap: 1em;
 
 }
 
-#img-header-cartoon-me { width: 2.05em; }
+#img-header-cartoon-me { height:2.9em; border-radius: .3em; }
 
 
 #header-title { font-size: 1.1em; font-weight: bold; padding-top: .2em; }
@@ -95,6 +95,7 @@
     /* Mobile Version               */
     /* ---------------------------- */
     width: 3em;
+    height: 2.3em;
     padding: .4em .4em .1em .4em;
 
     line-height: 1.3em;

@@ -53,6 +53,15 @@ input#chk-mp3-docs:checked ~ #my-main-container #js-lbl-mp3-docs > img:nth-of-ty
     display: block;
 }
 
+/* if checked show black text if is in desktop version */
+input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev > .txt-box-main-nav-topic-filter , 
+input#radio-my-main-nav-topic-docs-data-science:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-data-science > .txt-box-main-nav-topic-filter,
+input#radio-my-main-nav-topic-docs-backend-co:checked ~ #my-main-container  #trigger-lbl-radio-my-main-nav-topic-docs-backend-co > .txt-box-main-nav-topic-filter,
+input#radio-my-main-nav-topic-docs-tech-tools:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-tech-tools > .txt-box-main-nav-topic-filter {
+
+    color: var(--dark-black-1);
+
+}
 
 /* if checked one of 4 main nav radio docs */
 input#radio-my-main-nav-topic-docs-web-app-dev:checked ~ #my-main-container #trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev, 

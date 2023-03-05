@@ -44,6 +44,8 @@
         margin: 1.3em .8em
     }
 
+    #main-card-layout { width: 100%; }
+
     /* card items list layout */
     #docs-card-items-layout-container {
 
@@ -177,6 +179,8 @@
     /* Header Label */
     .lbl-nav-my-header-container {
 
+        height: 1.8em;
+
         width: auto;
         padding: .3em .6em; 
         
@@ -203,6 +207,29 @@
     .txt-box-main-nav-topic-filter {
 
         display: block;
+    }
+
+    /* --------------------------------------------------------------------- */
+    /* FOOTER 
+    /* --------------------------------------------------------------------- */
+    
+    /* Main Content Card Layout */
+    .my-footer-main-card-layout-container { 
+
+        justify-content: center; 
+        width: 100%;
+    
+    }
+
+    /* Footer Card Layout */
+    .my-footer-www-card-layout,
+    .my-footer-youtuber-card-layout {
+
+        /* Desktop Version */
+        min-width: 22em;
+        max-width: 22em;
+        /* background-color: aqua; */
+    
     }
 
 }
@@ -286,6 +313,22 @@
     /* MAIN 
     /* --------------------------------------------------------------------- */
 
+    /* --------------------------------------------------------------------- */
+    /* FOOTER 
+    /* --------------------------------------------------------------------- */
+    
+    /* Footer Card Layout */
+    .my-footer-www-card-layout,
+    .my-footer-youtuber-card-layout {
+
+        /* Desktop Version */
+        min-width: 16em;
+        max-width: 16em;
+        /* background-color: aqua; */
+    
+    }
+
+
 
 }
 
@@ -302,7 +345,7 @@
     /* Header & Main Width Content Container */
     .max-width-content-container{
     
-        width: 75em;
+        width: 50vw;
         /* margin: 0em 3.2em; */
     }
    

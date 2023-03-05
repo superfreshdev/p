@@ -21,19 +21,6 @@
 }
 
 
-/* --------------------------------------------------------------------- */
-/* [My-Footer-Layout] 
-/* --------------------------------------------------------------------- */
-
-#my-footer-layout {
-
-    padding: 0em .8em;
-
-    display:grid;
-    row-gap: 1.5em;
-}
-
-
 
 
 
@@ -66,43 +53,74 @@
 
 
 /* ----------------------------------------- */
-/* My Footer Main Topic Container            */
+/* Title Header                              */
 /* ----------------------------------------- */
 
-.my-footer-main-topic-container  {
+.my-footer-main-title-link-header {
 
     height: 2.6em;
+
     padding: 0em .6em;
     margin: 1.3em 0em;
 
     border-radius: .3em;
     background-color: var(--light-brown-3);
     font-weight: bold;
+
+}
+
+
+
+/* ---------------------------------------------- */
+/* Main Card Layout Container                     */
+/* ---------------------------------------------- */
+
+.my-footer-main-card-layout-container {
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    justify-content: stretch;
+
+    /* Desktop Version */
+    /* justify-content: center; */
+    /* width: 100%; */
+
+    /* background-color: red; */
+
+    column-gap: 3.5em;
+    row-gap: 1.5em;
 }
 
 /* ---------------------------------------------- */
-/* My Footer Main Topic Card                      */
+/* Card Layout                                    */
 /* ---------------------------------------------- */
 
-.my-footer-main-topic-card  {
-
-    max-width: 22em;
+.my-footer-www-card-layout , 
+.my-footer-youtuber-card-layout {
 
     display: grid;
     row-gap: .6em;
-  
+
 }
 
-.my-footer-main-topic-card-title {
+.my-footer-www-card-layout {  max-width: 20em; }
 
-    font-weight: bold;
-    color: var(--light-brown-3);
-}
+
+    /* Desktop Version */
+    /* min-width: 22em; */
+   
+    /* background-color: aqua; */
+
+
+.my-footer-youtuber-card-layout { max-width: 16em; }
+
 
 
 
 /* -------------------------------------------------- */
-/* [www-links] - layout 
+/* WWW - Link Layout
 /* -------------------------------------------------- */
 
 .www-link-my-footer {
@@ -119,7 +137,6 @@
     
 }
 
-
 .www-link-my-footer:hover {
 
     transition: .3s;
@@ -128,7 +145,7 @@
 
 
 /* -------------------------------------------------- */
-/* [youtuber-links] - layout
+/* YouTuber - Link Layout 
 /* -------------------------------------------------- */
 
 .youtuber-link-my-footer {
@@ -153,7 +170,7 @@
 
     height: 100%;
     padding-left: .3em;
-    background-color: var(--dark-grey-2);
+    background-color: var(--dark-grey-3);
     border-radius: 0em .3em .3em 0em;
 
 }
