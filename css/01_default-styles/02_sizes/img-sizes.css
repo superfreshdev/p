@@ -24,14 +24,22 @@
 .img-w-0-4em { width: .4em; }
 .img-w-0-5em { width: .5em; }
 .img-w-0-6em { width: .6em; }
+.img-w-0-7em { width: .7em; }
 .img-w-0-8em { width: .8em; }
 .img-w-0-9em { width: .9em; }
+
+
+.img-h-0-5em { height: .5em; }
+.img-h-0-6em { height: .6em; }
+
+.img-h-0-8em { height: .8em; }
 
 /* ------------------------------------------------------------------- */
 /* [2/3] - Medium Size Icon 
 /* ------------------------------------------------------------------- */
 
 .img-w-1em { width: 1em; }
+.img-w-1-1em { width: 1.1em; }
 .img-w-1-2em { width: 1.2em; }
 .img-w-1-3em { width: 1.3em; }
 .img-w-1-5em { width: 1.5em; }

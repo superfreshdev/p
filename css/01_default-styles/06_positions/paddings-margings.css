@@ -53,7 +53,11 @@
 /* ------------------------------------------ */
 
 /* top */
+.padd-t-0-0-4em { padding-top: .04em; }
+.padd-t-0-0-5em { padding-top: .05em; }
+
 .padd-t-0-1em { padding-top: .1em; }
+.padd-t-0-2em { padding-top: .2em; }
 .padd-t-0-3em { padding-top: .3em; }
 .padd-t-0-6em { padding-top: .6em; }
 .padd-t-0-8em { padding-top: .8em; }
@@ -63,14 +67,21 @@
 .padd-t-1-5em { padding-top: 1.5em; }
 
 /* bottom */
+.padd-b-0-1em { padding-bottom: .1em; }
+.padd-b-0-2em { padding-bottom: .2em; }
 .padd-b-0-3em { padding-bottom: .3em; }
 .padd-b-0-6em { padding-bottom: .6em; }
 .padd-b-0-8em { padding-bottom: .8em; }
+
 .padd-b-1em { padding-bottom: 1em; }
 .padd-b-1-2em { padding-bottom: 1.2em; }
 .padd-b-1-5em { padding-bottom: 1.5em; }
 
-
+/* right */
+.padd-r-0-3em { padding-right: .3em; }
+.padd-r-0-5em { padding-right: .5em; }
+.padd-r-0-6em { padding-right: .6em; }
+.padd-r-0-8em { padding-right: .8em; }
 
 /* ------------------------------------------ */
 /* [3/?] - Different Size 

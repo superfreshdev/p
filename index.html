@@ -591,241 +591,218 @@
                                 <div id="main-card-layout">
 
 
-                                    <!-- ----------------------------------------------------------- -->
-                                    <!-- [ No JS - Info ] - Container                                -->
-                                    <!-- ----------------------------------------------------------- -->
-                                    <div class="flex cg-0-5em no-js-info-container"
-                                        id="json-no-js-create-card-items-info-container" style="display: none;">
+                                    <!-- doc -> pdf , short text -->
+                                    <div class="card-layout">
 
-                                        
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- [1/2] - Header Card                                                                                  -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
                                         <div>
 
-                                            <div class="flex ai-c cg-0-8em font-size-1-1em">
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- Header Card Container                                     -->
+                                            <!-- --------------------------------------------------------- -->
+                                            <div class="flex ai-c jc-sb card-layout-header">
 
-                                                <img src="media/img/default/icons/tech-icons/no-js.png" class="img-no-js" alt="img">
-                                                <div class="txt-b padd-t-0-3em">Kein Java Script aktiviert.</div>
+                                            
+                                                <div class="flex ai-c jc-c card-layout-number-box">
+                                                    
+                                                    <div name="json-card-index">01</div>
+                                                    <div>/</div>
+                                                    <div name="json-card-max-index"> 04</div>
+                                                    
+                                                </div>
+
+                                                <div class="flex ai-c cg-0-3em txt-b">
+
+                                                    <img src="media/img/default/icons/info-icons/download-grey.png" class="img-w-1em" alt="img">
+                                                    
+                                                    <div name="json-card-file-storage" >1.23 MB</div>
+
+                                                </div>
 
                                             </div>
-                                            
-                                            <div class="padd-t-0-6em">
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- [Optional] Card Info not finished Container               -->
+                                            <!-- --------------------------------------------------------- -->
+                                            <div name="json-card-item-not-finish-container">
+
+                                        
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- >> in Progress                                        -->
+                                                <!-- ----------------------------------------------------- -->
+                                                <div class="flex ai-c cg-0-5em card-layout-not-finish-header bg-dark-red-4"
+                                                    name="json-card-item-not-finish-container-in-progress">
+        
+        
+                                                    <img src="media/img/default/icons/info-icons/gear.png"
+                                                    class="img-w-1-3em keyframe-anim-360-rotation-4s-linear-infinity"                                           
+                                                    alt="img">
+                                                                                                                                            
+                                                    <div class="txt-a-c">
+                                                        Aktuell in Bearbeitung bis 
+                                                        <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
+                                                    </div>
+        
+                                                    
+                                                </div>
+
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- >> in Planning                                        -->
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- <div class="flex ai-c cg-0-6em card-layout-not-finish-header bg-dark-yellow-1 txt-color-dark-black-1"
+                                                        name="json-card-item-not-finish-container-in-progress">
+
+
+                                                    <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
+                                                    class="img-w-1-2em"                                           
+                                                    alt="img">
+                                                                                                                                            
+                                                    <div class="txt-a-c">
+                                                        Aktuell in Planung bis 
+                                                        <span class="txt-u" name="json-card-not-finish-date-text">05 / 2023</span>
+                                                    </div>
+
+                                                </div> -->
+
                                                 
-                                                » Aktivieren Sie Java Script damit 
-                                                der Seiteninhalt wieder geladen werden kann.
+                                            </div>
+
+
+                                        </div>
+                                    
+                                        
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- [2/2] - Main Card                                                                                      -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div class="card-layout-main-content-container">
+
+
+                                        
+                                            <!-- ------------------------------------------------------------------------------ -->
+                                            <!-- Dynamically Card Item Content                                                  -->
+                                            <!-- ------------------------------------------------------------------------------ -->
+                                            <div class="grid rg-0-8em">
+                                        
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- [Card Category Title & Card Title] - Container                      -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="padd-lr-0-3em line-h-1-4em">
+                                                
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
+                                                            
+                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
+                                                            
+                                                            <img src="media/img/default/icons/tech-icons/js.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                            <div class="txt-color-medium-yellow-3" name="json-card-category-tech-text">Java Script 2023</div>
+
+                                                        </div>
+
+                                                        <div> ⋅ </div>
+
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
+                                                            <img src="media/img/default/icons/info-icons/pdf.png" 
+                                                            name="json-card-category-tech-area-img-src" 
+                                                            class="img-w-0-8em" img="alt">
+                                                        </div>
+
+                                                        
+                                                    </div> 
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="padd-t-0-0-4em">
+                                                        Tutorial - Grundlagen
+                                                    </div>
+
+
+
+                                                </div>
+
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- [Card Main Content] - Container                                     -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="grid rg-0-6em">
+
+
+                                                    <!-- -------------------------------------------------------------- -->
+                                                    <!-- [Float] - Container                                             -->
+                                                    <!-- -------------------------------------------------------------- -->
+                                                    <div name="json-trigger-container-card-img-float-hashtags">
+
+                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-javascript-grundlagen.PNG"
+                                                            class="img-float-card-layout"
+                                                            name="json-card-pdf-img" alt="img">
+
+                                                                                        
+                                                        
+
+                                                        <div class="float-hashtag">#grundbegriffe</div>
+                                                        <div class="float-hashtag">#konzepte</div>
+                                                        <div class="float-hashtag">#kernmodule</div>
+                                                        <div class="float-hashtag">#typescript</div>
+                                                        <div class="float-hashtag">#json</div>
+                                                        <div class="float-hashtag">#scss</div>
+                                                        <div class="float-hashtag">#restApi</div>
+            
+                                                        
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <!-- [Button] - Container                                           -->
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <div class="flex aic-c jc-fe cg-0-5em clear-both"
+                                                                name="json-card-button-container">
+
+
+                                                            <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
+                                                
+                                                                <img src="media/img/default/icons/info-icons/download-black.png"
+                                                                name="json-card-btn-1st-link-img-src"
+                                                                class="img-w-1em" alt="img">
+                                                                <div name="json-card-btn-1st-link-img-text">.odt</div>
+
+                                                            </a>
+
+
+                                                            <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
+                                                
+                                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png"
+                                                                    name="json-card-btn-2st-link-img-src"
+                                                                    class="img-w-1em"
+                                                                    alt="img">
+                                                                <div name="json-card-btn-2st-link-img-text">.pdf</div>
+
+                                                            </a>
+
+                                                        </div>  
+
+
+                                                            
+                                                        
+                                                        
+
+                                                        
+                                                    </div>
+
+
+                                                                        
+
+
+                                                
+
+
+
+                                                </div>
+
                                             </div>
 
                                         </div>
-
-                                        
-                                        <img src="media/img/default/img/no-js.png" class="img-me-no-js" alt="img">
-
-                                        
 
                                     </div>
 
-                                    <!-- ------------------------------------------------------------ -->
-                                    <!-- [ Template | Link-Download Card ]                            -->
-                                    <!-- ------------------------------------------------------------ -->
-                                    <!-- <template id="template-card-item"> -->
-
-                                        <div class="card-layout">
-
-                                            <!-- -------------------------------------------------------------------------------------------- -->
-                                            <!-- [1/2] - Header Card                                                                                  -->
-                                            <!-- -------------------------------------------------------------------------------------------- -->
-                                            <div>
-
-                                                <!-- --------------------------------------------------------- -->
-                                                <!-- Header Card Container                                     -->
-                                                <!-- --------------------------------------------------------- -->
-                                                <div class="flex ai-c jc-sb card-layout-header">
-
-                                                
-                                                    <div class="flex ai-c jc-c card-layout-number-box">
-                                                        
-                                                        <div name="json-card-index">01</div>
-                                                        <div>/</div>
-                                                        <div name="json-card-max-index"> 04</div>
-                                                        
-                                                    </div>
-
-                                                    <div class="flex ai-c cg-0-3em txt-b">
-
-                                                        <img src="media/img/default/icons/info-icons/download-grey.png" class="img-w-1em" alt="img">
-                                                        
-                                                        <div name="json-card-file-storage" >1.23 MB</div>
-
-                                                    </div>
-
-                                                </div>
-
-                                                <!-- --------------------------------------------------------- -->
-                                                <!-- [Optional] Card Info not finished Container               -->
-                                                <!-- --------------------------------------------------------- -->
-                                                <div name="json-card-item-not-finish-container">
-
-                                            
-                                                    <!-- ----------------------------------------------------- -->
-                                                    <!-- >> in Progress                                        -->
-                                                    <!-- ----------------------------------------------------- -->
-                                                    <div class="flex ai-c cg-0-5em card-layout-not-finish-header bg-dark-red-4"
-                                                        name="json-card-item-not-finish-container-in-progress">
-            
-            
-                                                        <img src="media/img/default/icons/info-icons/gear.png"
-                                                        class="img-w-1-3em keyframe-anim-360-rotation-4s-linear-infinity"                                           
-                                                        alt="img">
-                                                                                                                                                
-                                                        <div class="txt-a-c">
-                                                            Aktuell in Bearbeitung bis 
-                                                            <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
-                                                        </div>
-            
-                                                        
-                                                    </div>
-
-                                                    <!-- ----------------------------------------------------- -->
-                                                    <!-- >> in Planning                                        -->
-                                                    <!-- ----------------------------------------------------- -->
-                                                    <!-- <div class="flex ai-c cg-0-6em card-layout-not-finish-header bg-dark-yellow-1 txt-color-dark-black-1"
-                                                            name="json-card-item-not-finish-container-in-progress">
-
-
-                                                        <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
-                                                        class="img-w-1-2em"                                           
-                                                        alt="img">
-                                                                                                                                                
-                                                        <div class="txt-a-c">
-                                                            Aktuell in Planung bis 
-                                                            <span class="txt-u" name="json-card-not-finish-date-text">05 / 2023</span>
-                                                        </div>
-
-                                                    </div> -->
-
-                                                    
-                                                </div>
-
-
-                                            </div>
-                                        
-                                            
-                                            <!-- -------------------------------------------------------------------------------------------- -->
-                                            <!-- [2/2] - Main Card                                                                                      -->
-                                            <!-- -------------------------------------------------------------------------------------------- -->
-                                            <div class="card-layout-main-content-container">
-
-
-                                            
-                                                <!-- ------------------------------------------------------------------------------ -->
-                                                <!-- Dynamically Card Item Content                                                  -->
-                                                <!-- ------------------------------------------------------------------------------ -->
-                                                <div class="grid rg-0-8em">
-                                            
-                                                    <!-- ------------------------------------------------------------------- -->
-                                                    <!-- [Card Category Title & Card Title] - Container                      -->
-                                                    <!-- ------------------------------------------------------------------- -->
-                                                    <div class="padd-lr-0-3em">
-                                                    
-                                                        <div class="flex aic-c cg-0-5em txt-b">
-                                                                
-                                                            <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
-                                                                
-                                                                <img src="media/img/default/icons/tech-icons/js.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                                <div class="txt-color-medium-yellow-3" name="json-card-category-tech-text">Java Script 2023</div>
-
-                                                            </div>
-
-                                                            <div> ⋅ </div>
-
-                                                            <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
-                                                                <img src="media/img/default/icons/info-icons/pdf.png" 
-                                                                name="json-card-category-tech-area-img-src" 
-                                                                class="img-w-0-8em" img="alt">
-                                                                <div name="json-card-category-tech-area-text">Tutorial</div>
-                                                            </div>
-
-                                                        </div> 
-                                                      
-
-                                                    </div>
-
-                                                    <!-- ------------------------------------------------------------------- -->
-                                                    <!-- [Card Main Content] - Container                                     -->
-                                                    <!-- ------------------------------------------------------------------- -->
-                                                    <div class="grid rg-0-6em">
-
-
-                                                        <!-- -------------------------------------------------------------- -->
-                                                        <!-- [Float] - Container                                             -->
-                                                        <!-- -------------------------------------------------------------- -->
-                                                        <div name="json-trigger-container-card-img-float-hashtags">
-
-                                                            <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-javascript-grundlagen.PNG"
-                                                                class="img-float-card-layout"
-                                                                name="json-card-pdf-img" alt="img">
-
-                                                                                              
-                                                            <div class="float-hashtag">#grundbegriffe</div>
-                                                            <div class="float-hashtag">#konzepte</div>
-                                                            <div class="float-hashtag">#kernmodule</div>
-                                                            <div class="float-hashtag">#typescript</div>
-                                                            <div class="float-hashtag">#json</div>
-
-                                                                   
-
-                                                            <!-- -------------------------------------------------------------- -->
-                                                            <!-- [Button] - Container                                           -->
-                                                            <!-- -------------------------------------------------------------- -->
-                                                            <div class="flex aic-c jc-fe cg-0-5em clear-both"
-                                                                    name="json-card-button-container">
-
-
-                                                                <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
-                                                    
-                                                                    <img src="media/img/default/icons/info-icons/download-black.png"
-                                                                    name="json-card-btn-1st-link-img-src"
-                                                                    class="img-w-1em" alt="img">
-                                                                    <div name="json-card-btn-1st-link-img-text">.odt</div>
-
-                                                                </a>
-
-
-                                                                <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
-                                                    
-                                                                    <img src="media/img/default/icons/info-icons/share-dark-black-1.png"
-                                                                        name="json-card-btn-2st-link-img-src"
-                                                                        class="img-w-1em"
-                                                                        alt="img">
-                                                                    <div name="json-card-btn-2st-link-img-text">.pdf</div>
-
-                                                                </a>
-
-                                                            </div>  
-
-
-                                                               
-                                                            
-
-                                                            
-                                                        </div>
-
-
-                                                                             
-
-
-                                                       
-
-
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-                                    <!-- </template>     -->
-
+                                    <!-- doc -> pdf , long text -->
                                     <div class="card-layout">
 
                                         <!-- -------------------------------------------------------------------------------------------- -->
@@ -922,29 +899,38 @@
                                                 <!-- ------------------------------------------------------------------- -->
                                                 <!-- [Card Category Title & Card Title] - Container                      -->
                                                 <!-- ------------------------------------------------------------------- -->
-                                                <div class="padd-lr-0-3em">
+                                                <div class="padd-lr-0-3em line-h-1-4em">
                                                 
-                                                    <div class="flex aic-c cg-0-5em txt-b">
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
                                                             
                                                         <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
                                                             
                                                             <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                            <div class="txt-color-medium-blue-3 line-h-1-2em" name="json-card-category-tech-text">Type Script 2023</div>
+                                                            <div class="txt-color-medium-blue-3" name="json-card-category-tech-text">Type Script 2023</div>
 
                                                         </div>
 
                                                         <div> ⋅ </div>
 
-                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
                                                             <img src="media/img/default/icons/info-icons/pdf.png" 
                                                             name="json-card-category-tech-area-img-src" 
                                                             class="img-w-0-8em" img="alt">
-                                                            <div name="json-card-category-tech-area-text"
-                                                             class="line-h-1-2em">Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial Tutorial</div>
                                                         </div>
 
+                                                        
                                                     </div> 
-                                                  
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="padd-t-0-0-5em">
+                                                        Tutorial - Grundlagen jetzt schreibe ich etwas mehr Text
+                                                        denn dies könnten unsere Projekte sein die für etwas stehen 
+                                                    </div>
+
+  
 
                                                 </div>
 
@@ -1041,6 +1027,8 @@
 
                                     </div>
 
+
+                                    <!-- doc -> video -->
                                     <div class="card-layout">
 
                                         <!-- -------------------------------------------------------------------------------------------- -->
@@ -1137,28 +1125,37 @@
                                                 <!-- ------------------------------------------------------------------- -->
                                                 <!-- [Card Category Title & Card Title] - Container                      -->
                                                 <!-- ------------------------------------------------------------------- -->
-                                                <div class="padd-lr-0-3em">
+                                                <div class="padd-lr-0-3em line-h-1-4em">
                                                 
-                                                    <div class="flex aic-c cg-0-5em txt-b">
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
                                                             
                                                         <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
                                                             
-                                                            <img src="media/img/default/icons/tech-icons/angular.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                            <div class="txt-color-medium-red-3" name="json-card-category-tech-text">Angular 2023</div>
+                                                            <img src="media/img/default/icons/tech-icons/gimp.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                            <div class="txt-color-grey-blue-3" name="json-card-category-tech-text">Gimp 2023</div>
 
                                                         </div>
 
                                                         <div> ⋅ </div>
 
-                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
-                                                            <img src="media/img/default/icons/info-icons/pdf.png" 
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
+                                                            <img src="media/img/default/icons/info-icons/videoplayer-medium-grey-3.png" 
                                                             name="json-card-category-tech-area-img-src" 
                                                             class="img-w-0-8em" img="alt">
-                                                            <div name="json-card-category-tech-area-text">Tutorial - Erweitert </div>
                                                         </div>
 
+                                                        
                                                     </div> 
-                                                  
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="">
+                                                        Video Tutorialreihe - Grundlagen 
+                                                    </div>
+
+  
 
                                                 </div>
 
@@ -1173,19 +1170,22 @@
                                                     <!-- -------------------------------------------------------------- -->
                                                     <div name="json-trigger-container-card-img-float-hashtags">
 
-                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-angular-grundlagen.PNG"
+                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-typescript-grundlagen.PNG"
                                                             class="img-float-card-layout"
                                                             name="json-card-pdf-img" alt="img">
 
                                                                                           
+                                                          
+
                                                         <div class="float-hashtag">#grundbegriffe</div>
                                                         <div class="float-hashtag">#konzepte</div>
                                                         <div class="float-hashtag">#kernmodule</div>
                                                         <div class="float-hashtag">#typescript</div>
                                                         <div class="float-hashtag">#json</div>
-
-                                                               
-
+                                                        <div class="float-hashtag">#scss</div>
+                                                        <div class="float-hashtag">#restApi</div>
+                 
+                                                        
                                                         <!-- -------------------------------------------------------------- -->
                                                         <!-- [Button] - Container                                           -->
                                                         <!-- -------------------------------------------------------------- -->
@@ -1216,6 +1216,7 @@
                                                         </div>  
 
 
+                                                            
                                                            
                                                         
 
@@ -1238,7 +1239,7 @@
 
                                     </div>
 
-
+                                    <!-- doc / project -> single files -->
                                     <div class="card-layout">
 
                                         <!-- -------------------------------------------------------------------------------------------- -->
@@ -1303,7 +1304,7 @@
 
 
                                                     <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
-                                                    class="img-w-1-2em"                                           
+                                                    class="img-w-1-1em"                                           
                                                     alt="img">
                                                                                                                                             
                                                     <div class="txt-a-c">
@@ -1335,28 +1336,37 @@
                                                 <!-- ------------------------------------------------------------------- -->
                                                 <!-- [Card Category Title & Card Title] - Container                      -->
                                                 <!-- ------------------------------------------------------------------- -->
-                                                <div class="padd-lr-0-3em">
+                                                <div class="padd-lr-0-3em line-h-1-4em">
                                                 
-                                                    <div class="flex aic-c cg-0-5em txt-b">
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
                                                             
                                                         <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
                                                             
-                                                            <img src="media/img/default/icons/tech-icons/angular.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                            <div class="txt-color-medium-red-3" name="json-card-category-tech-text">Angular</div>
+                                                            <img src="media/img/default/icons/tech-icons/figma.png" name="json-card-category-tech-img-src" class="img-w-0-6em" img="alt">
+                                                            <div class="txt-color-medium-red-3" name="json-card-category-tech-text">Figma </div>
 
                                                         </div>
 
                                                         <div> ⋅ </div>
 
-                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
-                                                            <img src="media/img/default/icons/info-icons/pdf.png" 
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
+                                                            <img src="media/img/default/icons/info-icons/file-medium-grey-3.png" 
                                                             name="json-card-category-tech-area-img-src" 
                                                             class="img-w-0-8em" img="alt">
-                                                            <div name="json-card-category-tech-area-text">Tutorial - Grundlagen</div>
                                                         </div>
 
+                                                        
                                                     </div> 
-                                                  
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="padd-t-0-0-4em">
+                                                        Design Templates for Porfolios , Cards , Formulars 
+                                                    </div>
+
+
 
                                                 </div>
 
@@ -1371,17 +1381,22 @@
                                                     <!-- -------------------------------------------------------------- -->
                                                     <div name="json-trigger-container-card-img-float-hashtags">
 
-                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
+                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-angular-grundlagen.PNG"
                                                             class="img-float-card-layout"
                                                             name="json-card-pdf-img" alt="img">
 
-                                                                                          
+                                                                                        
+                                                        
+
                                                         <div class="float-hashtag">#grundbegriffe</div>
                                                         <div class="float-hashtag">#konzepte</div>
                                                         <div class="float-hashtag">#kernmodule</div>
                                                         <div class="float-hashtag">#typescript</div>
-                                                        <div class="float-hashtag">#json</div>   
-
+                                                        <div class="float-hashtag">#json</div>
+                                                        <div class="float-hashtag">#scss</div>
+                                                        <div class="float-hashtag">#restApi</div>
+            
+                                                        
                                                         <!-- -------------------------------------------------------------- -->
                                                         <!-- [Button] - Container                                           -->
                                                         <!-- -------------------------------------------------------------- -->
@@ -1412,6 +1427,221 @@
                                                         </div>  
 
 
+                                                            
+                                                        
+                                                        
+
+                                                        
+                                                    </div>
+
+
+                                                                        
+
+
+                                                
+
+
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    
+                                    <!-- project -> web-plattform -->
+
+                                    <!-- project -> gaming -->
+                                    <div class="card-layout">
+
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- [1/2] - Header Card                                                                                  -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div>
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- Header Card Container                                     -->
+                                            <!-- --------------------------------------------------------- -->
+                                            <div class="flex ai-c jc-sb card-layout-header">
+
+                                            
+                                                <div class="flex ai-c jc-c card-layout-number-box">
+                                                    
+                                                    <div name="json-card-index">01</div>
+                                                    <div>/</div>
+                                                    <div name="json-card-max-index"> 04</div>
+                                                    
+                                                </div>
+
+                                                <div class="flex ai-c cg-0-3em txt-b">
+
+                                                    <img src="media/img/default/icons/info-icons/download-grey.png" class="img-w-1em" alt="img">
+                                                    
+                                                    <div name="json-card-file-storage" >1.23 MB</div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- [Optional] Card Info not finished Container               -->
+                                            <!-- --------------------------------------------------------- -->
+                                            <div name="json-card-item-not-finish-container">
+
+                                        
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- >> in Progress                                        -->
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- <div class="flex ai-c cg-0-5em card-layout-not-finish-header bg-dark-red-4"
+                                                    name="json-card-item-not-finish-container-in-progress">
+        
+        
+                                                    <img src="media/img/default/icons/info-icons/gear.png"
+                                                    class="img-w-1-3em keyframe-anim-360-rotation-4s-linear-infinity"                                           
+                                                    alt="img">
+                                                                                                                                            
+                                                    <div class="txt-a-c">
+                                                        Aktuell in Bearbeitung bis 
+                                                        <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
+                                                    </div>
+        
+                                                    
+                                                </div> -->
+
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- >> in Planning                                        -->
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- <div class="flex ai-c cg-0-6em card-layout-not-finish-header bg-dark-yellow-1 txt-color-dark-black-1"
+                                                        name="json-card-item-not-finish-container-in-progress">
+
+
+                                                    <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
+                                                    class="img-w-1-2em"                                           
+                                                    alt="img">
+                                                                                                                                            
+                                                    <div class="txt-a-c">
+                                                        Aktuell in Planung bis 
+                                                        <span class="txt-u" name="json-card-not-finish-date-text">05 / 2023</span>
+                                                    </div>
+
+                                                </div> -->
+
+                                                
+                                            </div>
+
+
+                                        </div>
+                                    
+                                        
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- [2/2] - Main Card                                                                                      -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div class="card-layout-main-content-container">
+
+
+                                        
+                                            <!-- ------------------------------------------------------------------------------ -->
+                                            <!-- Dynamically Card Item Content                                                  -->
+                                            <!-- ------------------------------------------------------------------------------ -->
+                                            <div class="grid rg-0-8em">
+                                        
+                                                 <!-- ------------------------------------------------------------------- -->
+                                                <!-- [Card Category Title & Card Title] - Container                      -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="padd-lr-0-3em line-h-1-4em">
+                                                
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
+                                                            
+                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
+                                                            
+                                                            <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                            <div class="txt-color-medium-blue-3" name="json-card-category-tech-text">Type Script 2023</div>
+
+                                                        </div>
+
+                                                        <div> ⋅ </div>
+
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
+                                                            <img src="media/img/default/icons/info-icons/game-controller-medium-grey-3.png" 
+                                                            name="json-card-category-tech-area-img-src" 
+                                                            class="img-w-1em" img="alt">
+                                                        </div>
+
+                                                        
+                                                    </div> 
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="">
+                                                        Gaming - Configurable Memory Game ( 4x4 | 6x6 )
+                                                    </div>
+
+  
+
+                                                </div>
+
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- [Card Main Content] - Container                                     -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="grid rg-0-6em">
+
+
+                                                    <!-- -------------------------------------------------------------- -->
+                                                    <!-- [Float] - Container                                             -->
+                                                    <!-- -------------------------------------------------------------- -->
+                                                    <div name="json-trigger-container-card-img-float-hashtags">
+
+                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-typescript-grundlagen.PNG"
+                                                            class="img-float-card-layout"
+                                                            name="json-card-pdf-img" alt="img">
+
+                                                                                          
+                                                          
+
+                                                        <div class="float-hashtag">#grundbegriffe</div>
+                                                        <div class="float-hashtag">#konzepte</div>
+                                                        <div class="float-hashtag">#kernmodule</div>
+                                                        <div class="float-hashtag">#typescript</div>
+                                                        <div class="float-hashtag">#json</div>
+                                     
+                                                        
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <!-- [Button] - Container                                           -->
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <div class="flex aic-c jc-fe cg-0-5em clear-both"
+                                                                name="json-card-button-container">
+
+
+                                                            <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
+                                                
+                                                                <img src="media/img/default/icons/info-icons/download-black.png"
+                                                                name="json-card-btn-1st-link-img-src"
+                                                                class="img-w-1em" alt="img">
+                                                                <div name="json-card-btn-1st-link-img-text">.odt</div>
+
+                                                            </a>
+
+
+                                                            <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
+                                                
+                                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png"
+                                                                    name="json-card-btn-2st-link-img-src"
+                                                                    class="img-w-1em"
+                                                                    alt="img">
+                                                                <div name="json-card-btn-2st-link-img-text">.pdf</div>
+
+                                                            </a>
+
+                                                        </div>  
+
+
+                                                            
+                                                           
+                                                        
+
                                                         
                                                     </div>
 
@@ -1431,6 +1661,8 @@
 
                                     </div>
 
+                                    
+                                    <!-- project -> api / logic / mini anwendung -->
                                     <div class="card-layout">
 
                                         <!-- -------------------------------------------------------------------------------------------- -->
@@ -1527,28 +1759,37 @@
                                                 <!-- ------------------------------------------------------------------- -->
                                                 <!-- [Card Category Title & Card Title] - Container                      -->
                                                 <!-- ------------------------------------------------------------------- -->
-                                                <div class="padd-lr-0-3em">
+                                                <div class="padd-lr-0-3em line-h-1-4em">
                                                 
-                                                    <div class="flex aic-c cg-0-5em txt-b">
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
                                                             
                                                         <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
                                                             
-                                                            <img src="media/img/default/icons/tech-icons/ts.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
-                                                            <div class="txt-color-medium-blue-3" name="json-card-category-tech-text">Type Script 2023</div>
+                                                            <img src="media/img/default/icons/tech-icons/angular.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                            <div class="txt-color-medium-red-3" name="json-card-category-tech-text">Java Script</div>
 
                                                         </div>
 
                                                         <div> ⋅ </div>
 
-                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-area-text-color">
-                                                            <img src="media/img/default/icons/info-icons/pdf.png" 
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
+                                                            <img src="media/img/default/icons/info-icons/gluebirne-medium-grey-3.png" 
                                                             name="json-card-category-tech-area-img-src" 
                                                             class="img-w-0-8em" img="alt">
-                                                            <div name="json-card-category-tech-area-text" class="line-h-1-2em">Tutorial - Erweitert - <br> 3 x Übungsprojekte</div>
                                                         </div>
 
+                                                        
                                                     </div> 
-                                                  
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="padd-t-0-0-4em">
+                                                        API - Server Client Communication
+                                                    </div>
+
+
 
                                                 </div>
 
@@ -1563,15 +1804,22 @@
                                                     <!-- -------------------------------------------------------------- -->
                                                     <div name="json-trigger-container-card-img-float-hashtags">
 
-                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/dok-emberjs-grundlagen.PNG"
+                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-angular-grundlagen.PNG"
                                                             class="img-float-card-layout"
                                                             name="json-card-pdf-img" alt="img">
 
-                                                                                          
-                                                        <div class="float-hashtag">#konfMemorySpiel</div>
-                                                        <div class="float-hashtag">#datenDashboard</div>
-                                                        <div class="float-hashtag">#prototypWhatsAppWeb</div>  
+                                                                                        
+                                                        
 
+                                                        <div class="float-hashtag">#grundbegriffe</div>
+                                                        <div class="float-hashtag">#konzepte</div>
+                                                        <div class="float-hashtag">#kernmodule</div>
+                                                        <div class="float-hashtag">#typescript</div>
+                                                        <div class="float-hashtag">#json</div>
+                                                        <div class="float-hashtag">#scss</div>
+                                                        <div class="float-hashtag">#restApi</div>
+            
+                                                        
                                                         <!-- -------------------------------------------------------------- -->
                                                         <!-- [Button] - Container                                           -->
                                                         <!-- -------------------------------------------------------------- -->
@@ -1602,18 +1850,18 @@
                                                         </div>  
 
 
-                                                          
-                                                           
+                                                            
+                                                        
                                                         
 
                                                         
                                                     </div>
 
 
-                                                                         
+                                                                        
 
 
-                                                   
+                                                
 
 
 
@@ -1624,7 +1872,218 @@
                                         </div>
 
                                     </div>
+
                                     
+                                    <!-- project -> single project files -->
+                                    <div class="card-layout">
+
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- [1/2] - Header Card                                                                                  -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div>
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- Header Card Container                                     -->
+                                            <!-- --------------------------------------------------------- -->
+                                            <div class="flex ai-c jc-sb card-layout-header">
+
+                                            
+                                                <div class="flex ai-c jc-c card-layout-number-box">
+                                                    
+                                                    <div name="json-card-index">01</div>
+                                                    <div>/</div>
+                                                    <div name="json-card-max-index"> 04</div>
+                                                    
+                                                </div>
+
+                                                <div class="flex ai-c cg-0-3em txt-b">
+
+                                                    <img src="media/img/default/icons/info-icons/download-grey.png" class="img-w-1em" alt="img">
+                                                    
+                                                    <div name="json-card-file-storage" >1.23 MB</div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <!-- --------------------------------------------------------- -->
+                                            <!-- [Optional] Card Info not finished Container               -->
+                                            <!-- --------------------------------------------------------- -->
+                                            <div name="json-card-item-not-finish-container">
+
+                                        
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- >> in Progress                                        -->
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- <div class="flex ai-c cg-0-5em card-layout-not-finish-header bg-dark-red-4"
+                                                    name="json-card-item-not-finish-container-in-progress">
+        
+        
+                                                    <img src="media/img/default/icons/info-icons/gear.png"
+                                                    class="img-w-1-3em keyframe-anim-360-rotation-4s-linear-infinity"                                           
+                                                    alt="img">
+                                                                                                                                            
+                                                    <div class="txt-a-c">
+                                                        Aktuell in Bearbeitung bis 
+                                                        <span class="txt-u" name="json-card-not-finish-date-text">03 / 2023</span>
+                                                    </div>
+        
+                                                    
+                                                </div> -->
+
+                                                <!-- ----------------------------------------------------- -->
+                                                <!-- >> in Planning                                        -->
+                                                <!-- ----------------------------------------------------- -->
+                                                <div class="flex ai-c cg-0-6em card-layout-not-finish-header bg-dark-yellow-1 txt-color-dark-black-1"
+                                                        name="json-card-item-not-finish-container-in-progress">
+
+
+                                                    <img src="media/img/default/icons/info-icons/kalender-dark-black-1.png"
+                                                    class="img-w-1-1em"                                           
+                                                    alt="img">
+                                                                                                                                            
+                                                    <div class="txt-a-c">
+                                                        Aktuell in Planung bis 
+                                                        <span class="txt-u" name="json-card-not-finish-date-text">05 / 2023</span>
+                                                    </div>
+
+                                                </div>
+
+                                                
+                                            </div>
+
+
+                                        </div>
+                                    
+                                        
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <!-- [2/2] - Main Card                                                                                      -->
+                                        <!-- -------------------------------------------------------------------------------------------- -->
+                                        <div class="card-layout-main-content-container">
+
+
+                                        
+                                            <!-- ------------------------------------------------------------------------------ -->
+                                            <!-- Dynamically Card Item Content                                                  -->
+                                            <!-- ------------------------------------------------------------------------------ -->
+                                            <div class="grid rg-0-8em">
+                                        
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- [Card Category Title & Card Title] - Container                      -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="padd-lr-0-3em line-h-1-4em">
+                                                
+
+                                                    <div class="flex aic-c cg-0-5em txt-b" style="float:left;">
+                                                            
+                                                        <div class="flex ai-c cg-0-3em" name="json-card-category-tech-text-color">
+                                                            
+                                                            <img src="media/img/default/icons/tech-icons/angular.png" name="json-card-category-tech-img-src" class="img-w-1em" img="alt">
+                                                            <div class="txt-color-medium-red-3" name="json-card-category-tech-text">HTML - CSS - JS </div>
+
+                                                        </div>
+
+                                                        <div> ⋅ </div>
+
+                                                        <div class="flex ai-c jc-c padd-r-0-3em">
+                                                            <img src="media/img/default/icons/info-icons/order-single-medium-grey-3.png" 
+                                                            name="json-card-category-tech-area-img-src" 
+                                                            class="img-w-1em" img="alt">
+                                                        </div>
+
+                                                        
+                                                    </div> 
+
+                                                    
+
+                                                    <div name="json-card-category-tech-area-text"
+                                                        class="padd-t-0-0-4em">
+                                                        Mini Web Projects - Responsive Webapges of Portfolios , Tables , Animations , Cards  
+                                                    </div>
+
+
+
+                                                </div>
+
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <!-- [Card Main Content] - Container                                     -->
+                                                <!-- ------------------------------------------------------------------- -->
+                                                <div class="grid rg-0-6em">
+
+
+                                                    <!-- -------------------------------------------------------------- -->
+                                                    <!-- [Float] - Container                                             -->
+                                                    <!-- -------------------------------------------------------------- -->
+                                                    <div name="json-trigger-container-card-img-float-hashtags">
+
+                                                        <img src="media/img/main/docs/topics/web-app-development/web-frameworks/doc-angular-grundlagen.PNG"
+                                                            class="img-float-card-layout"
+                                                            name="json-card-pdf-img" alt="img">
+
+                                                                                        
+                                                        
+
+                                                        <div class="float-hashtag">#grundbegriffe</div>
+                                                        <div class="float-hashtag">#konzepte</div>
+                                                        <div class="float-hashtag">#kernmodule</div>
+                                                        <div class="float-hashtag">#typescript</div>
+                                                        <div class="float-hashtag">#json</div>
+                                                        <div class="float-hashtag">#scss</div>
+                                                        <div class="float-hashtag">#restApi</div>
+            
+                                                        
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <!-- [Button] - Container                                           -->
+                                                        <!-- -------------------------------------------------------------- -->
+                                                        <div class="flex aic-c jc-fe cg-0-5em clear-both"
+                                                                name="json-card-button-container">
+
+
+                                                            <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-1st-link-href">
+                                                
+                                                                <img src="media/img/default/icons/info-icons/download-black.png"
+                                                                name="json-card-btn-1st-link-img-src"
+                                                                class="img-w-1em" alt="img">
+                                                                <div name="json-card-btn-1st-link-img-text">.odt</div>
+
+                                                            </a>
+
+
+                                                            <a href="#" class="btn-file-link" target="_blank" name="json-card-btn-2st-link-href">
+                                                
+                                                                <img src="media/img/default/icons/info-icons/share-dark-black-1.png"
+                                                                    name="json-card-btn-2st-link-img-src"
+                                                                    class="img-w-1em"
+                                                                    alt="img">
+                                                                <div name="json-card-btn-2st-link-img-text">.pdf</div>
+
+                                                            </a>
+
+                                                        </div>  
+
+
+                                                            
+                                                        
+                                                        
+
+                                                        
+                                                    </div>
+
+
+                                                                        
+
+
+                                                
+
+
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
                                     
 
                                 </div>

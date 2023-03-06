@@ -77,7 +77,7 @@
 
     background-color: var(--dark-black-1);
 
-    border-radius: 1em 1em 0em 0em;
+    border-radius: .3em .3em 0em 0em;
 
 }
 
@@ -89,8 +89,8 @@
     border-right: .1em solid var(--medium-grey-3); 
 }
 
-.main-nav-topic-container > label:nth-of-type(1) { border-top-left-radius: 1em; } 
-.main-nav-topic-container > label:nth-of-type(5) { border-top-right-radius: 1em; }
+.main-nav-topic-container > label:nth-of-type(1) { border-top-left-radius: .3em; } 
+.main-nav-topic-container > label:nth-of-type(5) { border-top-right-radius: .3em; }
 
 
 
@@ -172,8 +172,8 @@
     display: grid;
     grid: auto / 1fr 2.8em;
 
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
 
     background-color: var(--dark-black-1);
    
@@ -299,7 +299,7 @@
     /* width: 2em; */
     background-color: var(--medium-grey-3);
 
-    border-bottom-right-radius: .8em;
+    border-bottom-right-radius: .3em;
 
     display: flex;
     align-items: center;
@@ -465,7 +465,7 @@
     background-color: var(--dark-grey-3);
     background-color: var(--black);
 
-    border-radius: 1em 1em 0em 0em;
+    border-radius: .3em .3em 0em 0em;
     
 }
 
@@ -489,7 +489,7 @@
 
 .card-layout-not-finish-header {
 
-    padding: 0em 1em;
+    padding: 0em 1.3em;
     height: 2.8em;
 
     font-weight: bold;
