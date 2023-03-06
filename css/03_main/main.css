@@ -413,7 +413,7 @@
     /* margin: 0em .8em; */
    
    
-    border-radius: 1em;
+    border-radius: .8em;
 
     box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
 
@@ -687,6 +687,27 @@
 
     border-radius: .2em;
 }
+
+
+/* -------------------------- */
+/* Video Links Container 
+/* -------------------------- */
+
+.radio-files-card-container {
+
+
+}
+
+.files-card-container {
+
+
+    /* border-top: 1px solid var(--light-grey-3);
+    border-bottom: 1px solid var(--light-grey-3); */
+
+}
+
+
+
 
 /* ------------------------------------------------- */
 /* File Card Link - GitHub Project

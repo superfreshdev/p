@@ -88,7 +88,9 @@
 /* ------------------------------------------ */
 
 /* top & bottom */
-.padd-t-1m-b-0-3em { padding-top: 1em; padding-bottom: .3em;}
+.padd-t-1em-b-0-3em { padding-top: 1em; padding-bottom: .3em;}
+.padd-t-0-8em-b-1-6em { padding-top: .8em; padding-bottom: 1.6em;}
+
 .padd-t-1-2em-b-0-3em { padding-top: 1.2em; padding-bottom: .3em;}
 .padd-t-1-8em-b-1-2em { padding-top: 1.8em; padding-bottom: 1.2em;}
 

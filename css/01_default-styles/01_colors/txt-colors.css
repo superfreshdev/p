@@ -10,8 +10,15 @@
 
 
 /* ---------------------------------------------------------- */
-/* [1/3] - Light | Colors
+/* [1/4] - Light | Colors
 /* ---------------------------------------------------------- */
+
+    /* ---------------------------------------------------*/
+    /* Light | White 
+    /* ---------------------------------------------------*/
+
+    .txt-c-light-white-2 { color: var(--light-white-2);; }
+
 
    /* ------------------------------------------- */
    /* Light | Yellow 
@@ -25,12 +32,128 @@
    .txt-c-light-brown-3 { color: var(--light-brown-3); }
 
 
+   
+      
+
+
 /* ---------------------------------------------------------- */
-/* [2/3] - Medium | Colors
+/* [2/4] - Medium | Colors
 /* ---------------------------------------------------------- */
+
+
+    /* ---------------------------------------------------*/
+    /* Medium | Green 
+    /* ---------------------------------------------------*/
+
+    /* ---------------------------------------------------*/
+    /* Medium | Blue
+    /* ---------------------------------------------------*/
+
+    .txt-color-medium-blue-3 { color: var(--medium-blue-3); }
+
+    /* ---------------------------------------------------*/
+    /* Medium | Yellow
+    /* ---------------------------------------------------*/
+
+    .txt-color-medium-yellow-3 { color: var(--medium-yellow-3); }
+
+    /* ---------------------------------------------------*/
+    /* Medium | Red 
+    /* ---------------------------------------------------*/
+
+    .txt-color-medium-red-3 { color: var(--medium-red-3); }
+
+
+    /* ---------------------------------------------------*/
+    /* Medium | Orange 
+    /* ---------------------------------------------------*/
+
+    .txt-color-medium-orange-3 { color: var(--medium-orange-3);}
+
+    /* ---------------------------------------------------*/
+    /* Medium | Grey 
+    /* ---------------------------------------------------*/
+
+    .txt-color-medium-grey-1 { color: var(--medium-grey-1); }
+    .txt-color-medium-grey-2 { color: var(--medium-grey-2); }
+    .txt-color-medium-grey-3 { color: var(--medium-grey-3); }
 
 
 
 /* ---------------------------------------------------------- */
-/* [3/3] - Dark | Colors
+/* [3/4] - Dark | Colors
 /* ---------------------------------------------------------- */
+
+
+    /* ---------------------------------------------------*/
+    /* Dark | Grey 
+    /* ---------------------------------------------------*/
+
+    .txt-color-dark-grey-1 { color: var(--dark-grey-1); }
+    .txt-color-dark-grey-2 { color: var(--dark-grey-2); }
+    .txt-color-dark-grey-3 { color: var(--dark-grey-3); }
+
+
+    /* ---------------------------------------------------*/
+    /* Dark | Black 
+    /* ---------------------------------------------------*/
+
+    .txt-color-dark-black-1 { color: var(--dark-black-1);}
+
+
+
+
+        
+/* ------------------------------------------------------------------------------------- */
+/* [4/4] - Tech | Colors
+/* ------------------------------------------------------------------------------------- */
+
+
+    /* ---------------------------------------------------------- */
+    /*  Frontend
+    /* ---------------------------------------------------------- */
+
+    .txt-c-angular { color:var(--angular-red); }
+    .txt-c-reactjs { color:var(--reactjs-blue); }
+
+    .txt-c-javascript { color:var(--javascript-yellow); }
+    .txt-c-typescript { color:var(--typescript-blue); }
+
+    .txt-c-flutter { color:var(--flutter-blue); }
+    .txt-c-java { color:var(--java-orange); }
+    .txt-c-kotlin { color:var(--kotlin-orange); }
+    .txt-c-python { color:var(--python-yellow); }
+
+    .txt-c-figma { color:var(--figma-green); }
+    .txt-c-css { color:var(--css-blue); }
+    .txt-c-bootstrap { color:var(--bootstrap-vio); }
+    .txt-c-html { color:var(--html-orange); }
+
+
+
+    /* ---------------------------------------------------------- */
+    /*  Backend
+    /* ---------------------------------------------------------- */
+
+
+    .txt-c-nodejs { color:var(--nodejs-green); }
+    .txt-c-git { color:var(--git-orange); }
+    .txt-c-mongodb { color:var(--mongodb-green); }
+    .txt-c-typo3 { color:var(--typo3-orange); }
+    .txt-c-docker { color:var(--docker-blue); }
+
+
+    /* ---------------------------------------------------------- */
+    /*  Tech Tools
+    /* ---------------------------------------------------------- */
+
+
+    .txt-c-intellij { color:var(--intellij-rosa); }
+    .txt-c-vscode { color:var(--vscode-blue); }
+    .txt-c-anki { color:var(--anki-blue); }
+    .txt-c-gimp { color:var(--gimp-grey); }
+    .txt-c-libre { color:var(--libre-grey); }
+
+
+
+

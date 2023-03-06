@@ -39,6 +39,8 @@
 .ac-fs { align-content: flex-start; }
 .ac-fe { align-content: flex-end; }
 
+.ac-s { align-content: stretch; }
+
 /* ------------------------------- */
 /* Justify Content                 */
 /* ------------------------------- */
@@ -51,6 +53,7 @@
 .jc-sa { justify-content: space-around; }
 .jc-se { justify-content: space-evenly; }
 
+.jc-s { justify-content: stretch; }
 
 /* ------------------------------- */
 /* Justify Items                   */
@@ -59,6 +62,7 @@
 .ji-c { justify-items: center; }
 .ji-fs { justify-items: flex-start; }
 .ji-fe { justify-items: flex-end; }
+.ji-s { justify-items: stretch; }
 
 
 
