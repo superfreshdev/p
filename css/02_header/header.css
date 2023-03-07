@@ -12,6 +12,8 @@
 
     z-index: 6;
 
+
+
     background-color: var(--dark-black-1);
     color: var(--white);
 
@@ -62,6 +64,7 @@
 #my-header-nav-container {
 
     /* width: 60em; */
+    padding-right: .6em;
 
     display: flex;
     align-items: center;

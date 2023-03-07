@@ -148,7 +148,9 @@
 
 #main-nav-topic-filter-layout {
 
-    display: grid;
+    display: none;
+    /* will be set by js */
+    /* display: grid; */
     grid: auto / 1fr 2.8em;
 
 }
@@ -182,6 +184,7 @@
 
     /* Only 320px - 480px | very small mobile version */
     max-width: 9.5em;
+    min-height: 1.5em;
 
     color: var(--dark-grey-1);
     font-weight: bold;
@@ -201,16 +204,16 @@
                 rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
                 rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
 
-    display: flex;
-    align-items: center;
-    column-gap: .5em;
-
+ 
     cursor: pointer;
 
     /* max-width: 9em; */
    
 }
 
+/* ------------------------------------------------------------ */
+/* Hover & Styling & Handling | Label Filter Topics    
+/* ------------------------------------------------------------ */
 .lbl-main-nav-topic-filter:hover {
 
     transition: .3s;
@@ -224,10 +227,66 @@
 
 }
 
+.lbl-main-nav-topic-filter:hover > .my-own-circle-outside > .my-own-set-point {
+
+    display: block;
+
+}
+
+/* ------------------------------------------------------------ */
+/* Default Checked Styling | Label Filter Topics   | Click Listener
+/* ------------------------------------------------------------ */
+
+/* unshown default */
+input[id^="radio-m-n-t-filter-docs"] { display: none; }
+
+/* if one of them is checked change style */
+input[id^="radio-m-n-t-filter-docs-web-app-dev-web-frameworks"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-web-frameworks ,
+input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-programming {
+
+    background-color: var(--light-brown-3);
+    color:var(--dark-black-1);
+}
+
+input[id^="radio-m-n-t-filter-docs-web-app-dev-web-frameworks"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-web-frameworks > .my-own-circle-outside ,
+input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-programming > .my-own-circle-outside {
+
+    border: .13em solid var(--dark-black-1);
+
+}
+
+input[id^="radio-m-n-t-filter-docs-web-app-dev-web-frameworks"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-web-frameworks > .my-own-circle-outside  > .my-own-set-point ,
+input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-programming > .my-own-circle-outside  > .my-own-set-point {
+
+    display: block;
+    
+}
+   
+   
+    
 
 
 
+/* ---------------------------------------------------- */
+/* [Info Filter Label] - Box 
+/* ---------------------------------------------------- */
 
+#main-nav-topic-filter-info-count-box {
+
+    /* Same Mobile Size like header nav */
+    font-size: .85em;
+    font-weight: bold;
+
+    height: 1.5em;
+
+    padding: .3em .6em;
+    border-radius: .3em;
+    background-color: var(--medium-grey-3);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
+}
 
 
 
@@ -263,18 +322,4 @@
 
 
 
-/* ---------------------------------------------------- */
-/* [Drop-Down] - Box 
-/* ---------------------------------------------------- */
-
-#main-nav-topic-filter-layout-drop-down-box {
-
-     /* Same Mobile Size like header nav */
-     font-size: .85em;
-     font-weight: bold;
- 
-     padding: .3em .6em;
-     border-radius: .3em;
-     background-color: var(--medium-grey-3);
-}
 
