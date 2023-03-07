@@ -1,0 +1,57 @@
+/* ----------------------------------------------------------- 
+
+    >> formular-styles.css  
+    
+    | Defines my own formular style elements 
+
+-------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------------------- */
+/* Radio Buttons
+/* ----------------------------------------------------------------------------------- */
+
+
+    /* ---------------------------------------------------- */
+    /* My Own Radio Circle Style 
+    /* ---------------------------------------------------- */
+
+    .my-own-circle-outside {
+
+        position: relative;
+        top:0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 50%;
+
+        /* important because if sometimes screen get smaller 
+        /* some elment get smaller */
+        min-width: .8em;
+        min-height: .8em;
+
+        max-width: .8em;
+        max-height: .8em;
+
+        border: .13em solid var(--dark-grey-1);
+
+    }
+
+    .my-own-set-point {
+
+        /* default unshown for unset */
+        display: none;
+
+        border-radius: 50%;
+
+        min-width: .4em;
+        min-height: .4em;
+
+        max-width: .4em;
+        max-height: .4em;
+
+        background-color: var(--dark-black-1);
+
+    }

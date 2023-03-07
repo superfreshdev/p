@@ -13,6 +13,8 @@
 
 console.log("### Create Card Items With Data  ###");
 
+// run from body and look for all nojs classes to display none */
+
 // const noJsInfoContainer = document.getElementById("json-no-js-create-card-items-info-container");
 // console.log(noJsInfoContainer);
 // if js is activated in the web-browser unshown no js info box 

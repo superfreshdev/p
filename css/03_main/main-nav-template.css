@@ -143,22 +143,21 @@
 
     border-bottom-left-radius: .3em;
     border-bottom-right-radius: .3em;
-
-   
-
 }
+
 
 #main-nav-topic-filter-layout {
 
     display: grid;
     grid: auto / 1fr 2.8em;
 
-    display: none;
-
 }
 
-/* Main Nav Topic Filter Radio Item Container  */
-.main-nav-topic-filter-radio-item-container {
+/* -------------------------------------------- */
+/* Filter Label Container 
+/* -------------------------------------------- */
+
+#main-nav-topic-filter-label-container {
 
     border-bottom-left-radius: .8em;
 
@@ -174,13 +173,12 @@
 
 }
 
-
 /* ---------------------------------------------------- */
-/* Label - Filter Item  
+/* Label Filter Topics   
 /* ---------------------------------------------------- */
 
 
-.lbl-main-nav-topic-filter-item  {
+.lbl-main-nav-topic-filter  {
 
     /* Only 320px - 480px | very small mobile version */
     max-width: 9.5em;
@@ -195,7 +193,13 @@
 
     border-radius: .3em;
     /* border-bottom-right-radius: 1em; */
-    border: 1px solid var(--dark-grey-1);
+    /* border: 1px solid var(--dark-grey-1); */
+
+    background-color: var(--dark-grey-5);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
 
     display: flex;
     align-items: center;
@@ -207,15 +211,14 @@
    
 }
 
-.lbl-main-nav-topic-filter-item:hover {
+.lbl-main-nav-topic-filter:hover {
 
     transition: .3s;
     background-color: var(--light-brown-3);
     color:var(--dark-black-1);
-    border: 1px solid var(--light-brown-3);
 }
 
-.lbl-main-nav-topic-filter-item:hover > .my-own-circle-outside {
+.lbl-main-nav-topic-filter:hover > .my-own-circle-outside {
 
     border: .13em solid var(--dark-black-1);
 
@@ -224,8 +227,14 @@
 
 
 
+
+
+
+
+
+
 /* ---------------------------------------------------- */
-/* Label Drop Down Item 
+/* Label Drop Down  
 /* ---------------------------------------------------- */
 
 .lbl-drop-down-main-nav-topic-filter {
@@ -255,17 +264,17 @@
 
 
 /* ---------------------------------------------------- */
-/* Info Filter Items Count
+/* [Drop-Down] - Box 
 /* ---------------------------------------------------- */
 
-.main-nav-topic-filter-item-count-box {
+#main-nav-topic-filter-layout-drop-down-box {
 
-    /* Same Mobile Size like header nav */
-    font-size: .85em;
-    font-weight: bold;
-
-    padding: .3em .6em;
-    border-radius: .3em;
-    background-color: var(--medium-grey-3);
-  
+     /* Same Mobile Size like header nav */
+     font-size: .85em;
+     font-weight: bold;
+ 
+     padding: .3em .6em;
+     border-radius: .3em;
+     background-color: var(--medium-grey-3);
 }
+
