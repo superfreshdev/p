@@ -5,3 +5,39 @@
     | Defines our main footer
 
 -------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------- */
+/* Footer Content  
+/* ---------------------------------------------------- */
+
+.footer-card-layout {
+
+    width: 100%;
+
+    font-size: .85em;
+
+    /* font-size: 1rem; */
+
+    padding: 1.3em;
+    /* margin: 0 .8em; */
+
+    background-color: var(--dark-black-1);
+
+    border-top: .25em solid var(--light-brown-3);
+    
+    border-radius: .3em;
+
+    display: flex;
+    align-items: center;
+
+    column-gap: .6em;
+
+
+}
+
+.img-footer-content { height: 5.4em; }
+
+
+
+

@@ -29,7 +29,7 @@
 .main-nav-topic-container > label:nth-of-type(1) ,
 .main-nav-topic-container > label:nth-of-type(2) ,
 .main-nav-topic-container > label:nth-of-type(3) ,
-.main-nav-topic-container > label:nth-of-type(4) {
+.main-nav-topic-container > label:nth-of-type(4)   {
 
     border-right: .1em solid var(--medium-grey-3); 
 }
@@ -113,26 +113,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------------------------------------------------- */
 /* [2/2] - Filter Container 
 /* ----------------------------------------------------------------- */
@@ -151,7 +131,7 @@
     display: none;
     /* will be set by js */
     /* display: grid; */
-    grid: auto / 1fr 2.8em;
+    grid: auto / 1fr 2.9em;
 
 }
 
@@ -161,17 +141,9 @@
 
 #main-nav-topic-filter-label-container {
 
-    border-bottom-left-radius: .8em;
+    /* border-bottom-left-radius: .8em; */
 
     padding: 1em .6em;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    column-gap: .5em;
-    row-gap: .5em;
-
 
 }
 
@@ -298,14 +270,10 @@ input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-
 
 .lbl-drop-down-main-nav-topic-filter {
 
-    /* width: 2em; */
+   
     background-color: var(--medium-grey-3);
 
     border-bottom-right-radius: .3em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     border-left: .1em solid var(--medium-grey-3);
 
