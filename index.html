@@ -65,8 +65,11 @@
     <link rel="stylesheet" href="css/02_header/header.css">
 
     <link rel="stylesheet" href="css/03_main/main.css">
-    <link rel="stylesheet" href="css/03_main/main-card-items-layouts.css">
-    <link rel="stylesheet" href="css/03_main/main-docs-handlings.css">
+    <link rel="stylesheet" href="css/03_main/main-nav-template.css">
+    <link rel="stylesheet" href="css/03_main/main-template-info-card.css">
+    <link rel="stylesheet" href="css/03_main/main-footer-template.css">
+
+    <link rel="stylesheet" href="css/03_main/main-handlings/main-docs-handlings.css">
 
     <!-- <link rel="stylesheet" href="css/3-main/main-projects-handlings.css"> -->
     <!-- <link rel="stylesheet" href="css/3-main/main-about-handlings.css"> -->
@@ -88,55 +91,55 @@
 <body id="my-body-container">
 
 
-    <!-- ---------------------------------------------------------------------------------------------- -->
-    <!-- RADIO / CHECKBOX BINDINGS                                                                        -->
-    <!-- ---------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+    <!-- RADIO / CHECKBOX BINDINGS                                                                                          -->
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
 
-        <!-- ------------------------------------------------------------- -->
-        <!-- HEADER NAV                                                    -->
-        <!-- ------------------------------------------------------------- -->
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <!-- HEADER NAV | ( Docs , Projects , About )                                                             -->
+        <!-- ---------------------------------------------------------------------------------------------------- -->
         <input type="radio" id="radio-docs-my-header-nav" name="name-radio-my-header-nav">
         <input type="radio" id="radio-projects-my-header-nav" name="name-radio-my-header-nav">
         <input type="radio" id="radio-about-my-header-nav" name="name-radio-my-header-nav" checked>
 
 
-        <!-- ------------------------------------------------------------- -->
-        <!-- MAIN NAV Docs & Audio ( Checkbox )                            -->
-        <!-- ------------------------------------------------------------- -->
-        <input type="radio" id="radio-my-main-nav-topic-docs-web-app-dev" name="name-radio-my-main-nav-topic-docs" checked>
-        <input type="radio" id="radio-my-main-nav-topic-docs-data-science" name="name-radio-my-main-nav-topic-docs">
-        <input type="radio" id="radio-my-main-nav-topic-docs-backend-co" name="name-radio-my-main-nav-topic-docs">
-        <input type="radio" id="radio-my-main-nav-topic-docs-tech-tools" name="name-radio-my-main-nav-topic-docs">
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <!-- MAIN NAV | ( Web & App Entwickung , Data Science , Backend & Co , Tech Tools )                       -->
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+        <input type="radio" id="radio-m-n-t-docs-web-app-dev" name="name-radio-m-n-t-docs" checked>
+        <input type="radio" id="radio-m-n-t-docs-data-science" name="name-radio-m-n-t-docs">
+        <input type="radio" id="radio-m-n-t-docs-backend-co" name="name-radio-m-n-t-docs">
+        <input type="radio" id="radio-m-n-t-docs-tech-tools" name="name-radio-m-n-t-docs">
 
        
-        <!-- --------------------------------------------------------------------------------- -->
-        <!-- Checkbox - MP3 Audio Card ( play / stop )                                         -->
-        <!-- --------------------------------------------------------------------------------- -->
-        <input type="checkbox" id="chk-mp3-docs" >
-        <!-- <input type="checkbox" id="chk-mp3-projects">
-        <input type="checkbox" id="chk-mp3-about"> -->
+            <!-- --------------------------------------------------------------------------------- -->
+            <!-- MAIN NAV AUDIO | MP3 Checkbox                                                     -->
+            <!-- --------------------------------------------------------------------------------- -->
+            <input type="checkbox" id="chk-mp3-docs" >
+            <!-- <input type="checkbox" id="chk-mp3-projects">
+            <input type="checkbox" id="chk-mp3-about"> -->
 
-        <!-- -------------------------------------------------------------- -->
-        <!-- Audio Files for MP3 Audio                                     -->
-        <!-- -------------------------------------------------------------- -->
-        <audio id="audioMp3Docs" loop>
-            <!--<source src="horse.ogg" type="audio/ogg">-->
-            <source src="media/audio/main/default/hp-docs.mp3" type="audio/mpeg">
-            <!--Your browser does not support the audio element.-->
-        </audio>
+            <!-- --------------------------------------------------------------------------------- -->
+            <!-- MAIN NAV AUDIO SOURCE | MP3 Files ( docs , projects , about )                     -->
+            <!-- --------------------------------------------------------------------------------- -->
+            <audio id="audioMp3Docs" loop>
+                <!--<source src="horse.ogg" type="audio/ogg">-->
+                <source src="media/audio/main/default/hp-docs.mp3" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+            </audio>
 
-        <audio id="audioMp3Projects" loop>
-            <!--<source src="horse.ogg" type="audio/ogg">-->
-            <source src="media/audio/main/default/ob-projects.mp3" type="audio/mpeg">
-            <!--Your browser does not support the audio element.-->
-        </audio>
+            <audio id="audioMp3Projects" loop>
+                <!--<source src="horse.ogg" type="audio/ogg">-->
+                <source src="media/audio/main/default/ob-projects.mp3" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+            </audio>
 
-        <audio id="audioMp3About" loop>
-            <!--<source src="horse.ogg" type="audio/ogg">-->
-            <source src="media/audio/main/default/st-about.mp3" type="audio/mpeg">
-            <!--Your browser does not support the audio element.-->
-        </audio>
+            <audio id="audioMp3About" loop>
+                <!--<source src="horse.ogg" type="audio/ogg">-->
+                <source src="media/audio/main/default/st-about.mp3" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+            </audio>
 
 
 
@@ -147,18 +150,18 @@
             <!-- --------------------------------------------------- -->
             <!-- Filters - Web App Entwicklung                       -->
             <!-- --------------------------------------------------- -->
-            <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks" name="name-my-main-nav-topic-filter-docs-web-app-dev" checked>
+            <!-- <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks" name="name-my-main-nav-topic-filter-docs-web-app-dev" checked>
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-programming" name="name-my-main-nav-topic-filter-docs-web-app-dev">
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-html-css" name="name-my-main-nav-topic-filter-docs-web-app-dev">
-            <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-cms" name="name-my-main-nav-topic-filter-docs-web-app-dev">
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-web-app-dev-cms" name="name-my-main-nav-topic-filter-docs-web-app-dev"> -->
     
             <!-- --------------------------------------------------- -->
             <!-- Filters - Data Science                              -->
             <!-- --------------------------------------------------- -->
-            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-data-science-tools" name="name-radio-main-nav-topic-filter-docs-data-science" checked>
+            <!-- <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-data-science-tools" name="name-radio-main-nav-topic-filter-docs-data-science" checked>
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-math" name="name-radio-main-nav-topic-filter-docs-data-science">
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-programming" name="name-radio-main-nav-topic-filter-docs-data-science">
-            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-ml-ki" name="name-radio-main-nav-topic-filter-docs-data-science">
+            <input type="radio" id="radio-my-main-nav-topic-filter-docs-ds-ml-ki" name="name-radio-main-nav-topic-filter-docs-data-science"> -->
 
             <!-- --------------------------------------------------- -->
             <!-- Filters - Backend & Co                              -->
@@ -169,10 +172,10 @@
             <!-- --------------------------------------------------- -->
             <!-- Filters - Tech Tools                                -->
             <!-- --------------------------------------------------- -->
-            <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-dev" name="name-radio-my-main-nav-topic-filter-docs-tech-tools" checked>
+            <!-- <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-dev" name="name-radio-my-main-nav-topic-filter-docs-tech-tools" checked>
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-office" name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
             <input type="radio" id="radio-my-main-nav-topic-filter-docs-tt-multimedia" name="name-radio-my-main-nav-topic-filter-docs-tech-tools">
-        
+         -->
 
             <!-- ---------------------------------------------------- -->
             <!-- Sub Radio Docs                                       -->
@@ -182,8 +185,8 @@
                 <!-- ---------------------------------------- -->
                 <!-- GIMP                                     -->
                 <!-- ---------------------------------------- -->
-                <input type="radio" id="radio-my-main-container-docs-gimp-yt-gui" name="name-radio-my-main-container-docs-gimp-yt" checked>
-                <input type="radio" id="radio-my-main-container-docs-gimp-yt-practice" name="name-radio-my-main-container-docs-gimp-yt">
+                <!-- <input type="radio" id="radio-my-main-container-docs-gimp-yt-gui" name="name-radio-my-main-container-docs-gimp-yt" checked>
+                <input type="radio" id="radio-my-main-container-docs-gimp-yt-practice" name="name-radio-my-main-container-docs-gimp-yt"> -->
         
 
 
@@ -385,12 +388,12 @@
                     <div class="flex jc-c">
 
                         <!-- ------------------------------------------------------------------- -->
-                        <!-- [Main Content] - Dokus , Projekcts                                  -->                                        
+                        <!-- [Main Content] - Dokus , Projects                                   -->                                        
                         <!-- ------------------------------------------------------------------- -->
                         <div class="main-content-page">
 
                             <!-- --------------------------------------------------------------------------- -->
-                            <!-- [Postion Content] - Center                                                  -->
+                            <!-- [Postion Content] - Center | Main Nav                                       -->
                             <!-- --------------------------------------------------------------------------- -->
                             <div class="flex jc-c">
 
@@ -407,17 +410,17 @@
                                         <!-- -------------------------------------------------------------------- -->
                                         <!-- Label - Web & App Entwicklung                                        -->
                                         <!-- -------------------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-docs-web-app-dev"
-                                                id="trigger-lbl-radio-my-main-nav-topic-docs-web-app-dev"
-                                                class="lbl-main-nav-topic-filter"
-                                                name="name-radio-my-main-nav-topic-docs-web-app-dev"
+                                        <label for="radio-m-n-t-docs-web-app-dev"
+                                                class="flex ai-c jc-c cg-0-8em lbl-main-nav-topic"
+                                                name="name-radio-m-n-t-docs"
+                                                id="trigger-lbl-radio-m-n-t-docs-web-app-dev"
                                                 title="Dokus zu Web & App Entwicklung">
 
-                                            <img src="media/img/main/docs/docs-nav/doc-web-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                            <img src="media/img/main/docs/docs-nav/doc-web-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-web-white.png" class="img-lbl-main-nav-topic" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-web-black.png" class="img-lbl-main-nav-topic" alt="img">
 
 
-                                            <div class="txt-box-main-nav-topic-filter">
+                                            <div class="lbl-txt-main-nav-topic">
 
                                                 <div>Web & App</div>
                                                 <div>Entwicklung</div>
@@ -426,19 +429,21 @@
 
                                         </label>
 
+
+
                                         <!-- -------------------------------------------------------------------- -->
                                         <!-- Label - Data Science                                                 -->
                                         <!-- -------------------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-docs-data-science"
-                                                id="trigger-lbl-radio-my-main-nav-topic-docs-data-science"
-                                                class="lbl-main-nav-topic-filter"
-                                                name="name-radio-my-main-nav-topic-docs-data-science"
+                                        <label for="radio-m-n-t-docs-data-science"                                   
+                                                class="flex ai-c jc-c cg-0-8em lbl-main-nav-topic"
+                                                name="name-radio-m-n-t-docs"
+                                                id="trigger-lbl-radio-m-n-t-docs-data-science"
                                                 title="Dokus zu Data Science ">
 
-                                            <img src="media/img/main/docs/docs-nav/doc-ds-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                            <img src="media/img/main/docs/docs-nav/doc-ds-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-ds-white.png" class="img-lbl-main-nav-topic" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-ds-black.png" class="img-lbl-main-nav-topic" alt="img">
 
-                                            <div class="txt-box-main-nav-topic-filter">
+                                            <div class="lbl-txt-main-nav-topic">
 
                                                 <div>Data</div>
                                                 <div>Science</div>
@@ -450,16 +455,16 @@
                                         <!-- -------------------------------------------------------------------- -->
                                         <!-- Label - Backend & Co                                                 -->
                                         <!-- -------------------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-docs-backend-co"
-                                                id="trigger-lbl-radio-my-main-nav-topic-docs-backend-co"
-                                                class="lbl-main-nav-topic-filter"
-                                                name="name-radio-my-main-nav-topic-docs-backend-co"
+                                        <label for="radio-m-n-t-docs-backend-co"                                               
+                                                class="flex ai-c jc-c cg-0-8em lbl-main-nav-topic"
+                                                name="name-radio-m-n-t-docs"
+                                                id="trigger-lbl-radio-m-n-t-docs-backend-co"
                                                 title="Dokus zu Backend & Co ">
 
-                                            <img src="media/img/main/docs/docs-nav/doc-dbs-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                            <img src="media/img/main/docs/docs-nav/doc-dbs-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-dbs-white.png" class="img-lbl-main-nav-topic" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-dbs-black.png" class="img-lbl-main-nav-topic" alt="img">
 
-                                            <div class="txt-box-main-nav-topic-filter">
+                                            <div class="lbl-txt-main-nav-topic">
 
                                                 <div>Backend</div>
                                                 <div>& Co</div>
@@ -471,16 +476,16 @@
                                         <!-- -------------------------------------------------------------------- -->
                                         <!-- Label - Tech Tools                                                   -->
                                         <!-- -------------------------------------------------------------------- -->
-                                        <label for="radio-my-main-nav-topic-docs-tech-tools"
-                                                id="trigger-lbl-radio-my-main-nav-topic-docs-tech-tools"
-                                                class="lbl-main-nav-topic-filter"
-                                                name="name-radio-my-main-nav-topic-docs-tech-tools"
-                                                title="Dokus zu Techo Tools">
+                                        <label for="radio-m-n-t-docs-tech-tools"                                              
+                                                class="flex ai-c jc-c cg-0-8em lbl-main-nav-topic"
+                                                name="name-radio-m-n-t-docs"
+                                                id="trigger-lbl-radio-m-n-t-docs-tech-tools"
+                                                title="Dokus zu Tech Tools">
 
-                                            <img src="media/img/main/docs/docs-nav/doc-tt-white.png" class="img-lbl-main-nav-topic-filter" alt="img">
-                                            <img src="media/img/main/docs/docs-nav/doc-tt-black.png" class="img-lbl-main-nav-topic-filter" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-tt-white.png" class="img-lbl-main-nav-topic" alt="img">
+                                            <img src="media/img/main/docs/docs-nav/doc-tt-black.png" class="img-lbl-main-nav-topic" alt="img">
 
-                                            <div class="txt-box-main-nav-topic-filter">
+                                            <div class="lbl-txt-main-nav-topic">
 
                                                 <div>Tech</div>
                                                 <div>Tool's</div>
@@ -495,11 +500,11 @@
                                         <!-- -------------------------------------------------------------------- -->
                                         <label for="chk-mp3-docs" 
                                                 id="js-lbl-mp3-docs"
-                                                class="lbl-main-nav-topic-filter-audio"
+                                                class="flex ai-c jc-c lbl-main-nav-topic-audio"
                                                 title="Musik abspielen für entspanntes durchstöbern">
 
-                                            <img src="media/img/default/mp3-play.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
-                                            <img src="media/img/default/mp3-pause.png" class="img-lbl-main-nav-topic-filter-audio" alt="img">
+                                            <img src="media/img/default/mp3-play.png" class="img-lbl-main-nav-topic" alt="img">
+                                            <img src="media/img/default/mp3-pause.png" class="img-lbl-main-nav-topic" alt="img">
                                             
 
                                         </label>
@@ -511,65 +516,91 @@
                                     <!-- ---------------------------------------------------------------------------- -->
                                     <!-- [ Template | Nav Filter ] - Container                                        -->
                                     <!-- ---------------------------------------------------------------------------- -->
-                                    <nav class="main-nav-topic-filter-container border-b-0-25em-light-brown-3"
-                                            id="trigger-nav-topic-filter-docs-web-app-dev">
+                                    <nav id="main-nav-topic-filter-container">
                                         
-
                                         <!-- --------------------------------------------------------------- -->
-                                        <!-- Filter Items Container                                          -->
+                                        <!-- [no JS Info ] - Container ( default unshown by js )             -->
                                         <!-- --------------------------------------------------------------- -->
-                                        <div class="main-nav-topic-filter-radio-item-container">
+                                        <div class="flex jc-c padd-tb-1em-lr-0-6em trigger-no-js-info-container">
+                                            
+                                            <div class="grid rg-1em no-js-info-container" >
+                                                       
+                                                
+                                                <div class="flex ai-c cg-0-8em">
+        
+                                                    <img src="media/img/default/icons/tech-icons/no-js.png" class="img-no-js" alt="img">
+                                                    <div class="txt-b padd-t-0-3em">Kein Java Script aktiviert.</div>
+    
+                                                </div>
+                                                        
+                                                <div>
+                                                    
+                                                    <img src="media/img/default/img/no-js.png" class="float-right img-me-no-js" alt="img">
 
-                                            <!-- ----------------------------------------------------------- -->
-                                            <!-- 01 - Label Item - Web-Frameworks                            -->
-                                            <!-- ----------------------------------------------------------- -->
-                                            <label for="radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks"
-                                                class="lbl-main-nav-topic-filter-item"
-                                                id="trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
-                                                name="name-my-main-nav-topic-filter-docs-web-app-dev">
-
-
-                                                    <!-- ---------------------------------------------- -->
-                                                    <!-- Radio Box ( My Own Radio Box Style )           -->
-                                                    <!-- ---------------------------------------------- -->
-                                                    <div class="my-own-circle-outside">
-                    
-                                                        <!-- Setted Point inside circle if setted -->
-                                                        <div class="my-own-set-point"></div>
-                        
+                                                    <div class="marg-r-0-5em">» Aktivieren Sie Java Script damit 
+                                                         der Seiteninhalt wieder geladen werden kann.
                                                     </div>
+                                                    
+                                                    <!-- Ending floating left -->
+                                                    <span class="clear-both"></span>
 
-                                                    <!-- ---------------------------------------------- -->
-                                                    <!-- Label Text Box                                 -->
-                                                    <!-- ---------------------------------------------- -->
-                                                    <div> Web-Frameworks </div>
+                                                </div>
+        
+        
+                                            
                                                 
-
-                                                
-                                            </label>
-                                        
-                                            <!-- ------------------------------------------------------------ -->
-                                            <!-- Info Filter Items Count [ only exist by js ]                 -->
-                                            <!-- ------------------------------------------------------------ -->
-                                            <div class="main-nav-topic-filter-item-count-box">
-                                                [ +3 ]
+    
+                                            
+    
                                             </div>
 
                                         </div>
 
+                                        <!-- --------------------------------------------------------------- -->
+                                        <!-- [Main Nav Filter] - Container                                   -->
+                                        <!-- --------------------------------------------------------------- -->
+                                        <div id="main-nav-topic-filter-layout">
+                                            
+                                            <div class="main-nav-topic-filter-radio-item-container">
 
-                                        <!-- [JS] - Create Drop Down Label | if more than 2 rows container -->
-                                        <label for="checkbox-drop-down-main-nav-topic-filter-docs-web-app-dev"
-                                                id="trigger-Fragezeichen-weil-JavaScript-nicht-notwendig"
-                                                class="lbl-drop-down-main-nav-topic-filter">
+                                            
+                                                <label for="radio-my-main-nav-topic-filter-docs-web-app-dev-web-frameworks"
+                                                    class="lbl-main-nav-topic-filter-item"
+                                                    id="trigger-lbl-my-main-nav-topic-filter-item-docs-web-app-dev-web-frameworks"
+                                                    name="name-my-main-nav-topic-filter-docs-web-app-dev">
 
-                                                <!-- Default Down ( to open | status is closed  ) -->
-                                                <img src="media/img/default/icons/info-icons/arrow-down-black.png" class="img-drop-down-main-nav-topic-filter" alt="img">
 
-                                                <!-- Up ( to close | status is open ) -->
-                                                <!-- <img src="media/img/default/icons/arrow-up-black.png" class="img-drop-down-main-nav-topic-filter" alt="img"> -->
+                                                    
+                                                        <div class="my-own-circle-outside">
+                        
+                                                        
+                                                            <div class="my-own-set-point"></div>
+                            
+                                                        </div>
 
-                                        </label>
+                                                    
+                                                        <div> Web-Frameworks </div>
+                                                    
+
+                                                    
+                                                </label>
+                                            
+                                                
+                                                <div class="main-nav-topic-filter-item-count-box">
+                                                    [ +3 ]
+                                                </div>
+
+                                            </div>
+                                            
+                                            <label for="checkbox-drop-down-main-nav-topic-filter-docs-web-app-dev"
+                                                    id="trigger-Fragezeichen-weil-JavaScript-nicht-notwendig"
+                                                    class="lbl-drop-down-main-nav-topic-filter">
+                                                    
+                                                    <img src="media/img/default/icons/info-icons/arrow-down-black.png" class="img-drop-down-main-nav-topic-filter" alt="img">
+                                                    
+                                            </label>
+                                        
+                                        </div>
 
                                         
                                     </nav>
@@ -580,7 +611,7 @@
                         
 
                             <!-- --------------------------------------------------------------------------- -->
-                            <!-- [Postion Content] - Center                                                  -->
+                            <!-- [Postion Content] - Center | Main Card Layouts                              -->
                             <!-- --------------------------------------------------------------------------- -->
                             <div class="flex jc-c">
 
@@ -1410,7 +1441,7 @@
 
 
                             <!-- ------------------------------------------------------------- -->
-                            <!-- [Container] - Footer Main Card Layout                         -->
+                            <!-- [Container] - Center | Main Footer                            -->
                             <!-- ------------------------------------------------------------- -->
                             <div class="flex jc-c">
 

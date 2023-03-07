@@ -63,186 +63,7 @@
 
 
 
-/* ---------------------------------------------------------------------------------- */
-/* [ Nav Topic ] - Container 
-/* ---------------------------------------------------------------------------------- */
 
-.main-nav-topic-container {
-
-
-    display: grid;
-    grid: auto / 1fr 1fr 1fr 1fr 2.8em;
-
-    border-bottom: .25em solid var(--light-brown-3);
-
-    background-color: var(--dark-black-1);
-
-    border-radius: .3em .3em 0em 0em;
-
-}
-
-.main-nav-topic-container > label:nth-of-type(1) ,
-.main-nav-topic-container > label:nth-of-type(2) ,
-.main-nav-topic-container > label:nth-of-type(3) ,
-.main-nav-topic-container > label:nth-of-type(4) {
-
-    border-right: .1em solid var(--medium-grey-3); 
-}
-
-.main-nav-topic-container > label:nth-of-type(1) { border-top-left-radius: .3em; } 
-.main-nav-topic-container > label:nth-of-type(5) { border-top-right-radius: .3em; }
-
-
-
-/* ----------------------------------------------- */
-/* Label & Audio - Main Nav Topic Filter 
-/* ----------------------------------------------- */
-    
-.lbl-main-nav-topic-filter, 
-.lbl-main-nav-topic-filter-audio {
-
-    padding: .8em;
-
-    color:var(--light-white-2);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    column-gap: .8em;
-
-    cursor: pointer;
-}
-
-.lbl-main-nav-topic-filter-audio { 
-
-    background-color: var(--medium-grey-2);
-
-    /* Size for Filter Audio */
-    /* width: 2em; */
-
-}
-
-.lbl-main-nav-topic-filter:hover,
-.lbl-main-nav-topic-filter-audio:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-    color:var(--dark-black-1);
-}
-
-.img-lbl-main-nav-topic-filter,
-.img-lbl-main-nav-topic-filter-audio { width: 1.6em; }
-
-
-.txt-box-main-nav-topic-filter {
-
-    /* default in mobile version unshown */
-    display: none;
-
-    font-size: .85em;
-    
-
-    line-height: 1em;
-    font-weight: bold;
-
-}
-
-
-
-
-/* default unshown 2nd img of main nav topic filter | docs , projects */
-.lbl-main-nav-topic-filter > img:nth-of-type(2) { display: none;}
-
-
-/* default hover style by hover unshown first img show second img ( white - black solution ) */
-.lbl-main-nav-topic-filter:hover > img:nth-of-type(1) { display: none; } 
-.lbl-main-nav-topic-filter:hover > img:nth-of-type(2) { display: block } 
-
-
-
-
-
-/* ---------------------------------------------------------------------------------- */
-/* [2/2] - Main Nav Topic Filter Container 
-/* ---------------------------------------------------------------------------------- */
-
-.main-nav-topic-filter-container {
-
-    display: grid;
-    grid: auto / 1fr 2.8em;
-
-    border-bottom-left-radius: .3em;
-    border-bottom-right-radius: .3em;
-
-    background-color: var(--dark-black-1);
-   
-}
-
-
-/* Main Nav Topic Filter Radio Item Container  */
-.main-nav-topic-filter-radio-item-container {
-
-    border-bottom-left-radius: .8em;
-
-    padding: 1em .6em;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-
-    column-gap: .5em;
-    row-gap: .5em;
-
-
-}
-
-
-/* ---------------------------------------------------- */
-/* Label - Filter Item  
-/* ---------------------------------------------------- */
-
-
-.lbl-main-nav-topic-filter-item  {
-
-    /* Only 320px - 480px | very small mobile version */
-    max-width: 9.5em;
-
-    color: var(--dark-grey-1);
-    font-weight: bold;
-
-    /* Same Mobile Size like header nav */
-    font-size: .85em;
-
-    padding: .3em .6em;
-
-    border-radius: .3em;
-    /* border-bottom-right-radius: 1em; */
-    border: 1px solid var(--dark-grey-1);
-
-    display: flex;
-    align-items: center;
-    column-gap: .5em;
-
-    cursor: pointer;
-
-    /* max-width: 9em; */
-   
-}
-
-.lbl-main-nav-topic-filter-item:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-    color:var(--dark-black-1);
-    border: 1px solid var(--light-brown-3);
-}
-
-.lbl-main-nav-topic-filter-item:hover > .my-own-circle-outside {
-
-    border: .13em solid var(--dark-black-1);
-
-}
 
 /* ---------------------------------------------------- */
 /* My Own Radio Box Style 
@@ -290,53 +111,6 @@
 
 
 
-/* ---------------------------------------------------- */
-/* Label Drop Down Item 
-/* ---------------------------------------------------- */
-
-.lbl-drop-down-main-nav-topic-filter {
-
-    /* width: 2em; */
-    background-color: var(--medium-grey-3);
-
-    border-bottom-right-radius: .3em;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-left: .1em solid var(--medium-grey-3);
-
-    cursor: pointer;
-}
-
-.lbl-drop-down-main-nav-topic-filter:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-}
-
-.img-drop-down-main-nav-topic-filter { width: 1.3em; }
-
-
-
-/* ---------------------------------------------------- */
-/* Info Filter Items Count
-/* ---------------------------------------------------- */
-
-.main-nav-topic-filter-item-count-box {
-
-    /* Same Mobile Size like header nav */
-    font-size: .85em;
-    font-weight: bold;
-
-    padding: .3em .6em;
-    border-radius: .3em;
-    background-color: var(--medium-grey-3);
-  
-}
-
-
 
 
 
@@ -378,12 +152,14 @@
 
 .no-js-info-container {
 
+    font-size: .85em;
+
     min-width: 10em;
     max-width: 22em;
 
     margin: .8em;
 
-    border-radius: 1em;
+    border-radius: .3em;
 
     background-color: var(--dark-grey-1);
     color:var(--dark-black-1);
@@ -397,7 +173,7 @@
 
 .img-no-js { width: 2.3em; }
 
-.img-me-no-js { height: 8em; }
+.img-me-no-js { height: 6em; }
 
 
 /* ---------------------------------------------------------------------------------------- */

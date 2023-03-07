@@ -45,6 +45,8 @@
 
 /* ( left & right ) & ( top & bottom ) */
 .padd-tb-1em-lr-0-3em { padding: 1em .3em; }
+.padd-tb-1em-lr-0-6em { padding: 1em .6em; }
+
 .padd-tb-0-8em-lr-0-3em { padding: .8em .3em; }
 .padd-tb-0-6em-lr-0-3em { padding: .6em .3em; }
 
@@ -140,6 +142,9 @@
 /* [2/?] - One Size
 /* ------------------------------------------ */
 
+/* right */
+.marg-r-0-3em { margin-right: .3em; }
+.marg-r-0-5em { margin-right: .5em; }
 
 /* bottom */
 
