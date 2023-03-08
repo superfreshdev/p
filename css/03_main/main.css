@@ -74,7 +74,7 @@
 
     width: 90%;
 
-    font-size: .85em;
+    /* font-size: .85em; */
 
     color: var(--medium-grey-3);
     /* background-color: var(--dark-black-1); */
@@ -102,7 +102,7 @@
 
 .no-js-info-container {
 
-    font-size: .85em;
+    /* font-size: .85em; */
 
     min-width: 10em;
     max-width: 22em;

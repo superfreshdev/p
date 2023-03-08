@@ -12,11 +12,6 @@
 
     z-index: 6;
 
-
-
-    background-color: var(--dark-black-1);
-    color: var(--white);
-
     height: 4.5em;
 
     position: fixed;
@@ -26,6 +21,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
+    background-color: var(--dark-black-1);
+    color: var(--white);
 
     border-bottom: .18em solid var(--light-brown-3);
 
@@ -90,7 +89,7 @@
     /* ---------------------------- */
     width: 3.3em;
     height: 2.3em;
-    
+
     padding: .4em .4em .1em .4em;
 
     line-height: 1.3em;

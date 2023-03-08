@@ -80,7 +80,7 @@
      /* default in mobile version unshown */
      display: none;
 
-     font-size: .85em;
+     /* font-size: .85em; */
      
      line-height: 1em;
      font-weight: bold;
@@ -162,7 +162,7 @@
     font-weight: bold;
 
     /* Same Mobile Size like header nav */
-    font-size: .85em;
+    /* font-size: .85em; */
 
     padding: .3em .6em;
 
@@ -246,7 +246,7 @@ input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-
 #main-nav-topic-filter-info-count-box {
 
     /* Same Mobile Size like header nav */
-    font-size: .85em;
+    /* font-size: .85em; */
     font-weight: bold;
 
     height: 1.5em;
