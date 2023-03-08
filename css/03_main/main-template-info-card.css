@@ -79,7 +79,7 @@
     background-color: var(--dark-grey-3);
     background-color: var(--black);
 
-    border-radius: .8em .8em 0em 0em;
+    border-radius: .3em .3em 0em 0em;
     
 }
 
@@ -98,7 +98,7 @@
 
     font-weight: bold;
 
-    border-radius: .3em;
+    border-radius: .2em;
 }
 
 .card-layout-not-finish-header {
@@ -131,7 +131,7 @@
 
 .card-layout-main-content-container {
 
-    padding: 1.3em .6em;
+    padding: 1.3em 1em;
     
 }
 
@@ -190,21 +190,10 @@
 }
 
 
-.project-3-imgs-layout {
 
-    display: grid;
-    grid: auto / auto 1fr 1fr;
-    column-gap: .8em;
-}
 
-/* 2 img */
 
-.project-2-imgs-layout {
 
-    display: grid;
-    grid: auto / auto 1fr;
-    column-gap: .8em;
-}
 
 
 /* --------------------------------------------------------------------- */
@@ -215,7 +204,7 @@
 /* img float left */  
 .img-float-card-layout {
 
-    height: 7.3em;
+    height: 8.3em;
     float: left;
 
     margin-right: .8em;
