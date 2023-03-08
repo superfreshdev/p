@@ -21,7 +21,7 @@
 
 .card-layout {
 
-    /* width: 90%; */
+    width: 95%;
    
     /* margin: .8em; */
     /* margin: 0em .8em; */
@@ -213,7 +213,7 @@
 /* img float left */  
 .img-float-card-layout {
 
-    height: 8.3em;
+    height: 7.6em;
     float: left;
 
     margin-right: .8em;
