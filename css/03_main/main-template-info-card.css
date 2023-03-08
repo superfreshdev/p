@@ -21,7 +21,7 @@
 
 .card-layout {
 
-    width: 95%;
+    width: 90%;
    
     /* margin: .8em; */
     /* margin: 0em .8em; */
@@ -111,6 +111,8 @@
 }
 
 .card-layout-not-finish-header {
+
+    font-size: .85em;
 
     padding: 0em 1em;
     height: 2.5em;
@@ -213,7 +215,7 @@
 /* img float left */  
 .img-float-card-layout {
 
-    height: 7.6em;
+    height: 6.6em;
     float: left;
 
     margin-right: .8em;
