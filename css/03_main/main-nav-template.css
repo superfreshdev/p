@@ -18,6 +18,8 @@
 /* -------------------------------- */
 .main-nav-topic-container {
 
+    font-size: .85em;
+
     display: grid;
     grid: auto / 1fr 1fr 1fr 1fr 2.8em;
 
@@ -119,6 +121,8 @@
 
 #main-nav-topic-filter-container {
 
+    font-size: .85em;
+    
     background-color: var(--dark-black-1);
 
     border-bottom-left-radius: .3em;
