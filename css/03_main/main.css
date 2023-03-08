@@ -10,7 +10,7 @@
 #my-main-container {
 
     /* because of fixed header */
-    margin-top: 4.5em;
+    margin-top: 4.8em;
 
     /* is our parent position to anker backgrounds e.g imgs , videos , ... */
     position: relative;

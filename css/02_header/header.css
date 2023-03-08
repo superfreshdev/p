@@ -12,7 +12,7 @@
 
     z-index: 6;
 
-    height: 4.5em;
+    height: 4.8em;
 
     position: fixed;
     left:0;
@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
 
-    
+
     background-color: var(--dark-black-1);
     color: var(--white);
 
@@ -40,7 +40,7 @@
 
 #my-header-img-title-container  {
 
-    padding-left: .6em;
+    /* padding-left: .6em; */
     line-height: 1.3em;
 
     display: flex;
@@ -63,7 +63,7 @@
 #my-header-nav-container {
 
     /* width: 60em; */
-    padding-right: .6em;
+    /* padding-right: .6em; */
 
     display: flex;
     align-items: center;
@@ -87,12 +87,12 @@
     /* ---------------------------- */
     /* Mobile Version               */
     /* ---------------------------- */
-    width: 3.3em;
+    width: 3.5em;
     height: 2.3em;
 
     padding: .4em .4em .1em .4em;
 
-    line-height: 1.3em;
+    line-height: 1.5em;
 
     display: flex;
     flex-direction: column;

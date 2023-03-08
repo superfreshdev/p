@@ -74,7 +74,7 @@
 .card-layout-header {
 
     height: 3.3em;
-    padding: 0em 1em;
+    padding: 0em .6em;
 
     background-color: var(--dark-grey-3);
     background-color: var(--black);
@@ -103,8 +103,8 @@
 
 .card-layout-not-finish-header {
 
-    padding: 0em 1.3em;
-    height: 2.8em;
+    padding: 0em .6em;
+    height: 2.5em;
 
     font-weight: bold;
     line-height: 1.4em;
@@ -131,7 +131,7 @@
 
 .card-layout-main-content-container {
 
-    padding: 1.3em;
+    padding: 1.3em .6em;
     
 }
 
