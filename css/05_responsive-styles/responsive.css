@@ -7,6 +7,12 @@
 
 -------------------------------------------------------------- */
 
+
+
+
+
+
+
 /* --------------------------------------------------------------------- */
 /* >= 350px 
 /* --------------------------------------------------------------------- */
@@ -18,6 +24,9 @@
     #img-header-cartoon-me { display: block; }
 
 }
+
+
+
 
 
 /* --------------------------------------------------------------------- */
@@ -108,25 +117,23 @@
 
 
 /* --------------------------------------------------------------------- */
-/* >= 580px 
+/* >= 640px 
 /* --------------------------------------------------------------------- */
-@media (max-width: 580px ) {
+
+@media (min-width: 640px ) {
 
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-    #trigger-header-title-box { display: none; }
 
-}
+        /* Header Title Handling */
+        #trigger-resp-my-header-title-box { display: block;}
 
-@media (min-width: 581px ) {
-
-    /* --------------------------------------------------------------------- */
-    /* HEADER ( Handling )
-    /* --------------------------------------------------------------------- */
-    input#radio-about-my-header-nav:checked ~ #my-header-container #trigger-header-title-box {
-        display: none;
-    }
+        /* if header about is checked unshown title because
+        /* on my about page u see my title too ( we dont want duplicate ) */
+        input#radio-about-my-header-nav:checked ~ #my-header-container #trigger-resp-my-header-title-box {
+            display: none;
+        }
 }
 
 
@@ -177,6 +184,11 @@
 
 
 }
+
+
+
+
+
 
 /* --------------------------------------------------------------------- */
 /* >= 860px 

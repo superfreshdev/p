@@ -12,7 +12,7 @@
 
     z-index: 6;
 
-    height: 4.8em;
+    height: 5.8em;
 
     position: fixed;
     left:0;
@@ -21,7 +21,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 
     background-color: var(--dark-black-1);
     background-color: var(--black);
@@ -38,19 +37,8 @@
 
 
 /* --------------------------------------------------------------------------------- */
-/* [Header Img & Title] - Container 
+/* IMG & TITLE - Container 
 /* --------------------------------------------------------------------------------- */
-
-#my-header-img-title-container  {
-
-    /* padding-left: .6em; */
-    line-height: 1.3em;
-
-    display: flex;
-    align-items: center;
-    column-gap: 1em;
-
-}
 
 #img-header-cartoon-me {  
     
@@ -66,27 +54,31 @@
                 rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
                 rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
 
+}
+
+/* default unshown header title box */
+#trigger-resp-my-header-title-box { display: none; }
+
+#txt-my-header-title {
+    
+    font-size: 1.2em; 
+    font-weight: bold;
+    padding-top: .2em;
+
+}
+
+#txt-my-header-sub-title { 
+    
+    font-style: italic;
+    font-weight: bold;
+    color:var(--light-brown-3);
 
 }
 
 
-#header-title { font-size: 1.1em; font-weight: bold; padding-top: .2em; }
-#sub-header-title { font-size: .83em; font-style: italic; color:var(--light-brown-3); }
-
-
-/* ---------------------------------------------------------------------------------- */
-/* [Nav Header] - Container  
-/* ---------------------------------------------------------------------------------- */
-
-#my-header-nav-container {
-
-    /* width: 60em; */
-    /* padding-right: .6em; */
-
-    display: flex;
-    align-items: center;
-   
-}
+/* --------------------------------------------------------------------------------- */
+/* Header Nav - Container 
+/* --------------------------------------------------------------------------------- */
 
 .arrow-right-left-seperator {
 
@@ -94,13 +86,11 @@
     padding: 0em .2em;
 }
 
-/* ---------------------------------------------------------------------------------- */
-/* [Nav Header ] - Label
-/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* Header Label
+/* ----------------------------------------------------------------------- */
 
-
-
-.lbl-nav-my-header-container {
+.lbl-nav-my-header {
 
 
     /* font-size: .95em; */
@@ -154,7 +144,7 @@
   
 }
 
-.lbl-nav-my-header-container:hover { 
+.lbl-nav-my-header:hover { 
     
     transition: .3s;
     background-color: var(--light-brown-3);
