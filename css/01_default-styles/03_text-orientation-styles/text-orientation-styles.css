@@ -66,3 +66,20 @@
 
 
 
+/* ---------------------------------------------------- */
+/* Status - in progress , in planning 
+/* ---------------------------------------------------- */
+
+.in-progress-style {
+
+    padding: .3em .3em;
+
+    border-radius: .2em;
+
+    background-color: var(--medium-red-3);
+    color: var(--dark-black-1);
+    font-weight: bold;
+
+}
+
+
