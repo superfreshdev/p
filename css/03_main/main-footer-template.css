@@ -26,7 +26,7 @@
 
     border-top: .25em solid var(--light-brown-3);
     
-    border-radius: .3em;
+    border-radius: .0em 0em .8em .8em;
 
     display: flex;
     align-items: center;

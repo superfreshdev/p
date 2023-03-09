@@ -235,6 +235,13 @@
         /* main nav topic label img */
         .img-lbl-main-nav-topic { width: 1.8em;}
 
+
+        .main-content-layout { 
+
+            margin: 1.3em 0em 6em 0em;
+    
+        }
+
     /* --------------------------------------------------------------------- */
     /* FOOTER 
     /* --------------------------------------------------------------------- */
@@ -298,7 +305,7 @@
     .max-width-content-container{ width: 60%  }
 
     /* header height smaller */
-    #my-header-container {  height: 4.8em; }
+    #my-header-container {  height: 5.3em; }
 
     /* change header nav label layout to row layout */
     .lbl-nav-my-header {
@@ -315,7 +322,7 @@
         column-gap: .5em;
 
         width: 7em;
-        height: 1.8em;
+        height: 2.1em;
    
         /* ---------------------------- */
         /* Mobile Version               */
@@ -354,7 +361,7 @@
     #my-main-container {
 
         /* because of fixed header */
-        margin-top: 4.8em;
+        margin-top: 5.3em;
     }
 
 

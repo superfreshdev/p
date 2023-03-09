@@ -27,7 +27,7 @@
     /* margin: 0em .8em; */
    
    
-    border-radius: .3em;
+    border-radius: .8em;
 
     box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
 
@@ -82,7 +82,7 @@
     background-color: var(--dark-black-1);
     /* background-color: var(--black); */
 
-    border-radius: .3em .3em 0em 0em;
+    border-radius: .8em .8em 0em 0em;
 
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     

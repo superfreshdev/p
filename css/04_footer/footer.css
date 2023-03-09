@@ -16,7 +16,7 @@
     z-index: 1;
 
     background-color: var(--dark-black-1);
-    background-color: var(--black);
+    /* background-color: var(--black); */
     border-top: .18em solid var(--light-brown-3);
 
 }
