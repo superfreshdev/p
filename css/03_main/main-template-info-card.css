@@ -73,7 +73,7 @@
 
 .card-layout-header {
 
-    font-size: .85em;
+    /* font-size: .85em; */
 
     height: 3.3em;
     padding: 0em 1em;
@@ -113,7 +113,7 @@
 
 .card-layout-not-finish-header {
 
-    font-size: .85em;
+    /* font-size: .85em; */
 
     padding: 0em 1em;
     height: 2.5em;
@@ -249,7 +249,7 @@
 .hashtag ,
 .float-hashtag {
 
-    font-size: .90em;
+    /* font-size: .90em; */
 
     padding: 0em .3em;
     display: inline-block;

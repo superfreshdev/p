@@ -9,13 +9,14 @@
 
 #my-footer-container {
 
-    font-size: .85em;
+    /* font-size: .85em; */
 
     /* because of main max width content shadow effect makes 
     /* border-top line darker , so we need go over that */
     z-index: 1;
 
     background-color: var(--dark-black-1);
+    background-color: var(--black);
     border-top: .18em solid var(--light-brown-3);
 
 }
@@ -31,7 +32,7 @@
 
 #my-footer-header-title {
 
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 
     font-weight: bold;
     color: var(--light-white-1);

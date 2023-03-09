@@ -24,7 +24,10 @@
 
 
     background-color: var(--dark-black-1);
+    background-color: var(--black);
     color: var(--white);
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
     border-bottom: .18em solid var(--light-brown-3);
 
@@ -53,7 +56,7 @@
     
     display: none;
 
-    font-size: .95em;
+    /* font-size: .95em; */
     height: 3.1em;
     
     border-radius: .3em;
@@ -100,7 +103,7 @@
 .lbl-nav-my-header-container {
 
 
-    font-size: .95em;
+    /* font-size: .95em; */
 
     /* ---------------------------- */
     /* Mobile Version               */
@@ -133,7 +136,7 @@
     font-weight: bold;
    
     color: var(--medium-grey-3);
-    background-color: var(--dark-grey-5);
+    background-color: var(--dark-black-1);
 
     border-radius: .3em;
 
@@ -141,6 +144,10 @@
                 rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
                 rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+                box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
    
     cursor: pointer;
 
