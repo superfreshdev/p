@@ -223,7 +223,7 @@
         /* width main nav content */
         .max-width-main-nav-content-container {
 
-            width: 33em;
+            width: 38em;
         }
 
         /* main nav label */
@@ -231,6 +231,9 @@
 
             display: block;
         }
+
+        /* main nav topic label img */
+        .img-lbl-main-nav-topic { width: 1.8em;}
 
     /* --------------------------------------------------------------------- */
     /* FOOTER 
