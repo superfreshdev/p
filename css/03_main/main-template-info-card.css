@@ -79,7 +79,8 @@
     padding: 0em 1em;
 
     background-color: var(--dark-grey-3);
-    background-color: var(--black);
+    background-color: var(--dark-black-1);
+    /* background-color: var(--black); */
 
     border-radius: .3em .3em 0em 0em;
 
@@ -142,7 +143,7 @@
 
 .card-layout-main-content-container {
 
-    padding: 1.3em 1em;
+    padding: .6em 1em 1.3em 1em;
     
 }
 
@@ -215,7 +216,7 @@
 /* img float left */  
 .img-float-card-layout {
 
-    height: 6.6em;
+    height: 7.3em;
     float: left;
 
     margin-right: .8em;
@@ -266,8 +267,10 @@
 
 .float-hashtag {
 
-    margin-bottom: .5em;
+    margin-bottom: .3em;
     margin-right: .2em;
+
+    float:left;
 
 }
 
