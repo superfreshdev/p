@@ -21,7 +21,7 @@
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-    #img-header-cartoon-me { display: block; }
+    #img-me-my-header { display: block; }
 
 }
 
@@ -39,24 +39,24 @@
     /* --------------------------------------------------------------------- */
 
     /* Header & Main Width Content Container */
-    .max-width-content-container{
+    .max-width-content-container{ width: 80%;  }
+
+    /* Header Title Font Size bigger */
+    #txt-my-header-title { font-size: 1.2em; }
     
-        width: 90vw;
-        margin: 0em;
-    }
+        
+      
+   
 
 
     /* --------------------------------------------------------------------- */
     /* MAIN 
     /* --------------------------------------------------------------------- */
 
-    /* Position Elements */
-    .max-width-main-nav-content-container {
+    /* Main Nav Max Width ( from main content by desktop smaller width ) */
+    .max-width-main-nav-content-container {  width: 80%; }
     
-        width: 80vw;
        
-    }
-
     /* File Filter List Layout Page */
     .file-filter-list-layout-page {
 
@@ -116,6 +116,9 @@
 }
 
 
+
+
+
 /* --------------------------------------------------------------------- */
 /* >= 640px 
 /* --------------------------------------------------------------------- */
@@ -137,6 +140,9 @@
 }
 
 
+
+
+
 /* --------------------------------------------------------------------- */
 /* >= 768px 
 /* --------------------------------------------------------------------- */
@@ -145,15 +151,6 @@
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-
-    /* Header & Main Width Content Container */
-    .max-width-content-container{
-    
-        width: 85vw;
-        /* width: 28em; */
-        /* margin: 0em 2.4em; */
-    }
-
 
 
     /* --------------------------------------------------------------------- */
@@ -198,39 +195,42 @@
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-    
-    /* Header Label */
-    .lbl-nav-my-header-container {
 
-        height: 1.8em;
+        /* Header & Main Width Content Container */
+        .max-width-content-container{ width: 75%  }
 
-        width: auto;
-        padding: .3em .6em; 
-        
-        display: flex;
-        flex-direction: row;
+        /* Header Label */
+        .lbl-nav-my-header-container {
 
-        align-items: center;
-        justify-content: space-between;
+            height: 1.8em;
 
-        column-gap: .5em;
-    }
+            width: auto;
+            padding: .3em .6em; 
+            
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            justify-content: space-between;
+
+            column-gap: .5em;
+        }
 
     /* --------------------------------------------------------------------- */
     /* MAIN 
     /* --------------------------------------------------------------------- */
 
-    /* width main nav content */
-    .max-width-main-nav-content-container {
+        /* width main nav content */
+        .max-width-main-nav-content-container {
 
-        width: 33em;
-    }
+            width: 33em;
+        }
 
-    /* main nav label */
-    .lbl-txt-main-nav-topic {
+        /* main nav label */
+        .lbl-txt-main-nav-topic {
 
-        display: block;
-    }
+            display: block;
+        }
 
     /* --------------------------------------------------------------------- */
     /* FOOTER 
@@ -258,8 +258,11 @@
 }
 
 
+
+
+
 /* --------------------------------------------------------------------- */
-/* >= 980px 
+/* >= 980px ( kann weg ? )
 /* --------------------------------------------------------------------- */
 @media (min-width: 980px ) {
 
@@ -267,22 +270,14 @@
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
-    /* Header & Main Width Content Container */
-    .max-width-content-container{
-    
-        width: 80vw;
-        /* width: 28em; */
-        /* margin: 0em 2.4em; */
-    }
-
-
-
     /* --------------------------------------------------------------------- */
     /* MAIN 
     /* --------------------------------------------------------------------- */
 
 
 }
+
+
 
 
 
@@ -295,13 +290,57 @@
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-
-    /* Header & Main Width Content Container */
-    .max-width-content-container{
     
-        width: 75vw;
-        /* margin: 0em 3.2em; */
-    }
+    /* Header & Main Width Content Container */
+    .max-width-content-container{ width: 60%  }
+
+    /* header height smaller */
+    #my-header-container {  height: 4.8em; }
+
+    /* change header nav label layout to row layout */
+    .lbl-nav-my-header {
+
+
+        /* ---------------------------- */
+        /* Deskop Version               */
+        /* ---------------------------- */
+        padding: .3em .6em; 
+    
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: .5em;
+
+        width: 7em;
+        height: 1.8em;
+   
+        /* ---------------------------- */
+        /* Mobile Version               */
+        /* ---------------------------- */
+        /* width: 3.3em;
+        height: 2.6em; */
+    
+        /* padding: .5em .8em .1em .8em; */
+    
+        /* line-height: 1.4em; */
+/*     
+        display: flex;
+        flex-direction: column;
+     
+        align-items: center;
+        justify-content: center;
+     */
+       
+       
+    }    
+
+    /* img topic & flag header bigger */
+    .img-topic-my-header { width: 1.2em; }
+    .img-flag-my-header { width: 1.03em; }
+
+    
+
+   
 
 
 
@@ -309,8 +348,18 @@
     /* MAIN 
     /* --------------------------------------------------------------------- */
 
+    #my-main-container {
+
+        /* because of fixed header */
+        margin-top: 4.8em;
+    }
+
 
 }
+
+
+
+
 
 /* --------------------------------------------------------------------- */
 /* >= 1680px 
@@ -321,12 +370,14 @@
     /* HTML , BODY 
     /* --------------------------------------------------------------------- */
 
-    html , body { font-size: 1.1rem; }
+    html , body { font-size: 1.08rem; }
 
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
 
+    /* Header & Main Width Content Container */
+    .max-width-content-container{ width: 55em;  }
    
    
 
@@ -355,6 +406,10 @@
 
 }
 
+
+
+
+
 /* --------------------------------------------------------------------- */
 /* >= 2250px 
 /* --------------------------------------------------------------------- */
@@ -364,15 +419,6 @@
     /* --------------------------------------------------------------------- */
     /* HEADER 
     /* --------------------------------------------------------------------- */
-
-    /* Header & Main Width Content Container */
-    .max-width-content-container{
-    
-        width: 50vw;
-        /* margin: 0em 3.2em; */
-    }
-   
-
 
 
     /* --------------------------------------------------------------------- */

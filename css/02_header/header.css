@@ -40,7 +40,7 @@
 /* IMG & TITLE - Container 
 /* --------------------------------------------------------------------------------- */
 
-#img-header-cartoon-me {  
+#img-me-my-header {  
     
     display: none;
     height: 3.1em;
@@ -49,18 +49,19 @@
 
     border-radius: .3em;
 
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+                rgba(217, 191, 152, .2) 0px 0px 0px 2px;
+
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
                 rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
+                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset; */
 
     /* box-shadow: blue 0px 0px 0px 2px inset,
         rgb(76, 76, 76) 10px -10px 0px -3px,
         rgb(217, 191, 152) 10px -10px; */
 
 
-
-
-        box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(217, 191, 152, .2) 0px 0px 0px 2px;
+    
 }
 
 /* default unshown header title box */
@@ -68,7 +69,8 @@
 
 #txt-my-header-title {
     
-    font-size: 1.2em; 
+    /* Mobile Sizes , Desktop bigger */
+    font-size: 1.05em;
     font-weight: bold;
     padding-top: .2em;
 
@@ -76,6 +78,7 @@
 
 #txt-my-header-sub-title { 
     
+    /* Mobile Sizes , Desktop bigger */
     font-style: italic;
     font-weight: bold;
     color:var(--light-brown-3);
@@ -158,15 +161,26 @@
     color:var(--dark-black-1)
 }
 
+/* Default unshown topic icon ( black & white ) , by bigger screens handling of white or black */
+.trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(2) { display: none; }
 
-.img-flag-style {
+.img-topic-my-header,
+.img-flag-my-header {
+
+    width: .9em;
+
+}
+
+.img-flag-my-header {
 
     border-radius: .11em;
 
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
                 rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
                 rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
 }
+
 
 
 
@@ -192,27 +206,22 @@
 } 
 
 /* checked handling for white / black img handling */
-#radio-docs-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(1) ,
-#radio-projects-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(1)  ,
-#radio-about-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-about > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(1)  {
+#radio-docs-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(1) ,
+#radio-projects-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(1)  ,
+#radio-about-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-about > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(1)  {
 
     display: none;
 }
-#radio-docs-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(2) ,
-#radio-projects-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(2)  ,
-#radio-about-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-about > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(2)  {
+#radio-docs-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-docs > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(2) ,
+#radio-projects-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-projects > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(2)  ,
+#radio-about-my-header-nav:checked ~ #my-header-container #trigger-lbl-my-header-nav-about > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(2)  {
 
     display: block;
 }
 
-/* Default unshown topic icon ( black & white ) , by bigger screens handling of white or black */
-.trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(2) { display: none; }
-
-
-
 
 /* unshown by hover white img and show black img */
-.lbl-nav-my-header-container:hover > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(1) { display: none; }
-.lbl-nav-my-header-container:hover > .trigger-inside-elements-lbl-my-header-nav-icon-box > img:nth-of-type(2) { display: block; }
+.lbl-nav-my-header:hover > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(1) { display: none; }
+.lbl-nav-my-header:hover > .trigger-hover-my-header-nav-lbl-topic-img > img:nth-of-type(2) { display: block; }
 
 
