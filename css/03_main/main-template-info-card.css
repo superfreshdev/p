@@ -246,7 +246,7 @@
 .hashtag ,
 .float-hashtag {
 
-    /* font-size: .95em; */
+    font-size: .90em;
 
     padding: 0em .3em;
     display: inline-block;
@@ -266,8 +266,8 @@
 
 .float-hashtag {
 
-    margin-bottom: .3em;
-    margin-right: .1em;
+    margin-bottom: .5em;
+    margin-right: .2em;
 
 }
 

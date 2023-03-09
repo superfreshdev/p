@@ -21,7 +21,7 @@
     font-size: .85em;
 
     display: grid;
-    grid: auto / 1fr 1fr 1fr 1fr 2.8em;
+    grid: auto / 1fr 1fr 1fr 1fr 3.5em;
 
     border-bottom: .25em solid var(--light-brown-3);
 
@@ -74,7 +74,7 @@
 /* unshown default 1 img of man nav docs audio ( pause img ) */
 #js-lbl-mp3-docs > img:nth-of-type(2) { display: none; }
 
-.img-lbl-main-nav-topic { width: 1.6em; }
+.img-lbl-main-nav-topic { width: 2em; }
 
 
 .lbl-txt-main-nav-topic {
@@ -135,7 +135,7 @@
     display: none;
     /* will be set by js */
     /* display: grid; */
-    grid: auto / 1fr 2.9em;
+    grid: auto / 1fr 3.5em;
 
 }
 
@@ -290,7 +290,7 @@ input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-
     background-color: var(--light-brown-3);
 }
 
-.img-drop-down-main-nav-topic-filter { width: 1.3em; }
+.img-drop-down-main-nav-topic-filter { width: 1.5em; }
 
 
 
