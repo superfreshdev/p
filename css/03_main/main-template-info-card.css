@@ -10,10 +10,6 @@
 
 
 
-
-
-
-
 /* ---------------------------------------------------------------------------------------- */
 /* [Template] - Card Layout  
 /* ---------------------------------------------------------------------------------------- */
@@ -22,50 +18,28 @@
 .card-layout {
 
     width: 90%;
-   
-    /* margin: .8em; */
-    /* margin: 0em .8em; */
-   
-   
-    border-radius: .8em;
-
-    box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
+    /* min-width: 24em; */
 
     background-color: var(--dark-black-1);
 
-    /* min-width: 24em; */
-    
+    border-radius: .8em;
+    box-shadow: rgba(0, 0, 0, .8) 0px 4px 12px;
 
 }
 
 .card-layout:hover {
 
-    transition: all .2s;
+    transition: all .3s;
+
+    /* transform: scale(1.03); */
+
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     box-shadow: rgba(80, 80, 80, 0.8) 0px 4px 12px;
 
-    /* transform: scale(1.03); */
+    
     
 }
 
-.document-card-ul {
-
-    /* margin:0em 0em 0em .8em; */
-    padding: 0em 0em 0em 1.5em;
-
-    display: inline;
-    word-break: break-all;
-    white-space: normal;
-}
-
-.document-card-ul > li {
-
-     margin:0; padding:0; 
-     
-     word-break: break-all;
-     white-space: normal;
-    
-    }
 
 /* ----------------------------------------------------------------------------------------- */
 /* [1/2] - Card Header 
@@ -88,11 +62,8 @@
     
 }
 
-.card-layout-number-box {
+.card-layout-header-number-box {
 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-
-   
     /* height: 1.5em; */
     padding: 0em .4em;
 
@@ -100,15 +71,14 @@
 
     /* background-color: var(--light-brown-3); */
 
+    color: var(--dark-black-1);
     background-color: rgba(217, 191, 152, .9);
 
-   
-    
-    color: var(--dark-black-1);
 
     font-weight: bold;
-
     border-radius: .2em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .card-layout-not-finish-header {
@@ -216,8 +186,11 @@
 /* img float left */  
 .img-float-card-layout {
 
-    height: 7em;
+    height: 7.6em;
+    
     float: left;
+    
+
 
     margin-right: .8em;
     margin-bottom: .5em;
@@ -524,3 +497,22 @@
 
 
 
+
+.document-card-ul {
+
+    /* margin:0em 0em 0em .8em; */
+    padding: 0em 0em 0em 1.5em;
+
+    display: inline;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.document-card-ul > li {
+
+     margin:0; padding:0; 
+     
+     word-break: break-all;
+     white-space: normal;
+    
+    }
