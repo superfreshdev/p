@@ -204,7 +204,8 @@
 
 
 /* img max width */
-.img-max-width-card-layout {
+
+.img-project-card-layout {
 
     height: 9.3em;
     width: 100%;
@@ -218,13 +219,14 @@
 
 
 
+
 /* hashtags style */
 .hashtag ,
 .float-hashtag {
 
     /* font-size: .90em; */
 
-    padding: 0em .3em;
+    padding: 0em .6em;
     display: inline-block;
    
     border-radius: .3em;
@@ -449,6 +451,7 @@
      
      font-weight: bold;
  
+     margin-top: .3em;
      padding: 0em .3em;
      border-radius: .3em;
  
