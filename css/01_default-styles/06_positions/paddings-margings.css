@@ -86,6 +86,8 @@
 .padd-r-0-5em { padding-right: .5em; }
 .padd-r-0-6em { padding-right: .6em; }
 .padd-r-0-8em { padding-right: .8em; }
+.padd-r-0-9em { padding-right: .9em; }
+.padd-r-1em { padding-right: 1em; }
 
 /* ------------------------------------------ */
 /* [3/?] - Different Size 
@@ -94,6 +96,7 @@
 /* top & bottom */
 .padd-t-1em-b-0-3em { padding-top: 1em; padding-bottom: .3em;}
 .padd-t-0-8em-b-1-6em { padding-top: .8em; padding-bottom: 1.6em;}
+.padd-t-1-6em-b-1em { padding-top: 1.6em; padding-bottom: 1em;}
 
 .padd-t-1-2em-b-0-3em { padding-top: 1.2em; padding-bottom: .3em;}
 .padd-t-1-8em-b-1-2em { padding-top: 1.8em; padding-bottom: 1.2em;}
@@ -143,6 +146,12 @@
 /* ------------------------------------------ */
 /* [2/?] - One Size
 /* ------------------------------------------ */
+
+/* top */
+
+.marg-t-minus-0-1em { margin-top: -.1em; }
+.marg-t-minus-0-2em { margin-top: -.2em; }
+.marg-t-minus-0-3em { margin-top: -.3em; }
 
 /* right */
 .marg-r-0-3em { margin-right: .3em; }

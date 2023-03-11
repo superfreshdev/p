@@ -306,6 +306,108 @@
 
 
 
+
+.card-layout-file-list-container {
+
+    border-top: 1px solid rgba(151, 154, 154 , .6);
+    border-bottom: 1px solid rgba(151, 154, 154 , .6);
+
+
+}
+
+.card-layout-file-list-radio-container {
+
+    border-bottom: 1px solid rgba(151, 154, 154 , .6);
+
+
+
+}
+
+/* ----------------------------- */
+/* Label layout */
+
+.lbl-card-layout-file-list-item {
+
+    border-radius: .3em;
+
+    padding: .2em .4em;
+
+    color: var(--dark-grey-1);
+    background-color: var(--dark-grey-5);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
+    
+    cursor: pointer;
+}
+
+.lbl-card-layout-file-list-item:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+    color: var(--dark-black-1);
+}
+
+.lbl-card-layout-file-list-item:hover > .my-own-circle-outside {
+
+    border: .13em solid var(--dark-black-1);
+
+}
+
+.lbl-card-layout-file-list-item:hover > .my-own-circle-outside > .my-own-set-point {
+
+    display: block;
+
+}
+
+
+
+
+.card-layout-file-list-content-item {
+
+    padding-left: .6em;
+
+    border-radius: .3em;
+
+    background-color: var(--dark-grey-5);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.card-layout-file-list-content-item:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+    color: var(--dark-black-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------------- */
 /* File Card Link - GitHub Project
 /* ------------------------------------------------- */
@@ -319,6 +421,9 @@
     grid: 1fr auto / 1fr;
     
 }
+
+
+
 
 .file-card-link-github-link {
 
