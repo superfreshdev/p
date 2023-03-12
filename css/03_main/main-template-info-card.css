@@ -294,6 +294,10 @@
     height: 4em;
 
     border-radius: .2em;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+ 
+
 }
 
 
@@ -329,6 +333,8 @@
 .lbl-card-layout-file-list-item {
 
     border-radius: .3em;
+
+    font-weight: bold;
 
     padding: .2em .4em;
 
@@ -366,7 +372,7 @@
 
 .card-layout-file-list-content-item {
 
-    padding-left: .6em;
+    padding: 1em .6em 1em .6em;
 
     border-radius: .3em;
 
@@ -378,12 +384,6 @@
 
 }
 
-.card-layout-file-list-content-item:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-    color: var(--dark-black-1);
-}
 
 
 
@@ -451,7 +451,7 @@
 .file-card-link-github-link:hover {
 
     transition: .3s;
-    background-color: var(--medium-grey-2);
+    background-color: var(--light-brown-3);
 }
 
 .img-video-card-link { 
