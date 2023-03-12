@@ -74,7 +74,7 @@
 /* unshown default 1 img of man nav docs audio ( pause img ) */
 #js-lbl-mp3-docs > img:nth-of-type(2) { display: none; }
 
-.img-lbl-main-nav-topic { width: 1.6em; }
+.img-lbl-main-nav-topic { width: 1.8em; }
 
 
 .lbl-txt-main-nav-topic {
