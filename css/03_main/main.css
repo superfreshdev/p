@@ -47,6 +47,9 @@
 
 .main-content-layout { 
 
+    width: 100%;
+    /* background-color: red; */
+
     /* Desktop Version 1.3em .8em */
     margin: 1.3em 0em;
     /* padding: 0em .8em; */
@@ -56,8 +59,7 @@
     row-gap: 2em;
     /* justify-items: center; */
 
-    width: 100%;
-    /* background-color: red; */
+ 
 }
 
 
@@ -102,72 +104,23 @@
 
 .no-js-info-container {
 
-    /* font-size: .85em; */
-
     min-width: 10em;
     max-width: 22em;
 
+    padding: .8em;
     margin: .8em;
 
     border-radius: .3em;
 
+    line-height: 1.4em;
+
     background-color: var(--medium-grey-3);
     color:var(--dark-black-1);
     /* font-weight: bold; */
-
-    line-height: 1.4em;
-
-    padding: .8em;
 
 }
 
 .img-no-js { width: 2.3em; }
 
 .img-me-no-js { height: 6em; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

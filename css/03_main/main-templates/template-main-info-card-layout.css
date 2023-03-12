@@ -1,22 +1,24 @@
 /* ----------------------------------------------------------- 
 
-    >> main-template-info-card.css  
+    >> template-main-info-card-layout.css  
     
-    | Defines our complex file info card which
-    | will be dyn. generate by java script & json 
+    | Defines oure info card layout for
+    | our all arts of info perspectives
+    | e.g pdf info card , project github info card , 
+    | e.g video list info card , ... 
 
 -------------------------------------------------------------- */
 
 
 
+/* ---------------------------------------------------------------------- */
+/* Card Layout  
+/* ---------------------------------------------------------------------- */
 
-/* ---------------------------------------------------------------------------------------- */
-/* [Template] - Card Layout  
-/* ---------------------------------------------------------------------------------------- */
 
+.info-ressource-card {
 
-.card-layout {
-
+    /* Mobile Width Version */
     width: 90%;
     /* min-width: 24em; */
 
@@ -27,7 +29,8 @@
 
 }
 
-.card-layout:hover {
+
+.info-ressource-card:hover {
 
     transition: all .3s;
 
