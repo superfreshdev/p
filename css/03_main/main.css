@@ -124,3 +124,37 @@
 
 .img-me-no-js { height: 6em; }
 
+
+
+
+/* ----------------------------------------- */
+/* Default Button Link 
+/* ----------------------------------------- */
+
+.btn-file-link {
+
+    height: 2em;
+    padding: 0em .6em;
+
+    text-decoration: none;
+
+    color: var(--dark-black-1);
+    background-color: var(--dark-grey-1);
+
+    border-radius: .3em;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .3em;
+
+}
+
+.btn-file-link:visited { color: var(--dark-black-1);}
+
+.btn-file-link:hover {
+
+    transition: .3s;
+    background-color: var(--light-brown-3);
+}
