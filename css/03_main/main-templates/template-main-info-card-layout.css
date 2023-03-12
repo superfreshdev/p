@@ -16,12 +16,13 @@
 /* ---------------------------------------------------------------------- */
 
 
-.info-ressource-card {
+
+.info-ressource-card ,
+.info-ressource-card-file-list {
 
     /* Mobile Width Version */
     width: 90%;
     /* min-width: 24em; */
-
 
     background-color: var(--dark-black-1);
 
@@ -30,7 +31,8 @@
 }
 
 
-.info-ressource-card:hover {
+.info-ressource-card:hover ,
+.info-ressource-card-file-list:hover  {
 
     transition: all .3s;
 
@@ -259,7 +261,23 @@
 /* File List Container 
 /* ----------------------------------------------------------------- */
 
+.info-ressource-card-main-file-list-layout {
+
+    /* display: grid;
+    grid: auto / 1fr 1fr;
+    gap: 1em;
+    align-items: flex-start; */
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+}
+
 .info-ressource-card-main-file-list-item {
+
+    width: 100%;
 
     padding: 1em .6em 1em .6em;
 

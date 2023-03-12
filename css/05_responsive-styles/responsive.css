@@ -75,6 +75,9 @@
     /* Card Layout get max-width */
     .info-ressource-card { max-width: 23em;}
 
+    /* Card Layout File Item */
+    .info-ressource-card-main-file-list-item { max-width: 22em; }
+
 
     /* Main Footer*/
     .footer-card-layout {
