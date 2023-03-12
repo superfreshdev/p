@@ -124,13 +124,21 @@ input#radio-m-n-t-docs-tech-tools:checked ~ #my-main-container #trigger-nav-topi
 
 
 
+#trigger-docs-container ,
+#trigger-about-container {
+
+    display: none;
+}
 
 
 
 
 
+#radio-docs-my-header-nav:checked ~ #my-main-container > #trigger-docs-container ,
+#radio-about-my-header-nav:checked ~ #my-main-container > #trigger-about-container { 
 
-
+    display: block;
+}
 
 
 
