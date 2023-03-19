@@ -10,23 +10,6 @@
 
 
 
-
-/* ----------------------------------------------------- */
-/* Layout
-/* ----------------------------------------------------- */
-
-
-.start-about { 
-
-    /* width: 95%; */
-    padding: 2em 1em 3em 2.5em;
-
-    color: var(--light-white-2);
-
-    background-color: var(--dark-grey-3);
-
-}
-
 .start-header {
 
     display: grid;
@@ -39,47 +22,6 @@
 
 
 
-
-#start-about-welcome {
-
-
-    display: inline-grid;
-    row-gap: .8em;
-
-    padding: 1.5em 1.3em 1.5em 1.3em;
-    background-color: var(--dark-black-1);
-
-    border-radius: .8em;
-
-}
-
-#txt-about-welcome { 
-
-    font-size: 2.3em;
-    letter-spacing: -1.5px;
-    opacity: .6;
-}
-
-#txt-about-superfreshdev {
-    
-    font-size: 2.3em;
-    font-weight: bold;
-}
-
-#txt-about-world {
-
-    color:var(--light-brown-3);
- }
-
- #txt-about-job-title {
-
-    padding-top: .8em;
-    font-size: 1.3em;
-
-    display: grid;
-    row-gap: .3em;
-
- }
 
  .img-about-germany-flag {
 
@@ -159,3 +101,138 @@
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
                 rgba(217, 191, 152, .2) 0px 0px 0px 2px;
  }
+
+
+/* -------------------------------------------------------- */
+/* Default About Container  
+/* -------------------------------------------------------- */
+
+#about-container {
+
+   /* width: 100%; */
+   
+   padding: 1em;
+
+   color: var(--light-white-2);
+   background-color: var(--dark-grey-3);
+
+}
+
+
+/* -------------------------------------------------------- */
+/* Welcome Container  
+/* -------------------------------------------------------- */
+
+#about-welcome-container {
+
+   display: grid;
+   row-gap: 2em;
+}
+
+
+/* ### ---------------- ### */
+/* ### Welcome Info Box ### */
+/* ### ---------------- ### */
+#about-welcome-info-box {
+
+   display: inline-grid;
+   row-gap: .8em;
+
+   padding: .8em 1.3em;
+   background-color: var(--dark-black-1);
+
+   border-radius: .8em;
+   
+}
+
+/* ### ---------------- ### */
+/* ### Title Area       ### */
+/* ### ---------------- ### */
+#about-welcome-info-box-title-area {
+
+   font-weight: bold;
+}
+
+#txt-about-welcome { 
+
+   color: var(--medium-grey-3);
+   /* font-size: 2.3em; */
+   /* letter-spacing: -1.5px; */
+}
+
+#txt-about-superfreshdev {
+   
+   font-size: 1.3em;
+ 
+}
+
+#txt-about-world { color:var(--light-brown-3); }
+
+   
+
+
+
+
+/* ### Sub Title Area  ### */
+#about-welcome-info-box-sub-title-area {
+
+   display: grid;
+   /* row-gap: .1em; */
+}
+
+/* ### Sub Tech Title Area  ### */
+#about-welcome-info-box-sub-title-area-tech-box {
+
+   border-top: 1px solid gray;
+   padding-top: .8em;
+   
+   display: grid;
+   row-gap: .1em;
+   opacity: .7;
+   
+}
+
+
+
+
+
+
+
+
+
+
+#txt-about-job-title {
+
+   padding-top: .8em;
+   /* font-size: 1.3em; */
+
+   display: grid;
+   row-gap: .3em;
+
+}
+
+
+
+
+
+
+/* ### Img Me ### */
+
+
+/* ### E-Mail & Read more about me ### */
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- */
+/* Me Big Img Container  
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+/* E-Mail & More About Me Container  
+/* -------------------------------------------------------- */
