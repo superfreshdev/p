@@ -31,7 +31,7 @@
 @keyframes up-and-down {
 
     50% { padding-top: .4em; }
-    100% { padding-bottom: .4em} 
+    100% { padding-bottom: -.6em} 
 }
 
 .keyframe-up-and-down-4s-linear-infinity {

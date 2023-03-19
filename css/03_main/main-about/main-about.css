@@ -257,21 +257,22 @@
 
 #link-read-more-about {
 
-   display: grid;
-   /* row-gap: .3em; */
-   justify-items: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: .6em;
 
-   padding: .8em 0em 0em 0em;
+    padding: .6em;
 
    font-size: 1.1em;
 
 
 
-               color: var(--dark-black-1);
-               background-color: var(--dark-grey-1);
-           
-               border-radius: .3em;
-               font-weight: bold;
+      color: var(--dark-black-1);
+      background-color: var(--dark-grey-1);
+   
+      border-radius: .3em;
+      font-weight: bold;
            
            
 
@@ -288,8 +289,8 @@
 
 .run-box {
 
-   height: 2.3em;
-   width: 2em;
+   height: 2em;
+   /* width: 2em; */
    /* background-color: black; */
 
    display: flex;
