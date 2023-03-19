@@ -30,8 +30,8 @@
 
 @keyframes up-and-down {
 
-    from{ padding-top: .4em; }
-    to{ padding-top: -.6em; }    
+    50% { padding-top: calc(.1vw + .3em);}
+    100% { padding-bottom: calc(.1vw + .4em);} 
 }
 
 .keyframe-up-and-down-4s-linear-infinity {
