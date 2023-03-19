@@ -24,4 +24,16 @@
     animation: anim-360-rotation 4s linear infinite;
 }
 
+/* ---------------------------------------------------------------- */
+/* Keyframe - Up & Dpwm
+/* ---------------------------------------------------------------- */
 
+@keyframes up-and-down {
+
+    from{ padding-top: .4em; }
+    to{ padding-top: -.6em; }    
+}
+
+.keyframe-up-and-down-4s-linear-infinity {
+    animation: up-and-down .6s ease infinite;
+}

@@ -126,14 +126,14 @@
 #about-welcome-container {
 
    display: grid;
-   row-gap: 2em;
+   row-gap: 1.3em;
 }
 
 
 /* ### ---------------- ### */
 /* ### Welcome Info Box ### */
 /* ### ---------------- ### */
-#about-welcome-info-box {
+.about-welcome-info-box {
 
    display: inline-grid;
    row-gap: .8em;
@@ -171,8 +171,6 @@
    
 
 
-
-
 /* ### Sub Title Area  ### */
 #about-welcome-info-box-sub-title-area {
 
@@ -180,24 +178,83 @@
    /* row-gap: .1em; */
 }
 
+#img-about-me { width: 11em; }
+
+  
+
+
 /* ### Sub Tech Title Area  ### */
 #about-welcome-info-box-sub-title-area-tech-box {
 
    border-top: 1px solid gray;
    padding-top: .8em;
-   
+
    display: grid;
    row-gap: .1em;
    opacity: .7;
    
 }
 
+/* -------------------------------------------- */
+/* IMG Me Container 
+/* -------------------------------------------- */
+
+#about-welcome-info-box-img-me-container {
+
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+
+
+/* -------------------------------------------- */
+/* E-Mail & Read More About Me Container 
+/* -------------------------------------------- */
+
+#link-email-to-about {
+
+   text-decoration: none;
+   color: var(--light-white-2);
+
+   padding: .4em .6em;
+
+   border-radius: .3em;
+
+   background-color: grey;
+}
+
+#link-email-to-about:visited { color: var(--light-white-2); }
 
 
 
 
+#link-read-more-about {
+
+   display: grid;
+   /* row-gap: .3em; */
+   justify-items: center;
+
+   padding: .6em 0em;
+
+   
+   border-radius: .3em;
+
+   background-color: grey;
+}
 
 
+.run-box {
+
+   height: 2.3em;
+   width: 2em;
+   /* background-color: yellow; */
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 
 
