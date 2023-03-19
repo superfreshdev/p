@@ -180,6 +180,7 @@
 
    display: grid;
    /* row-gap: .1em; */
+   color: var(--medium-grey-3);
 }
 
 #img-about-me { width: 11em; }
