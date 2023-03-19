@@ -229,20 +229,19 @@
 
    
 
-   /* color: var(--medium-grey-3);
+  
+   font-weight: bold;
+
+   color: var(--medium-grey-3);
    background-color: var(--dark-black-1);
 
    border-radius: .3em;
 
    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-               rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset; */
-
-               color: var(--dark-black-1);
-    background-color: var(--dark-grey-1);
-
-    border-radius: .3em;
-    font-weight: bold;
+               rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
+               
+               cursor: pointer;
 
 
     display: flex;
@@ -266,18 +265,15 @@
 
    font-size: 1.1em;
 
-   font-weight: bold;
 
-   color: var(--medium-grey-3);
-   background-color: var(--dark-black-1);
 
-   border-radius: .3em;
-
-   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-               rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-               rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
-               
-               cursor: pointer;
+               color: var(--dark-black-1);
+               background-color: var(--dark-grey-1);
+           
+               border-radius: .3em;
+               font-weight: bold;
+           
+           
 
                
 }
