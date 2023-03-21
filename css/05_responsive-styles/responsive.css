@@ -141,6 +141,10 @@
             display: none;
         }
 
+        input#radio-about-my-header-nav:checked ~ #my-header-container #txt-my-header-title-about {
+            display: block;
+        }
+
     /* --------------------------------------------------------------------- */
     /* MAIN 
     /* --------------------------------------------------------------------- */

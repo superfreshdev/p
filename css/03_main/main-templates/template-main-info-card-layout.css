@@ -92,7 +92,7 @@
 /* [2/2] - Card Main 
 /* ----------------------------------------------------------------------------------------------------- */
 
-.info-ressource-card-main { padding: .6em 1em 1.3em 1em; }
+.info-ressource-card-main { padding: 1.3em 1em 1.3em 1em; }
 
    
     
@@ -120,10 +120,7 @@
 
     height: 7.6em;
     
-    float: left;
     
-    margin-right: .8em;
-    margin-bottom: .5em;
 
     border-radius: .3em;
     

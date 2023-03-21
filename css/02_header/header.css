@@ -85,6 +85,18 @@
 
 }
 
+#txt-my-header-title-about {
+
+    display: none;
+    font-weight: bold;
+    color: var(--medium-grey-3);
+    opacity: .3;
+    /* letter-spacing: .3px; */
+   
+
+
+}
+
 
 /* --------------------------------------------------------------------------------- */
 /* Header Nav - Container 
