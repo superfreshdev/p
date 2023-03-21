@@ -22,7 +22,7 @@ var audioMp3About = document.getElementById("audioMp3About");
 var chkMp3Docs = document.getElementById("chk-mp3-docs");
 
 /* label listener */
-var lblMp3Docs = document.getElementById("js-lbl-mp3-docs").addEventListener( "click" , 
+var lblMp3Docs = document.getElementById("trigger-chk-mp3-docs").addEventListener( "click" , 
 
     // Callback Funktion to work if this click happend 
     function() {
