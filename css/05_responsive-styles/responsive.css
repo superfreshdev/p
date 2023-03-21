@@ -140,6 +140,18 @@
         input#radio-about-my-header-nav:checked ~ #my-header-container #trigger-resp-my-header-title-box {
             display: none;
         }
+
+    /* --------------------------------------------------------------------- */
+    /* MAIN 
+    /* --------------------------------------------------------------------- */
+
+    .main-nav-topic-max-width-container {  width: 38em; }
+
+       
+      
+    
+    
+   
 }
 
 
