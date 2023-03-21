@@ -71,3 +71,10 @@
 
 /* e.g real images which had static sizes */
 /* Actually not needed */
+
+.img-w-5em { width: 5em; }
+.img-w-5-3em { width: 5.3em; }
+.img-w-5-5em { width: 5.5em; }
+.img-w-6em { width: 6em; }
+.img-w-6-5em { width: 6.5em; }
+.img-w-7em { width: 7em; }

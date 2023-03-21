@@ -153,6 +153,14 @@
 .marg-t-minus-0-2em { margin-top: -.2em; }
 .marg-t-minus-0-3em { margin-top: -.3em; }
 
+
+.marg-t-minus-0-4em { margin-top: -.4em; }
+.marg-t-minus-0-5em { margin-top: -.5em; }
+
+.marg-t-minus-1em { margin-top: -1em; }
+.marg-t-minus-1-8em { margin-top: -1.8em; }
+.marg-t-minus-2em { margin-top: -2em; }
+
 /* right */
 .marg-r-0-3em { margin-right: .3em; }
 .marg-r-0-5em { margin-right: .5em; }

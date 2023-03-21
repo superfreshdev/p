@@ -7,55 +7,86 @@
 -------------------------------------------------------------- */
 
 
+/* -------------------------------------------------------------- */
+/* No JS Activated Container 
+/* -------------------------------------------------------------- */
 
-.nav-topic-container {
+.no-js-activated-container {
+
+    max-width: 23em;
+    padding: .8em;
+
+    border-radius: .3em;
+    background-color: var(--medium-grey-3);
+}
+
+
+.img-me-no-js-coffee {
+
+    width: 6.3em;
+
+    float: right; 
+    /* very small mobile version */
+    margin-top: 0em;
+    
+}
+
+
+
+/* ----------------------------------------------------------- */
+/* Main Nav Topic Container  
+/* ----------------------------------------------------------- */
+
+
+.main-nav-topic-container {
 
     width: 100%;
-    padding: 1em .6em;
+    padding: 1em .6em .6em .6em;
 
     display: grid;
     row-gap: .6em;
 
+    border-radius: .2em;
     background-color: var(--dark-black-1);
 
-    border-radius: .2em;
-
 }
+
 
 
 /* ----------------------------------------------------------- */
 /* [1/2] - Nav Topic 
 /* ----------------------------------------------------------- */
 
-.nav-topic {
+.main-nav-topic, 
+.dynamic-main-nav-topic  {
 
   display: grid;
   grid: auto / 1fr auto;
-  column-gap: .4em;
+  column-gap: .8em;
  
 }
 
-.nav-topic-title-container {
+.main-nav-topic-title-container {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-items: stretch;
-    column-gap: .3em;
-
-    /* background-color: red; */
+    column-gap: .8em;
 
 }
 
 .img-nav-topic { width: 1.5em; }
+
 
 /* default show white img */
 label[name="name-radio-docs-main-nav"] > img:nth-of-type(2) { 
     display: none;
 }
 
-.lbl-nav-topic,
-.lbl-nav-topic-audio {
+.lbl-main-nav-topic,
+.lbl-main-nav-topic-audio,
+.lbl-main-nav-topic-drop-down {
 
     /* min-width: 2.5em; */
     padding: .6em .6em;
@@ -79,7 +110,7 @@ label[name="name-radio-docs-main-nav"] > img:nth-of-type(2) {
 
 }
 
-.lbl-nav-topic { 
+.lbl-main-nav-topic { 
     
     /* min-width: 2.3em; */
     width: 100%;
@@ -87,25 +118,25 @@ label[name="name-radio-docs-main-nav"] > img:nth-of-type(2) {
 
 }
 
-.lbl-nav-topic-audio { 
+.lbl-main-nav-topic-audio,
+.lbl-main-nav-topic-drop-down { 
     
     width: 1.5em;
     background-color: var(--medium-grey-3);
 
 }
   
-
-
-
-.lbl-nav-topic:hover {
+.lbl-main-nav-topic:hover,
+.lbl-main-nav-topic-audio:hover,
+.lbl-main-nav-topic-drop-down:hover {
  
     transition: .3s;
     background-color: var(--light-brown-3);
     color:var(--dark-black-1);
 }
 
-.lbl-nav-topic:hover > img:nth-of-type(2) { display: block;}
-.lbl-nav-topic:hover > img:nth-of-type(1) { display: none;}
+.lbl-main-nav-topic:hover > img:nth-of-type(2) { display: block;}
+.lbl-main-nav-topic:hover > img:nth-of-type(1) { display: none;}
 
 
 
@@ -161,300 +192,43 @@ label[name="name-radio-docs-main-nav"] > img:nth-of-type(2) {
 }
 
  
+.lbl-main-nav-topic-filter {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------------------------------------------- */
-/* [1/2] - Nav Container 
-/* ----------------------------------------------------------------- */
-
-
-/* -------------------------------- */
-/* Nav 
-/* -------------------------------- */
-.main-nav-topic-container {
-
-    display: grid;
-    grid: 3.8em / 1fr 1fr 1fr 1fr 3.5em;
-
-    border-bottom: .10em solid var(--dark-grey-1);
-
-
-}
-
-.main-nav-topic-container > label:nth-of-type(1) ,
-.main-nav-topic-container > label:nth-of-type(2) ,
-.main-nav-topic-container > label:nth-of-type(3) ,
-.main-nav-topic-container > label:nth-of-type(4)   {
-
-    border-right: .1em solid var(--medium-grey-3); 
-}
-
-.main-nav-topic-container > label:nth-of-type(1) { border-top-left-radius: .3em; } 
-.main-nav-topic-container > label:nth-of-type(5) { border-top-right-radius: .3em; }
-
-
-
-
-
-/* -------------------------------- */
-/* Nav Label & Nav Audio Label
-/* -------------------------------- */
-
-.lbl-main-nav-topic ,
-.lbl-main-nav-topic-audio {
-
-    padding: .8em;
-
-    color: var(--medium-grey-3);
-
-
-    cursor: pointer;
-    
-}
-
-
-.lbl-main-nav-topic:hover ,
-.lbl-main-nav-topic-audio:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-    color:var(--dark-black-1);
-}
-
-.lbl-main-nav-topic { background-color: var(--dark-black-1); }
-
-.lbl-main-nav-topic-audio { background-color: var(--medium-grey-3); }
-
-
-/* unshown default 1 img of man nav docs audio ( pause img ) */
-#js-lbl-mp3-docs > img:nth-of-type(2) { display: none; }
-
-.img-lbl-main-nav-topic { width: 1.8em; }
-
-
-.lbl-txt-main-nav-topic {
-
-     /* default in mobile version unshown */
-     display: none;
-     
-     line-height: 1em;
-     font-weight: bold;
-
-}
-
-
-/* ------------------------------------------------- */
-/* Handling & Hover | Main Nav 
-/* ------------------------------------------------- */
-
-
-/* default unshown black img | docs , projects */
-.lbl-main-nav-topic > img:nth-of-type(2) { display: none;}
-
-
-/* if hover show black img , else be default medium grey 3 img */
-.lbl-main-nav-topic:hover > img:nth-of-type(1) { display: none; } 
-.lbl-main-nav-topic:hover > img:nth-of-type(2) { display: block } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------------------------------------------------------- */
-/* [2/2] - Filter Container 
-/* ----------------------------------------------------------------- */
-
-#main-nav-topic-filter-container {
-
-    background-color: var(--dark-black-1);
-
-    border-bottom-left-radius: .3em;
-    border-bottom-right-radius: .3em;
-}
-
-
-#main-nav-topic-filter-layout {
-
-    display: none;
-    /* will be set by js */
-    /* display: grid; */
-    grid: auto / 1fr 3.6em;
-
-}
-
-/* -------------------------------------------- */
-/* Filter Label Container 
-/* -------------------------------------------- */
-
-#main-nav-topic-filter-label-container {
-
-    padding: 1em .6em;
-
-}
-
-/* ---------------------------------------------------- */
-/* Label Filter Topics   
-/* ---------------------------------------------------- */
-
-.lbl-main-nav-topic-filter  {
-
-    /* Only 320px - 480px | very small mobile version */
     max-width: 9.5em;
     min-height: 1.5em;
-
     /* color: var(--dark-grey-1); */
     color: var(--medium-grey-3);
     font-weight: bold;
-
-    /* Same Mobile Size like header nav */
     /* font-size: .85em; */
-
-    padding: .3em .6em;
-
-    border-radius: .3em;
+    padding: 0.3em 0.6em;
+    border-radius: 0.3em;
     /* border-bottom-right-radius: 1em; */
     /* border: 1px solid var(--dark-grey-1); */
-
     background-color: var(--dark-grey-5);
-
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
+     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+     rgba(245, 245, 245, 0.1) 0px 0px 0px 1px inset;
 
-    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
-                   rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-                   rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
-                   rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-                   rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, 
-                   rgba(0, 0, 0, 0.09) 0px 32px 16px; */
- 
-    cursor: pointer;
-
+     cursor: pointer;
 }
 
-/* ------------------------------------------------------------ */
-/* Hover & Styling & Handling | Label Filter Topics    
-/* ------------------------------------------------------------ */
-.lbl-main-nav-topic-filter:hover {
-
-    transition: .3s;
-    background-color: var(--light-brown-3);
-    color:var(--dark-black-1);
-
-}
-
-.lbl-main-nav-topic-filter:hover > .my-own-circle-outside {
-
-    border: .13em solid var(--dark-black-1);
-
-}
-
-.lbl-main-nav-topic-filter:hover > .my-own-circle-outside > .my-own-set-point {
-
-    display: block;
-
-}
-
-/* ------------------------------------------------------------------------------------ */
-/* Default Checked Styling | Label Filter Topics   | Click Listener
-/* ------------------------------------------------------------------------------------ */
-
-/* unshown default */
-input[id^="radio-m-n-t-filter-docs"] { display: none; }
-
-/* if one of them is checked change style */
-input[id^="radio-m-n-t-filter-docs-web-app-dev-web-frameworks"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-web-frameworks ,
-input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-programming {
-
-    background-color: var(--light-brown-3);
-    color:var(--dark-black-1);
-
-}
-
-input[id^="radio-m-n-t-filter-docs-web-app-dev-web-frameworks"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-web-frameworks > .my-own-circle-outside ,
-input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-programming > .my-own-circle-outside {
-
-    border: .13em solid var(--dark-black-1);
-
-}
-
-input[id^="radio-m-n-t-filter-docs-web-app-dev-web-frameworks"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-web-frameworks > .my-own-circle-outside  > .my-own-set-point ,
-input[id^="radio-m-n-t-filter-docs-web-app-dev-programming"]:checked ~ #my-main-container #trigger-lbl-m-n-t-filter-item-docs-web-app-dev-programming > .my-own-circle-outside  > .my-own-set-point {
-
-    display: block;
-    
-}
-   
-   
-    
-
-
-
-/* ---------------------------------------------------- */
-/* [Info Filter Label] - Box 
-/* ---------------------------------------------------- */
 
 
 
 
 
-/* ---------------------------------------------------- */
-/* Label Drop Down  
-/* ---------------------------------------------------- */
 
-.lbl-drop-down-main-nav-topic-filter {
 
-   
-    background-color: var(--medium-grey-3);
 
-    border-bottom-right-radius: .3em;
 
-    border-left: .1em solid var(--medium-grey-3);
 
-    cursor: pointer;
-}
 
-.lbl-drop-down-main-nav-topic-filter:hover {
 
-    transition: .3s;
-    background-color: var(--light-brown-3);
-}
 
-.img-drop-down-main-nav-topic-filter { width: 1.5em; }
+
+
+
+
 
 
 
